@@ -1,0 +1,301 @@
+hagz_tbl-------------------------
+----------------- update    h_name,h_flag ------------------------------
+BEGIN
+  update hagz_eskan set cust_name = :new.h_name,eskan_typ = :new.h_flag where
+             h_no = :old.h_no;
+  update hagz_eskan_hist set cust_name = :new.h_name,eskan_typ = :new.h_flag where
+             h_no = :old.h_no;
+END;
+--------------------------------------------------
+----------------- update out_date,h_from,h_to,h_day ----------------
+declare
+c number;k number;t number;d date;flag number(1);
+cursor cur is
+select H_NO,ROOM_NO,EKAMA_TYP,CUST_TYP,PRICE from hagz_room where h_no = :old.h_no;
+BEGIN
+if :new.out_date is not null then
+   delete from hagz_eskan where h_no = :old.h_no;
+   delete from hagz_eskan_hist where h_no = :old.h_no;
+   delete from room_account where h_no = :old.h_no and r_date > :new.out_date;
+   update room_account set price = 0 where h_no = :old.h_no and r_date >= :new.out_date;
+   d := :new.out_date;flag := 1;
+else
+   delete from hagz_eskan where h_no = :old.h_no;
+   delete from hagz_eskan_hist where h_no = :old.h_no;
+   d := :new.h_to;flag := 0;
+   delete from room_account where h_no = :old.h_no;
+end if;
+k := d - :new.h_from;t:=0;
+------------------------------------------------
+for i in cur loop
+    t:=0;
+    while t <= k loop
+          insert into hagz_eskan_hist(H_NO,ROOM_NO,EKAMA_DATE,ESKAN_TYP,CUST_NAME,
+                                 PRICE,EKAMA_TYP,CUST_TYP)
+                 values(:old.H_NO,i.ROOM_NO,d - t,:new.h_flag,:new.h_name,i.PRICE,
+                        i.EKAMA_TYP,i.CUST_TYP);
+      if flag = 0 then
+         insert into hagz_eskan(H_NO,ROOM_NO,EKAMA_DATE,ESKAN_TYP,CUST_NAME,
+                                 PRICE,EKAMA_TYP,CUST_TYP)
+                 values(:old.H_NO,i.ROOM_NO,d - t,:new.h_flag,:new.h_name,i.PRICE,
+                        i.EKAMA_TYP,i.CUST_TYP);
+
+         insert into room_account(H_NO,ROOM_NO,r_DATE,price)
+                 values(:new.H_NO,i.ROOM_NO,d - t,i.PRICE);
+      end if;
+          t := t + 1;
+    end loop;
+------------------------------
+
+end loop;
+END;
+---------**************************************************************************
+************************************************************************************
+hagz_room -----------------------------------
+--------------------- insert --------------
+declare
+c number;h_d number(5);h_f date;h_t date;h_n varchar2(100);
+k number;t number;
+BEGIN
+ select h_day,h_from,h_to,h_name into h_d,h_f,h_t,h_n from hagz_tbl 
+  where h_no = :new.h_no; 
+k := h_t - h_f; 
+t := 0;
+while t <= k loop
+  insert into hagz_eskan(H_NO,ROOM_NO,EKAMA_DATE,ESKAN_TYP,CUST_NAME,PRICE,EKAMA_TYP,CUST_TYP)
+    values(:new.H_NO,:new.ROOM_NO,h_t - t,1,h_n,:new.PRICE,:new.EKAMA_TYP,:new.CUST_TYP);
+  insert into hagz_eskan_hist(H_NO,ROOM_NO,EKAMA_DATE,ESKAN_TYP,CUST_NAME,PRICE,EKAMA_TYP,CUST_TYP)
+    values(:new.H_NO,:new.ROOM_NO,h_t - t,1,h_n,:new.PRICE,:new.EKAMA_TYP,:new.CUST_TYP);
+
+  insert into room_account(H_NO,ROOM_NO,r_DATE,price)
+    values(:new.H_NO,:new.ROOM_NO,h_t - t,:new.PRICE);
+  t := t + 1;
+end loop;   
+END;
+------------------------------------------------
+--------------------- delete -------------------
+BEGIN
+  delete from hagz_eskan where h_no = :old.h_no and room_no = :old.room_no;
+  delete from hagz_eskan_hist where h_no = :old.h_no and room_no = :old.room_no;
+  delete from room_account where h_no = :old.h_no and room_no = :old.room_no;
+END;
+------------------------------------------------
+-------------------- update ---room_no,ekama_typ,cust_typ,price------------------
+declare
+c number;h_d number(5);h_f date;h_t date;h_n varchar2(100);
+k number;t number;
+BEGIN
+update hagz_eskan set price = :new.price,room_no = :new.room_no,ekama_typ = :new.ekama_typ,
+                      cust_typ = :new.cust_typ where
+h_no = :old.h_no and room_no = :old.room_no;
+------------
+update hagz_eskan_hist set price = :new.price,room_no = :new.room_no,ekama_typ = :new.ekama_typ,
+                      cust_typ = :new.cust_typ where
+h_no = :old.h_no and room_no = :old.room_no;
+------------
+update room_account set price = :new.price,room_no = :new.room_no
+         where h_no = :old.h_no and room_no = :old.room_no;
+------------
+END;
+---------------------------------------------------------------------------------------------
+*********************************************************************************************
+--------- bed_in ------------
+----------------------- insert --------------------------
+declare
+k number(5);
+BEGIN
+k := :new.b_to - :new.b_from ;
+while k >= 0 loop
+  update room_account set bed_q = bed_q + :new.b_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.b_to - k;
+  k := k - 1;
+end loop;  
+END;
+--------------------------
+--------------------- delete -----------------------------
+declare
+k number(5);
+BEGIN
+k := :old.b_to - :old.b_from ;
+while k >= 0 loop
+  update room_account set bed_q = bed_q - :old.b_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.b_to - k;
+  k := k - 1;
+end loop;  
+END;
+----------------------------
+--------------------- update ----room_no,h_no,b_from,b_to,n_no,b_price---------------- 
+declare
+k number(5);
+BEGIN
+k := :old.b_to - :old.b_from ;
+while k >= 0 loop
+  update room_account set bed_q = bed_q - :old.b_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.b_to - k;
+  k := k - 1;
+end loop;
+---------------------------
+k := :new.b_to - :new.b_from ;
+while k >= 0 loop
+  update room_account set bed_q = bed_q + :new.b_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.b_to - k;
+  k := k - 1;
+end loop;   
+END;
+-------------------------------------------------------------------------------------------
+*******************************************************************************************
+----- room_tel ----------------
+----------------------- insert -------------------------------
+BEGIN
+  update room_account set tel_q = tel_q + :new.tel_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+END;
+---------------------------------
+------------------------delete --------------------------------
+BEGIN
+  update room_account set tel_q = tel_q - :old.tel_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+END;
+---------------------------------
+----------------------- update ---- h_no,room_no,order_date,tel_q-------------
+BEGIN
+    update room_account set tel_q = tel_q - :old.tel_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+
+  update room_account set tel_q = tel_q + :new.tel_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+END;
+
+-------------------------------------------------------------------------------------------
+*******************************************************************************************
+--------- room_serv ---------------
+-----------------------insert -------------
+BEGIN
+   if :new.serv_code = 3 then
+       update room_account set JORNAL_Q = JORNAL_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+  if :new.serv_code = 4 then
+       update room_account set GEM_Q = GEM_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+  if :new.serv_code = 5 then
+       update room_account set CLEAN_Q = CLEAN_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+  
+
+END;
+--------------------------
+----------------------------- delete ------------------
+BEGIN
+  if :old.serv_code = 3 then
+       update room_account set JORNAL_Q = JORNAL_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+  end if;
+  if :old.serv_code = 4 then
+       update room_account set GEM_Q = GEM_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+   end if;
+  if :old.serv_code = 5 then
+       update room_account set CLEAN_Q = CLEAN_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+   end if;
+
+END;
+----------------------------
+----------------------------- update -- h_no,room_no,order_date,serv_code,serv_q
+BEGIN
+  if :old.serv_code = 3 then
+       update room_account set JORNAL_Q = JORNAL_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+  end if;
+  if :old.serv_code = 4 then
+       update room_account set GEM_Q = GEM_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+   end if;
+  if :old.serv_code = 5 then
+       update room_account set CLEAN_Q = CLEAN_Q - :old.serv_Q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.order_date;
+   end if;
+--------------------------------------------------------
+  if :new.serv_code = 3 then
+       update room_account set JORNAL_Q = JORNAL_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+  if :new.serv_code = 4 then
+       update room_account set GEM_Q = GEM_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+  if :new.serv_code = 5 then
+       update room_account set CLEAN_Q = CLEAN_Q + :new.serv_Q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.order_date;
+   end if;
+END;
+
+----------------------------------------------------------------------------------
+***********************************************************************************
+------ order_payments -----
+------------------------------ insert -------------
+BEGIN
+   update room_account set dof_q = dof_q + :new.order_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.o_date;
+END;
+---------------------------
+------------------------------ delete -------------
+BEGIN
+  update room_account set tel_q = dof_q - :old.order_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.o_date;
+END;
+---------------------------
+----------------------------- update --- o_date,h_no,room_no,order_q --- 
+    update room_account set dof_q = dof_q - :old.order_q where
+         h_no = :old.h_no and room_no = :old.room_no and r_date = :old.o_date;
+
+  update room_account set dof_q = dof_q + :new.order_q where
+         h_no = :new.h_no and room_no = :new.room_no and r_date = :new.o_date;
+----------------------------------------------------------------------------------------
+****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

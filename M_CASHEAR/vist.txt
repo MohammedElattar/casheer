@@ -1,0 +1,49 @@
+create table place_tbl (
+place_code      number(2) primary key,
+place_name      varchar2(100));
+
+create table adf_tbl (
+a_code      number(6) primary key,
+a_name      varchar2(100));
+
+create table f_order_tbl (
+serial_no       number(15) primary key,
+o_date          date,
+o_name          varchar2(100),
+mobil           varchar2(30),
+tel             varchar2(20),
+address         varchar2(100),
+id_no           varchar2(30),
+vist_date       date,
+place_code      number(2) references place_tbl(place_code),
+bofeh_type      number(1),
+a_name          varchar2(100),
+w_name          varchar2(100),
+person_no       number(5),
+zafa            number(1) default 1,
+kosha           number(1) default 1,
+dj              number(1) default 1,
+vedio           number(1) default 1,
+film_photo      number(1) default 1,
+lizr            number(1) default 1,
+balon           number(1) default 1,
+tort3           number(1) default 1,
+tort5           number(1) default 1,
+dicor           number(1) default 1,
+order_q         number(10,2) default 0,
+madf_q          number(10,2) default 0,
+bak_q           number(10,2) default 0,
+cancel_flg      number(1) default 0,
+rem             varchar2(2000));
+
+create table f_order_details (
+serial_no       number(15),
+ser_no          number(5),
+a_code          number(6) references adf_tbl(a_code),
+remm            varchar2(500),
+primary key(serial_no,ser_no),
+foreign key(serial_no) references f_order_tbl(serial_no) on delete cascade); 
+
+     
+
+

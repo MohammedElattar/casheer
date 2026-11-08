@@ -1,0 +1,323 @@
+create table nat_tbl (
+nat_code          number(5),
+nat_name          varchar2(50),
+primary key(nat_code)
+);
+
+create table rooms (
+room_no		 number(5),
+level_code       number(3),
+status           number(3),
+used_code        number(3),
+primary key(room_no)
+);
+
+create table price_list (
+level_code       number(3),
+ekama_typ        number(3),
+cust_typ         number(3),
+price            number(10,2),
+primary key(level_code,ekama_typ,cust_typ)
+);
+
+create table dir_tbl (
+dir_code          number(6),
+dir_name          varchar2(50),
+tel               varchar2(30),
+mobile            varchar2(50),
+address           varchar2(100),
+manager_name      varchar2(100),
+t_date            date,
+per_disc          number(5),
+primary key(dir_code)
+);
+
+create table hagz_tbl (
+h_no              varchar2(15) primary key,
+h_serial          number(10),
+h_year            number(4),
+h_date            date,
+h_name            varchar2(100),
+h_day             number(3),
+h_from            date,
+h_to              date,
+tel_no            varchar2(30),
+h_flag            number(1),
+h_flag_date       date,
+h_flag_time       number(6),
+btaka_no 	       number(5),
+btaka_typ	       number(3),
+rank_code	       number(3),
+army_code	       number(3),
+nat_code   	       number(5),
+address  	       varchar2(100),
+tel      	       varchar2(30),
+mobile 	               varchar2(50),
+out_date  	       date,
+out_flag  	       number(1),
+job     	       varchar2(70),
+MKDM_HAGZ              NUMBER(10,2) default(0));
+
+
+create table hagz_room (
+h_no     	       varchar2(15),
+room_no  	       number(5),
+ekama_typ              number(3),
+cust_typ 	       number(3),
+price    	       number(10,2) default(0) not null,
+primary key(h_no,room_no),
+foreign key(h_no)      references hagz_tbl(h_no),
+foreign key(room_no)   references rooms(room_no)
+);
+
+create table room_account (
+h_no     	       varchar2(15),
+room_no  	       number(5),
+r_date                 date,
+price    	       number(10,2) default(0),
+bed_q    	       number(10,2) default(0),
+rest_q    	       number(10,2) default(0),
+tel_q    	       number(10,2) default(0),
+jornal_q    	       number(10,2) default(0),
+gem_q    	       number(10,2) default(0),
+clean_q    	       number(10,2) default(0),
+other_q    	       number(10,2) default(0),
+dof_q    	       number(10,2) default(0),
+primary key(h_no,room_no,r_date),
+foreign key(h_no)      references hagz_tbl(h_no));
+
+create table morafek_tbl (
+h_no                   varchar2(15),
+mslsl         	       number(1),
+m_name                 varchar2(100),
+f_deg	               varchar2(30),
+room_no                number(5),
+primary key(h_no,mslsl),
+foreign key(h_no)      references hagz_tbl(h_no) on delete cascade);
+
+=======================================
+
+create table hagz_eskan (
+room_no     	       number(5),
+ekama_date 	       date,
+h_no       	       varchar2(15),
+eskan_typ  	       number(1),
+cust_name  	       varchar2(100),
+price    	       number(10,2) default(0) not null,
+ekama_typ	       number(3),
+cust_typ  	       number(3),
+bed_price	       number(10,2) default(0) not null,
+primary key(room_no,ekama_date)
+);
+
+========================================
+
+create table hagz_eskan_hist (
+room_no    	       number(5),
+ekama_date 	       date,
+h_no       	       varchar2(15),
+eskan_typ  	       number(1),
+cust_name  	       varchar2(100),
+price      	       number(10,2) default(0) not null,
+ekama_typ  	       number(3),
+cust_typ   	       number(3),
+bed_price  	       number(10,2) default(0) not null,
+primary key(room_no,ekama_date));
+
+create table bed_in (
+serial_no              number(6),
+order_date             date,
+room_no    	       number(5),
+h_no       	       varchar2(15),
+b_from                 date,
+b_to                   date,
+n_no                   number(6),
+b_price                number(10,2) default(0) not null,
+b_day                  number(4),
+b_q                    number(10,2) default(0) not null,
+primary key(serial_no),
+foreign key(h_no)      references hagz_tbl(h_no) on delete cascade,
+foreign key(room_no)   references rooms(room_no)
+);
+
+========================================
+create table serv_tbl (
+serv_code              number(3),
+serv_name     	       varchar2(100),
+serv_value             number(10,2) default(0) not null,
+primary key(serv_code)
+);
+========================================
+create table room_tel (
+h_no        	       varchar2(15),
+room_no     	       number(5),
+order_date   	       date,
+s_no     	       number(6),
+tel_no                 varchar2(20),
+tel_q     	       number(8,2) default(0) not null,
+tel_from               number(6),
+tel_to                 number(6),
+primary key(h_no,room_no,order_date,s_no),
+foreign key(h_no)      references hagz_tbl(h_no) on delete cascade,
+foreign key(room_no)   references rooms(room_no));
+========================================
+create table room_serv (
+h_no        	       varchar2(15),
+room_no     	       number(5),
+order_date   	       date,
+s_no     	       number(6),
+SERV_CODE              NUMBER(3),
+serv_q     	       number(8,2) default(0) not null,
+serv_note              varchar2(1000),
+primary key(h_no,room_no,order_date,s_no),
+foreign key(h_no)      references hagz_tbl(h_no) on delete cascade,
+foreign key(room_no)   references rooms(room_no));
+===================================================
+create table order_payments (
+o_no                   number(10),
+o_date                 date,
+h_no        	       varchar2(15),
+room_no     	       number(5),
+order_q     	       number(8,2) default(0) not null,
+o_note                 varchar2(1000),
+primary key(o_no,o_date),
+foreign key(h_no)      references hagz_tbl(h_no) on delete cascade,
+foreign key(room_no)   references rooms(room_no));
+
+=======================================
+=======================================
+=======================================
+=======================================
+
+create table cust_eskan (
+h_no        	       varchar2(15),
+room_no   	       number(5),
+primary key(h_no,room_no),
+foreign key(h_no)      references hagz_tbl(h_no),
+foreign key(room_no)   references rooms(room_no)
+);
+
+=======================================
+
+
+
+create table room_act (
+s_no                   number(6),
+order_date             date,
+room_no                number(5),
+h_no     	       varchar2(15),
+r_q 	               number(10,2) default(0) not null,
+primary key(s_no,order_date,room_no,h_no),
+foreign key(h_no)      references hagz_tbl(h_no),
+foreign key(room_no)   references rooms(room_no)
+);
+
+=======================================
+
+
+
+=======================================
+
+
+
+=======================================
+
+
+
+create table cust_pay (
+serial_no              number(6),
+order_no               number(6),
+order_date             date,
+h_no                   varchar2(15),
+order_q                number(10,2) default(0) not null,
+primary key(serial_no),
+forein key(h_no) references hagz_tbl(h_no)
+);
+
+========================================
+
+
+
+create table nazel_tbl (
+h_no       	       varchar2(15),
+room_no    	       number(5),
+n_typ                  number(1),
+mslsl		       number(6),                  
+N_name                 varchar2(100),
+out_date	       date,
+primay key(h_no,room_no,n_typ,mslsl),
+foreign key(h_no,room_no) references hagz_room(h_no,room_no)
+);
+
+========================================
+
+create table cust_total (
+h_no       	       varchar2(15),
+room_no    	       number(5),
+t_pay
+t_ekama
+);
+
+========================================
+create table cust_rest(
+serial_no              number(6),
+point_code             number(6),
+inv_date               date,
+emp_id                 number(10),
+shift_typ              number(1),
+inv_tot                number(10,2) default(0) not null,
+room_no                number(5),
+h_no                   varchar2(15),
+primary key(serial_no,point_code,inv_date,emp_id,shift_typ),
+foreign key (room_no) references cust_eskan(room_no),
+foreign key (h_no) references cust_eskan(h_no)
+);
+========================================
+create table cust_rest_d (
+serial_no              number(6),
+point_code             number(6),
+inv_date               date,
+emp_id                 number(10),
+shift_typ              number(3),
+i_code                 number(6),
+i_serial               number(6),
+qty                    number(10,2) default(0) not null,
+price                  number(10,2) default(0) not null,
+i_q                    number(10,2) default(0) not null,
+cap_no                 number(6),
+primary key(serial_no,point_code,inv_date,emp_id,shift_typ,
+i_code,i_serial),
+foreign key (serial_no)  references cust_rest(serial_no),
+foreign key (point_code) references cust_rest(point_code),
+foreign key (inv_date)   references cust_rest(inv_date),
+foreign key (emp_id)     references cust_rest(emp_id),
+foreign key (shift_typ)  references cust_rest(shift_typ)
+);
+=========================================
+create table black_list (
+serial_no              number(6),
+btaka_no 	       number(5),
+btaka_typ	       number(3),
+p_name                 varchar2(100),
+job                    varchar2(100),
+cust_type              number(3),
+address                varchar2(200),
+tel      	       varchar2(30),
+mobile 	               varchar2(50),
+notes                  varchar2(1000),
+primary key(serial_no)
+);
+=========================================
+create table waiting_list (
+serial_no              number(6),
+h_date                 date,
+h_name                 varchar2(100),
+h_day                  number(3),
+h_from                 date,
+h_to                   date,
+tel_no                 varchar2(30),
+mobile_no              varchar2(50),
+room_num               number(5),
+primary key(serial_no)
+);
+==========================================

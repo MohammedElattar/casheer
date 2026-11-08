@@ -1,0 +1,12 @@
+create table language (
+lang_code    number(2) primary key,
+lang_name    varchar2(40));
+
+
+create table  dob_lang (
+AKDAM_NO                         NUMBER(4),
+AKDAM_REP                       VARCHAR2(4),
+lang_code      number(2) references language(lang_code),
+lang_deg      number(5,2),
+constraint twlangsm_pk  primary key(AKDAM_NO,AKDAM_REP,lang_code),
+constraint twslangm_pk foreign key(akdam_no,akdam_rep) references elasasy(akdam_no,akdam_rep) on delete cascade); 

@@ -1,0 +1,155 @@
+create table shift_tbl (
+shift_typ          number(3) primary key,
+shift_name        varchar2(20));
+----------------------------------
+create table emp_tbl (
+emp_id          number(6),
+emp_name        varchar2(100),
+dept_code       number(3),
+job_code        number(3),
+in_date		date,
+out_date	date,
+emp_typ		number(3),
+photo_path	var_char2(1000),
+emp_pass	varchar2(20),
+emp_prv		number(3),
+serv_flg 	number(3),
+primary_key (emp_id)
+);
+================================
+create table dept_tbl (
+dept_code       number(3),
+dept_name       varchar2(100),
+primary key (dept_code)
+);
+================================
+create table job_tbl (
+job_code	number(3),
+job_name	varchar2(100),
+dept_code	number(3),
+primary_key (job_code,dept_code),
+foreign key (dept_code) references dept_tbl(dept_code)
+);
+================================
+create table item_typ (
+t_code          number(6),
+t_name		varchar2(100),
+primary key (t_code)
+);
+================================
+create table item_point (
+point_code	number(10),
+i_code          number(6),
+price           number(10,2) default(0) not null,
+primary key (point_code,i_code) 
+);
+================================
+create table delivery (
+tel_no		number(10),
+d_name		varchar2(100),
+d_address	varchar2(100),
+primary key (tel_no)
+);
+================================
+create table inv_tbl(
+inv_typ         number(3),
+inv_typ_name    varchar2(100),
+primary key (inv_typ)
+);
+================================
+create table invoice (
+serial_no	number(6),
+point_code	number(10),
+inv_date	date,
+emp_id		number(6),
+shift_typ       number(3),
+inv_typ		number(3),
+table_no        number(3),
+p_ok		number(3),
+serv_per	number(10,2) default(0) not null,
+serv_q		number(10,2) default(0) not null,
+disc_per	number(10,2) default(0) not null,
+disc_q		number(10,2) default(0) not null,
+mem_id 		number(10),
+room_no		number(5),
+h_no            varchar2(15),
+tel_no		varchar2(30),
+del_name	varchar2(100),
+del_address	varchar2(100),
+inv_tot		number(10,2) default(0) not null,
+MEM_SERIAL      NUMBER(10),
+EMP_CODE        NUMBER(6),
+MADF_TYP        NUMBER(1) default(1),
+KASM_Q          NUMBER(10,2) default(0),
+KASM_PER        NUMBER(10,2) default(0),
+u_ok            number(1) default(0),
+u_emp_id	number(6),
+p_emp_id	number(6),
+primary key (serial_no,point_code,inv_date,emp_id,shift_typ)
+);
+=======================
+
+create table inv_dtl (
+serial_no	number(6),
+point_code	number(10),
+inv_date	date,
+emp_id		number(6),
+shift_typ       number(3),
+i_code          number(6),
+i_serial	number(6),
+qty		number(5)   default(0) not null,
+price		number(10,2) default(0) not null,
+i_q		number(10,2) default(0) not null,
+cap_no		number(10),
+primary key (serial_no,point_code,inv_date,emp_id,shift_typ,i_code,i_serial),
+foreign key (serial_no,point_code,inv_date,emp_id,shift_typ)  references invoice(serial_no,point_code,inv_date,emp_id,shift_typ)
+on delete cascade);
+================================
+create table invoice_hist (
+serial_no	number(6),
+point_code	number(10),
+inv_date	date,
+emp_id		number(6),
+shift_typ       number(3),
+inv_typ		number(3),
+table_no        number(3),
+p_ok		number(3),
+serv_per	number(10,2) default(0) not null,
+serv_q		number(10,2) default(0) not null,
+disc_per	number(10,2) default(0) not null,
+disc_q		number(10,2) default(0) not null,
+mem_id 		number(10),
+room_no		number(5),
+h_no            varchar2(15),
+tel_no		varchar2(30),
+del_name	varchar2(100),
+del_address	varchar2(100),
+inv_tot		number(10,2) default(0) not null,
+MEM_SERIAL      NUMBER(10),
+EMP_CODE        NUMBER(6),
+MADF_TYP        NUMBER(1) default(1),
+KASM_Q          NUMBER(10,2) default(0),
+KASM_PER        NUMBER(10,2) default(0),
+u_ok            number(1) default(0),
+u_emp_id	number(6),
+p_emp_id	number(6),
+primary key (serial_no,point_code,inv_date,emp_id,shift_typ)
+);
+--================================
+
+create table inv_dtl_hist (
+serial_no	number(6),
+point_code	number(10),
+inv_date	date,
+emp_id		number(6),
+shift_typ       number(3),
+i_code          number(6),
+i_serial	number(6),
+qty		number(5)   default(0) not null,
+price		number(10,2) default(0) not null,
+i_q		number(10,2) default(0) not null,
+cap_no		number(10),
+primary key (serial_no,point_code,inv_date,emp_id,shift_typ,i_code,i_serial),
+foreign key (serial_no,point_code,inv_date,emp_id,shift_typ)  references invoice_hist(serial_no,point_code,inv_date,emp_id,shift_typ)
+on delete cascade);
+--================================

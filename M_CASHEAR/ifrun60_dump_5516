@@ -1,0 +1,51 @@
+[12/16/22 21:44:15 Egypt Standard Time]::Client Status [ConnId=0, PID=5516]
+	>> ERROR: Abnormal termination, Error Code: C0000005 ACCESS_VIOLATION
+
+======================= STACK DUMP =======================
+
+Fault address:  67239F1B 01:00078F1B
+Module: C:\orant\BIN\UIW60.DLL
+
+System Information:
+Operating System: Windows NT Version 6.1 Build 7600 
+Command line: "C:\orant\BIN\ifrun60.EXE" D:\M_CASHEAR\CASH_main userid=mahrosa/mahrosa
+FORM/BLOCK/FIELD: CASH_MAIN:TOOLBAR.EMPLOYEE
+Last Trigger: WHEN-BUTTON-PRESSED - (Successfully Completed)
+Msg: <NULL>
+Last Builtin: EXIT_FORM - (Successfully Completed)
+
+Registers:
+EAX:04C9B2E6
+EBX:766544C7
+ECX:00000001
+EDX:0012E948
+ESI:01172850
+EDI:049902B8
+CS:EIP:001B:67239F1B
+SS:ESP:0023:0012E924  EBP:0012E928
+DS:0023  ES:0023  FS:003B  GS:0000
+Flags:00010202
+------------------- Call Stack Trace ---------------------
+Frameptr   RetAddr  Param#1  Param#2  Param#3  Param#4  Function Name       
+0x0012e928 5df6afa3 002c75f8 04c9b2e6 0012e948 0467f438 0x67239f1b          
+0x0012ea5c 5df33a0d 0116cdd0 0467f438 0467bcec 049902b8 0x5df6afa3          
+0x0012eaa0 5df1aa9b 01172850 01172850 0117e184 0116cdd0 0x5df33a0d          
+0x0012eac4 5def6ca6 0116cdd0 0116cdd0 0116cdd0 01172850 0x5df1aa9b          
+0x0012ede8 5def5e42 01172850 00000000 0467f438 0116cdd0 0x5def6ca6          
+0x0012f158 5df1c50f 0116cdd0 00000001 01172850 0116cdd0 0x5def5e42          
+0x0012f1a8 5df1ae25 049765a8 00000001 01172850 0116cdd0 0x5df1c50f          
+0x0012f240 5df1acd0 0467f20c 00000000 0116cdd0 01172850 0x5df1ae25          
+0x0012f264 5df1e7be 0467f438 00000000 0467f20c 0116cdd0 0x5df1acd0          
+0x0012f2a4 5df1df4f 0467f20c 0498fdd8 0117e364 0116cdd0 0x5df1e7be          
+0x0012f2d4 5df1d8fd 01172850 0117e364 0117e304 0116cdd0 0x5df1df4f          
+0x0012f2fc 5df1cb3a 01172850 0117e304 00000000 0116cdd0 0x5df1d8fd          
+0x0012f34c 5defa297 00000000 00000001 0012f384 00000000 0x5df1cb3a          
+0x0012f3b4 5def9cc6 0467b668 011709c8 00000000 00000001 0x5defa297          
+0x0012f4d0 5def2e15 00000000 01170e68 00000016 01170bd8 0x5def9cc6          
+0x0012fd30 5def19e9 00000014 00000000 00000003 01cf09e0 0x5def2e15          
+0x0012fd54 5def18be 014009d0 00000000 00000000 00000003 0x5def19e9          
+0x0012fd74 67948973 014009d0 00000000 00000000 00000003 0x5def18be          
+0x0012fdc4 6794a3b1 014019bc 00403010 00000000 00000003 0x67948973          
+------------------- End of Stack Trace -------------------
+
+

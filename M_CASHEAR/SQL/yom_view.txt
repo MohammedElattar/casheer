@@ -1,0 +1,60 @@
+create view point_yom_view as
+select d.inv_date,d.point_code,p.point_name,sum(d.inv_tot) tot
+from invoice_hist d,point_tbl p
+where 
+d.point_code = p.point_code 
+group by d.inv_date,d.point_code,p.point_name;
+
+
+create view point_wrdia_view as
+select d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name,sum(d.inv_tot) tot
+from invoice_hist d,point_tbl p,SHIFT_TBL s,emp_tbl e
+where 
+d.point_code = p.point_code and d.EMP_ID = e.EMP_ID and
+d.shift_typ = s.shift_typ
+group by d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name;
+
+
+create view point_inv_view as
+select d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name,d.serial_no,sum(d.inv_tot) tot
+from invoice_hist d,point_tbl p,SHIFT_TBL s,emp_tbl e
+where 
+d.point_code = p.point_code and d.EMP_ID = e.EMP_ID and
+d.shift_typ = s.shift_typ
+group by d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name,d.serial_no;
+
+create view point_cap_view as
+select d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name,d.serial_no,CAP_NO,sum(d.i_q) tot
+from inv_dtl_hist d,point_tbl p,SHIFT_TBL s,emp_tbl e
+where 
+d.point_code = p.point_code and d.EMP_ID = e.EMP_ID and
+d.shift_typ = s.shift_typ
+group by d.inv_date,d.point_code,p.point_name,d.shift_typ,s.SHIFT_NAME,
+d.EMP_ID,e.emp_name,d.serial_no,CAP_NO;
+-------------------------------------------------------
+
+SELECT ALL INV_DTL.I_CODE, ITEM_TBL.I_NAME, 
+ITEM_TYPE.T_NAME, POINT_TBL.POINT_NAME, INVOICE.POINT_CODE,
+sum(INV_DTL.qty) qnty,sum(INV_DTL.i_q) q
+FROM INVOICE, INV_DTL, POINT_TBL, ITEM_TBL, ITEM_TYPE
+WHERE ((INV_DTL.SHIFT_TYP = INVOICE.SHIFT_TYP
+ AND INV_DTL.EMP_ID = INVOICE.EMP_ID
+ AND INV_DTL.INV_DATE = INVOICE.INV_DATE
+ AND INV_DTL.POINT_CODE = INVOICE.POINT_CODE
+ AND INV_DTL.SERIAL_NO = INVOICE.SERIAL_NO)
+ AND (ITEM_TBL.T_CODE = ITEM_TYPE.T_CODE)
+ AND (INV_DTL.I_CODE = ITEM_TBL.I_CODE)
+ AND (INVOICE.POINT_CODE = POINT_TBL.POINT_CODE))
+group by  
+INV_DTL.I_CODE, ITEM_TBL.I_NAME, 
+ITEM_TYPE.T_NAME, POINT_TBL.POINT_NAME, INVOICE.POINT_CODE
+
+
+
+
+

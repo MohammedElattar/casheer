@@ -1,0 +1,116 @@
+create view month_categ_view as
+select to_number(to_char(d.inv_date,'yyyy')) y,
+to_number(to_char(d.inv_date,'mm')) m,
+i.t_code,t.t_name,d.point_code,p.point_name,
+sum(d.i_q) s,sum(d.qty) qty
+from inv_dtl_hist d,point_tbl p,item_type t,item_tbl i
+where 
+d.i_code = i.i_code and
+i.t_code = t.t_code and
+d.point_code = p.point_code
+group by  to_number(to_char(d.inv_date,'yyyy')),
+          to_number(to_char(d.inv_date,'mm')),
+i.t_code,t.t_name,d.point_code,p.point_name;
+----------------------------------------------------
+create view item_m_c_view as
+select to_number(to_char(d.inv_date,'yyyy')) y,
+to_number(to_char(d.inv_date,'mm')) m,
+i.t_code,t.t_name,d.point_code,p.point_name,
+i.i_code,i.i_name,
+sum(d.i_q) s,sum(d.qty) qty
+from inv_dtl_hist d,point_tbl p,item_type t,item_tbl i
+where 
+d.i_code = i.i_code and
+i.t_code = t.t_code and
+d.point_code = p.point_code
+group by  to_number(to_char(d.inv_date,'yyyy')),
+          to_number(to_char(d.inv_date,'mm')),
+i.t_code,t.t_name,d.point_code,p.point_name,i.i_code,i.i_name;
+---------------------------------------------------------------
+create view t_m_s_view as
+select to_number(to_char(h.inv_date,'yyyy')) y,to_number(to_char(h.inv_date,'mm')) m,
+h.point_code,p.point_name,h.shift_ok shift_typ,s.shift_name,
+i.t_code,t.t_name,sum(d.i_q) s ,sum(d.qty) qty
+from invoice_hist h,point_tbl p,shift_tbl s,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and
+h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+and h.shift_ok = s.shift_typ
+group by  to_number(to_char(h.inv_date,'yyyy')),to_number(to_char(h.inv_date,'mm')),
+h.point_code,p.point_name,h.shift_ok,s.shift_name,
+i.t_code,t.t_name;
+--------------------------------------------------------------
+create view i_t_m_s_view as
+select to_number(to_char(h.inv_date,'yyyy')) y,to_number(to_char(h.inv_date,'mm')) m,
+h.point_code,p.point_name,h.shift_ok shift_typ,s.shift_name,
+i.t_code,t.t_name,i.i_code,i.i_name,sum(d.i_q) s ,sum(d.qty) qty
+from invoice_hist h,point_tbl p,shift_tbl s,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and
+h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+and h.shift_ok = s.shift_typ
+group by  to_number(to_char(h.inv_date,'yyyy')),to_number(to_char(h.inv_date,'mm')),
+h.point_code,p.point_name,h.shift_ok,s.shift_name,
+i.t_code,t.t_name,i.i_code,i.i_name;  
+----------------------------------------------------------------------
+create view t_day_view as
+select h.inv_date,h.point_code,p.point_name,
+i.t_code,t.t_name,sum(d.i_q) s,sum(d.qty) qty
+from invoice_hist h,point_tbl p,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+group by  h.inv_date,h.point_code,p.point_name,i.t_code,t.t_name;
+
+create view i_t_day_view as
+select h.inv_date,h.point_code,p.point_name,
+i.t_code,t.t_name,i.i_code,i.i_name,sum(d.i_q) s,sum(d.qty) qty
+from invoice_hist h,point_tbl p,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+group by  h.inv_date,h.point_code,p.point_name,
+i.t_code,t.t_name,i.i_code,i.i_name;
+-------------------------------------------------
+create view t_d_s_view as
+select h.inv_date,h.point_code,p.point_name,h.shift_ok shift_typ,s.shift_name,
+i.t_code,t.t_name,sum(d.i_q) s ,sum(d.qty) qty
+from invoice_hist h,point_tbl p,shift_tbl s,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and
+h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+and h.shift_ok = s.shift_typ
+group by  h.inv_date,h.point_code,p.point_name,h.shift_ok,s.shift_name,
+i.t_code,t.t_name; 
+
+
+create view i_t_d_s_view as
+select h.inv_date,h.point_code,p.point_name,h.shift_ok shift_typ,s.shift_name,
+i.t_code,t.t_name,i.i_code,i.i_name,sum(d.i_q) s ,sum(d.qty) qty
+from invoice_hist h,point_tbl p,shift_tbl s,item_tbl i,inv_dtl_hist d,item_type t
+where h.point_code = p.point_code and
+h.inv_date = d.inv_date and h.point_code = d.point_code and
+h.serial_no = d.serial_no and h.emp_id = d.emp_id and
+h.shift_typ = d.shift_typ and
+d.i_code = i.i_code and i.t_code = t.t_code
+and h.shift_ok = s.shift_typ
+group by  h.inv_date,h.point_code,p.point_name,h.shift_ok,s.shift_name,
+i.t_code,t.t_name,i.i_code,i.i_name; 
+
+
+
+
+
+
+
+
+
+

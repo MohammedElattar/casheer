@@ -1,0 +1,53 @@
+declare
+c number;
+BEGIN
+ 
+  if :old.inv_typ = 4   then
+     update room_account set REST_Q = REST_Q - :old.inv_tot where
+              H_NO = :old.h_no and ROOM_NO = :old.room_no and
+              R_DATE  = :old.inv_date;
+  end if;
+        
+END;
+----------------------------------------
+declare
+c number;
+BEGIN
+  if :new.inv_typ = 4 then
+     select count(*) into c from room_account where H_NO = :new.h_no and ROOM_NO = :new.room_no and
+            R_DATE  = :new.inv_date;
+     if c > 0 then
+        update room_account set REST_Q = REST_Q + :new.inv_tot where
+              H_NO = :new.h_no and ROOM_NO = :new.room_no and
+              R_DATE  = :new.inv_date;
+     end if;
+  else
+     insert into room_account (H_NO,ROOM_NO,R_DATE,PRICE,BED_Q,REST_Q,TEL_Q,JORNAL_Q,GEM_Q,CLEAN_Q,OTHER_Q,DOF_Q)
+            values (:new.H_NO,:new.ROOM_NO,:new.inv_DATE,0,0,:new.inv_tot,0,0,0,0,0,0);
+end if;
+        
+END;
+--------------------------------------
+declare
+c number;
+BEGIN
+  if :old.inv_typ = 4  and :new.inv_typ = 4 then
+     update room_account set REST_Q = REST_Q - :old.inv_tot + :new.inv_tot where
+              H_NO = :old.h_no and ROOM_NO = :old.room_no and
+              R_DATE  = :old.inv_date;
+  end if;
+  if :old.inv_typ = 4  and :new.inv_typ <> 4 then
+     update room_account set REST_Q = REST_Q - :old.inv_tot where
+              H_NO = :old.h_no and ROOM_NO = :old.room_no and
+              R_DATE  = :old.inv_date;
+  end if;
+  if :old.inv_typ <> 4  and :new.inv_typ = 4 then
+     update room_account set REST_Q = REST_Q + :new.inv_tot where
+              H_NO = :old.h_no and ROOM_NO = :old.room_no and
+              R_DATE  = :old.inv_date;
+  end if;
+        
+END;
+
+
+
