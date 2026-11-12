@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>فاتورة {{serial_no}}</title>
+  <link rel="stylesheet" href="receipt.css" />
+</head>
+<body>
+  <article class="receipt">
+    <header class="r-header">
+      <h1 class="r-brand">{{brand_name}}</h1>
+      <p class="r-point">{{point_name}}</p>
+    </header>
+
+    <section class="r-meta">
+      <div><span class="r-lbl">فاتورة</span> <span class="r-val">{{display_number}}</span></div>
+      <div><span class="r-lbl">التاريخ</span> <span class="r-val">{{inv_date}}</span></div>
+      <div><span class="r-lbl">الوقت</span>   <span class="r-val">{{inv_time}}</span></div>
+      <div><span class="r-lbl">الكاشير</span> <span class="r-val">{{cashier_name}}</span></div>
+      {{#table_no}}<div><span class="r-lbl">ترابيزة</span> <span class="r-val">{{table_no}}</span></div>{{/table_no}}
+      {{#person_count}}<div><span class="r-lbl">عدد الأشخاص</span> <span class="r-val">{{person_count}}</span></div>{{/person_count}}
+    </section>
+
+    <table class="r-lines">
+      <thead>
+        <tr>
+          <th class="r-item">الصنف</th>
+          <th class="r-qty">الكمية</th>
+          <th class="r-price">السعر</th>
+          <th class="r-total">الإجمالي</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#lines}}
+        <tr>
+          <td class="r-item">{{item_name}}</td>
+          <td class="r-qty">{{qty}}</td>
+          <td class="r-price">{{unit_price}}</td>
+          <td class="r-total">{{line_total}}</td>
+        </tr>
+        {{/lines}}
+      </tbody>
+    </table>
+
+    <section class="r-totals">
+      <div class="r-row"><span>المجموع</span> <strong>{{subtotal}}</strong></div>
+      {{#service_amount}}<div class="r-row"><span>الخدمة ({{service_percent}}%)</span> <strong>{{service_amount}}</strong></div>{{/service_amount}}
+      {{#discount_amount}}<div class="r-row"><span>الخصم ({{discount_percent}}%)</span> <strong>- {{discount_amount}}</strong></div>{{/discount_amount}}
+      <div class="r-row r-grand"><span>الإجمالي</span> <strong>{{total}}</strong></div>
+    </section>
+
+    <footer class="r-footer">
+      <p>{{footer_line_1}}</p>
+      <p class="r-thanks">شكراً لزيارتكم</p>
+    </footer>
+  </article>
+</body>
+</html>

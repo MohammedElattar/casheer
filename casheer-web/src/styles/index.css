@@ -1,0 +1,81 @@
+@import "./tokens.css";
+
+/* Global typography — Arabic-first with Latin fallback. */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Arabic", "Cairo", "Tahoma", system-ui, -apple-system, sans-serif;
+  background: var(--ivory);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+#root { min-height: 100vh; }
+
+/* Buttons default styling, layered under the theme-legacy.css */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  font-weight: 600;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.btn:hover { background: #F7F1E4; border-color: var(--gold); }
+.btn.primary {
+  background: var(--navy);
+  color: white;
+  border-color: var(--navy);
+}
+.btn.primary:hover { background: var(--navy2); border-color: var(--navy2); }
+.btn.gold {
+  background: var(--gold);
+  color: white;
+  border-color: var(--gold);
+}
+.btn.gold:hover { background: var(--amber); border-color: var(--amber); }
+.btn.danger {
+  background: var(--red);
+  color: white;
+  border-color: var(--red);
+}
+.btn.ghost { background: transparent; border-color: transparent; }
+
+input, select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  transition: border-color .15s, box-shadow .15s;
+}
+input:focus-visible, select:focus-visible {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px #C5A05233;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.muted { color: var(--muted); }
+
+/* Toast / message baseline */
+.msg {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  margin-bottom: 12px;
+}
+.msg.error { background: #fdeaea; border-color: var(--red); color: var(--red); }
+.msg.ok    { background: #e6f4ee; border-color: var(--green); color: var(--green); }

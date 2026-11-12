@@ -1,0 +1,68 @@
+/* Design tokens — extracted from Mahrousa-Reception-Interactive-Demo-v3.html
+ * Source: a client-provided HTML prototype. The full stylesheet is kept in
+ * theme-legacy.css for component class names and layouts. This file is the
+ * curated surface you should reference from new components.
+ */
+
+:root {
+  /* Brand */
+  --navy:      #14516B;
+  --navy2:     #007FA6;
+  --gold:      #C5A052;
+  --bright:    #F2D490;
+
+  /* Surfaces */
+  --ivory:     #FFFCF5;
+  --paper:     #FFFCF5;
+
+  /* Ink */
+  --ink:       #213A46;
+  --muted:     #5E7881;
+  --line:      #DCE7E6;
+
+  /* Status */
+  --green:     #247D64;
+  --red:       #B94D4D;
+  --amber:     #A87424;
+  --blue:      #007FA6;
+  --turquoise: #24B8B0;
+  --coral:     #F47757;
+
+  --shadow:    0 8px 30px #17323c08;
+}
+
+/* Base reset + focus ring + button defaults carried from the prototype */
+* { box-sizing: border-box; }
+button, input, select, textarea { font: inherit; }
+button, a, input, select, textarea { outline-offset: 4px; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--gold);
+}
+button { cursor: pointer; }
+button:disabled { opacity: .4; cursor: not-allowed; }
+a { color: var(--green); }
+
+/* App shell: sidebar + main grid; collapses to 80px */
+.app {
+  display: grid;
+  grid-template-columns: 244px minmax(0, 1fr);
+  min-height: 100vh;
+  transition: grid-template-columns .25s;
+}
+.app.collapsed { grid-template-columns: 80px minmax(0, 1fr); }
+
+/* Header */
+header {
+  height: 82px;
+  border-bottom: 1px solid var(--line);
+  background: #fffefae8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 34px;
+  gap: 15px;
+}
+
+/* RTL: flip grid order so sidebar lands on the right */
+html[dir="rtl"] .app { direction: rtl; }
+html[dir="rtl"] header { direction: rtl; }
