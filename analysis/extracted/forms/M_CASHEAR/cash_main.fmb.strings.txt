@@ -1,0 +1,2301 @@
+src=M_CASHEAR/cash_main.fmb
+sha256=6874669fd827f6c733aee2df246b5cb4dbdb06f4a6cc2e0366d885a6b96ed8db
+size=569344
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:08.903094+00:00
+version_markers=ROS.60050
+ascii_lines=2276
+ucs2_lines=13
+trigger_count=86
+pl_sql_markers=53
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+r100r75g
+r100r0g8
+r100r75g
+r25g0b0
+r75g25b0
+ &g88b50
+r88g50b0
+r100g75b0
+r100r75g88b0
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\cash_main.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+P1_14_MAY_200321_23_29
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+FRM50_BUFFER
+table contains user's buffer
+,ANROSATTRIBS
+class attributes
+)')ROSLFDESC
+ros lf descrip
+'SHROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+TOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P0_14_MAY_200321_23_29
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\cash_main.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+P5_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+ null;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+	FOR I IN 1..3 LOOP
+	BELL;
+	SYNCHRONIZE;
+	END LOOP;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40401 THEN
+ null;
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+ hint.hidebuttonhelp;
+block_menu;
+KEY-MENU (Form)
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('main_win',WINDOW_STATE,MAXIMIZE);
+:scr := :system.current_form;
+next_block;
+:GLOBAL.S:=0;
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+P0_10_OCT_200412_54_09
+call_form('employee');
+&WHEN-BUTTON-PRESSED (TOOLBAR.EMPLOYEE)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+employee
+P1_10_OCT_200412_54_09
+call_form('dept');
+"WHEN-BUTTON-PRESSED (TOOLBAR.DEPT)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+P2_10_OCT_200412_54_09
+call_form('JOBS');
+!WHEN-BUTTON-PRESSED (TOOLBAR.JOB)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+P3_10_OCT_200412_54_09
+call_form('sub_item');
+#WHEN-BUTTON-PRESSED (TOOLBAR.ITEMS)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+sub_item
+P2_10_OCT_200412_54_09
+call_form('JOBS');
+!WHEN-BUTTON-PRESSED (TOOLBAR.JOB)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+P4_10_OCT_200412_54_09
+call_form('layout_price');
+'WHEN-BUTTON-PRESSED (TOOLBAR.ITM_POINT)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+layout_price
+P2_10_OCT_200412_54_09
+call_form('JOBS');
+!WHEN-BUTTON-PRESSED (TOOLBAR.JOB)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+P5_10_OCT_200412_54_09
+call_form('employee');
+$WHEN-BUTTON-PRESSED (TOOLBAR.ITEM22)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+employee
+P6_10_OCT_200412_54_09
+call_form('employee');
+$WHEN-BUTTON-PRESSED (TOOLBAR.ITEM23)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+employee
+P7_10_OCT_200412_54_09
+call_form('log_in_in');
+$WHEN-BUTTON-PRESSED (TOOLBAR.ITEM26)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+log_in_in
+P6_10_OCT_200412_54_09
+call_form('employee');
+$WHEN-BUTTON-PRESSED (TOOLBAR.ITEM23)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+employee
+P12_14_MAY_200321_23_29
+cIF :GLOBAL.S=0 THEN
+show_view('help');
+:GLOBAL.S:=1;
+HIDE_VIEW('HELP');
+:GLOBAL.S:=0;
+END IF;
+&WHEN-BUTTON-PRESSED (TOOLBAR.HELP_BUT)
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+employee
+P13_14_MAY_200321_23_29
+delete_record;
+*WHEN-BUTTON-PRESSED (TOOLBAR.CLEAR_RECORD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P12_11_JAN_200420_07_34
+call_form('med_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON482)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+employee
+P14_11_JAN_200420_07_34
+call_form('med_reason');
+%WHEN-BUTTON-PRESSED (TOOLBAR.ITEM483)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+call_form('war_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON561)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+call_form('country');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON481)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+GIF89a
+}]A`WT
+h9|%5X	
+i<qReK
+ujS-*0
+wh/eol\
+!dD0|D
+TAI|A4
+W,DD<D
+PU@8MC
+4HT=SU
+jEYl]Y;eUoM
+ZO5ZiE
+-Q$Eb2Vb
+J>f	Dg=
+6iZ&h3
+'L	wom
+qA7r3Gr
+u\UdBeO
+H>vt&c
+9w.m*x
+'u8J;"s
+4!9UhN
+N`"v!	2
+`T^$Uj
+dg*'v2'QJ
+:(\B(rz
+{Nh|f 
+r`y&a#~i
+2o :/>
+BFpAN0
+EOAQo4RO
+Kg5Ao%`{
+z1N6*@
+NM%ULDA
+(WC;*l
+L#'[hL
+"&M8L5v
+6\fEMy
+,`|K8Y
+`(Kp%;p
+S4}P8Ks
+E#36'3B
+\iug%vc
+[gS(Ap.
+-_:YcZ
+&<c-|-1
+0%{0+70)=
+	|Y5;Y
+Le7[	NX
+d-	UxED
+	x	vp	
+\!J7kL
+JdrCkZN0
+1tFS,E
+Z\E;h@)lA
+@9 GjlF)
+LH_\F,
+Rx\U 4T/MTP\
+&lIOdWD
+Mfd:.YP
+>fFT&UUf
+A~fV>AW
+O>gQNg
+b\\KuO
+xzg[H/
+GxvFS>
+%c:&@R!dn
+ 6&m>&
+jje=J'lV
+>cCFi$
+'t .t+
+t	>t5sn
+F2Lks%_t7
+t(;cH#
+&|C@B 
+/#a:*d
+ZK8@Rx|_8}O
+>%H66>*:
+BoHj:xO
+M9:Obt)
+7MEUUj
+XwA]VSg
+VKa'^7
+\PZ9pd
+6A*M;x
+O-(SA6
+-})Xe:S
+nm(\9{
+w2!{2&
+*tHu0&
+G/!N3U
+Q#UH'UW
+71x-px
+i{S0ixo-
+"E A9w"2
+Sk*g;R
+1	G bp
+=/pg*\
+RdVtrq
+>,{vcH;k
+UTSN;=
+C_QGh%
+)P;(TK
+#e[yY&
+F.Y5;F
+M@C0lAJ
++|D1<A24CJ
+:$E!4@"<E>L
+*DD)TD.
+@Vu@.d
+PJUA	4C
+#&a%>a&^G
+}b#l@)v
+&VS-i&
+`$|[>-
+@7OHeUh
+deI_yR
+b$C2)0
+sFG3C_
+Q[mR?tK3
+vL#6MS
+Jv L~`
+X&,z7no
+`GRbfb&
+UWO\WJ
+]}w^]S
+9|%8m(
+e!1*LEn
+N8`a?-
+CP	#0/C
+3[20]S
+{S#938e
+,o095Q
+6}SWq5
+hC6iIV_
+r6i5aG
+9CTzwaY
+zV]pEM
+e:Yiz)oz:sZ
+3xA/!e
+k7@+\W
+y5*jG;\
+	Sp	w 
+)wv]1;
+M9?L0i
+!	)x	;Tp
+fHm9Rl
+ |+^M8
+TAGTC'dC7
+DI$D*<D
+;4E!$B&
+K4C4lAN
+lJx-Fc
+X*MW |F
+eC?|@~
+>d fNh
+We>dZl
+dR~^A$d
+tNil&^
+Q>$r90
+4N'hN(
+L&'r@<
+.BzoAK.
+fdxQhD
+tDYr-k
+	XD(jq
+m-Sak]
+c%1Y5L
+$F`5kmM
+e/4&U~
+6 3*`9
+["e\*%HB
+^V%-b%Ln
+ 7J*%K
+>[s?g1@
+i{Z`8'$
+!ns!xSvo
+a{Gts7
+rNh):n
+U7@vitwRQ
+#4qDB=
+6RyMCe
+7!	7a	
+.=S)A3/
+R@1s.7
+R #5#oQS#
+0`;p`/
+waMQPMg
+O;PKcpa
+ :7+G1Bs
+_w,fT(p
+9:l4L%
+ |AA|AL4DS
+@pd@q|EJ
+O@Ij4HP
+4CpLIa
+id@o$B
+6=Q8uR
+NX%PY}
+5M;DP"
+5:%qD'
+#IVd'^$<
+bfmn&oz&h
+u6)q>i
+(x.(m^
+'qR aG
+acK!,B
+rOx`o5k_x
+V{qGB9b
+e8vuOo
+OLqE9Z
+DWRa+-
+?T 2m)A$
+\ 8MiO|
+#^ 4Kl
+IYp<7sJY
+L	0M#5
+t[uuIy
+yGVx_W
+	Vk30!
+37}!W@S
+QdT)"5
+.O8I_V
+SP A3x
+^8A)H!
+6L+'}*
+t_3+cn&
+dIe6FgC
+dTiMEU
+V_U3Vp
+jLE(V}.6
+lCNlAO
+)$B+TB
+JdAr|C
+vDB*4I
+TB(<Ef
+Gz,LQ<
+|TAMSj\S
+,U,}H-
+T\}CK%
+T@=VAMVU5TV
+A.mWf}
+R54Z'mC
+tD8uZ 
+RC|@&T
+	\A9<\
+uEgNEh
+B_VftLg,%
+f	$iF>i\
+lqC~q:np
+'xn?xoW
+?yk_{mg
+|5{Y?|
+	w]"xg
+	R?=7uN
+f1/YFM
+tcdcx	
+7za8~ %
+\f ]jeQ
+RB%aN%
+Lgu&exjev
+|b(}^hs
+&9^Bb^
+*yb"$2
+`zeP>s
+E/jFKsA;
+Jg`K7&
+)3wtM*
+3J#uLC"K7
+K?uLG5
+N53#'NW
+*pngzB*$j
+VhMcbCwh
+AyM3L?Y
+G]Y[8U
+$Zd~K^{i
+uu.^Ok
+1-AH#7
+S)/A0=
+SAM3Fg47
+!76Y;V
+5`UUe_
+5fsufI
+0^OVc/
+|P(cRg!
+ux-K0w}
+EeyNh6P
+BeLc(J
+B9 W&<
+oD$1G-
+sU"iN\
+iM"M99B
+*F=X[P
+M#Xgkd
+mhMmPD
+5NG]_"
+Yo.j|C{
+DB%dB',
+T|A;`E
+C#dHD<
+L5@4US6
+,@:MUk%
+EA	|C7
+DkF^vM
+ifKkNB
+G8]A;h\
+iwrbFq
+Okvi9hk
+mf]OjU
+/J`+^c>
+f'"`a~
+/B&9J&[
+!-v#kR
+"k^-a>`
+bn|fl?
+"/'#s'
+7{'er?
+/LQ@)^$
+% {xKB
+:n#f9HJ
+Yt |ch
+`(30*g0
+e-vaM5f
+R[0USu
+!Yulw!$)
+V\%quB
+GxbaN5
+Q,0Uu<a
+w1SP2q
+/5(BgZ
++Ooh+|
+De,Af\
+;tOS4E74E
+RA5CTUP
+P#tRe|
+L15Ygd
+a.NN6fON
+aODa_.g:
+'VTBmE
+~q	)lb
+Qt`!%xH
+0=!<i:
+<^ &Nb
+`	J J^!	
+f^6%`n
+hf`iF%j
+AVR %F
+d].cHJ*
+ 	:s)2
+F#5;+5H
+sJ;fU_
+\75=C5$
+n$^^':b!
+z_7XJe"~b|
+;PTQB3i|
+'oTPG	U
+cCTvIS
+9S'_FX
+R[_'z\
+!Y	Hl>1
+4wQ	Qs
+_3/e31iS
+o37ss7A
+@]s8/!6
+3Akt<q
+=!3H34
+G	u=GP1
+rb?07Q
+-=35;P
+u07k4N
+e:!JSaR
+#-jYO:P
+\B"tB(
+B)HBBlB l
+)\D+T@G
+LGy$Gu
+H1MC2M
+DTImI)
+.l@J-HK
+R <U-MUC]U
+4mU[5L\}
+Sc-U,E
+DS|]Sm
+EVAeWU}
+4dkNL}fd
+\V+8Y;
+~FQ&d!-
+|\]oR^
+uu?CvOvR'Cf
+|g`?q,7
+HW8RC^t
+d)V#xV+
+B0?*@0+Q
+i=uxW]
+cneMjdW
+a|f(}.gM
+ev>iRF
+o"/Ifb
+`c:'DFq
+2eLW*9
+5I+5[+
+dN&9ne
+87z.*N
+c8WZ0nvx}
+N)StpC
+w#6pcz
+- e;rq
+SI;UD?uJCU9Y
+1EeR`i
+p]6lEsqkv
+qgWmmWr
+6yI5kQ
+{/7|57x	
+iRf#Vp
+'t!L5h
+"uS$=H
+	4@F,C
+L\Ld$M0
+d-.d%<
+c`~bOvbb
+$nA;&g;
+-nhxvey
+BH>F#m
+IXB(:q
+.xaK>`!
+X:"+>aO
+'_.%Hf
+f&gO2g\
+Hv`LN$
+5_1&v17{
+ju;k'Hz
+;w5X~5=
+4[3v.;v\
+"N>hf:
+C~dx	eJ
+i93O9o
+K|'##IAA
+q04AS0
+MvnSV5o
+j]6oavo3
+[iW^Kq
+sm]R=I
+P/s<~C
+r@0vQH
+\/wUI^*
+wXLKS0
+IueO9?
+DQC2OT
+01UO793M
+phcvQE
+]Ec	!K
+w_+`	j
+EI4Bd<
+XtArtBs
+4C'P@3
+U?5IjuAh
+f`5>_'
+FMM<gv
+"'qvEr
+P?r Or
+,a	wq	
+d3=:O~
+.%(JAS:c*J
+%%2 )&g
+Ofhlrhz~
+*hu6(v
+r0w1!Gp1
+eg&uH3
+SfVWwb
+	"79K#s
+iWxj[#
+h*e-60B
+$	jthX
+Uk_%4Vm
+.5hBejL
+hz)y	5
+%o2&mp
+-[1.uQ3
+S,Oq1-
+.#s#?A
+BGT	mq
+4G%QP{
+4OetK9
+OmuZoQ
+3re?V9
+aW0b+SGM
+1Qm5We
+2#]0(aQf
+1!+Qtw
+C%\w's
+kxeycU
+XN9z1(
+-D1@;f
+Juo]VBw'l
+g4c-G8
+u-ac{X
+\%fw1l
+j	-HFDo
+@9pD0,
+Uq-XrM
+Y=Z[e@
+K5I <C[LB
+A6eCNe
+K@N =LJ-A
+;@NI^r
+t+'m?wn@
+@e'nk}K2
+	J+4C^
+T!'qxA]
+*,`qK8O
+"9W:XF
+}}-_A)
+^!7B !
+zd<.`A
+eI&f=zec
+gR&'_>%s
+&U>'ab
+(>*jK^
+`{bn`n
+"{a'{a
+`|Wxpr
+bx}syu
+"A).	p
+Qc,#52
+-	FKjr
+[Nun_}
+3v]7vF
+VdIWf?
+w`+x./8
+W\%[I}
+P|I1Pc
+z93B5ph
+1qMIs9
+&"n*r"
+MAwU4Z
+m -OzR
+MW6!$X
+'x	[rp
+-X/	^P>
+#hM;@';9
+T@'0@)
+@;@@90@
+KPD'D@
+FW$HY<
+M1TO3d
+#|Vh]C
+<Z|eV}]
+#DV;0C&
+ck,f)F
+laRnhS
+Y7`K7g*O\
+bDrI/`U~fc
+l|(~|e
+&!72d7
+c]B%^J
+P:&[r$R2
+" Zb3>".
+"g2&!T
+33$k/k
+vo/.6m;6dw
+7fw y3mA
+`37jS(
+s[xk+9u
+a"^(v>"
+<c_``Z!
+'F=ZF|
+$^Z?6?-en?3
+#KNDyG%K
+(ndGo+
+!UR'G1
+-+s&mP.=03
+!S,[0<
+s5[s:I
+C	3?iS1
+NSR"3t
+ ]}0]C
+VcCph'
+ i=uiM
+hO0dWPi
+`5+2%M
+9hE6jq
+/`]#L|
+/Y\SJ*
+<yY~Wf
+$R3(A<&
+$B2|@$
+A=TE d
+B|B%DD*
+@I4G`L
+/$J;0J)
+x=@v=O
+6fdQvd
+DZblfb
+7jLxIFJ
+|``Qx	+
+s`n35K
+V 2Zb$2#'zb
+<za=.#56
+v`3~ C^
+2'u:g6
+j&{v XFf{bbeB
+cr/K&'
+sU2fln
+!kt7VbD+!
+#Ukp6^5Lk
+QG7S7!u
+zlaf8m
+iI@nF3
+C5]ZTr
+0-HReJ
+6%3 )s-%
+Pm3Q;pLW
+wmyUq#
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+=Zt41.
+tDeSZ 
+;C.%r1
+7l c<W4
+OFgUF{
+/9v y8
+B!<}kT"Q
+LI+IZD:
+89yFS$
+Mne**F%
+eP91/C
+Ef3+Wo
+JWG?qn
+%#hUq-
+K,	<[H
+f3TA<Q
+K{y'8A
++X@e&j
+z4 eSDG
+Oq^5J~
+F0k@,C
+[F Sy+
+~c&ki 8*x
+RI]1@Qw
+`ZYCV"
+GE<9i,-
+uC11xdVm"<|
+[*e=2+
+aR")+X
+{Wta}	
+bllK{u
+K,%dQi:V Cu
+o-??J>
+FNv\'M
+NCe&YW1
+"LT}Vf
+O(((($(((
+"PKG INIT"<anonymous>""
+P13_14_MAY_200321_23_29
+delete_record;
+*WHEN-BUTTON-PRESSED (TOOLBAR.CLEAR_RECORD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P12_11_JAN_200420_07_34
+call_form('med_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON482)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+custom1
+"x* , . 0
+r100custom2
+"x* , . 0
+r100custom3
+"x* , . 0
+r100custom4
+"x( * , .
+r100gray32
+BUTTON_PROC
+-- This is a generic button procedure. It reads the NAME of the button and 
+-- performs a DO_KEY(item_name).
+-- Regarding QUERY-operation:
+-- if there are buttons called EXECUTE_QUERY and CANCEL_QUERY, this function shows
+-- them, when the ENTER_QUERY button is pressed and hides them, when EXECUTE_- or 
+-- CANCEL_QUERY ispressed. No error should be returned, if these buttons do not exist.
+-- To make naming of the buttons easier, EXIT, QUIT and EXIT_FORM all perform exit_form,
+-- even if the form is in ENTER-QUERY mode !!!!!!!
+-- A CANCEL_QUERY button-name cancels a currently "open" query.
+PROCEDURE button_proc IS
+  AL_ID    ALERT;
+  AL_BUT   NUMBER;
+  action varchar(80);
+  -- hide a button (for ENTER_-, EXECUTE_- or CANCEL_QUERY)
+  PROCEDURE show_off(item_name VARCHAR2) IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name, DISPLAYED,PROPERTY_FALSE);
+    END IF;
+  END;
+  -- try to show a button (for the two query-states. If there is no button to show,
+  -- return FALSE to the calling procedure.
+  FUNCTION show_on(item_name VARCHAR2) RETURN BOOLEAN IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name,DISPLAYED,PROPERTY_TRUE);
+      Set_Item_Property(item_name,ENABLED,PROPERTY_TRUE);
+      RETURN TRUE;
+    ELSE
+      RETURN FALSE;
+    END IF;
+  RETURN NULL; END;
+BEGIN    
+  action := Get_Item_Property(NAME_IN('SYSTEM.TRIGGER_ITEM'),ITEM_NAME);
+  IF action = 'ENTER_QUERY' THEN
+    -- only hide the ENTER_QUERY button, if there are EXECUTE_QUERY and (!!) CANCEL_QUERY
+    -- buttons. Otherwise an existing EXECUTE_QUERY button will be shown.
+    IF show_on('EXECUTE_QUERY') AND show_on('CANCEL_QUERY') THEN
+      show_off('ENTER_QUERY');
+    END IF;
+  END IF;
+  IF action IN ('EXIT_FORM', 'EXIT','QUIT') THEN
+    action := 'EXIT_FORM';
+    IF NAME_IN('SYSTEM.MODE')='ENTER-QUERY' THEN
+           AL_ID:=FIND_ALERT('MESS_AL');
+           Set_Alert_Property(al_id, alert_message_text, '        
+           al_but:=show_alert(al_id); 
+              IF  al_but =ALERT_BUTTON1 THEN
+                 Do_Key('EXIT_FORM');
+              ELSE 
+                  NULL;
+              END IF;
+    END IF;
+  END IF;
+  IF action = 'CANCEL_QUERY' THEN 
+    action := 'EXIT_FORM';
+  END IF;
+  Do_Key(action);
+  IF NAME_IN('SYSTEM.MODE') != 'ENTER-QUERY' THEN
+    IF show_on('ENTER_QUERY') THEN
+      show_off('EXECUTE_QUERY');
+      show_off('CANCEL_QUERY');
+    END IF;
+  END IF;
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+"BUTTON_PROC"AL_ID"ALERT"AL_BUT"NUMBER"ACTION"VARCHAR"80"SHOW_OFF"ITEM_NAME"VARCHAR2"ID_NULL"FIND_ITEM"NOT"SET_ITEM_PROPERTY"DISPLAYED"PROPERTY_FALSE"FUNCTION"SHOW_ON"RETURN"BOOLEAN"PROPERTY_TRUE"ENABLED"TRUE"FALSE"GET_ITEM_PROPERTY"NAME_IN"SYSTEM.TRIGGER_ITEM"="ENTER_QUERY"EXECUTE_QUERY"CANCEL_QUERY"EXIT_FORM"EXIT"QUIT"SYSTEM.MODE"ENTER-QUERY"FIND_ALERT"MESS_AL"SET_ALERT_PROPERTY"ALERT_MESSAGE_TEXT"        
+"SHOW_ALERT"ALERT_BUTTON1"DO_KEY"!=""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+7l c<W4
+OFgUF{
+/9v y8
+B!<}kT"Q
+LI+IZD:
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+call_form('HI_GAREEMA');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON655)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\cash_main.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+QPACKAGE BODY DLL IS
+  l_user Ora_Ffi.LibHandleType;
+  l_gdi  Ora_Ffi.LibHandleType;
+  f_getdc  Ora_Ffi.FuncHandleType;
+  f_reldc  Ora_Ffi.FuncHandleType;
+  f_setmap Ora_Ffi.FuncHandleType;
+  f_gte    Ora_Ffi.FuncHandleType;
+  FUNCTION icd_GetDC(f_getdc IN Ora_Ffi.FuncHandleType,
+                     hwnd IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetDC, 11265);
+  FUNCTION icd_ReleaseDC(f_reldc IN Ora_Ffi.FuncHandleType,
+                         hwnd IN PLS_INTEGER,
+                         hdc IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_ReleaseDC, 11265);
+  FUNCTION icd_SetMapMode(f_setmap IN Ora_Ffi.FuncHandleType,
+                          hdc IN PLS_INTEGER,
+                          mm  IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_SetMapMode, 11265);
+  FUNCTION icd_GetTextExtent(f_gte IN Ora_Ffi.FuncHandleType,
+                             hdc IN PLS_INTEGER,
+                             str IN OUT VARCHAR2,
+                             len IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetTextExtent, 11265);
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER IS
+    hwnd    PLS_INTEGER := Get_Window_Property('Window0',Window_Handle);
+    hdc     PLS_INTEGER := 0;
+    buf     PLS_INTEGER;
+    len     PLS_INTEGER   := NVL(length(str), 0);
+    oldmap  PLS_INTEGER;
+    dummy   PLS_INTEGER;
+    s VARCHAR2(255) := rpad(str,255);
+    s_width PLS_INTEGER;
+  BEGIN
+    hdc     := icd_GetDC(f_getdc,hwnd);			-- Get device context.
+    oldmap  := icd_SetMapMode(f_setmap, hdc, 6);	-- Change mapping to MM_TWIPS (~inch) 
+							-- Set to 1 for MM_TEXT (~pixel) and
+							-- change scaling in TOOLBAR package
+							-- if forms module runs in REAL PIXEL
+    s_width := icd_GetTextExtent(f_gte, hdc, s, len);	-- retrieve width of text from GDI
+    dummy   := icd_SetMapMode(f_setmap, hdc, oldmap);	-- reset mapping mode
+    dummy   := icd_ReleaseDC(f_reldc, hwnd, hdc);	-- release deviec context
+    return(s_width);
+  END;
+break;
+  l_user  := Ora_Ffi.Register_Library('c:\windows\system\','USER.EXE');
+  l_gdi   := Ora_Ffi.Register_Library('c:\windows\system\','GDI.EXE');
+  f_getdc := Ora_Ffi.Register_Function(l_user,'GetDC', ORA_FFI.PASCAL_STD);
+  f_reldc := Ora_Ffi.Register_Function(l_user,'ReleaseDC', ORA_FFI.PASCAL_STD);
+  f_setmap := Ora_Ffi.Register_Function(l_gdi,'SetMapMode',ORA_FFI.PASCAL_STD);
+  f_gte    := Ora_Ffi.Register_Function(l_gdi,'GetTextExtent', ORA_FFI.PASCAL_STD);
+  Ora_Ffi.Register_Return(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_CHAR_PTR);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+/NSPC1/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+kxeycU
+XN9z1(
+TOOLBAR
+PACKAGE toolbar IS
+  tbscale NUMBER := 43;		-- good for 1024x768 (SVGA)
+--  tbscale NUMBER := 40;	-- good for 640x480 (VGA)
+  item_name VARCHAR2(80);
+  PROCEDURE hide_function;
+  PROCEDURE set_timer;
+  PROCEDURE show_function;
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+"PACKAGE"TOOLBAR"TBSCALE"NUMBER"43"ITEM_NAME"VARCHAR2"80"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+@9pD0,
+Uq-XrM
+Y=Z[e@
+K5I <C[LB
+TOOLBAR
+6PACKAGE BODY TOOLBAR IS
+  cs VARCHAR2(20);
+  csscale NUMBER;
+  PROCEDURE hide_function IS
+  BEGIN
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_OFF);
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+  END; /* hide_function */
+  PROCEDURE set_timer IS
+    t Timer;
+  BEGIN
+    toolbar.item_name := :SYSTEM.MOUSE_ITEM;
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+    t := Create_Timer('ENTER_TOOLBAR',250,NO_REPEAT);
+  END; /* set_timer */
+  PROCEDURE show_function IS
+    w NUMBER;
+  BEGIN
+    :TOOLBAR.Text := Get_Item_Property(item_name, LABEL);
+    w := dll.tblen(:toolbar.text)*tbscale/100000*csscale;
+    Set_Item_Property('TOOLBAR.TEXT',WIDTH,w);
+    Set_Item_Property('TOOLBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC1/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC1/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+SET_TIMER
+SHOW_FUNCTION
+OFgUF{
+/9v y8
+B!<}kT"Q
+LI+IZD:
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+ $ & (
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r0g0b0
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r50g25b0
+r0g0b0
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r0g0b0
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+r88g75b0
+r0g0b0
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\cash_main.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+CASH_MAIN
+MODULE4
+Rakmaskry
+                                                              
+                                                                                     
+                                                                                         
+                                                                                         
+                                                                                     
+                                                                          
+                                                                           
+                                                                                  
+                                                                           
+                                                  
+           
+                                                                                       
+                                                                                  
+                      
+PUSH_BUTTON261
+CASH_MAIN
+MODULE4
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+KEY-MENU
+KEY-MENU
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+D:\M_CASHEAR\HINT
+TOOLBAR
+TOOLBAR
+DEFAULT
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+EMPLOYEE
+EMPLOYEE
+CANVAS2
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS2
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS2
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS2
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITM_POINT
+ITM_POINT
+CANVAS2
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM22
+ITEM22
+CANVAS2
+r25g0b100
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM23
+ITEM23
+CANVAS2
+r25g0b100
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM26
+ITEM26
+CANVAS2
+r25g0b100
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DEFAULT
+HELP_BUT
+HELP_BUT
+TOOLBAR
+Dark Blue
+transparent
+                                                  
+           
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+yyyy/mm/dd
+TOOLBAR
+r100g75b0
+transparent
+Simplified Arabic
+$$date$$
+COMMIT_FORM
+COMMIT_FORM
+TOOLBAR
+DEFAULT
+gray16
+                                                                           
+CLEAR_RECORD
+CLEAR_RECORD
+d:\a_navy\clear.ico
+TOOLBAR
+DEFAULT
+gray16
+                                                                                  
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+LIST_VALUES
+LIST_VALUES
+d:\a_navy\listval
+TOOLBAR
+gray16
+                                                                           
+EXIT_FORM
+EXIT_FORM
+d:\a_navy\exit.ico
+TOOLBAR
+DEFAULT
+gray16
+                                                                          
+d:\a_navy\left
+TOOLBAR
+DEFAULT
+gray16
+                                                                                     
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+gray16
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+gray16
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+DEFAULT
+gray16
+                                                                                     
+DEFAULT
+CANCEL_QUERY
+CANCEL_QUERY
+d:\a_navy\canqry.ico
+TOOLBAR
+DEFAULT
+gray16
+                                                            
+                      
+                      
+EXECUTE_QUERY
+EXECUTE_QUERY
+d:\a_navy\execute.ico
+TOOLBAR
+DEFAULT
+gray16
+                                                                                       
+ENTER_QUERY
+ENTER_QUERY
+d:\a_navy\entqry
+TOOLBAR
+DEFAULT
+gray16
+                                                              
+PUSH_BUTTON482
+PUSH_BUTTON482
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM483
+ITEM483
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON561
+PUSH_BUTTON561
+PAGE23
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON481
+PUSH_BUTTON481
+PAGE23
+gray16
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON588
+PUSH_BUTTON588
+gray16
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P_NAME
+P_NAME
+r100g88b0
+PUSH_BUTTON655
+PUSH_BUTTON655
+PAGE19
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+TOOLBAR
+r100g75b0
+Simplified Arabic
+TOOLBAR
+TOOLBAR
+MAIN_WIN
+transparent
+MS Sans Serif
+transparent
+transparent
+Tahoma
+CANVAS2
+CANVAS2
+MAIN_WIN
+gray16
+IMAGE32
+IMAGE32
+GROUP696
+GROUP696
+RECT689
+RECT689
+r0g25b50
+darkblue
+IMAGE688
+IMAGE688
+GROUP29
+GROUP29
+FRAME28
+FRAME28
+darkblue
+transparent
+Traditional Arabic
+TEXT12
+TEXT12
+darkblue
+transparent
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC15
+GRAPHIC15
+darkblue
+transparent
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC16
+GRAPHIC16
+darkblue
+transparent
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC17
+GRAPHIC17
+darkblue
+transparent
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC21
+GRAPHIC21
+darkblue
+transparent
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GROUP31
+GROUP31
+FRAME30
+FRAME30
+darkblue
+transparent
+Traditional Arabic
+GRAPHIC24
+GRAPHIC24
+r0g0b50
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC25
+GRAPHIC25
+r0g0b50
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+GRAPHIC27
+GRAPHIC27
+r0g0b50
+r0g50b88
+CMPTXT13
+CMPTXT13
+TEXTSTR14
+TEXTSTR14
+Traditional Arabic
+TEXT18
+TEXT18
+r25g50b88
+transparent
+darkblue
+CMPTXT19
+CMPTXT19
+TEXTSTR20
+TEXTSTR20
+Traditional Arabic
+r25g50b88
+transparent
+darkblue
+Traditional Arabic
+BUTTON_PROC
+BUTTON_PROC
+TOOLBAR
+TOOLBAR
+TOOLBAR
+TOOLBAR
+darkblue
+r75g88b100
+r50g25b0
+MAIN_WIN
+MAIN_WIN
+TOOLBAR
+SYSTEM.MOUSE_ITEM
+SYSTEM.MOUSE_ITEM
+TOOLBAR
+TOOLBAR.TEXT
+TOOLBAR.TEXT
+TOOLBAR
+TOOLBAR
+P9_14_MAY_200321_23_29
+SYSTEM.CURRENT_F
+SYSTEM.CURRENT_FORM
+P9_14_MAY_200321_23_29
+GLOBAL.S
+GLOBAL.S
+P9_14_MAY_200321_23_29
+P12_14_MAY_200321_23_29
+OFgUF{
+/9v y8
+B!<}kT"Q
+LI+IZD:
+===UCS2-LE===
+]cdfhjln
+#$/156=EIMNU]aefmuy|
+           #$$$$$$$$$$$$$%%%%%%&&&&&&''(())+++#.//////////0000000033333333333334444777777777788899999999999;;;;;;<<<<<<======????????@@@@AABGGGGGGGGHHHJJJJLLLLLLLLLLLMMMMMMMNNNNOOOOR.
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!")158<=DLPSVZjnos
+!)178>ACKQTVXZ\^`b
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP

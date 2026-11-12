@@ -1,0 +1,276 @@
+src=M_CASHEAR/sub_item.fmx
+sha256=920647abf6366c232ef488702749244df54aa2e8dc365d5d588ae0d1aac7b9ba
+size=1655776
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.653095+00:00
+version_markers=none
+ascii_lines=263
+ucs2_lines=1
+trigger_count=0
+pl_sql_markers=9
+===ASCII===
+SUB_ITEM
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P4_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P5_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P7_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+FORMS4C
+FORMS4W
+STANDARD
+"PKG INIT"<anonymous>""
+window1
+P1_10_JAN_200413_50_44
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P3_05_DEC_200021_50_18
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P3_12_SEP_200409_34_18
+ /NSPC29/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+STANDARD
+"PKG INIT"P_RUNREPORT""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC29/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC29/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+CURRENTRECCORD
+Arabic Transparent
+MANDATORY
+Traditional Arabic
+OPTIONAL
+Traditional Arabic
+DISPLAY
+Traditional Arabic
+CANVAS
+Traditional Arabic
+TOOLBAR
+Traditional Arabic
+#POPUPHINT#
+MELFIKY
+Traditional Arabic
+Simplified Arabic
+Cancel
+Simplified Arabic
+Cancel
+My Editor
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+333333
+p=p=p=
+(\(\(\
+ffffff
+Traditional Arabic
+Traditional Arabic
+Tahoma
+MS Sans Serif
+P0_10_JAN_200414_08_02
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+PREVIOUS
+PREVIOUS
+previous
+P2_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+/NSPC29/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P7_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+DELETE
+DELETE
+Delete
+delete
+Traditional Arabic
+ITEM_TYPE
+ITEM_TYPE
+T_CODE
+Simplified Arabic
+Simplified Arabic
+T_NAME
+ITEM_TBL
+ITEM_TBL
+I_CODE
+P6_10_JAN_200414_08_02
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+P8_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P9_12_SEP_200409_34_18
+STANDARD
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>""
+SELECT MAX(T_CODE)   FROM ITEM_TYPE"
+P4_12_SEP_200409_34_18
+STANDARD
+FORMS4C
+FORMS40
+/NSPC29/QUERY_MASTER_DETAILS
+/NSPC29/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+ITEM_TYPE.ITEM_TYPE_ITEM_TBL
+ITEM_TBL
+P5_12_SEP_200409_34_18
+STANDARD
+MAHROSA
+ITEM_TBL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM ITEM_TBL I WHERE I.T_CODE = :b1"
+Traditional Arabic
+Traditional Arabic
+T_CODE
+T Code
+I_NAME
+T_PRICE
+99999.90
+99999.90
+P6_12_SEP_200409_34_18
+SQLFORMS
+"PKG INIT"<anonymous>""
+P7_12_SEP_200409_34_18
+STANDARD
+MAHROSA
+ITEM_TBL
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>""
+SELECT MAX(I_CODE)   FROM ITEM_TBL"
+T_CODE
+CANVAS1
+MYEDITOR
+I_NAME
+CLEAR_ALL_MASTER_DETAILS
+TOOLBAR
+THREEBUTTON
+CHECK_PACKAGE_FAILURE
+WINDOW1
+ITEM_TYPE
+ITEM_TBL
+ITEM_TYPE_ITEM_TBL
+T_NAME
+PREVIOUS
+ONEBUTTON
+DELETE
+QUERY_MASTER_DETAILS
+T_PRICE
+P_RUNREPORT
+TWOBUTTON
+I_CODE
+UFORMNAME
+IMAGE17
+FRAME6
+Tahoma
+Traditional Arabic
+FRAME18
+Traditional Arabic
+===UCS2-LE===
+*017:<>@B

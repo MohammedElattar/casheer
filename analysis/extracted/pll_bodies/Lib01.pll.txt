@@ -1,0 +1,102 @@
+=== LIBRARY LIB01 ===
+FILE: C:\casheer_rev\Lib01.pll
+
+--- PU #1 name=P_DATEOP kind=3 ---
+PACKAGE P_DATEOP IS
+
+  FUNCTION F_DATEDIFF(pFromDate IN DATE,pToDate IN DATE) RETURN NUMBER;
+
+  FUNCTION F_DATECONV(pDate IN DATE) RETURN VARCHAR2;
+  
+  PROCEDURE P_DATEGHUPDATE;
+  
+END;
+
+--- PU #2 name=P_EXIT kind=1 ---
+PROCEDURE P_EXIT 
+IS
+	vALertId  		ALERT;
+	vAlertButton  NUMBER;	
+BEGIN
+	-- Check On Form Change Done and Save Button is Enabled
+  IF NAME_IN('SYSTEM.FORM_STATUS') = 'CHANGED' 
+  	 AND GET_ITEM_PROPERTY('TOOLBAR.SAVE',ENABLED) = 'TRUE' THEN	
+	   vALertId := FIND_ALERT('THREEBUTTON');
+	   IF NOT ID_NULL(vALertId) THEN
+	   	  -- Set Alert Text ( Title,Message,Button(s) )
+        SET_ALERT_PROPERTY(vALertId,TITLE,'Choices/?IE?C?CE');
+        SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'Save Changes/??U C?E?I?? ?');
+        SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Yes/???');
+        SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON2,LABEL,'No/?C');
+        SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON3,LABEL,'Cancel/???C?');
+
+        -- Get Return Value
+    	  vAlertButton := SHOW_ALERT(vALertId);
+
+    	  
+    	  -- Perform Action Needed per return value
+	      IF    vAlertButton = ALERT_BUTTON1 THEN
+	   	        DO_KEY('COMMIT_FORM');
+	      ELSIF vAlertButton = ALERT_BUTTON2 THEN
+         	 EXIT_FORM(NO_VALIDATE);   
+	      ELSIF vAlertButton = ALERT_BUTTON3 THEN
+           NULL;	      	
+	      END IF;	   	    	   
+	      
+	   END IF;
+	 ELSE  
+	    EXIT_FORM(NO_VALIDATE);   
+   END IF;
+END;
+
+
+
+
+
+
+
+--- PU #3 name=P_DATEOP kind=4 ---
+PACKAGE BODY P_DATEOP IS
+  ---------------------------------------------------------------------
+  FUNCTION F_DATEDIFF(pFromDate IN DATE,pToDate IN DATE) 
+  RETURN NUMBER
+  IS
+  BEGIN
+  	 --
+  	 --
+  	 --
+  	 RETURN 1;
+  END;	
+  ---------------------------------------------------------------------
+  FUNCTION F_DATECONV(pDate IN DATE)
+  RETURN VARCHAR2
+  IS
+  BEGIN
+  	 --
+  	 --
+  	 --
+  	 RETURN '01-01-1421';
+  END;	
+  ---------------------------------------------------------------------
+  PROCEDURE P_DATEGHUPDATE
+  IS
+  BEGIN
+  	 --
+  	 --
+  	 --
+  	 NULL;
+  END;
+  ---------------------------------------------------------------------  
+END;
+
+--- PU #4 name=F_FILTERSTRING kind=2 ---
+FUNCTION F_FILTERSTRING (pSting VARCHAR2) 
+RETURN VARCHAR2
+IS
+   vNewString 			VARCHAR2(100);
+BEGIN
+	 vNewString := INITCAP(pSting);
+	 RETURN  vNewString;
+END;
+
+=== END count=4 ===

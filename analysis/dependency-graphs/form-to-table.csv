@@ -1,0 +1,487 @@
+form,table,evidence
+M_CASHEAR/RikoNew.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmb,MAIN_MEMB,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmx,MAIN_MEMB,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/RikoNew.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SQL/take_away.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SUB_DEPT.fmb,DEPT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SUB_DEPT.fmb,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SUB_DEPT.fmx,DEPT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/SUB_DEPT.fmx,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/back/manager.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/back/manager.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/back/manager.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/back/manager.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmb,INV_DTL_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmx,INV_DTL_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/c_orders.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_month.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_month.fmb,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_month.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_month.fmx,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_year_stat.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/categ_year_stat.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/day_categ_view.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/day_categ_view.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/delv.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/delv.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/delv.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/delv.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/dept.fmb,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/dept.fmx,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmb,EMP_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmb,JOB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmb,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmx,EMP_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmx,JOB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/employee.fmx,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_point.fmb,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_point.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_point.fmx,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_point.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_sub_type.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_sub_type.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_sub_type.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_sub_type.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmb,ITEM_COMPONENT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmb,PRODUCTS,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmx,ITEM_COMPONENT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbl.fmx,PRODUCTS,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmb,ITEM_COMPONENT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmb,PRODUCTS,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmx,ITEM_COMPONENT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/item_tbll.fmx,PRODUCTS,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmb,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmx,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/layout_price.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmb,DEPT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmb,EMP_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmb,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmx,DEPT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmx,EMP_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/log_in_in.fmx,SUB_DEPT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmb,INVOICE_DEL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmb,INV_DTL_DEL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmx,INVOICE_DEL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmx,INV_DTL_DEL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/mtb_form.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/point_close_temp.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/points.fmb,INV_DTL_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/points.fmx,INV_DTL_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/rep_form0.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmb,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmx,ITEM_POINT,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_LAYOUT_PRICE.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_main.fmx,PASS_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_sub_item.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_sub_item.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_sub_item.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/s_sub_item.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery - original.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery2.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_fki.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_inv.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last10-10.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last12-10.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last20.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,POINT_MANGER,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,POINT_MEM,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_last_Bridge.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_old.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sery_w.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/seryehab.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmb,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_day.fmx,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmb,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_month.fmx,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmb,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/stat_year.fmx,SHIFT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/statistics_form.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sub_item.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sub_item.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sub_item.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/sub_item.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away - Copy.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_original - Copy.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/takeaway_pizza_original.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/templet.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/templet.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/templet.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/templet.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/xtake_away.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_categ_stat.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_categ_stat.fmb,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_categ_stat.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_categ_stat.fmx,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmb,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_item_stat.fmx,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmb,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmx,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_month_stat.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmb,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmx,MONTH,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/year_point_stat.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,DELIVERY,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,EMP_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,INVOICE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,INVOICE_HIST,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,INV_DTL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,ITEM_SUB_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,ITEM_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,ITEM_TYPE,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,MEMB_TBL,strings-regex FROM|INTO|UPDATE|TABLE
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,POINT_TBL,strings-regex FROM|INTO|UPDATE|TABLE

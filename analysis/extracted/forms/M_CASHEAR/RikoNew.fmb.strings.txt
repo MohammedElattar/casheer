@@ -1,0 +1,3102 @@
+src=M_CASHEAR/RikoNew.fmb
+sha256=2d411c0739335058c47b200aff3c294cf13f732ef26fb08f32ad842180302896
+size=385024
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:06.780623+00:00
+version_markers=ROS.60050
+ascii_lines=3060
+ucs2_lines=30
+trigger_count=168
+pl_sql_markers=110
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+able con
+ROSATTRI
+escrip
+trings
+N8bTOOL
+contains-
+ut diffe.
+VG_CO0
+gray92
+gray68NA
+r0g50b0C
+r25g75b0
+r100gray20
+r100custom8
+VG_COLOR
+P4_12_JAN_200411_54_33
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P2_12_JAN_200411_54_33
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+null ;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+iDECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=40401 THEN
+null ;
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P5_12_JAN_200411_54_33
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+: (FRM50_BUFFER
+table contains user's buffer
+ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+.ROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+N8bTOOL_MODULE
+table contains information about different module
+" ,VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P4_12_JAN_200411_54_33
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P10_12_JAN_200411_54_33
+f:invoice.emp_id := :global.user_id;
+:invoice.point_code := :global.point_code;
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('window1',WINDOW_STATE,MAXIMIZE);
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i7');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+-------------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+window1
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+P7_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+inv_dtl
+INSERT INTO INV_DTL ( POINT_CODE,I_CODE )  VALUES ( :b1,:b2  )"
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P0_10_JAN_200414_08_02
+DECLARE
+   vALertId  		ALERT;
+	 vAlertButton  NUMBER;		
+   IF :SYSTEM.MODE = 'NORMAL' THEN
+      IF :SYSTEM.FORM_STATUS = 'CHANGED' 
+  	     AND GET_ITEM_PROPERTY('TOOLBAR.SAVE',ENABLED) = 'TRUE' THEN	
+	       vALertId := FIND_ALERT('TWOBUTTON');
+	       IF NOT ID_NULL(vALertId) THEN
+	   	      -- Set Alert Text ( Title,Message,Button(s) )
+            SET_ALERT_PROPERTY(vALertId,TITLE,'Choices/
+            SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'Save Changes/
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Yes/
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON2,LABEL,'No/
+           -- Get Return Value
+    	      vAlertButton := SHOW_ALERT(vALertId);
+    	      -- Perform Action Needed per return value
+	          IF    vAlertButton = ALERT_BUTTON1 THEN
+	   	          DO_KEY('COMMIT_FORM');
+	          END IF;	   	    	   
+	       END IF;
+	    END IF;   
+	    CLEAR_FORM(NO_VALIDATE);  
+	    :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;	    
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Ex.Query');
+   	  ENTER_QUERY;
+   ELSE
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Query');   	
+   	  EXECUTE_QUERY;
+   END IF;		 
+#WHEN-BUTTON-PRESSED (TOOLBAR.QUERY)
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/
+Save Changes/
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200413_50_44
+BEGIN  
+	 SET_WINDOW_PROPERTY(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+	 SET_WINDOW_PROPERTY('WINDOW1',WINDOW_STATE,MAXIMIZE);	 
+	 :SYSTEM.MESSAGE_LEVEL := 20;
+	 :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;
+PRE-FORM (Form)
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P3_05_DEC_200021_50_18
+	 P_EXIT;
+KEY-EXIT (Form)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+WINDOW1
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P14_31_AUG_200408_24_45
+-- Begin default relation program section
+  Clear_All_Master_Details;
+-- End default relation program section
+ON-CLEAR-DETAILS (Form)
+ /NSPC18/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+WINDOW1
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_10_JAN_200414_08_02
+	 FIRST_RECORD;
+#WHEN-BUTTON-PRESSED (TOOLBAR.FIRST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P2_10_JAN_200414_08_02
+	 PREVIOUS_RECORD;
+&WHEN-BUTTON-PRESSED (TOOLBAR.PREVIOUS)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P6_10_JAN_200414_08_02
+DECLARE
+	vALertId  		ALERT;
+	vAlertButton  NUMBER;	
+	vALertId := FIND_ALERT('ONEBUTTON');
+	IF NOT ID_NULL(vALertId) THEN
+	   SET_ALERT_PROPERTY(vALertId,TITLE,'Information');
+	   SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'No Report');
+	   SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Ok/
+	   vAlertButton := SHOW_ALERT(vALertId);
+	END IF;
+DECLARE
+	vAlertButton  NUMBER;	
+	   SET_ALERT_PROPERTY('ONEBUTTON',TITLE,'Information/???????');
+	   SET_ALERT_PROPERTY('ONEBUTTON',ALERT_MESSAGE_TEXT,'No Report/?? ?????????');
+	   SET_ALERT_BUTTON_PROPERTY('ONEBUTTON',ALERT_BUTTON1,LABEL,'Ok/???');
+	   vAlertButton := SHOW_ALERT('ONEBUTTON');
+#WHEN-BUTTON-PRESSED (TOOLBAR.PRINT)
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+RESFILE
+headerfield
+vgiblw
+window
+vgibdt
+window
+vgibdg
+window
+vgibdb
+window
+vgibda
+window
+vgiicp13
+string
+vgiicp2
+string
+vgmisq
+string
+string
+vgiaccsz
+string
+string
+vgiicp12
+string
+vgiicp10
+string
+vgmiel
+string
+vgmisr
+string
+string
+vgmior_help
+string
+vgmied_help
+string
+vgmipl
+string
+string
+vgegfild
+string
+vgianaly
+string
+vgiangtv
+string
+vgiassbg
+string
+vgegtlkt
+string
+vgeicpal
+string
+vgmipl_help
+P3_10_JAN_200414_08_02
+	 NEXT_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.NEXT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+	 LAST_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.LAST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P5_10_JAN_200414_08_02
+	 P_RUNREPORT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.VIEW)
+/NSPC18/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P7_10_JAN_200414_08_02
+	 COMMIT_FORM;
+"WHEN-BUTTON-PRESSED (TOOLBAR.SAVE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P15_31_AUG_200408_24_45
+-- Begin default relation declare section
+DECLARE
+  recstat     VARCHAR2(20) := :System.record_status;   
+  startitm    VARCHAR2(61) := :System.cursor_item;   
+  rel_id      Relation;
+-- End default relation declare section
+-- Begin default relation program section
+  IF ( recstat = 'NEW' or recstat = 'INSERT' ) THEN   
+    RETURN;
+  END IF;
+  -- Begin INV_DTL detail program section
+  IF ( (:INVOICE.SERIAL_NO is not null) or (:INVOICE.POINT_CODE is not null) or (:INVOICE.INV_DATE is not null) or (:INVOICE.EMP_ID is not null) or (:INVOICE.SHIFT_TYP is not null) ) THEN   
+    rel_id := Find_Relation('INVOICE.INVOICE_INV_DTL');   
+    Query_Master_Details(rel_id, 'INV_DTL');   
+  END IF;
+  -- End INV_DTL detail program section
+  IF ( :System.cursor_item <> startitm ) THEN     
+     Go_Item(startitm);     
+     Check_Package_Failure;     
+  END IF;
+-- End default relation program section
+ON-POPULATE-DETAILS (INVOICE)
+STANDARD
+FORMS4C
+FORMS40
+/NSPC18/QUERY_MASTER_DETAILS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+INVOICE.INVOICE_INV_DTL
+INV_DTL
+EM.FORM_STATUS
+CHANGED
+TOOLBAR.SAVE
+THREEBUTTON
+Choices/
+Save Changes/
+Cancel/
+COMMIT_FORM
+-PRESSED
+WHEN-BUTTON-PRESSED
+PREVIOUS
+PREVIOUS
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P8_10_JAN_200414_08_02
+BEGIN  
+	 DELETE_RECORD;
+$WHEN-BUTTON-PRESSED (TOOLBAR.DELETE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+BEGIN  
+	 CREATE_RECORD;
+!WHEN-BUTTON-PRESSED (TOOLBAR.ADD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P10_10_JAN_200414_08_02
+   P_EXIT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.EXIT)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+BEGIN  
+	 CREATE_RECORD;
+!WHEN-BUTTON-PRESSED (TOOLBAR.ADD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P16_31_AUG_200408_24_45
+-- Begin default relation program section
+  -- Begin INV_DTL detail program section
+   DELETE FROM INV_DTL I
+   WHERE I.SERIAL_NO = :INVOICE.SERIAL_NO and I.POINT_CODE = :INVOICE.POINT_CODE and I.INV_DATE = :INVOICE.INV_DATE and I.EMP_ID = :INVOICE.EMP_ID and I.SHIFT_TYP = :INVOICE.SHIFT_TYP;
+  -- End INV_DTL detail program section
+-- End default relation program section
+PRE-DELETE (INVOICE)
+STANDARD
+MAHROSA
+INV_DTL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM INV_DTL I WHERE I.SERIAL_NO = :b1  AND I.POINT_CODE = :b2  AND I.INV_DATE = :b3  AND I.EMP_ID = :b4  AND I.SHIFT_TYP = :b5"
+P12_14_SEP_200410_28_37
+SELECT MEM_NAME INTO :invoice.MEM_NAME
+ FROM MAIN_MEMB,memb_tbl
+MAIN_MEMB.MEM_SERIAL=memb_tbl.MEM_SERIAL and memb_tbl.mem_id= :invoice.mem_id  ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+POST-CHANGE (INVOICE.MEM_ID)
+STANDARD
+MAHROSA
+	MAIN_MEMB
+MAHROSA
+MEMB_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT MEM_NAME   FROM MAIN_MEMB,MEMB_TBL  WHERE MAIN_MEMB.MEM_SERIAL = MEMB_TBL.MEM_SERIAL  AND MEMB_TBL.MEM_ID = :b1"
+P3_13_SEP_200412_18_00
+SELECT point_NAME INTO :invoice.p_NAME
+ FROM point_tbl
+point_code=:invoice.point_code  ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+ POST-CHANGE (INVOICE.POINT_CODE)
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+P2_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+-----------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat1.jpg', 'any', 'i1');
+:parameter.type :=1;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I1)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\mashrobat1.jpg
+ITEM_PRICE_VIEW
+PRESSED
+WHEN-BUTTON-PRESSED
+P4_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+----------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat1.jpg', 'any', 'i2');
+:parameter.type :=2;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I2)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat1.jpg
+ITEM_PRICE_VIEW
+P5_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+---------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r1.jpg', 'any', 'i3');
+-------------------------------------
+:parameter.type :=3;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I3)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\fata2r1.jpg
+ITEM_PRICE_VIEW
+P6_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+--------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat1.jpg', 'any', 'i4');
+-----------------------------------------------
+:parameter.type :=4;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I4)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\pitzat1.jpg
+ITEM_PRICE_VIEW
+P7_31_AUG_200408_24_45
+'READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+--------------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat1.jpg', 'any', 'i5');
+---------------------------------query------------------------------
+:parameter.type :=5;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I5)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\salatat1.jpg
+ITEM_PRICE_VIEW
+P8_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+------------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat1.jpg', 'any', 'i6');
+----------------------------
+:parameter.type :=6;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I6)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat1.jpg
+ITEM_PRICE_VIEW
+P10_31_AUG_200408_24_45
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+-------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at1.jpg', 'any', 'i8');
+---------------------------------------------
+:parameter.type :=7;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I8)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at1.jpg
+ITEM_PRICE_VIEW
+P10_05_SEP_200411_22_54
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+----------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya1.jpg', 'any', 'i11');
+-------------------------------------
+:parameter.type :=8;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I11)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya1.jpg
+ITEM_PRICE_VIEW
+P11_05_SEP_200411_22_54
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+----------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n1.jpg', 'any', 'i12');
+-----------------------------------------------
+:parameter.type :=9;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I12)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n1.jpg
+ITEM_PRICE_VIEW
+P12_05_SEP_200411_22_54
+	READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+------------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat1.jpg', 'any', 'i13');
+------------------------------------
+:parameter.type :=10;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I13)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat1.jpg
+ITEM_PRICE_VIEW
+P13_05_SEP_200411_22_54
+@READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i7');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'i9');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat1.jpg', 'any', 'i14');
+-----------------------------------
+:parameter.type :=11;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I14)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat1.jpg
+ITEM_PRICE_VIEW
+P14_05_SEP_200411_22_54
+YREAD_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i7');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'i9');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg', 'any', 'i15');
+-----------------------------------------------------
+:parameter.type :=12;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I15)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg
+ITEM_PRICE_VIEW
+82_14_SEP
+8ME INTO 
+ FROM 
+8ERIAL=me
+8L and me
+8invoice.
+8PTION
+8D THEN 
+8TRIGGER_
+8E.MEM_ID-
+STAND0
+8AHROSA
+gray92
+gray68
+r0g50b0
+x& IT"<anon
+r25g75b0
+"x( Line 2>"
+r100gray20
+r100custom8
+SELECT MEM_NAME   FROM MAIN_MEMB,MEMB_TBL  WHERE MAIN_MEMB.MEM_SERIAL = MEMB_TBL.MEM_SERIAL  AND MEMB_TBL.MEM_ID = :b1"
+EVIOUS
+previous
+MS Sans Serif
+PREVIOUS
+PREVIOUS
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P15_05_SEP_200411_22_54
+"READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i7');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'i9');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg', 'any', 'i16');
+:parameter.type :=13;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I16)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg
+ITEM_PRICE_VIEW
+P16_05_SEP_200411_22_54
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i7');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+--READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'i9');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal1.jpg', 'any', 'i17');
+:parameter.type :=14;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I17)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal1.jpg
+ITEM_PRICE_VIEW
+P17_05_SEP_200411_22_54
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashrobat.jpg', 'any', 'i1');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\halaweyat.jpg', 'any', 'i2');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\fata2r.jpg', 'any', 'i3');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\pitzat.jpg', 'any', 'i4');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\salatat.jpg', 'any', 'i5');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\sandawetshat.jpg', 'any', 'i6');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\motanwe3at.jpg', 'any', 'i8');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg', 'any', 'i11');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\3aga2n.jpg', 'any', 'i12');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\mashweyat.jpg', 'any', 'i13');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\neshaweyat.jpg', 'any', 'i14');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg', 'any', 'i15');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\talabat khasa.jpg', 'any', 'i16');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg', 'any', 'i17');
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg', 'any', 'i18');
+--------------------------------------------------------------------------------------
+READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\wagabat yawmeya1.jpg', 'any', 'i18');
+-------------------------------------------
+:parameter.type :=15;
+go_block('ITEM_PRICE_VIEW');
+execute_query;
+WHEN-MOUSE-CLICK (INVOICE.I18)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya1.jpg
+ITEM_PRICE_VIEW
+P1_13_SEP_200412_18_00
+SELECT EMP_NAME INTO :invoice.e_NAME
+ FROM emp_tbl
+emp_id=:invoice.emp_id   ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+POST-CHANGE (INVOICE.EMP_ID)
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+P4_13_SEP_200412_18_00
+list_values;
+'WHEN-MOUSE-DOUBLECLICK (INVOICE.P_NAME)
+SQLFORMS
+"PKG INIT"<anonymous>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+P4_14_SEP_200410_28_37
+SELECT i_NAME INTO :inv_dtl.i_NAME
+ FROM item_tbl
+i_CODE =:inv_dtl.i_CODE   ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+POST-CHANGE (INV_DTL.I_CODE)
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+P5_14_SEP_200410_28_37
+&:inv_dtl.i_q := :qty * :inv_dtl.PRICE;
+ WHEN-VALIDATE-ITEM (INV_DTL.QTY)
+STANDARD
+"PKG INIT"<anonymous>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+P7_14_SEP_200410_28_37
+&:inv_dtl.i_q := :qty * :inv_dtl.PRICE;
+"WHEN-VALIDATE-ITEM (INV_DTL.PRICE)
+STANDARD
+"PKG INIT"<anonymous>""
+DELETE FROM INV_DTL I WHERE I.SERIAL_NO = :b1  AND I.POINT_CODE = :b2  AND I.INV_DATE = :b3  AND I.EMP_ID = :b4  AND I.SHIFT_TYP = :b5"
+P8_14_SEP_200410_28_37
+&:inv_dtl.i_q := :qty * :inv_dtl.PRICE;
+ WHEN-VALIDATE-ITEM (INV_DTL.I_Q)
+STANDARD
+"PKG INIT"<anonymous>""
+nonymous>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+?r =7s
+J3[_'/
+(*1:KM*
+!<k$E_
+2_(z-I\
+gM5cNV
+((J@&(
+D}h|wr
+G0{3SF
+gM;$oF
+QVHP3#X
+iN72!Q
+[vIUZ>
+jJ r1T
+6-5[Y8
+j	(jzo
+*z}*DA
+nzqVDs
+'oJ,2-kQ
+( _%}(
+!Z#&jP 
+\y^_J[
+jdJfXS
+ckJt{o,q
+hl[\Es
+ Z@GRX
+ 8(cga
+A$u%	R1i
+\}:UX.
+G!psw!
+jV5LtM
+Lv@OL/
+H	TaqWc 
+Lmyd5<
+>Q]Q8E
+((gn*J
+)jVk{f
+3@!((^=
+@#6kmN
+Zf=$U#
+G+.6.'
+'{e{o}
+OOoz@=[
+P!;}zf
+EXJAa;T
+g4\F/J
+AT1Gjb
+y	B`sH
+U,9n;u
+yq%#[E	
+G$k,F6
+}jM.(l
+j.?b<[[
+gfw*on
+TDed%J
+hhZxly_
+U,9n;u
+yq%#[E	
+G$k,F6
+P1_13_SEP_200411_18_19
+SELECT i_NAME INTO :ITEM_PRICE_VIEW.i_NAME
+ FROM item_tbl
+i_CODE =:ITEM_PRICE_VIEW.i_CODE   ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+$POST-CHANGE (ITEM_PRICE_VIEW.I_CODE)
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+P2_14_SEP_200410_28_37
+insert into INV_DTL(point_code,i_code) values (:item_price_view.point_code,:item_price_view.i_code);
+commit;
+go_block('inv_dtl');
+execute_query;
+/WHEN-MOUSE-DOUBLECLICK (ITEM_PRICE_VIEW.I_NAME)
+STANDARD
+MAHROSA
+INV_DTL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 3>""
+inv_dtl
+INSERT INTO INV_DTL ( POINT_CODE,I_CODE )  VALUES ( :b1,:b2  )"
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P_RUNREPORT
+jPROCEDURE P_RUNREPORT IS
+  RUN_PRODUCT(REPORTS,'EMP01',SYNCHRONOUS,RUNTIME,FILESYSTEM,'',NULL);
+STANDARD
+"PKG INIT"P_RUNREPORT""
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+RPROCEDURE Query_Master_Details(rel_id Relation,detail VARCHAR2) IS
+  oldmsg VARCHAR2(2);  -- Old Message Level Setting
+  reldef VARCHAR2(5);  -- Relation Deferred Setting
+  -- Initialize Local Variable(s)
+  reldef := Get_Relation_Property(rel_id, DEFERRED_COORDINATION);
+  oldmsg := :System.Message_Level;
+  -- If NOT Deferred, Goto detail and execute the query.
+  IF reldef = 'FALSE' THEN
+    Go_Block(detail);
+    Check_Package_Failure;
+    :System.Message_Level := '10';
+    Execute_Query;
+    :System.Message_Level := oldmsg;
+  ELSE
+    --
+    -- Relation is deferred, mark the detail block as un-coordinated
+    --
+    Set_Block_Property(detail, COORDINATION_STATUS, NON_COORDINATED);
+  END IF;
+EXCEPTION
+    WHEN Form_Trigger_Failure THEN
+      :System.Message_Level := oldmsg;
+      RAISE;
+END Query_Master_Details;
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+"QUERY_MASTER_DETAILS"REL_ID"RELATION"DETAIL"VARCHAR2"OLDMSG"2"RELDEF"5"GET_RELATION_PROPERTY"DEFERRED_COORDINATION"System.Message_Level""="FALSE"GO_BLOCK"CHECK_PACKAGE_FAILURE"10"EXECUTE_QUERY"SET_BLOCK_PROPERTY"COORDINATION_STATUS"NON_COORDINATED"FORM_TRIGGER_FAILURE"RAISE""
+QUERY_MASTER_DETAILS
+EXCEPTION
+    WHEN Form_Trigger_Failure THEN
+      :System.Message_Level := oldmsg;
+      RAISE;
+END Query_Master_Details;
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+"QUERY_MASTER_DETAILS"REL_ID"RELATION"DETAIL"VARCHAR2"OLDMSG"2"RELDEF"5"GET_RELATION_PROPERTY"DEFERRED_COORDINATION"System.Message_Level""="FALSE"GO_BLOCK"CHECK_PACKAGE_FAILURE"10"EXECUTE_QUERY"SET_BLOCK_PROPERTY"COORDINATION_STATUS"NON_COORDINATED"FORM_TRIGGER_FAILURE"RAISE""
+CLEAR_ALL_MASTER_DETAILS
+sPROCEDURE Clear_All_Master_Details IS
+  mastblk  VARCHAR2(30);  -- Initial Master Block Causing Coord
+  coordop  VARCHAR2(30);  -- Operation Causing the Coord
+  trigblk  VARCHAR2(30);  -- Cur Block On-Clear-Details Fires On
+  startitm VARCHAR2(61);  -- Item in which cursor started
+  frmstat  VARCHAR2(15);  -- Form Status
+  curblk   VARCHAR2(30);  -- Current Block
+  currel   VARCHAR2(30);  -- Current Relation
+  curdtl   VARCHAR2(30);  -- Current Detail Block
+  FUNCTION First_Changed_Block_Below(Master VARCHAR2)
+  RETURN VARCHAR2 IS
+    curblk VARCHAR2(30);  -- Current Block
+    currel VARCHAR2(30);  -- Current Relation
+    retblk VARCHAR2(30);  -- Return Block
+  BEGIN
+    --
+    -- Initialize Local Vars
+    --
+    curblk := Master;
+    currel := Get_Block_Property(curblk,  FIRST_MASTER_RELATION);
+    --
+    -- While there exists another relation for this block
+    --
+    WHILE currel IS NOT NULL LOOP
+      --
+      -- Get the name of the detail block
+      --
+      curblk := Get_Relation_Property(currel, DETAIL_NAME);
+      --
+      -- If this block has changes, return its name
+      --
+      IF ( Get_Block_Property(curblk, STATUS) = 'CHANGED' ) THEN
+        RETURN curblk;
+      ELSE
+        --
+        -- No changes, recursively look for changed blocks below
+        --
+        retblk := First_Changed_Block_Below(curblk);
+        --
+        -- If some block below is changed, return its name
+        --
+        IF retblk IS NOT NULL THEN
+          RETURN retblk;
+        ELSE
+          --
+          -- Consider the next relation
+          --
+          currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+        END IF;
+      END IF;
+    END LOOP;
+    --
+    -- No changed blocks were found
+    --
+    RETURN NULL;
+  END First_Changed_Block_Below;
+  -- Init Local Vars
+  mastblk  := :System.Master_Block;
+  coordop  := :System.Coordination_Operation;
+  trigblk  := :System.Trigger_Block;
+  startitm := :System.Cursor_Item;
+  frmstat  := :System.Form_Status;
+  -- If the coordination operation is anything but CLEAR_RECORD or
+  -- SYNCHRONIZE_BLOCKS, then continue checking.
+  IF coordop NOT IN ('CLEAR_RECORD', 'SYNCHRONIZE_BLOCKS') THEN
+    --
+    -- If we're processing the driving master block...
+    --
+    IF mastblk = trigblk THEN
+      --
+      -- If something in the form is changed, find the
+      -- first changed block below the master
+      --
+      IF frmstat = 'CHANGED' THEN
+        curblk := First_Changed_Block_Below(mastblk);
+        --
+        -- If we find a changed block below, go there
+        -- and Ask to commit the changes.
+        --
+        IF curblk IS NOT NULL THEN
+          Go_Block(curblk);
+          Check_Package_Failure;
+          Clear_Block(ASK_COMMIT);
+          --
+          -- If user cancels commit dialog, raise error
+          --
+          IF NOT ( :System.Form_Status = 'QUERY'
+                   OR :System.Block_Status = 'NEW' ) THEN
+            RAISE Form_Trigger_Failure;
+          END IF;
+        END IF;
+      END IF;
+    END IF;
+  END IF;
+  -- Clear all the detail blocks for this master without
+  -- any further asking to commit.
+  currel := Get_Block_Property(trigblk, FIRST_MASTER_RELATION);
+  WHILE currel IS NOT NULL LOOP
+    curdtl := Get_Relation_Property(currel, DETAIL_NAME);
+    IF Get_Block_Property(curdtl, STATUS) <> 'NEW'  THEN
+      Go_Block(curdtl);
+      Check_Package_Failure;
+      Clear_Block(NO_VALIDATE);
+      IF :System.Block_Status <> 'NEW' THEN
+        RAISE Form_Trigger_Failure;
+      END IF;
+    END IF;
+    currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+  END LOOP;
+  -- Put cursor back where it started
+  IF :System.Cursor_Item <> startitm THEN
+    Go_Item(startitm);
+    Check_Package_Failure;
+  END IF;
+EXCEPTION
+  WHEN Form_Trigger_Failure THEN
+    IF :System.Cursor_Item <> startitm THEN
+      Go_Item(startitm);
+    END IF;
+    RAISE;
+END Clear_All_Master_Details;
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+"CLEAR_ALL_MASTER_DETAILS"MASTBLK"VARCHAR2"30"COORDOP"TRIGBLK"STARTITM"61"FRMSTAT"15"CURBLK"CURREL"CURDTL"FUNCTION"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETURN"RETBLK"GET_BLOCK_PROPERTY"FIRST_MASTER_RELATION"WHILE"IS NOT NULL"LOOP"GET_RELATION_PROPERTY"DETAIL_NAME"STATUS"="CHANGED"NEXT_MASTER_RELATION"System.Master_Block""System.Coordination_Operation"System.Trigger_Block"System.Cursor_Item"System.Form_Status"CLEAR_RECORD"SYNCHRONIZE_BLOCKS"GO_BLOCK"CHECK_PACKAGE_FAILURE"CLEAR_BLOCK"ASK_COMMIT"QUERY"System.Block_Status"NEW"NOT"RAISE"FORM_TRIGGER_FAILURE"!="NO_VALIDATE"GO_ITEM""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+gray72G
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+darkgreen
+ $ & (
+gray96
+= END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\RikoNew.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+CASHER
+My Editor
+DELETE
+DELETE
+Delete
+Cancel
+PREVIOUS
+PREVIOUS
+Inv Date
+Emp Id
+Shift Typ
+Serial No
+T Code
+I Code
+Point Code
+Point_Name
+Point_Code
+CASHER
+WINDOW1
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+PRE-FORM
+PRE-FORM
+KEY-EXIT
+KEY-EXIT
+ON-CLEAR-DETAILS
+ON-CLEAR-DETAILS
+ONEBUTTON
+ONEBUTTON
+yellow
+Simplified Arabic
+TWOBUTTON
+TWOBUTTON
+Simplified Arabic
+THREEBUTTON
+THREEBUTTON
+Cancel
+Simplified Arabic
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+TOOLBAR
+TOOLBAR
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+TOOLBAR
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PREVIOUS
+PREVIOUS
+previous
+MS Sans Serif
+PREVIOUS
+PREVIOUS
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DELETE
+DELETE
+Delete
+delete
+MS Sans Serif
+DELETE
+DELETE
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+UFORMNAME
+UFORMNAME
+TOOLBAR
+r0g75b75
+r0g0b50
+INVOICE
+INVOICE
+INVOICE
+SERIAL_NO
+POINT_CODE
+INV_DATE
+EMP_ID
+SHIFT_TYP
+INV_TYP
+TABLE_NO
+INV_TIME
+SERV_PER
+SERV_Q
+DISC_PER
+DISC_Q
+MEM_ID
+ROOM_NO
+TEL_NO
+DEL_NAME
+DEL_ADDRESS
+INV_TOT
+ON-POPULATE-DETAILS
+ON-POPULATE-DETAILS
+PRE-DELETE
+PRE-DELETE
+SERIAL_NO
+SERIAL_NO
+SERIAL_NO
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+INV_TYP
+INV_TYP
+OPTIONAL
+INV_TYP
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+DEFAULT
+r50g75b88
+transparent
+r50g75b88
+transparent
+Traditional Arabic
+r50g75b88
+transparent
+Traditional Arabic
+r50g75b88
+transparent
+Traditional Arabic
+r50g75b88
+transparent
+Traditional Arabic
+Traditional Arabic
+TABLE_NO
+TABLE_NO
+TABLE_NO
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+INV_TIME
+INV_TIME
+INV_TIME
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+SERV_PER
+SERV_PER
+SERV_PER
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+SERV_Q
+SERV_Q
+SERV_Q
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+DISC_PER
+DISC_PER
+DISC_PER
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+DISC_Q
+DISC_Q
+DISC_Q
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+MEM_ID
+MEM_ID
+MEM_ID
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+ROOM_NO
+ROOM_NO
+ROOM_NO
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+TEL_NO
+TEL_NO
+TEL_NO
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+DEL_NAME
+DEL_NAME
+DEL_NAME
+CANVAS1
+r0g0b100
+Simplified Arabic Fixed
+r100g0b88
+Simplified Arabic
+DEL_ADDRESS
+DEL_ADDRESS
+DEL_ADDRESS
+CANVAS1
+r0g0b100
+Simplified Arabic Fixed
+r100g0b88
+Simplified Arabic
+INV_TOT
+INV_TOT
+INV_TOT
+CANVAS1
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+POINT_CODE
+POINT_CODE
+POINT_CODE
+LOV105
+r0g0b100
+Simplified Arabic
+r100g0b88
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+INV_DATE
+INV_DATE
+INV_DATE
+r0g0b100
+Simplified Arabic
+Simplified Arabic
+$$datetime$$
+EMP_ID
+EMP_ID
+EMP_ID
+LOV100
+r0g0b100
+Simplified Arabic
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+SHIFT_TYP
+SHIFT_TYP
+MELFIKY
+SHIFT_TYP
+r0g0b100
+Simplified Arabic
+Simplified Arabic
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+MEM_NAME
+MEM_NAME
+CANVAS1
+r0g0b100
+Simplified Arabic
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+CANVAS1
+r0g0b100
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+P_NAME
+P_NAME
+LOV105
+r0g0b100
+Simplified Arabic
+MANDATORY
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+E_NAME
+E_NAME
+LOV100
+r0g0b100
+Simplified Arabic
+INVOICE_INV_DTL
+INVOICE_INV_DTL
+INV_DTL
+invoice.serial_no =INV_DTL.serial_no and
+invoice.point_code=INV_DTL.point_code   and
+invoice.inv_date=INV_DTL.inv_date   and
+invoice.emp_id=INV_DTL.emp_id   and
+invoice.shift_typ=INV_DTL.shift_typ
+INV_DTL
+INV_DTL
+INV_DTL
+SERIAL_NO
+POINT_CODE
+INV_DATE
+EMP_ID
+SHIFT_TYP
+I_CODE
+I_SERIAL
+CAP_NO
+CANVAS1
+SERIAL_NO
+SERIAL_NO
+INVOICE.SERIAL_NO
+SERIAL_NO
+Serial No
+SHIFT_TYP
+SHIFT_TYP
+INVOICE.SHIFT_TYP
+SHIFT_TYP
+Shift Typ
+EMP_ID
+EMP_ID
+INVOICE.EMP_ID
+EMP_ID
+Emp Id
+INV_DATE
+INV_DATE
+INVOICE.INV_DATE
+INV_DATE
+Inv Date
+POINT_CODE
+POINT_CODE
+INVOICE.POINT_CODE
+POINT_CODE
+I_CODE
+I_CODE
+I_CODE
+r0g75b100
+Simplified Arabic
+Andalus
+POST-CHANGE
+POST-CHANGE
+I_SERIAL
+I_SERIAL
+I_SERIAL
+CANVAS1
+r25g50b100
+Simplified Arabic
+Simplified Arabic
+CANVAS1
+r25g50b100
+Simplified Arabic
+Simplified Arabic
+WHEN-VALIDATE-ITEM
+WHEN-VALIDATE-ITEM
+CANVAS1
+r25g50b100
+Simplified Arabic
+Simplified Arabic
+WHEN-VALIDATE-ITEM
+WHEN-VALIDATE-ITEM
+CANVAS1
+r25g50b100
+Simplified Arabic
+Simplified Arabic
+WHEN-VALIDATE-ITEM
+WHEN-VALIDATE-ITEM
+CAP_NO
+CAP_NO
+CAP_NO
+CANVAS1
+r25g50b100
+Simplified Arabic
+Simplified Arabic
+I_NAME
+I_NAME
+CANVAS1
+r25g50b100
+Simplified Arabic
+ITEM_PRICE_VIEW
+ITEM_PRICE_VIEW
+DISPLAY
+ITEM_PRICE_VIEW
+T_CODE
+POINT_CODE
+I_CODE
+t_code =:parameter.type and point_code=:invoice.point_code
+CANVAS1
+I_CODE
+I_CODE
+I_CODE
+I Code
+POST-CHANGE
+POST-CHANGE
+T_CODE
+T_CODE
+T_CODE
+T Code
+POINT_CODE
+POINT_CODE
+POINT_CODE
+Point Code
+I_NAME
+I_NAME
+I_NAME
+CANVAS1
+r100g100b50
+Simplified Arabic
+MANDATORY
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+CANVAS1
+r100g100b50
+Simplified Arabic
+WINDOW1
+TOOLBAR
+r0g0b50
+TEXT93
+TEXT93
+r0g0b100
+CMPTXT94
+CMPTXT94
+TEXTSTR95
+TEXTSTR95
+Simplified Arabic
+TEXT97
+TEXT97
+r0g0b100
+CMPTXT98
+CMPTXT98
+TEXTSTR99
+TEXTSTR99
+Simplified Arabic
+r0g0b100
+transparent
+transparent
+Simplified Arabic
+CANVAS1
+CANVAS1
+WINDOW1
+GROUP56
+GROUP56
+TEXT53
+TEXT53
+r0g0b100
+CMPTXT54
+CMPTXT54
+TEXTSTR55
+TEXTSTR55
+magenta
+Simplified Arabic
+GROUP52
+GROUP52
+TEXT48
+TEXT48
+r0g0b100
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+magenta
+Simplified Arabic
+GRAPHIC51
+GRAPHIC51
+r0g0b100
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+magenta
+Simplified Arabic
+TEXT65
+TEXT65
+r50g75b88
+CMPTXT66
+CMPTXT66
+TEXTSTR67
+TEXTSTR67
+Traditional Arabic
+GRAPHIC69
+GRAPHIC69
+r50g75b88
+CMPTXT66
+CMPTXT66
+TEXTSTR67
+Traditional Arabic
+FRAME70
+FRAME70
+INV_DTL
+r100g100b75
+transparent
+GROUP72
+GROUP72
+GROUP73
+GROUP73
+IMAGE33
+IMAGE33
+GROUP84
+GROUP84
+FRAME85
+FRAME85
+r50g75b88
+Traditional Arabic
+TEXT112
+TEXT112
+r100g100b75
+CMPTXT113
+CMPTXT113
+TEXTSTR114
+TEXTSTR114
+Simplified Arabic
+TEXT115
+TEXT115
+r50g75b88
+CMPTXT116
+CMPTXT116
+TEXTSTR117
+TEXTSTR117
+Traditional Arabic
+TEXT118
+TEXT118
+r50g75b88
+CMPTXT119
+CMPTXT119
+TEXTSTR120
+TEXTSTR120
+Traditional Arabic
+TEXT121
+TEXT121
+r50g75b88
+CMPTXT122
+CMPTXT122
+TEXTSTR123
+TEXTSTR123
+Traditional Arabic
+TEXT124
+r50g75b88
+CMPTXT125
+CMPTXT125
+TEXTSTR126
+TEXTSTR126
+Traditional Arabic
+TEXT127
+TEXT127
+r0g0b100
+r50g75b88
+CMPTXT128
+CMPTXT128
+TEXTSTR129
+TEXTSTR129
+Traditional Arabic
+r0g0b100
+transparent
+transparent
+Simplified Arabic
+MYEDITOR
+MYEDITOR
+My Editor
+r100g100b50
+LOV100
+LOV100
+LOV100
+EMP_ID
+EMP_ID
+INVOICE.EMP_ID
+EMP_NAME
+EMP_NAME
+INVOICE.E_NAME
+LOV105
+LOV105
+LOV105
+POINT_CODE
+POINT_CODE
+Point_Code
+INVOICE.POINT_CODE
+POINT_NAME
+POINT_NAME
+Point_Name
+INVOICE.P_NAME
+MELFIKY
+MELFIKY
+MANDATORY
+P_RUNREPORT
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+LOV100
+LOV100
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL 
+EMP_ID
+EMP_ID
+EMP_NAME
+EMP_NAME
+LOV105
+LOV105
+SELECT ALL POINT_TBL.POINT_CODE, POINT_TBL.POINT_NAME
+FROM POINT_TBL 
+POINT_CODE
+POINT_CODE
+POINT_NAME
+POINT_NAME
+CURRENTRECCORD
+CURRENTRECCORD
+yellow
+Arabic Transparent
+MANDATORY
+MANDATORY
+darkblue
+r0g100b100
+Traditional Arabic
+OPTIONAL
+OPTIONAL
+gray96
+Traditional Arabic
+DISPLAY
+DISPLAY
+gray96
+r75g100b0
+Traditional Arabic
+CANVAS
+CANVAS
+gray96
+Traditional Arabic
+TOOLBAR
+TOOLBAR
+darkgray
+Traditional Arabic
+WINDOW1
+WINDOW1
+SYSTEM.MESSAGE_LEVEL
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+   P_EXIT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.EXIT)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+SYSTEM.MESSAGE_LEVEL
+P1_10_JAN_200413_50_44
+QUERY_MASTER_DETAILS
+SYSTEM.CURSOR_ITEM
+SYSTEM.CURSOR_ITEM
+P15_31_AUG_200408_24_45
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.FORM_STATUS
+SYSTEM.FORM_STATUS
+P0_10_JAN_200414_08_02
+CLEAR_ALL_MASTER_DETAILS
+INVOICE.EMP_ID
+INVOICE.EMP_ID
+EMP_ID
+INVOICE
+P10_12_JAN_200411_54_33
+P15_31_AUG_200408_24_45
+P16_31_AUG_200408_24_45
+P1_13_SEP_200412_18_00
+GLOBAL.USER_ID
+GLOBAL.USER_ID
+P10_12_JAN_200411_54_33
+INVOICE.POINT_CODE
+INVOICE.POINT_CODE
+POINT_CODE
+INVOICE
+P10_12_JAN_200411_54_33
+P15_31_AUG_200408_24_45
+P16_31_AUG_200408_24_45
+P3_13_SEP_200412_18_00
+GLOBAL.POINT_CODE
+GLOBAL.POINT_CODE
+P10_12_JAN_200411_54_33
+TOOLBAR.UFORMNAME
+TOOLBAR.UFORMNAME
+UFORMNAME
+TOOLBAR
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.MODE
+SYSTEM.MODE
+P0_10_JAN_200414_08_02
+SYSTEM.RECORD_STATUS
+SYSTEM.RECORD_STATUS
+P15_31_AUG_200408_24_45
+INVOICE.SERIAL_NO
+INVOICE.SERIAL_NO
+SERIAL_NO
+INVOICE
+P15_31_AUG_200408_24_45
+P16_31_AUG_200408_24_45
+INVOICE.INV_DATE
+INVOICE.INV_DATE
+INV_DATE
+INVOICE
+P15_31_AUG_200408_24_45
+P16_31_AUG_200408_24_45
+INVOICE.SHIFT_TYP
+INVOICE.SHIFT_TYP
+SHIFT_TYP
+INVOICE
+P15_31_A
+UG_200408_24_45
+P16_31_AUG_200408_24_45
+INVOICE.MEM_NAME
+INVOICE.MEM_NAME
+MEM_NAME
+INVOICE
+P12_14_SEP_200410_28_37
+INVOICE.MEM_ID
+INVOICE.MEM_ID
+MEM_ID
+INVOICE
+P12_14_SEP_200410_28_37
+INVOICE.P_NAME
+INVOICE.P_NAME
+P_NAME
+INVOICE
+P3_13_SEP_200412_18_00
+INVOICE.E_NAME
+INVOICE.E_NAME
+E_NAME
+INVOICE
+P1_13_SEP_200412_18_00
+PARAMETER.TYPE
+PARAMETER.TYPE
+P2_31_AUG_200408_24_45
+P4_31_AUG_200408_24_45
+P5_31_AUG_200408_24_45
+P6_31_AUG_200408_24_45
+P7_31_AUG_200408_24_45
+P8_31_AUG_200408_24_45
+P10_31_AUG_200408_24_45
+P10_05_SEP_200411_22_54
+P11_05_SEP_200411_22_54
+P12_05_SEP_200411_22_54
+P13_05_SEP_200411_22_54
+P14_05_SEP_200411_22_54
+P15_05_SEP_200411_22_54
+P16_05_SEP_200411_22_54
+P17_05_SEP_200411_22_54
+INV_DTL.I_NAME
+INV_DTL.I_NAME
+I_NAME
+INV_DTL
+P4_14_SEP_200410_28_37
+INV_DTL.I_CODE
+INV_DTL.I_CODE
+I_CODE
+INV_DTL
+P4_14_SEP_200410_28_37
+ITEM_PRICE_VIEW.I_NAME
+ITEM_PRICE_VIEW.I_NAME
+I_NAME
+ITEM_PRICE_VIEW
+P1_13_SEP_200411_18_19
+ITEM_PRICE_VIEW.I_CODE
+ITEM_PRICE_VIEW.I_CODE
+I_CODE
+ITEM_PRICE_VIEW
+P1_13_SEP_200411_18_19
+P2_14_SEP_200410_28_37
+ITEM_PRICE_VIEW.POINT_CODE
+ITEM_PRICE_VIEW.POINT_CODE
+POINT_CODE
+ITEM_PRICE_VIEW
+P2_14_SEP_200410_28_37
+SYSTEM.MASTER_BLOCK
+SYSTEM.MASTER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.COORDINATION_OPERATION
+SYSTEM.COORDINATION_OPERATION
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.TRIGGER_BLOCK
+SYSTEM.TRIGGER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.BLOCK_STATUS
+SYSTEM.BLOCK_STATUS
+CLEAR_ALL_MASTER_DETAILS
+INV_DTL.I_Q
+INV_DTL.I_Q
+INV_DTL
+P5_14_SEP_200410_28_37
+P7_14_SEP_200410_28_37
+P8_14_SEP_200410_28_37
+P5_14_SEP_200410_28_37
+P7_14_SEP_200410_28_37
+P8_14_SEP_200410_28_37
+INV_DTL.PRICE
+INV_DTL.PRICE
+INV_DTL
+P5_14_SEP_200410_28_37
+P7_14_SEP_200410_28_37
+P8_14_SEP_200410_28_37
+MAIN_MEMB.MEM_SERIAL=memb_tbl.MEM_SERIAL and memb_tbl.mem_id= :invoice.mem_id  ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+POST-CHANGE (INVOICE.MEM_ID)
+STANDARD
+MAHROSA
+	MAIN_MEMB
+MAHROSA
+MEMB_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT MEM_NAME   FROM MAIN_MEMB,MEMB_TBL  WHERE MAIN_MEMB.MEM_SERIAL = MEMB_TBL.MEM_SERIAL  AND MEMB_TBL.MEM_ID = :b1"
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+===UCS2-LE===
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+*017:<>@B
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/138<=AFJNRWXZ^`cfnqt|
+#$/136:?CDIMNPSWY]_`
+#$)*26;<DHSUYZaimpswx
+   '0007
+#$)*26;<DHSUYZaimpswx
+   '0007
+#$/156=EILOST[cgjmqry
+!!!!!!!!!!!!!""##''''''+++++++,,--111111199:
+<@@@AAABBBCCCDDDJJJJJJJJJNNNNNNNNSSSSSSSSTTTTTTYYYYYYYZZZZ[[[\\\\`````````````aaaaaabbmmmmmmmnnnnnnnoooooooppppppppppppqqqqrrrssssttttttttuuxxxxxxx~~~~~~~~
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`

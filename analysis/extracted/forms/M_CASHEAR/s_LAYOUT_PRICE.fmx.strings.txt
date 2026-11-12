@@ -1,0 +1,482 @@
+src=M_CASHEAR/s_LAYOUT_PRICE.fmx
+sha256=535d3dcf9b8734c39b155cf0e941a07a20a71d025fd21c2785b1d0373e66df52
+size=96820
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:06.207025+00:00
+version_markers=none
+ascii_lines=460
+ucs2_lines=10
+trigger_count=0
+pl_sql_markers=11
+===ASCII===
+S_LAYOUT_PRICE
+MODULE4
+AMERICAN_AMERICA.AR8MSWIN1256
+P0_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P1_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P5_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P7_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+ITEM_TYPE
+P8_11_OCT_200408_37_00
+/NSPC2/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+BUTTON_PROC
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+STANDARD
+"DLL"TBLEN"STR""
+/NSPC2/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TOOLBAR
+STANDARD
+/NSPC2/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC2/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOOLBAR
+SET_TIMER
+SHOW_FUNCTION
+CHECK_PACKAGE_FAILURE
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+#POPUPHINT#
+MS Sans Serif
+D:\M_CASHEAR\HINT
+LOV716
+SELECT ALL ITEM_TBL.I_CODE, ITEM_TBL.I_NAME, ITEM_TBL.T_PRICE
+FROM ITEM_TBL
+ORDER BY ITEM_TBL.I_NAME 
+I_CODE
+I_NAME
+T_PRICE
+I_Code
+I_Name
+T_Price
+Simplified Arabic
+Simplified Arabic
+                                                  
+           
+Simplified Arabic
+yyyy/mm/dd
+yyyy/mm/dd
+                                                                           
+d:\a_navy\clear.ico
+d:\a_navy\listval
+333333
+p=p=p=
+(\(\(\
+ffffff
+P12_14_MAY_200321_23_29
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+                                                                                  
+P13_14_MAY_200321_23_29
+SQLFORMS
+"PKG INIT"<anonymous>""
+                                                                           
+                                                                          
+d:\a_navy\exit.ico
+                                                                                     
+d:\a_navy\left
+                                                                                         
+d:\a_navy\right
+                                                                                         
+d:\a_navy\down
+                                                                                     
+d:\a_navy\up
+                                                                                  
+                      
+d:\a_navy\canqry.ico
+                                                                                       
+d:\a_navy\execute.ico
+                                                              
+d:\a_navy\entqry
+P12_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+P14_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+Tahoma
+P40_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+Simplified Arabic
+Simplified Arabic
+D:\M_CASHEAR\print.ico
+P1_11_JAN_200514_20_13
+STANDARD
+"PKG INIT"<anonymous>""
+REP_ITEMS
+Simplified Arabic
+P2_16_JUN_201916_03_42
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_TBL
+ITEM_POINT
+DELETE FROM ITEM_POINT WHERE POINT_CODE = :b1  AND I_CODE = :b2"
+P11_14_MAY_200321_23_29
+/NSPC2/BUTTON_PROC
+"PKG INIT"<anonymous>""
+POINT_TBL
+POINT_TBL
+p_typ in (1,2)
+POINT_CODE
+Tahoma
+POINT_CODE
+Simplified Arabic
+POINT_NAME
+Simplified Arabic
+P0_11_OCT_200408_37_00
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_11_OCT_200408_37_00
+STANDARD
+FORMS4C
+FORMS40
+/NSPC2/QUERY_MASTER_DETAILS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+POINT_TBL.POINT_TBL_ITEM_POINT
+ITEM_POINT
+P10_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"DUMMY_DEFINE"ITEM_POINT_CUR"<cursor ptr>""
+Cannot delete master record when matching detail records exist.
+ITEM_POINT_CUR
+SELECT 1   FROM ITEM_POINT I  WHERE I.POINT_CODE = :b1"
+ITEM_POINT
+ITEM_POINT
+i_code in (select p.i_code from item_tbl p where t_code = :1)
+I_CODE
+POINT_CODE
+Point Code
+I_CODE
+Simplified Arabic
+P11_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+P13_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 5>"<SQL statement. Line 8>""
+SELECT COUNT(*)   FROM ITEM_TBL  WHERE I_CODE = :b1"SELECT I_NAME,T_PRICE   FROM ITEM_TBL  WHERE I_CODE = :b1"
+Simplified Arabic
+P1_11_OCT_200408_37_00
+SQLFORMS
+"PKG INIT"<anonymous>""
+Simplified Arabic
+99990.90
+99990.90
+Traditional Arabic
+P12_11_OCT_200408_37_00
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+lov716
+My_Private_LOV
+P4_11_OCT_200408_37_00
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_TYPE
+ITEM_TYPE
+T_NAME
+T_CODE
+Simplified Arabic
+Simplified Arabic
+T_NAME
+Simplified Arabic
+Simplified Arabic
+P14_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>""
+SELECT MAX(T_CODE)   FROM ITEM_TYPE"
+P15_11_OCT_200408_37_00
+STANDARD
+FORMS4C
+FORMS40
+/NSPC2/QUERY_MASTER_DETAILS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+ITEM_TYPE.ITEM_TYPE_ITEM_TBL
+ITEM_TBL
+P16_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+ITEM_TBL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM ITEM_TBL I WHERE I.T_CODE = :b1"
+P0_11_OCT_200410_15_17
+STANDARD
+MAHROSA
+ITEM_TBL
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"C"CUR"<cursor ptr>"I_CODE"T_PRICE"I"<SQL statement. Line 8>"<SQL statement. Line 12>""
+item_point
+SELECT I_CODE,T_PRICE   FROM ITEM_TBL  WHERE T_CODE = :b1"SELECT COUNT(*)   FROM ITEM_POINT  WHERE POINT_CODE = :b1  AND I_CODE = :b2"INSERT INTO ITEM_POINT ( POINT_CODE,I_CODE,PRICE )  VALUES ( :b1,:b2,:b3  )"
+ITEM_TBL
+ITEM_TBL
+i_code not in (select p.i_code from item_point p where p.point_code = :1)
+I_CODE
+I_CODE
+Traditional Arabic
+Traditional Arabic
+T_CODE
+T Code
+I_NAME
+Simplified Arabic
+P0_16_JUN_201916_03_42
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_POINT
+ITEM_TYPE
+Traditional Arabic
+T_PRICE
+Traditional Arabic
+99999.90
+99999.90
+P20_11_OCT_200408_37_00
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+item_point
+ITEM_TBL
+INSERT INTO ITEM_POINT ( POINT_CODE,I_CODE,PRICE )  VALUES ( :b1,:b2,:b3  )"
+LIST_VALUES
+I_CODE
+ITEM_POINT
+NEXT_BLOCK
+T_NAME
+POINT_NAME
+QUERY_MASTER_DETAILS
+ITEM_TYPE
+PUSH_BUTTON715
+ITEM_TYPE_ITEM_TBL
+CLEAR_RECORD
+POINT_CODE
+ITEM483
+T_CODE
+BUTTON_PROC
+CANCEL_QUERY
+POINT_TBL
+PUSH_BUTTON732
+PUSH_BUTTON588
+EXECUTE_QUERY
+PUSH_BUTTON481
+LOV716
+CLEAR_ALL_MASTER_DETAILS
+CANVAS2
+HELP_BUT
+ITEM_TBL
+COMMIT_FORM
+MAIN_WIN
+PUSH_BUTTON561
+PUSH_BUTTON482
+PREVIOUS_BLOCK
+T_PRICE
+POINT_TBL_ITEM_POINT
+EXIT_FORM
+I_NAME
+PUSH_BUTTON734
+PUSH_BUTTON655
+TOOLBAR
+CHECK_PACKAGE_FAILURE
+ENTER_QUERY
+P_NAME
+RECT694
+RECT693
+TEXT690
+RECT697
+TEXT698
+Simplified Arabic
+TEXT701
+GRAPHIC711
+GRAPHIC712
+GRAPHIC713
+RECT727
+GRAPHIC728
+TEXT736
+Simplified Arabic
+===UCS2-LE===
+]cdfhjln
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!)178>ACKQTVXZ\^`b
+*017:<>@B
+ (.069;=?A
+%'-068>A
+BHKLMOQSUWY
+*017:<>@B
+'-/589:@CDEKLRUVWY_bcdflntw}

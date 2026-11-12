@@ -1,0 +1,419 @@
+src=M_CASHEAR/point_close.fmx
+sha256=3d1343aba5b1aeac02a8923436d4600c2c798b46fd2a84420664ff618a857446
+size=119988
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.782939+00:00
+version_markers=none
+ascii_lines=398
+ucs2_lines=9
+trigger_count=0
+pl_sql_markers=5
+===ASCII===
+POINT_CLOSE
+MODULE4
+ARABIC_EGYPT.AR8MSWIN1256
+P0_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P1_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P5_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P7_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+STANDARD
+FORMS4C
+FORMS4W
+MAHROSA
+EMP_TBL
+MAHROSA
+	POINT_TBL
+MAHROSA
+INVOICE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 8>"<SQL statement. Line 15>"<SQL statement. Line 19>"<SQL statement. Line 23>"<SQL statement. Line 27>"<SQL statement. Line 32>"<SQL statement. Line 36>"<SQL statement. Line 40>"<SQL statement. Line 44>"<SQL statement. Line 48>""
+main_win
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND P_OK = 1  AND INV_TYP = 2  AND SHIFT_OK = :b4"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND P_OK = 1  AND INV_TYP = 1"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND MADF_TYP = 1  AND INV_TYP = 3"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND P_OK = 1  AND INV_TYP = 5"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND P_OK = 1  AND INV_TYP = 6"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND MADF_TYP = 2  AND INV_TYP = 3"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND EMP_ID = :b3  AND MADF_TYP = 3  AND INV_TYP = 3"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND INV_TYP = 4"SELECT SUM(INV_TOT)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND EMP_ID = :b3  AND MADF_TYP = 4  AND INV_TYP = 3"
+BUTTON_PROC
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+STANDARD
+"DLL"TBLEN"STR""
+/NSPC4/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TOOLBAR
+STANDARD
+/NSPC4/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC4/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOOLBAR
+SET_TIMER
+SHOW_FUNCTION
+#POPUPHINT#
+MS Sans Serif
+D:\M_CASHEAR\HINT
+Simplified Arabic
+Simplified Arabic
+                                                  
+           
+P12_14_MAY_200321_23_29
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+Simplified Arabic
+yyyy/mm/dd
+yyyy/mm/dd
+                                                                           
+                                                                                  
+d:\a_navy\clear.ico
+P13_14_MAY_200321_23_29
+SQLFORMS
+"PKG INIT"<anonymous>""
+                                                                           
+d:\a_navy\listval
+333333
+p=p=p=
+(\(\(\
+ffffff
+                                                                          
+d:\a_navy\exit.ico
+                                                                                     
+d:\a_navy\left
+                                                                                         
+d:\a_navy\right
+                                                                                         
+d:\a_navy\down
+                                                                                     
+d:\a_navy\up
+                                                                                  
+                      
+d:\a_navy\canqry.ico
+                                                                                       
+d:\a_navy\execute.ico
+                                                              
+d:\a_navy\entqry
+P12_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+P14_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+Tahoma
+P40_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+Simplified Arabic
+Simplified Arabic
+P0_12_OCT_200408_01_32
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+point_close
+P2_12_OCT_200408_01_32
+STANDARD
+MAHROSA
+INVOICE
+FORMS4C
+FORMS40
+FORMS4W
+MAHROSA
+INV_DTL
+SQLFORMS
+"PKG INIT"<anonymous>"C"CUR"<cursor ptr>"POINT_CODE"INV_DATE"EMP_ID"SHIFT_TYP"P_EMP_ID"SERIAL_NO"PER_NO"MIN_Q"TOT_M_Q"K"I"<SQL statement. Line 22>"<SQL statement. Line 30>"<SQL statement. Line 55>""
+ITEM764
+SELECT POINT_CODE,INV_DATE,EMP_ID,SHIFT_TYP,P_EMP_ID,SERIAL_NO,PER_NO,MIN_Q,TOT_M_Q   FROM INVOICE  WHERE SHIFT_OK = :b1  AND POINT_CODE = :b2  AND P_EMP_ID = :b3  AND P_OK = 1  AND INV_DATE = :b4 ORDER BY SERIAL_NO"UPDATE INV_DTL SET P_OK=1 WHERE POINT_CODE = :b1  AND EMP_ID = :b2  AND INV_DATE = :b3  AND SHIFT_TYP = :b4"UPDATE INVOICE SET P_OK=1,P_EMP_ID=:b1 WHERE POINT_CODE = :b2  AND EMP_ID = :b1  AND INV_DATE = :b4  AND SHIFT_TYP IN ( 2,3  ) AND P_OK = 0  AND INV_TYP = 3"DELETE FROM INVOICE WHERE POINT_CODE = :b1  AND P_EMP_ID = :b2  AND INV_DATE = :b3  AND SHIFT_OK = :b4  AND P_OK = 1"
+P4_12_OCT_200408_01_32
+STANDARD
+"PKG INIT"<anonymous>"LIST_ID"ID""
+emp_code
+inv_dt
+pt_code
+shift_t
+d:\m_cashear\invoice_serial
+P2_04_APR_200513_08_36
+MAHROSA
+DTL_VIEW
+MAHROSA
+INVOICE_HIST
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"CUR"<cursor ptr>"SERIAL_NO"POINT_CODE"INV_DATE"EMP_ID"SHIFT_TYP"S"CURR"T"DISC_PER"I"<SQL statement. Line 18>""
+SELECT SERIAL_NO,POINT_CODE,INV_DATE,EMP_ID,SHIFT_TYP,S   FROM DTL_VIEW"SELECT SERIAL_NO,POINT_CODE,INV_DATE,EMP_ID,SHIFT_TYP,T,DISC_PER   FROM INVOICE_HIST  WHERE P_OK = 1"UPDATE INVOICE_HIST SET DISC_Q=:b1 * :b2  / 100  WHERE SERIAL_NO = :b3  AND POINT_CODE = :b4  AND INV_DATE = :b5  AND EMP_ID = :b6  AND SHIFT_TYP = :b7"
+P2_13_JUN_200500_12_29
+STANDARD
+"PKG INIT"<anonymous>"LIST_ID"ID""
+emp_code
+inv_dt
+pt_code
+shift_t
+d:\m_cashear\invoice_prod
+P11_14_MAY_200321_23_29
+/NSPC4/BUTTON_PROC
+"PKG INIT"<anonymous>""
+Simplified Arabic
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+Simplified Arabic
+9999990.90
+9999990.90
+9999990.90
+9999990.90
+Simplified Arabic
+Simplified Arabic
+Simplified Arabic
+P78_11_OCT_200413_25_44
+SQLFORMS
+"PKG INIT"<anonymous>""
+Simplified Arabic
+Simplified Arabic
+P79_11_OCT_200413_25_44
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+Simplified Arabic
+P80_11_OCT_200413_25_44
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+POINT_CODE
+COMMIT_FORM
+EXIT_FORM
+HELP_BUT
+LIST_VALUES
+EMP_ID
+CLEAR_RECORD
+NEXT_BLOCK
+SHIFT_TYP
+PUSH_BUTTON481
+MAIN_WIN
+PUSH_BUTTON561
+ITEM752
+PUSH_BUTTON482
+CANVAS2
+PUSH_BUTTON751
+ITEM763
+ITEM764
+CANCEL_QUERY
+ITEM483
+EXECUTE_QUERY
+TOOLBAR
+PUSH_BUTTON655
+PT_CODE
+PUSH_BUTTON588
+INV_TIME
+BUTTON_PROC
+E_NAME
+PREVIOUS_BLOCK
+ENTER_QUERY
+P_NAME
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+^ElW+=Jtt1.
+- #=+H
+@z`V65-
+Akyp?{&
+#TQvoz
+"=Y|'9_Nx
+LEI$.p
+zh"Y Y
+(DUb,F
+`YOvkm
+TI<mYX
+Z}jBTP
+%Q(($(
+WDI*yx
+}L6<fGVd
+PJ hkh
+TI)K]p(
+&gO!Of
+*J*K,E 
+rVF5{G
+cN?JWH
+)O>8^}+
+Umrl@g
+gYhIsX
+F^zWU7bL
+4,%bQi:V@Cs
+hJ.Gr{
+eQ[DF{D+
+qZa)rL
+[4l.F*
+HPXP@PXP
+RECT689
+IMAGE688
+RECT694
+RECT693
+TEXT690
+TEXT725
+Simplified Arabic
+TEXT729
+GRAPHIC731
+RECT732
+TEXT722
+GRAPHIC736
+GRAPHIC737
+GRAPHIC739
+GRAPHIC740
+GRAPHIC741
+TEXT744
+Simplified Arabic
+GRAPHIC747
+RECT748
+GRAPHIC749
+GRAPHIC756
+GRAPHIC757
+GRAPHIC759
+TEXT766
+GRAPHIC769
+===UCS2-LE===
+:@BHKQSY\bdjmsu{~
+```````````
+]cdfhjln
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!)178>ACKQTVXZ\^`b
+'-/589:@AGJKLRUVW]`abhklmsvwx~
+#'	/47<AFKPU
+$&,/017:;<BCILMNTWXY_bjprx{|}

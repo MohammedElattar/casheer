@@ -1,0 +1,294 @@
+src=M_CASHEAR/nat_tbl.fmx
+sha256=ba6d868a0c8fb795380667e3d3e72c4f0dde410f17f6ada48b331a31973277f6
+size=84696
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.248768+00:00
+version_markers=none
+ascii_lines=278
+ucs2_lines=4
+trigger_count=0
+pl_sql_markers=0
+===ASCII===
+NAT_TBL
+MODULE4
+AMERICAN_AMERICA.AR8MSWIN1256
+P0_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P1_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P5_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P7_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+BUTTON_PROC
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+SHOW_OFF
+SHOW_ON
+STANDARD
+"DLL"TBLEN"STR""
+/NSPC14/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TOOLBAR
+STANDARD
+/NSPC14/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC14/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOOLBAR
+SET_TIMER
+SHOW_FUNCTION
+#POPUPHINT#
+MS Sans Serif
+D:\M_CASHEAR\HINT
+333333
+p=p=p=
+(\(\(\
+ffffff
+Tahoma
+                                                  
+           
+P12_14_MAY_200321_23_29
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+Simplified Arabic
+yyyy/mm/dd
+yyyy/mm/dd
+                                                                           
+                                                                                  
+d:\a_navy\clear.ico
+P13_14_MAY_200321_23_29
+SQLFORMS
+"PKG INIT"<anonymous>""
+                                                                           
+d:\a_navy\listval
+                                                                          
+d:\a_navy\exit.ico
+                                                                                     
+d:\a_navy\left
+                                                                                         
+d:\a_navy\right
+                                                                                         
+d:\a_navy\down
+                                                                                     
+d:\a_navy\up
+                                                                                  
+                      
+d:\a_navy\canqry.ico
+                                                                                       
+d:\a_navy\execute.ico
+                                                              
+d:\a_navy\entqry
+P12_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+P14_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+Tahoma
+P40_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+Simplified Arabic
+P11_14_MAY_200321_23_29
+/NSPC14/BUTTON_PROC
+"PKG INIT"<anonymous>""
+NAT_TBL
+NAT_TBL
+NAT_CODE
+NAT_NAME
+P1_24_AUG_200408_12_59
+SQLFORMS
+"PKG INIT"<anonymous>""
+PUSH_BUTTON588
+CLEAR_RECORD
+CANVAS2
+PUSH_BUTTON655
+MAIN_WIN
+PUSH_BUTTON561
+PUSH_BUTTON482
+BUTTON_PROC
+NEXT_BLOCK
+LIST_VALUES
+EXIT_FORM
+ENTER_QUERY
+NAT_TBL
+P_NAME
+COMMIT_FORM
+NAT_NAME
+NAT_CODE
+PREVIOUS_BLOCK
+EXECUTE_QUERY
+CANCEL_QUERY
+TOOLBAR
+HELP_BUT
+PUSH_BUTTON481
+ITEM483
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+^ElW+=Jtt1.
+- #=+H
+@z`V65-
+Akyp?{&
+#TQvoz
+"=Y|'9_Nx
+LEI$.p
+zh"Y Y
+(DUb,F
+`YOvkm
+TI<mYX
+Z}jBTP
+%Q(($(
+WDI*yx
+}L6<fGVd
+PJ hkh
+TI)K]p(
+&gO!Of
+*J*K,E 
+rVF5{G
+cN?JWH
+)O>8^}+
+Umrl@g
+gYhIsX
+F^zWU7bL
+4,%bQi:V@Cs
+hJ.Gr{
+eQ[DF{D+
+qZa)rL
+[4l.F*
+HPXP@PXP
+RECT694
+RECT693
+RECT689
+IMAGE688
+TEXT690
+RECT697
+TEXT698
+Tahoma
+TEXT701
+===UCS2-LE===
+]cdfhjln
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!)178>ACKQTVXZ\^`b

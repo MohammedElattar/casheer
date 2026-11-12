@@ -1,0 +1,368 @@
+%% Form-to-table candidate edges (INFERRED from strings; top-15 tables by in-degree)
+flowchart LR
+  T_ITEM_TYPE["ITEM_TYPE"]
+  T_POINT_TBL["POINT_TBL"]
+  T_ITEM_TBL["ITEM_TBL"]
+  T_EMP_TBL["EMP_TBL"]
+  T_INV_DTL["INV_DTL"]
+  T_INVOICE["INVOICE"]
+  T_INVOICE_HIST["INVOICE_HIST"]
+  T_ITEM_SUB_TYPE["ITEM_SUB_TYPE"]
+  T_DELIVERY["DELIVERY"]
+  T_MEMB_TBL["MEMB_TBL"]
+  T_SUB_DEPT["SUB_DEPT"]
+  T_MONTH["MONTH"]
+  T_SHIFT_TBL["SHIFT_TBL"]
+  T_ITEM_POINT["ITEM_POINT"]
+  T_POINT_MANGER["POINT_MANGER"]
+  F_s_LAYOUT_PRICE["s_LAYOUT_PRICE.fmb"]
+  F_s_LAYOUT_PRICE --> T_ITEM_POINT
+  F_s_LAYOUT_PRICE --> T_ITEM_TBL
+  F_s_LAYOUT_PRICE --> T_ITEM_TYPE
+  F_sery2["sery2.fmb"]
+  F_sery2 --> T_EMP_TBL
+  F_sery2 --> T_INVOICE
+  F_sery2 --> T_INVOICE_HIST
+  F_sery2 --> T_INV_DTL
+  F_sery2 --> T_ITEM_TBL
+  F_sery2 --> T_ITEM_TYPE
+  F_sery2 --> T_MEMB_TBL
+  F_sery2 --> T_POINT_TBL
+  F_item_sub_type["item_sub_type.fmb"]
+  F_item_sub_type --> T_ITEM_TBL
+  F_item_sub_type --> T_ITEM_TYPE
+  F_dept["dept.fmb"]
+  F_dept --> T_SUB_DEPT
+  F_sery___original["sery - original.fmb"]
+  F_sery___original --> T_EMP_TBL
+  F_sery___original --> T_INVOICE
+  F_sery___original --> T_INVOICE_HIST
+  F_sery___original --> T_INV_DTL
+  F_sery___original --> T_ITEM_TBL
+  F_sery___original --> T_ITEM_TYPE
+  F_sery___original --> T_POINT_TBL
+  F_employee["employee.fmx"]
+  F_employee --> T_POINT_TBL
+  F_employee --> T_SUB_DEPT
+  F_seryehab["seryehab.fmb"]
+  F_seryehab --> T_EMP_TBL
+  F_seryehab --> T_INVOICE
+  F_seryehab --> T_INVOICE_HIST
+  F_seryehab --> T_INV_DTL
+  F_seryehab --> T_ITEM_TBL
+  F_seryehab --> T_ITEM_TYPE
+  F_seryehab --> T_MEMB_TBL
+  F_seryehab --> T_POINT_TBL
+  F_s_LAYOUT_PRICE["s_LAYOUT_PRICE.fmx"]
+  F_sery_last10_10["sery_last10-10.fmb"]
+  F_sery_last10_10 --> T_EMP_TBL
+  F_sery_last10_10 --> T_INVOICE
+  F_sery_last10_10 --> T_INVOICE_HIST
+  F_sery_last10_10 --> T_INV_DTL
+  F_sery_last10_10 --> T_ITEM_TBL
+  F_sery_last10_10 --> T_ITEM_TYPE
+  F_sery_last10_10 --> T_POINT_MANGER
+  F_sery_last10_10 --> T_POINT_TBL
+  F_rep_form0["rep_form0.fmx"]
+  F_rep_form0 --> T_ITEM_TBL
+  F_rep_form0 --> T_ITEM_TYPE
+  F_rep_form0 --> T_POINT_TBL
+  F_take_away_withoutStopDes_After3_2014["take_away_withoutStopDes After3-2014.fmx"]
+  F_take_away_withoutStopDes_After3_2014 --> T_DELIVERY
+  F_take_away_withoutStopDes_After3_2014 --> T_EMP_TBL
+  F_take_away_withoutStopDes_After3_2014 --> T_INVOICE
+  F_take_away_withoutStopDes_After3_2014 --> T_INVOICE_HIST
+  F_take_away_withoutStopDes_After3_2014 --> T_INV_DTL
+  F_take_away_withoutStopDes_After3_2014 --> T_ITEM_SUB_TYPE
+  F_take_away_withoutStopDes_After3_2014 --> T_ITEM_TBL
+  F_take_away_withoutStopDes_After3_2014 --> T_ITEM_TYPE
+  F_take_away_withoutStopDes_After3_2014 --> T_POINT_TBL
+  F_item_sub_type["item_sub_type.fmx"]
+  F_sery_inv["sery_inv.fmx"]
+  F_sery_inv --> T_EMP_TBL
+  F_sery_inv --> T_INVOICE
+  F_sery_inv --> T_INV_DTL
+  F_sery_inv --> T_ITEM_TBL
+  F_sery_inv --> T_ITEM_TYPE
+  F_sery_inv --> T_POINT_TBL
+  F_s_sub_item["s_sub_item.fmx"]
+  F_s_sub_item --> T_ITEM_TBL
+  F_s_sub_item --> T_ITEM_TYPE
+  F_year_point_stat["year_point_stat.fmx"]
+  F_year_point_stat --> T_ITEM_TYPE
+  F_year_point_stat --> T_MONTH
+  F_year_point_stat --> T_POINT_TBL
+  F_sery_last20["sery_last20.fmb"]
+  F_sery_last20 --> T_EMP_TBL
+  F_sery_last20 --> T_INVOICE
+  F_sery_last20 --> T_INVOICE_HIST
+  F_sery_last20 --> T_INV_DTL
+  F_sery_last20 --> T_ITEM_TBL
+  F_sery_last20 --> T_ITEM_TYPE
+  F_sery_last20 --> T_POINT_MANGER
+  F_sery_last20 --> T_POINT_TBL
+  F_year_item_stat["year_item_stat.fmx"]
+  F_year_item_stat --> T_ITEM_TBL
+  F_year_item_stat --> T_ITEM_TYPE
+  F_year_item_stat --> T_MONTH
+  F_categ_year_stat["categ_year_stat.fmx"]
+  F_categ_year_stat --> T_ITEM_TYPE
+  F_sery_inv["sery_inv.fmb"]
+  F_take_away_original___Copy["take_away_original - Copy.fmx"]
+  F_take_away_original___Copy --> T_DELIVERY
+  F_take_away_original___Copy --> T_EMP_TBL
+  F_take_away_original___Copy --> T_INVOICE
+  F_take_away_original___Copy --> T_INVOICE_HIST
+  F_take_away_original___Copy --> T_INV_DTL
+  F_take_away_original___Copy --> T_ITEM_SUB_TYPE
+  F_take_away_original___Copy --> T_ITEM_TBL
+  F_take_away_original___Copy --> T_ITEM_TYPE
+  F_take_away_original___Copy --> T_POINT_TBL
+  F_c_orders["c_orders.fmb"]
+  F_c_orders --> T_EMP_TBL
+  F_c_orders --> T_ITEM_TBL
+  F_c_orders --> T_POINT_TBL
+  F_stat_month["stat_month.fmx"]
+  F_stat_month --> T_ITEM_TYPE
+  F_stat_month --> T_POINT_TBL
+  F_stat_month --> T_SHIFT_TBL
+  F_year_categ_stat["year_categ_stat.fmb"]
+  F_year_categ_stat --> T_ITEM_TYPE
+  F_year_categ_stat --> T_MONTH
+  F_sery_w["sery_w.fmb"]
+  F_sery_w --> T_EMP_TBL
+  F_sery_w --> T_INVOICE
+  F_sery_w --> T_INVOICE_HIST
+  F_sery_w --> T_INV_DTL
+  F_sery_w --> T_ITEM_TBL
+  F_sery_w --> T_ITEM_TYPE
+  F_sery_w --> T_MEMB_TBL
+  F_sery_w --> T_POINT_TBL
+  F_mtb_form["mtb_form.fmb"]
+  F_mtb_form --> T_INV_DTL
+  F_mtb_form --> T_ITEM_TBL
+  F_categ_year_stat["categ_year_stat.fmb"]
+  F_layout_price["layout_price.fmb"]
+  F_layout_price --> T_ITEM_POINT
+  F_layout_price --> T_ITEM_TBL
+  F_layout_price --> T_ITEM_TYPE
+  F_point_close_temp["point_close_temp.fmx"]
+  F_point_close_temp --> T_EMP_TBL
+  F_point_close_temp --> T_INVOICE
+  F_point_close_temp --> T_INVOICE_HIST
+  F_point_close_temp --> T_POINT_TBL
+  F_item_point["item_point.fmb"]
+  F_item_point --> T_ITEM_POINT
+  F_item_point --> T_ITEM_TBL
+  F_sery_last["sery_last.fmb"]
+  F_sery_last --> T_EMP_TBL
+  F_sery_last --> T_INVOICE
+  F_sery_last --> T_INVOICE_HIST
+  F_sery_last --> T_INV_DTL
+  F_sery_last --> T_ITEM_TBL
+  F_sery_last --> T_ITEM_TYPE
+  F_sery_last --> T_POINT_MANGER
+  F_sery_last --> T_POINT_TBL
+  F_mtb_form["mtb_form.fmx"]
+  F_log_in_in["log_in_in.fmx"]
+  F_log_in_in --> T_EMP_TBL
+  F_log_in_in --> T_POINT_TBL
+  F_log_in_in --> T_SUB_DEPT
+  F_sery_last["sery_last.fmx"]
+  F_day_categ_view["day_categ_view.fmx"]
+  F_day_categ_view --> T_ITEM_TYPE
+  F_item_tbl["item_tbl.fmx"]
+  F_item_tbl --> T_ITEM_SUB_TYPE
+  F_item_tbl --> T_ITEM_TYPE
+  F_SUB_DEPT["SUB_DEPT.fmb"]
+  F_SUB_DEPT --> T_SUB_DEPT
+  F_sery["sery.fmb"]
+  F_sery --> T_EMP_TBL
+  F_sery --> T_INVOICE
+  F_sery --> T_INV_DTL
+  F_sery --> T_POINT_TBL
+  F_rep_form0["rep_form0.fmb"]
+  F_takeaway_pizza["takeaway_pizza.fmx"]
+  F_takeaway_pizza --> T_DELIVERY
+  F_takeaway_pizza --> T_EMP_TBL
+  F_takeaway_pizza --> T_INVOICE
+  F_takeaway_pizza --> T_INVOICE_HIST
+  F_takeaway_pizza --> T_INV_DTL
+  F_takeaway_pizza --> T_ITEM_SUB_TYPE
+  F_takeaway_pizza --> T_ITEM_TBL
+  F_takeaway_pizza --> T_ITEM_TYPE
+  F_takeaway_pizza --> T_POINT_TBL
+  F_sub_item["sub_item.fmx"]
+  F_sub_item --> T_ITEM_TBL
+  F_sub_item --> T_ITEM_TYPE
+  F_year_month_stat["year_month_stat.fmx"]
+  F_year_month_stat --> T_ITEM_TBL
+  F_year_month_stat --> T_ITEM_TYPE
+  F_year_month_stat --> T_MONTH
+  F_year_month_stat --> T_POINT_TBL
+  F_sery_w["sery_w.fmx"]
+  F_year_item_stat["year_item_stat.fmb"]
+  F_takeaway_pizza["takeaway_pizza.fmb"]
+  F_rep_form["rep_form.fmb"]
+  F_rep_form --> T_ITEM_TBL
+  F_rep_form --> T_ITEM_TYPE
+  F_rep_form --> T_POINT_TBL
+  F_year_month_stat["year_month_stat.fmb"]
+  F_xtake_away["xtake_away.fmx"]
+  F_xtake_away --> T_DELIVERY
+  F_xtake_away --> T_EMP_TBL
+  F_xtake_away --> T_INVOICE
+  F_xtake_away --> T_INVOICE_HIST
+  F_xtake_away --> T_INV_DTL
+  F_xtake_away --> T_ITEM_SUB_TYPE
+  F_xtake_away --> T_ITEM_TBL
+  F_xtake_away --> T_ITEM_TYPE
+  F_xtake_away --> T_POINT_TBL
+  F_stat_year["stat_year.fmx"]
+  F_stat_year --> T_ITEM_TYPE
+  F_stat_year --> T_POINT_TBL
+  F_stat_year --> T_SHIFT_TBL
+  F_s_sub_item["s_sub_item.fmb"]
+  F_sery["sery.fmx"]
+  F_sery --> T_INVOICE_HIST
+  F_sery --> T_ITEM_TBL
+  F_sery --> T_ITEM_TYPE
+  F_sery --> T_MEMB_TBL
+  F_layout_price["layout_price.fmx"]
+  F_item_tbll["item_tbll.fmx"]
+  F_item_tbll --> T_ITEM_SUB_TYPE
+  F_item_tbll --> T_ITEM_TBL
+  F_item_tbll --> T_ITEM_TYPE
+  F_dept["dept.fmx"]
+  F_log_in_in["log_in_in.fmb"]
+  F_take_away___Copy["take_away - Copy.fmb"]
+  F_take_away___Copy --> T_DELIVERY
+  F_take_away___Copy --> T_EMP_TBL
+  F_take_away___Copy --> T_INVOICE
+  F_take_away___Copy --> T_INVOICE_HIST
+  F_take_away___Copy --> T_INV_DTL
+  F_take_away___Copy --> T_ITEM_SUB_TYPE
+  F_take_away___Copy --> T_ITEM_TBL
+  F_take_away___Copy --> T_ITEM_TYPE
+  F_take_away___Copy --> T_POINT_TBL
+  F_statistics_form["statistics_form.fmb"]
+  F_statistics_form --> T_ITEM_TBL
+  F_statistics_form --> T_ITEM_TYPE
+  F_statistics_form --> T_POINT_TBL
+  F_stat_year["stat_year.fmb"]
+  F_point_close["point_close.fmx"]
+  F_point_close --> T_EMP_TBL
+  F_point_close --> T_INVOICE
+  F_point_close --> T_INVOICE_HIST
+  F_point_close --> T_INV_DTL
+  F_point_close --> T_POINT_TBL
+  F_take_away_withoutStopDes_After3_2014["take_away_withoutStopDes After3-2014.fmb"]
+  F_sub_item["sub_item.fmb"]
+  F_sery_old["sery_old.fmx"]
+  F_sery_old --> T_EMP_TBL
+  F_sery_old --> T_INVOICE
+  F_sery_old --> T_INVOICE_HIST
+  F_sery_old --> T_INV_DTL
+  F_sery_old --> T_ITEM_TBL
+  F_sery_old --> T_ITEM_TYPE
+  F_sery_old --> T_MEMB_TBL
+  F_sery_old --> T_POINT_TBL
+  F_take_away["take_away.fmx"]
+  F_take_away --> T_EMP_TBL
+  F_take_away --> T_INVOICE
+  F_take_away --> T_INVOICE_HIST
+  F_take_away --> T_INV_DTL
+  F_take_away --> T_ITEM_TBL
+  F_take_away --> T_ITEM_TYPE
+  F_take_away --> T_MEMB_TBL
+  F_take_away --> T_POINT_TBL
+  F_templet["templet.fmb"]
+  F_templet --> T_EMP_TBL
+  F_templet --> T_POINT_TBL
+  F_c_orders["c_orders.fmx"]
+  F_rep_form["rep_form.fmx"]
+  F_sery_last12_10["sery_last12-10.fmb"]
+  F_sery_last12_10 --> T_EMP_TBL
+  F_sery_last12_10 --> T_INVOICE
+  F_sery_last12_10 --> T_INVOICE_HIST
+  F_sery_last12_10 --> T_INV_DTL
+  F_sery_last12_10 --> T_ITEM_TBL
+  F_sery_last12_10 --> T_ITEM_TYPE
+  F_sery_last12_10 --> T_POINT_MANGER
+  F_sery_last12_10 --> T_POINT_TBL
+  F_take_away["take_away.fmb"]
+  F_take_away --> T_DELIVERY
+  F_take_away --> T_ITEM_SUB_TYPE
+  F_take_away_original___Copy["take_away_original - Copy.fmb"]
+  F_sery2["sery2.fmx"]
+  F_year_point_stat["year_point_stat.fmb"]
+  F_year_categ_stat["year_categ_stat.fmx"]
+  F_employee["employee.fmb"]
+  F_sery_last_Bridge["sery_last_Bridge.fmx"]
+  F_sery_last_Bridge --> T_EMP_TBL
+  F_sery_last_Bridge --> T_INVOICE
+  F_sery_last_Bridge --> T_INVOICE_HIST
+  F_sery_last_Bridge --> T_INV_DTL
+  F_sery_last_Bridge --> T_ITEM_TBL
+  F_sery_last_Bridge --> T_ITEM_TYPE
+  F_sery_last_Bridge --> T_POINT_MANGER
+  F_sery_last_Bridge --> T_POINT_TBL
+  F_statistics_form["statistics_form.fmx"]
+  F_item_tbll["item_tbll.fmb"]
+  F_RikoNew["RikoNew.fmx"]
+  F_RikoNew --> T_EMP_TBL
+  F_RikoNew --> T_INV_DTL
+  F_RikoNew --> T_ITEM_TBL
+  F_RikoNew --> T_POINT_TBL
+  F_point_close_temp["point_close_temp.fmb"]
+  F_day_categ_view["day_categ_view.fmb"]
+  F_item_tbl["item_tbl.fmb"]
+  F_stat_day["stat_day.fmx"]
+  F_stat_day --> T_ITEM_TYPE
+  F_stat_day --> T_POINT_TBL
+  F_stat_day --> T_SHIFT_TBL
+  F_delv["delv.fmb"]
+  F_delv --> T_EMP_TBL
+  F_delv --> T_POINT_TBL
+  F_SUB_DEPT["SUB_DEPT.fmx"]
+  F_RikoNew["RikoNew.fmb"]
+  F_stat_month["stat_month.fmb"]
+  F_stat_day["stat_day.fmb"]
+  F_categ_month["categ_month.fmx"]
+  F_categ_month --> T_ITEM_TYPE
+  F_categ_month --> T_SHIFT_TBL
+  F_sery_old["sery_old.fmb"]
+  F_seryehab["seryehab.fmx"]
+  F_templet["templet.fmx"]
+  F_categ_month["categ_month.fmb"]
+  F_takeaway_pizza_original["takeaway_pizza_original.fmb"]
+  F_takeaway_pizza_original --> T_DELIVERY
+  F_takeaway_pizza_original --> T_EMP_TBL
+  F_takeaway_pizza_original --> T_INVOICE
+  F_takeaway_pizza_original --> T_INVOICE_HIST
+  F_takeaway_pizza_original --> T_INV_DTL
+  F_takeaway_pizza_original --> T_ITEM_SUB_TYPE
+  F_takeaway_pizza_original --> T_ITEM_TBL
+  F_takeaway_pizza_original --> T_ITEM_TYPE
+  F_takeaway_pizza_original --> T_POINT_TBL
+  F_item_point["item_point.fmx"]
+  F_delv["delv.fmx"]
+  F_point_close["point_close.fmb"]
+  F_sery_fki["sery_fki.fmb"]
+  F_sery_fki --> T_EMP_TBL
+  F_sery_fki --> T_INVOICE
+  F_sery_fki --> T_INVOICE_HIST
+  F_sery_fki --> T_INV_DTL
+  F_sery_fki --> T_ITEM_TBL
+  F_sery_fki --> T_ITEM_TYPE
+  F_sery_fki --> T_POINT_TBL
+  F_manager["manager.fmx"]
+  F_manager --> T_EMP_TBL
+  F_manager --> T_POINT_TBL
+  F_manager["manager.fmb"]
+  F_sery["sery.fmb"]
+  F_sery["sery.fmx"]
+  F_take_away["take_away.fmx"]
+  F_take_away["take_away.fmb"]
+  F_take_away["take_away.fmx"]
+  F_take_away["take_away.fmb"]

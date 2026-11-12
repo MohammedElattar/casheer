@@ -1,0 +1,880 @@
+src=M_CASHEAR/test.fmb
+sha256=c2b5b4a439eec064d9b17cce3d9ff15d533ca9f9a958d2189d7e423f8fbd5209
+size=49152
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:06.499518+00:00
+version_markers=ROS.60050
+ascii_lines=867
+ucs2_lines=0
+trigger_count=0
+pl_sql_markers=0
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r25g75b88
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+shrink
+stretch
+elasticity
+direction
+springcnt
+subviews
+tabstop
+mnemonic
+isdefault
+groups
+borderuse
+navigable
+innerwd
+innerht
+ismapped
+outerwd
+outerht
+selectstyle
+maxlen
+cwidth
+itemcnt
+enabled
+string
+headerfield
+r0g0b888
+r25g25b88
+r50g50b88
+r100r50g75b88
+*88b88
+r100r0g88b88x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+00r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+%FRM50_BUFFER
+table contains user's buffer
+ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+0ROSOBJMAP
+ros name->id
+)00ROSSTRINGS
+tk2 uiStrings
+( ,ROSSTRUCTS
+struct types
+&ROSTK2RESV
+tk2 reserved
+N (TOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+ $ & (
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r25g75b88
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\test.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.eF
+Inv Tot
+Del Address
+Del Name
+Tel No
+Room No
+Mem Id
+Disc Q
+Disc Per
+Serv Q
+Serv Per
+Table No
+Inv Typ
+Shift Typ
+Emp Id
+Inv Date
+Point Code
+MODULE2
+MODULE2
+WINDOW1
+DEFAULT&SMARTBAR
+INVOICE
+INVOICE
+INVOICE
+SERIAL_NO
+POINT_CODE
+INV_DATE
+EMP_ID
+SHIFT_TYP
+INV_TYP
+TABLE_NO
+INV_TIME
+SERV_PER
+SERV_Q
+DISC_PER
+DISC_Q
+MEM_ID
+ROOM_NO
+TEL_NO
+DEL_NAME
+DEL_ADDRESS
+INV_TOT
+SERIAL_NO
+SERIAL_NO
+SERIAL_NO
+CANVAS2
+POINT_CODE
+POINT_CODE
+POINT_CODE
+Point Code
+INV_DATE
+INV_DATE
+INV_DATE
+Inv Date
+EMP_ID
+EMP_ID
+EMP_ID
+Emp Id
+SHIFT_TYP
+SHIFT_TYP
+SHIFT_TYP
+Shift Typ
+INV_TYP
+INV_TYP
+INV_TYP
+Inv Typ
+TABLE_NO
+TABLE_NO
+TABLE_NO
+Table No
+SERV_PER
+SERV_PER
+SERV_PER
+Serv Per
+SERV_Q
+SERV_Q
+SERV_Q
+Serv Q
+DISC_PER
+DISC_PER
+DISC_PER
+Disc Per
+DISC_Q
+DISC_Q
+DISC_Q
+Disc Q
+MEM_ID
+MEM_ID
+MEM_ID
+Mem Id
+ROOM_NO
+ROOM_NO
+ROOM_NO
+Room No
+TEL_NO
+TEL_NO
+TEL_NO
+Tel No
+DEL_NAME
+DEL_NAME
+DEL_NAME
+Del Name
+DEL_ADDRESS
+DEL_ADDRESS
+DEL_ADDRESS
+Del Address
+INV_TOT
+INV_TOT
+INV_TOT
+Inv Tot
+CANVAS2
+CANVAS2
+WINDOW1
+r88g75b50
+Tahoma
+WINDOW1
+WINDOW1
+transparent
+TEXT157
+TEXT157
+r100g100b75
+transparent
+CMPTXT158
+CMPTXT158
+TEXTSTR159
+TEXTSTR159
+Simplified Arabic
+TEXT770
+TEXT770
+r50g0b0
+r100g88b75
+CMPTXT771
+CMPTXT771
+TEXTSTR772
+TEXTSTR772
+r50g0b0
+Simplified Arabic
+TEXT777
+TEXT777
+gray16
+CMPTXT778
+CMPTXT778
+TEXTSTR779
+TEXTSTR779
+Arabic Transparent
+TEXT780
+===UCS2-LE===
+

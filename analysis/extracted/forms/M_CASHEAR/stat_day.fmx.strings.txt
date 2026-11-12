@@ -1,0 +1,654 @@
+src=M_CASHEAR/stat_day.fmx
+sha256=e0614fd8093abc7e1c5ab3ece2cb171f792c61c5123481c4a69e70a38c462037
+size=149544
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:10.192428+00:00
+version_markers=none
+ascii_lines=625
+ucs2_lines=17
+trigger_count=0
+pl_sql_markers=8
+===ASCII===
+STAT_DAY
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_OCT_200410_29_21
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+SQLFORMS
+"PKG INIT"<anonymous>"TFP"HANDLE""
+D:\M_CASHEAR\ogd\tmp1.dat
+D:\M_CASHEAR\ogd\tmp2.dat
+D:\M_CASHEAR\ogd\tmp3.dat
+D:\M_CASHEAR\graph\day_stat.OGD
+day_stat
+D:\M_CASHEAR\graph\shift_stat.OGD
+shift_stat
+P1_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P5_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P7_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+STANDARD
+FORMS4C
+FORMS4W
+TEXT_IO
+FORMS40
+	/NSPC1/OG
+SQLFORMS
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID"STATUS"REFRESH_TIMER""
+main_win
+D:\M_CASHEAR\ogd\tmp1.dat
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\day_stat.OGD
+day_stat
+day_view
+P0_14_MAY_200321_23_29
+/LHINT
+STANDARD
+	/NSPC1/OG
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\graph\day_stat.OGD
+day_stat
+day_view
+BUTTON_PROC
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+STANDARD
+"DLL"TBLEN"STR""
+/NSPC1/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TOOLBAR
+STANDARD
+/NSPC1/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC1/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOOLBAR
+SET_TIMER
+SHOW_FUNCTION
+#POPUPHINT#
+MS Sans Serif
+D:\M_CASHEAR\HINT
+Tahoma
+Tahoma
+Simplified Arabic
+                                                  
+           
+P12_14_MAY_200321_23_29
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+Simplified Arabic
+yyyy/mm/dd
+yyyy/mm/dd
+                                                                           
+                                                                                  
+d:\a_navy\clear.ico
+P13_14_MAY_200321_23_29
+SQLFORMS
+"PKG INIT"<anonymous>""
+                                                                           
+d:\a_navy\listval
+                                                                          
+d:\a_navy\exit.ico
+                                                                                     
+d:\a_navy\left
+                                                                                         
+d:\a_navy\right
+                                                                                         
+d:\a_navy\down
+                                                                                     
+d:\a_navy\up
+                                                                                  
+                      
+d:\a_navy\canqry.ico
+                                                                                       
+d:\a_navy\execute.ico
+                                                              
+d:\a_navy\entqry
+Tahoma
+Simplified Arabic
+Tahoma
+STANDARD
+"OG"COORDS_REAL"COORDS_CHAR"UNITS_INCH"UNITS_CM"UNITS_PIXEL"UNITS_PICA"COORD_SYSTEM"UNITS"RESOLUTION"CELL_WIDTH"CELL_HEIGHT"OPEN"DISPLAY"ITEM"CLIP"REFRESH"PLIST"ID"CLOSE"GETCHARPARAM"PARAM"GETNUMPARAM1"GETNUMPARAM4"GETNUMPARAM2"GETNUMPARAM3"INTERPRET"PLSSTR"MOUSEDOWN"X"Y"CLICKCOUNT"BUTTON"CONSTRAINED"MOUSEUP"GETNUMPARAMS"GETNUMPARAMD""
+GETCHARPARAM
+GETNUMPARAM1
+GETNUMPARAM4
+GETNUMPARAM2
+GETNUMPARAM3
+INTERPRET
+MOUSEDOWN
+MOUSEUP
+REFRESH
+GETNUMPARAMS
+GETNUMPARAMD
+	/NSPC1/OG
+STANDARD
+SQLFORMS
+FORMS40
+TEXT_IO
+"OG"RUN"DISPLAY"ITEM"REFRESH"PLIST"ID"MOUSEUPDOWN"X"Y"CLICKCOUNT"BUTTON"CONSTRAINED"DOWN"PL"XTMP"YTMP"XSCALE"YSCALE"OPEN"CLIP"WIDTH"HEIGHT"DISPMODE"FSTR"USTR"CLOSE"GETCHARPARAM"PARAM"STRVAL"TFP"HANDLE"STRINT"GETNUMPARAM1"GETNUMPARAM4"GETNUMPARAM2"GETNUMPARAM3"GETNUMPARAMS"GETNUMPARAMD"INTERPRET"PLSSTR"MOUSEDOWN"MOUSEUP"STR""
+oracle_update
+oracle_startup
+MOUSEUPDOWN
+system.mouse_x_pos
+system.mouse_y_pos
+oracle_olelist
+oracle_mousedown
+oracle_mouseup
+system.current_form
+INCHES
+CENTIMETERS
+PIXELS
+POINTS
+oracle_viewport
+GETCHARPARAM
+DECLARE 
+tfp TEXT_IO.FILE_TYPE; 
+BEGIN 
+  tfp := TEXT_IO.FOPEN ('tmp1.dat', 'w'); 
+  TEXT_IO.PUT_LINE (tfp, :
+  TEXT_IO.FCLOSE (tfp); 
+tmp1.dat
+GETNUMPARAM1
+d:\M_CASHEAR\ogd\tmp1.dat
+GETNUMPARAM4
+d:\M_CASHEAR\ogd\tmp3.dat
+GETNUMPARAM2
+d:\M_CASHEAR\ogd\tmp4.dat
+GETNUMPARAM3
+d:\a_tanzim\ogd\ogtmp3.dat
+GETNUMPARAMS
+d:\a_tanzim\ogd\mrtbtmp.dat
+GETNUMPARAMD
+d:\a_tanzim\ogd\degtmp.dat
+INTERPRET
+oracle_interpret
+MOUSEDOWN
+MOUSEUP
+REFRESH
+333333
+p=p=p=
+(\(\(\
+ffffff
+P12_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+P14_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+P40_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+P4_12_OCT_200410_29_21
+STANDARD
+	/NSPC1/OG
+"PKG INIT"<anonymous>"P""
+D:\M_CASHEAR\graph\day_stat.OGD
+day_stat
+Tahoma
+Tahoma
+tDAY_VIEW
+tDAY_VIEW
+inv_date = :1
+POINT_CODE
+POINT_CODE
+Point Code
+INV_DATE
+Simplified Arabic
+POINT_NAME
+Simplified Arabic
+Simplified Arabic
+DAY_VIEW
+DAY_VIEW
+inv_date = :1 and point_code = :2
+shift_typ
+INV_DATE
+Inv Date
+POINT_CODE
+Point Code
+POINT_NAME
+SHIFT_TYP
+Shift Typ
+SHIFT_NAME
+Tahoma
+T_DAY_VIEW
+T_DAY_VIEW
+inv_date = :1 and point_code = :2
+INV_DATE
+P1_12_OCT_200414_26_19
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+MAHROSA
+	POINT_TBL
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID"<cursor ptr>"<SQL statement. Line 18>""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\shift_stat.OGD
+shift_stat
+D:\M_CASHEAR\graph\T_DAY_VIEW.OGD
+T_DAY_VIEW
+day_view1
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+P2_14_OCT_200410_53_01
+STANDARD
+	/NSPC1/OG
+"PKG INIT"<anonymous>"S""
+D:\M_CASHEAR\graph\shift_stat.OGD
+shift_stat
+P3_14_OCT_200410_53_01
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+MAHROSA
+	SHIFT_TBL
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID"<cursor ptr>"<SQL statement. Line 12>""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\t_d_s_view.OGD
+t_d_s_view
+SELECT SHIFT_NAME   FROM SHIFT_TBL  WHERE SHIFT_TYP = :b1"
+P0_14_OCT_200407_18_46
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+day_view.inv_date
+P5_14_OCT_200410_53_01
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+P4_24_AUG_200510_09_01
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"P"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\T_DAY_VIEW.OGD
+T_DAY_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+P5_24_AUG_200510_09_01
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID"<cursor ptr>"<SQL statement. Line 13>""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\I_T_DAY_VIEW.OGD
+I_T_DAY_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+P3_25_AUG_200509_20_59
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"P"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\t_d_s_view.OGD
+t_d_s_view
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+P4_25_AUG_200509_20_59
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID"<cursor ptr>"<SQL statement. Line 13>""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\I_T_D_S_VIEW.OGD
+I_T_D_S_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+P7_24_AUG_200510_09_01
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+P6_25_AUG_200509_20_59
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+P11_14_MAY_200321_23_29
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+P1_24_AUG_200510_09_01
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+D:\M_CASHEAR\ogd\tmp1.dat
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\shift_stat.OGD
+shift_stat
+D:\M_CASHEAR\graph\T_DAY_VIEW.OGD
+T_DAY_VIEW
+day_view1
+Inv Date
+POINT_CODE
+Point Code
+POINT_NAME
+Point Name
+T_CODE
+T Code
+T_NAME
+Tahoma
+P9_24_AUG_200510_09_01
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+D:\M_CASHEAR\ogd\tmp4.dat
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\I_T_DAY_VIEW.OGD
+I_T_DAY_VIEW
+I_T_DAY_VIEW
+I_T_DAY_VIEW
+inv_date = :1 and point_code = :2 and t_code = :3
+qty desc
+INV_DATE
+Inv Date
+POINT_CODE
+Point Code
+POINT_NAME
+Point Name
+T_CODE
+T Code
+T_NAME
+T Name
+I_CODE
+I Code
+I_NAME
+Tahoma
+Tahoma
+T_D_S_VIEW
+T_D_S_VIEW
+inv_date = :1 and point_code = :2 and shift_typ = :3
+qty desc
+INV_DATE
+Inv Date
+POINT_CODE
+Point Code
+POINT_NAME
+Point Name
+SHIFT_TYP
+Shift Typ
+SHIFT_NAME
+Shift Name
+T_CODE
+T Code
+T_NAME
+Tahoma
+P8_25_AUG_200509_20_59
+STANDARD
+TEXT_IO
+	/NSPC1/OG
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+D:\M_CASHEAR\ogd\tmp4.dat
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\I_T_D_S_VIEW.OGD
+I_T_D_S_VIEW
+I_T_D_S_VIEW
+I_T_D_S_VIEW
+inv_date = :1 and point_code = :2 and shift_typ = :3 and t_code = :4
+qty desc
+INV_DATE
+Inv Date
+POINT_CODE
+Point Code
+POINT_NAME
+Point Name
+SHIFT_TYP
+Shift Typ
+SHIFT_NAME
+Shift Name
+T_CODE
+T Code
+T_NAME
+T Name
+I_CODE
+I Code
+I_NAME
+Tahoma
+DAY_STAT
+T_D_S_VIEW
+I_CODE
+EXIT_FORM
+I_NAME
+POINT_CODE
+CANVAS2
+HELP_BUT
+POINT_NAME
+PREVIOUS_BLOCK
+P_NAME
+T_CODE
+I_T_DAY_VIEW
+S_NAME
+T_NAME
+PUSH_BUTTON561
+DAY_VIEW
+PUSH_BUTTON482
+PPP_NAME
+SHIFT_NAME
+TTT_NAME
+T_DAY_VIEW
+PUSH_BUTTON588
+TT_NAME
+EXECUTE_QUERY
+COMMIT_FORM
+PP_NAME
+CANCEL_QUERY
+TOOLBAR
+PUSH_BUTTON481
+ITEM483
+MAIN_WIN
+SS_NAME
+BUTTON_PROC
+SHIFT_TYP
+LIST_VALUES
+TT_QTY
+INV_DATE
+DAY_VIEW1
+CLEAR_RECORD
+ENTER_QUERY
+NEXT_BLOCK
+PUSH_BUTTON655
+SHIFT_STAT
+I_T_D_S_VIEW
+RECT694
+RECT693
+TEXT716
+Simplified Arabic
+RECT719
+TEXT720
+TEXT726
+TEXT736
+GRAPHIC764
+RECT763
+RECT740
+TEXT741
+TEXT744
+GRAPHIC757
+GRAPHIC758
+GRAPHIC759
+TEXT760
+RECT740
+TEXT741
+TEXT744
+TEXT752
+TEXT788
+Tahoma
+TEXT792
+RECT740
+TEXT741
+TEXT744
+TEXT752
+TEXT788
+TEXT792
+TEXT778
+Tahoma
+RECT740
+TEXT741
+TEXT744
+TEXT752
+TEXT788
+TEXT792
+TEXT778
+GRAPHIC792
+===UCS2-LE===
+#&(./58:@AGHNQSUWY[
+]cdfhjln
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!)178>ACKQTVXZ\^`b
+ &)/28;ADJMSV\_ehnqy
+)0=IUam~
+(./56<?AIO
+[adjmstz}
+HMOQSUW[
+#&(./58:@BHK
+#&(./58:@BHK
+#&(./58:@BHK
+#&(./58:@BHK
+#&(./58:<>
+#&(./58:<>
+#&(./58:<>

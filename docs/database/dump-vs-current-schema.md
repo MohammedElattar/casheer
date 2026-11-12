@@ -1,0 +1,221 @@
+# Dump schema (2004) vs current schema (SVG / MySQL mirror)
+
+- Dump `mhr.dmp` (2004-12-15) contains: **62 tables**
+- Current SVG / MySQL mirror contains: **192 tables**
+- Common to both: **59 tables**
+- Dump-only (dropped since 2004 OR renamed): **3 tables**
+- SVG-only (added after 2004): **133 tables**
+
+## Interpretation
+
+The 2004 dump is a historical snapshot. The current production schema (reflected in `المحروسة/MAHROSA_FULL_DRAWSQL_MYSQL.sql` and its SVG diagram) has evolved. Migration must target the CURRENT schema; the dump is useful for historical table seeding only, and only for the 62 tables common to both.
+
+## Tables in dump but not in current schema (3)
+
+May have been dropped or renamed.
+
+- `DIR_TBL`
+- `ID_TYPE_TBL`
+- `POINT_ORDER_DETAIL`
+
+## Tables added after 2004 (133)
+
+These are not in `mhr.dmp`; data for them does not exist in this dump.
+
+- `ADF_TBL`
+- `CHECKINOUT`
+- `COIN_TBL`
+- `CUST_TYPE_TBL`
+- `CUST_TYP_TBL`
+- `DUTY`
+- `DYS`
+- `EDAFY_TBL`
+- `EMP_ATTEND`
+- `EMP_EZN`
+- `EMP_FAM`
+- `EMP_LEAVE`
+- `EMP_M2MORYA`
+- `EMP_PNSH`
+- `EMP_VACANCY`
+- `E_INVOICE`
+- `E_INVOICE_ROOM`
+- `E_INVOICE_ROOMS`
+- `E_TIME_TBL`
+- `F_ORDER_DETAILS`
+- `F_ORDER_TBL`
+- `HAGZ_AGENT`
+- `HAGZ_COMPANY`
+- `HAGZ_COMPANY_DETAILS`
+- `HAGZ_ESKAN_ROOM`
+- `HAGZ_ESKAN_TOT`
+- `HAGZ_HALA_TBL`
+- `HAGZ_PHOTO`
+- `HFL_BANDS`
+- `HFL_ORDERS`
+- `HFL_PAYMENTS`
+- `HFL_TBL`
+- `HPLACE_TBL`
+- `HTYPE_TBL`
+- `HUSER_IDS`
+- `H_E_H`
+- `INOUTDEMO`
+- `INOUTTEST`
+- `INVOICEE`
+- `INVOICE_DEL`
+- `INVOICE_DELL`
+- `INV_DTLL`
+- `INV_DTLLL`
+- `INV_DTLL_DEL`
+- `INV_DTLL_HIST`
+- `INV_DTLL_TEST`
+- `INV_DTL_BK`
+- `INV_DTL_DEL`
+- `INV_DTL_DELL`
+- `INV_DTL_HISTT`
+- `INV_SERIAL_COUNTER`
+- `IN_OUT_TBL`
+- `ITEM_SUB_TYPE`
+- `JOB_HIST`
+- `JORNAL_TBL`
+- `KASM_TBL`
+- `LEVEL_TBL`
+- `M2_INV`
+- `M2_INV_BK12082022`
+- `M2_INV_DETAILS`
+- `M2_INV_DETAILS_BK12082022`
+- `M2_PRINTINGFILES`
+- `M2_REPRINT`
+- `M2_SERIAL_RESERVATION`
+- `MADF_ORDERS`
+- `MAIN_MEMBB`
+- `MAIN_MEMB_DETAILS`
+- `MAIN_PHOTO`
+- `MDIR_TBL`
+- `MEMB_BAR`
+- `MNSB_TBL`
+- `MORDERS`
+- `MORDERS_TEMP`
+- `MORDER_DETAILS`
+- `MORDER_DETAILS_TEMP`
+- `MTYP_TBL`
+- `M_ORDERS`
+- `M_ORDER_DETAILS`
+- `M_PRODUCTS`
+- `M_STOCK_PROD`
+- `M_STOCK_TBL`
+- `M_TRANSACTIONS`
+- `M_USER_IDS`
+- `NET_CARD`
+- `PASS_TBL`
+- `PAY_TBL`
+- `PHONE`
+- `PHONE_CALENDAR`
+- `PHONE_CALL_TYPE`
+- `PHONE_CATEGORY`
+- `PHONE_TEMP`
+- `PHON_T`
+- `PLACE_TBL`
+- `POINT_MANGER`
+- `POINT_MEM`
+- `PRNT_TBL`
+- `PRODUCTS_DTS`
+- `RAMDAN_MATAM`
+- `RAMDAN_WAGABAT`
+- `REP_CARD_HIST`
+- `ROOM_ACCOUNT_G`
+- `ROOM_ACCOUNT_GD`
+- `ROOM_ACCOUNT_INVOICE`
+- `ROOM_ACCOUNT_TEMP`
+- `ROOM_ASIGN`
+- `ROOM_TYPE_TBL`
+- `RORDERS`
+- `RORDER_DETAILS`
+- `RPAYMENTS`
+- `RPLACE_PROD`
+- `RPLACE_TBL`
+- `RPRODUCTS`
+- `RTYPE_TBL`
+- `RUSER_IDS`
+- `SEL_COLOR`
+- `SHIFTS`
+- `S_CONTROL`
+- `S_PREV`
+- `S_PREV_POINT`
+- `S_USER`
+- `TAX`
+- `TEMP_TBL`
+- `TEST`
+- `TEST111`
+- `TEST_TBL`
+- `TIME_TBL`
+- `TMAM_TBL`
+- `TYP_TBL`
+- `USERINFO`
+- `USER_IDS`
+- `VAC_TYP`
+- `WAIT_LIST_DEL`
+- `WRDIA_TBL`
+
+## Tables common to both (59)
+
+Historical data in `mhr.dmp` lines up with the current schema for these.
+
+- `ARMY_TBL`
+- `BED_IN`
+- `BLACK_LIST`
+- `BTAKA_TBL`
+- `DELIVERY`
+- `DEPT_TBL`
+- `EMP_POINT`
+- `EMP_TBL`
+- `GARD_DETAIL_TBL`
+- `GARD_TBL`
+- `HAGZ_ESKAN`
+- `HAGZ_ESKAN_HIST`
+- `HAGZ_ESKAN_OUT`
+- `HAGZ_ESKAN_OUT_HIST`
+- `HAGZ_ROOM`
+- `HAGZ_TBL`
+- `HAGZ_TYPE`
+- `INVOICE`
+- `INVOICE_HIST`
+- `INV_DTL`
+- `INV_DTL_HIST`
+- `ITEM_COMPONENT`
+- `ITEM_POINT`
+- `ITEM_TBL`
+- `ITEM_TYPE`
+- `JOB_TBL`
+- `MAIN_MEMB`
+- `MANG_TBL`
+- `MEMB_FAM`
+- `MEMB_TBL`
+- `MES_TBL`
+- `MONTH`
+- `MORAFEK_TBL`
+- `NAT_TBL`
+- `ORDER_DETAIL_TBL`
+- `ORDER_PAYMENTS`
+- `ORDER_TBL`
+- `POINT_ORDER`
+- `POINT_TBL`
+- `PRICE_LIST`
+- `PRODUCTS`
+- `PROD_CARD`
+- `PROD_CARD_FINAL`
+- `RANK_TBL`
+- `REP_CARD`
+- `ROOMS`
+- `ROOM_ACCOUNT`
+- `ROOM_ACCOUNT_OUT`
+- `ROOM_SERV`
+- `ROOM_TEL`
+- `SERV_TBL`
+- `SHIFT_TBL`
+- `STORES`
+- `SUB_DEPT`
+- `SUPP_TBL`
+- `TRANSACTIONS`
+- `TYPE_TBL`
+- `UNIT_TBL`
+- `WAITING_LIST`

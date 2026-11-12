@@ -1,0 +1,69 @@
+form,report,evidence
+M_CASHEAR/SQL/take_away.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/SQL/take_away.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/c_orders.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/mtb_form.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,categ_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,item_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,point_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,point_itemm,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,rep_item_rate,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,rep_points_fatra,quoted-literal matches a report basename
+M_CASHEAR/rep_form.fmb,rep_typ_rate,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,categ_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,item_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,point_item,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,rep_item_rate,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,rep_points_fatra,quoted-literal matches a report basename
+M_CASHEAR/rep_form0.fmb,rep_typ_rate,quoted-literal matches a report basename
+M_CASHEAR/s_LAYOUT_PRICE.fmb,rep_items,quoted-literal matches a report basename
+M_CASHEAR/sery - original.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery - original.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery2.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery2.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_fki.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_fki.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_inv.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_inv.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_inv.fmb,invoice_serial,quoted-literal matches a report basename
+M_CASHEAR/sery_last.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_last.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_last.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery_last10-10.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_last10-10.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_last10-10.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery_last12-10.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_last12-10.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_last12-10.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery_last20.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_last20.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_last20.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery_old.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_old.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/sery_old.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/sery_w.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/sery_w.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/seryehab.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/seryehab.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/take_away - Copy.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/take_away - Copy.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/take_away.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/take_away.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/take_away.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/take_away_original - Copy.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/take_away_original - Copy.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/takeaway_pizza.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/takeaway_pizza.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/takeaway_pizza.fmb,invoice_t,quoted-literal matches a report basename
+M_CASHEAR/takeaway_pizza_original.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/takeaway_pizza_original.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,invoice1,quoted-literal matches a report basename
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,invoice,quoted-literal matches a report basename
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,invoice1,quoted-literal matches a report basename

@@ -1,0 +1,5 @@
+stem,ext,count,paths,note
+sery,.fmb,5,M_CASHEAR/sery.fmb|M_CASHEAR/sery_last.fmb|M_CASHEAR/sery_last20.fmb|M_CASHEAR/sery_old.fmb|M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,active-vs-historical UNRESOLVED
+sery,.fmx,4,M_CASHEAR/sery.fmx|M_CASHEAR/sery_last.fmx|M_CASHEAR/sery_old.fmx|M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,active-vs-historical UNRESOLVED
+take_away,.fmb,4,M_CASHEAR/SQL/take_away.fmb|M_CASHEAR/take_away - Copy.fmb|M_CASHEAR/take_away.fmb|M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,active-vs-historical UNRESOLVED
+take_away,.fmx,3,M_CASHEAR/SQL/take_away.fmx|M_CASHEAR/take_away.fmx|M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,active-vs-historical UNRESOLVED

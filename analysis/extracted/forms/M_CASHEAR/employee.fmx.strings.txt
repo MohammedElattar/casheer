@@ -1,0 +1,1657 @@
+src=M_CASHEAR/employee.fmx
+sha256=c282492ba99382105f1f5dde5a7157288911c1a2910587d7fe8733121e633ff4
+size=673792
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:06.898490+00:00
+version_markers=none
+ascii_lines=1644
+ucs2_lines=1
+trigger_count=0
+pl_sql_markers=13
+===ASCII===
+EMPLOYEE
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P4_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P5_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P7_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+FORMS4C
+FORMS4W
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+P1_10_JAN_200413_50_44
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P3_05_DEC_200021_50_18
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P10_18_SEP_200412_46_36
+/NSPC1/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+STANDARD
+"PKG INIT"P_RUNREPORT""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+#POPUPHINT#
+MELFIKY
+Simplified Arabic
+Cancel
+Simplified Arabic
+Cancel
+My Editor
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+SELECT ALL SUB_DEPT.SUB_DEPT_CODE, SUB_DEPT.SUB_DEPT_NAME
+FROM SUB_DEPT 
+SUB_DEPT_CODE
+SUB_DEPT_NAME
+SELECT ALL JOB_TBL.JOB_CODE, JOB_TBL.JOB_NAME
+FROM JOB_TBL 
+JOB_CODE
+JOB_NAME
+SELECT ALL POINT_TBL.POINT_CODE, POINT_TBL.POINT_NAME
+FROM POINT_TBL 
+where p_typ = 1
+POINT_CODE
+POINT_NAME
+Job_CodeJob_NameSub_Dept_Code
+Sub_Dept_Name
+Point_Code
+Point_Name
+333333
+p=p=p=
+(\(\(\
+ffffff
+Simplified Arabic
+Simplified Arabic
+Simplified Arabic
+MS Sans Serif
+P0_10_JAN_200414_08_02
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+PREVIOUS
+PREVIOUS
+previous
+P2_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+/NSPC1/P_RUNREPORT
+"PKG INIT"<anonymous>""
+DELETE
+DELETE
+Delete
+delete
+Simplified Arabic
+EMP_TBL
+EMP_TBL
+EMP_ID
+ID_TYP
+EMP_NAME
+M_STATUS
+BLD_TYP
+JOB_CODE
+Tahoma
+IN_DATE
+OUT_DATE
+EMP_TYP
+PHOTO_PATH
+Simplified Arabic
+EMP_PASS
+EMP_PRV
+Simplified Arabic
+SERV_FLG
+Simplified Arabic
+P6_10_JAN_200414_08_02
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+P7_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P8_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P16_18_SEP_200409_14_03
+SQLFORMS
+"PKG INIT"<anonymous>""
+P6_18_SEP_200412_23_01
+STANDARD
+MAHROSA
+JOB_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT JOB_NAME   FROM JOB_TBL  WHERE JOB_CODE = :b1"
+P14_18_SEP_200412_46_36
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>"TIFF_IMAGE_DIR"PHOTO_FILENAME""
+/usr/staff/photos/
+D:\M_CASHEAR\PHOTOS\no_photo.bmp
+This employee does not have a photo on file.
+SUB_DEPT_CODE
+P17_18_SEP_200409_14_03
+SQLFORMS
+"PKG INIT"<anonymous>""
+P8_18_SEP_200412_23_01
+STANDARD
+MAHROSA
+SUB_DEPT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT SUB_DEPT_NAME   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"
+Simplified Arabic
+P10_18_SEP_200409_14_03
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+sub_dept_code
+P11_18_SEP_200409_14_03
+SQLFORMS
+"PKG INIT"<anonymous>""
+Simplified Arabic
+P12_18_SEP_200409_14_03
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+P3_18_SEP_200412_23_01
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+sub_dept_code
+P5_18_SEP_200412_23_01
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+job_code
+BIRTH_D
+ADDRESS
+MOBILE_NO
+P11_18_SEP_200412_46_36
+STANDARD
+FORMS4C
+FORMS40
+/NSPC1/QUERY_MASTER_DETAILS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+EMP_TBL.EMP_TBL_EMP_POINT
+EMP_POINT
+P12_18_SEP_200412_46_36
+STANDARD
+MAHROSA
+	EMP_POINT
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM EMP_POINT E WHERE E.EMP_ID = :b1"
+EMP_POINT
+EMP_POINT
+point_code,shift_typ
+EMP_ID
+Emp Id
+P5_18_SEP_200412_46_36
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+POINT_CODE
+P6_18_SEP_200412_46_36
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+SHIFT_TYP
+Simplified Arabic
+P3_18_SEP_200412_46_36
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+P13_18_SEP_200412_46_36
+SQLFORMS
+"PKG INIT"<anonymous>""
+SUB_DEPT_CODE
+TOOLBAR
+DELETE
+QUERY_MASTER_DETAILS
+JOB_NAME
+PUSH_BUTTON790
+SHIFT_TYP
+EMP_POINT
+POINT_NAME
+EMP_TBL_EMP_POINT
+ID_TYP
+JOB_CODE
+EMP_PASS
+THREEBUTTON
+IN_DATE
+UFORMNAME
+MYEDITOR
+ADDRESS
+POINT_CODE
+EMP_TBL
+SERV_FLG
+MOBILE_NO
+CHECK_PACKAGE_FAILURE
+EMP_PRV
+ITEM76
+TWOBUTTON
+ONEBUTTON
+EMP_NAME
+WINDOW1
+BIRTH_D
+PHOTO_PATH
+PREVIOUS
+CANVAS1
+EMP_ID
+SUB_DEPT_NAME
+OUT_DATE
+P_RUNREPORT
+ITEM75
+M_STATUS
+EMP_TYP
+CLEAR_ALL_MASTER_DETAILS
+BLD_TYP
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+IMAGE17
+GRAPHIC18
+GRAPHIC20
+GRAPHIC19
+RECT96
+GRAPHIC95
+RECT21
+TEXT13
+Simplified Arabic
+TEXT25
+Simplified Arabic
+TEXT28
+TEXT31
+TEXT34
+TEXT37
+TEXT40
+TEXT43
+TEXT49
+TEXT70
+RECT92
+GRAPHIC93
+Simplified Arabic
+GRAPHIC94
+GRAPHIC98
+RECT99
+TEXT100
+TEXT104
+TEXT107
+TEXT110
+TEXT113
+TEXT116
+GRAPHIC119
+TEXT136
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+===UCS2-LE===
+*017:<>@B

@@ -1,0 +1,1256 @@
+src=M_CASHEAR/item_type.fmb
+sha256=860c51a1c6daa10dfa982d1771f5772b2858973615ea8831294016c3ba748dea
+size=155648
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:08.858628+00:00
+version_markers=ROS.60050
+ascii_lines=1224
+ucs2_lines=20
+trigger_count=45
+pl_sql_markers=58
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+200414_4
+delete
+ (TOOLBA
+r25g0b0
+r75g25b0
+r88g50b0
+r100g75b0
+r100r75g88b0"<anonymous>""
+P1_12_AUG_200410_32_15
+commit;
+"WHEN-NEW-FORM-INSTANCE (ITEM_TYPE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P1_14_MAY_200321_23_29
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+FRM50_BUFFER
+table contains user's buffer
+ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+ROSOBJMAP
+ros name->id
+)5gROSSTRINGS
+tk2 uiStrings
+(b0ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+TOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P0_14_MAY_200321_23_29
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P5_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+ null;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+SET_TIMER
+SHOW_FUNCTION
+<vgs60.dll>vgiml0
+<vgs60.dll>vgiml1
+<vgs60.dll>vgiml2
+<vgs60.dll>vgiml4
+<vgs60.dll>vgiml8
+<vgs60.dll>vgiml6
+<vgs60.dll>vgidsl
+<vgs60.dll>vgidd
+<vgs60.dll>vgidls
+<vgs60.dll>vgidsd
+<vgs60.dll>vgiddd
+<vgs60.dll>vgidss
+<vgs60.dll>vgidds
+<vgs60.dll>vgiano
+<vgs60.dll>vgiaen
+<vgs60.dll>vgiast
+<vgs60.dll>vgiame
+<vgs60.dll>vgiams
+<vgs60.dll>vgiabo
+P6_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+	FOR I IN 1..3 LOOP
+	BELL;
+	SYNCHRONIZE;
+	END LOOP;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40401 THEN
+ null;
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+ hint.hidebuttonhelp;
+block_menu;
+KEY-MENU (Form)
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P9_14_MAY_200321_23_29
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('main_win',WINDOW_STATE,MAXIMIZE);
+:SYSTEM.MESSAGE_LEVEL := 20;
+:TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;
+next_block;
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC10/BUTTON_PROC
+"PKG INIT"<anonymous>""
+BUTTON_PROC
+-- This is a generic button procedure. It reads the NAME of the button and 
+-- performs a DO_KEY(item_name).
+-- Regarding QUERY-operation:
+-- if there are buttons called EXECUTE_QUERY and CANCEL_QUERY, this function shows
+-- them, when the ENTER_QUERY button is pressed and hides them, when EXECUTE_- or 
+-- CANCEL_QUERY ispressed. No error should be returned, if these buttons do not exist.
+-- To make naming of the buttons easier, EXIT, QUIT and EXIT_FORM all perform exit_form,
+-- even if the form is in ENTER-QUERY mode !!!!!!!
+-- A CANCEL_QUERY button-name cancels a currently "open" query.
+PROCEDURE button_proc IS
+  AL_ID    ALERT;
+  AL_BUT   NUMBER;
+  action varchar(80);
+  -- hide a button (for ENTER_-, EXECUTE_- or CANCEL_QUERY)
+  PROCEDURE show_off(item_name VARCHAR2) IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name, DISPLAYED,PROPERTY_FALSE);
+    END IF;
+  END;
+  -- try to show a button (for the two query-states. If there is no button to show,
+  -- return FALSE to the calling procedure.
+  FUNCTION show_on(item_name VARCHAR2) RETURN BOOLEAN IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name,DISPLAYED,PROPERTY_TRUE);
+      Set_Item_Property(item_name,ENABLED,PROPERTY_TRUE);
+      RETURN TRUE;
+    ELSE
+      RETURN FALSE;
+    END IF;
+  RETURN NULL; END;
+BEGIN    
+  action := Get_Item_Property(NAME_IN('SYSTEM.TRIGGER_ITEM'),ITEM_NAME);
+  IF action = 'ENTER_QUERY' THEN
+    -- only hide the ENTER_QUERY button, if there are EXECUTE_QUERY and (!!) CANCEL_QUERY
+    -- buttons. Otherwise an existing EXECUTE_QUERY button will be shown.
+    IF show_on('EXECUTE_QUERY') AND show_on('CANCEL_QUERY') THEN
+      show_off('ENTER_QUERY');
+    END IF;
+  END IF;
+  IF action IN ('EXIT_FORM', 'EXIT','QUIT') THEN
+    action := 'EXIT_FORM';
+    IF NAME_IN('SYSTEM.MODE')='ENTER-QUERY' THEN
+           AL_ID:=FIND_ALERT('MESS_AL');
+           Set_Alert_Property(al_id, alert_message_text, '        
+           al_but:=show_alert(al_id); 
+              IF  al_but =ALERT_BUTTON1 THEN
+                 Do_Key('EXIT_FORM');
+              ELSE 
+                  NULL;
+              END IF;
+    END IF;
+  END IF;
+  IF action = 'CANCEL_QUERY' THEN 
+    action := 'EXIT_FORM';
+  END IF;
+  Do_Key(action);
+  IF NAME_IN('SYSTEM.MODE') != 'ENTER-QUERY' THEN
+    IF show_on('ENTER_QUERY') THEN
+      show_off('EXECUTE_QUERY');
+      show_off('CANCEL_QUERY');
+    END IF;
+  END IF;
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+"BUTTON_PROC"AL_ID"ALERT"AL_BUT"NUMBER"ACTION"VARCHAR"80"SHOW_OFF"ITEM_NAME"VARCHAR2"ID_NULL"FIND_ITEM"NOT"SET_ITEM_PROPERTY"DISPLAYED"PROPERTY_FALSE"FUNCTION"SHOW_ON"RETURN"BOOLEAN"PROPERTY_TRUE"ENABLED"TRUE"FALSE"GET_ITEM_PROPERTY"NAME_IN"SYSTEM.TRIGGER_ITEM"="ENTER_QUERY"EXECUTE_QUERY"CANCEL_QUERY"EXIT_FORM"EXIT"QUIT"SYSTEM.MODE"ENTER-QUERY"FIND_ALERT"MESS_AL"SET_ALERT_PROPERTY"ALERT_MESSAGE_TEXT"        
+"SHOW_ALERT"ALERT_BUTTON1"DO_KEY"!=""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+SHOW_OFF
+SHOW_ON
+r88g25b50
+x( * , .
+r100g25b50
+r0g25b75
+x( * , .
+r25g25b75
+x( * , .
+r50g25b75
+x( * , .
+r75g25b75
+x( * , .
+r88g25b75
+x( * , .
+r100g25b75
+r0g25b88
+x( * , .
+r25g25b88
+x( * , .
+r50g25b88
+x( * , .
+r75g25b88
+x( * , .
+r88g25b88
+x( * , .
+r100g25b88
+r0g25b100
+x( * , .
+r25g25b100
+x( * , .
+r50g25b100
+x( * , .
+r75g25b100
+x( * , .
+r88g25b100
+x* , . 0
+r100g25b100
+darkred
+darkblue
+x$ & ( *
+gray64(\(\(\
+x$ & ( *
+gray60ffffff
+x$ & ( *
+gray56
+x$ & ( *
+gray52
+r0g50b0
+x& ( *
+r25g50b0
+x& ( *
+r50g50b0
+x& ( *
+r75g50b0
+MODULE4
+Cancel
+                                    
+P1_15_AUG_200414_45_13
+cIF :GLOBAL.S=0 THEN
+show_view('help');
+:GLOBAL.S:=1;
+HIDE_VIEW('HELP');
+:GLOBAL.S:=0;
+END IF;
+&WHEN-BUTTON-PRESSED (TOOLBAR.HELP_BUT)
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+P2_15_AUG_200414_45_13
+delete_record;
+*WHEN-BUTTON-PRESSED (TOOLBAR.CLEAR_RECORD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P1_12_AUG_200410_32_15
+commit;
+"WHEN-NEW-FORM-INSTANCE (ITEM_TYPE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+QPACKAGE BODY DLL IS
+  l_user Ora_Ffi.LibHandleType;
+  l_gdi  Ora_Ffi.LibHandleType;
+  f_getdc  Ora_Ffi.FuncHandleType;
+  f_reldc  Ora_Ffi.FuncHandleType;
+  f_setmap Ora_Ffi.FuncHandleType;
+  f_gte    Ora_Ffi.FuncHandleType;
+  FUNCTION icd_GetDC(f_getdc IN Ora_Ffi.FuncHandleType,
+                     hwnd IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetDC, 11265);
+  FUNCTION icd_ReleaseDC(f_reldc IN Ora_Ffi.FuncHandleType,
+                         hwnd IN PLS_INTEGER,
+                         hdc IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_ReleaseDC, 11265);
+  FUNCTION icd_SetMapMode(f_setmap IN Ora_Ffi.FuncHandleType,
+                          hdc IN PLS_INTEGER,
+                          mm  IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_SetMapMode, 11265);
+  FUNCTION icd_GetTextExtent(f_gte IN Ora_Ffi.FuncHandleType,
+                             hdc IN PLS_INTEGER,
+                             str IN OUT VARCHAR2,
+                             len IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetTextExtent, 11265);
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER IS
+    hwnd    PLS_INTEGER := Get_Window_Property('Window0',Window_Handle);
+    hdc     PLS_INTEGER := 0;
+    buf     PLS_INTEGER;
+    len     PLS_INTEGER   := NVL(length(str), 0);
+    oldmap  PLS_INTEGER;
+    dummy   PLS_INTEGER;
+    s VARCHAR2(255) := rpad(str,255);
+    s_width PLS_INTEGER;
+  BEGIN
+    hdc     := icd_GetDC(f_getdc,hwnd);			-- Get device context.
+    oldmap  := icd_SetMapMode(f_setmap, hdc, 6);	-- Change mapping to MM_TWIPS (~inch) 
+							-- Set to 1 for MM_TEXT (~pixel) and
+							-- change scaling in TOOLBAR package
+							-- if forms module runs in REAL PIXEL
+    s_width := icd_GetTextExtent(f_gte, hdc, s, len);	-- retrieve width of text from GDI
+    dummy   := icd_SetMapMode(f_setmap, hdc, oldmap);	-- reset mapping mode
+    dummy   := icd_ReleaseDC(f_reldc, hwnd, hdc);	-- release deviec context
+    return(s_width);
+  END;
+break;
+  l_user  := Ora_Ffi.Register_Library('c:\windows\system\','USER.EXE');
+  l_gdi   := Ora_Ffi.Register_Library('c:\windows\system\','GDI.EXE');
+  f_getdc := Ora_Ffi.Register_Function(l_user,'GetDC', ORA_FFI.PASCAL_STD);
+  f_reldc := Ora_Ffi.Register_Function(l_user,'ReleaseDC', ORA_FFI.PASCAL_STD);
+  f_setmap := Ora_Ffi.Register_Function(l_gdi,'SetMapMode',ORA_FFI.PASCAL_STD);
+  f_gte    := Ora_Ffi.Register_Function(l_gdi,'GetTextExtent', ORA_FFI.PASCAL_STD);
+  Ora_Ffi.Register_Return(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_CHAR_PTR);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+/NSPC10/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+PACKAGE toolbar IS
+  tbscale NUMBER := 43;		-- good for 1024x768 (SVGA)
+--  tbscale NUMBER := 40;	-- good for 640x480 (VGA)
+  item_name VARCHAR2(80);
+  PROCEDURE hide_function;
+  PROCEDURE set_timer;
+  PROCEDURE show_function;
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+"PACKAGE"TOOLBAR"TBSCALE"NUMBER"43"ITEM_NAME"VARCHAR2"80"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+d:\a_navy\left
+TOOLBAR
+DEFAULT
+                                                                                     
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+TOOLBAR
+6PACKAGE BODY TOOLBAR IS
+  cs VARCHAR2(20);
+  csscale NUMBER;
+  PROCEDURE hide_function IS
+  BEGIN
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_OFF);
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+  END; /* hide_function */
+  PROCEDURE set_timer IS
+    t Timer;
+  BEGIN
+    toolbar.item_name := :SYSTEM.MOUSE_ITEM;
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+    t := Create_Timer('ENTER_TOOLBAR',250,NO_REPEAT);
+  END; /* set_timer */
+  PROCEDURE show_function IS
+    w NUMBER;
+  BEGIN
+    :TOOLBAR.Text := Get_Item_Property(item_name, LABEL);
+    w := dll.tblen(:toolbar.text)*tbscale/100000*csscale;
+    Set_Item_Property('TOOLBAR.TEXT',WIDTH,w);
+    Set_Item_Property('TOOLBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC10/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC10/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+SET_TIMER
+SHOW_FUNCTION
+TEXTSTR687
+TEXTSTR687
+Simplified Arabic
+TEXT688
+TEXT688
+r75g75b88
+CMPTXT689
+CMPTXT689
+TEXTSTR690
+TEXTSTR690
+Simplified Arabic
+r75g75b88
+transparent
+Simplified Arabic
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+ $ & (
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r0g0b0
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r50g25b0
+r0g0b0
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r0g0b0
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+r88g75b0
+r0g0b0
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\item_type.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+ITEM_TYPE
+MODULE4
+Cancel
+                                    
+                          
+                                                                                       
+                                                                                  
+                      
+                                                                                     
+                                                                                         
+                                                                                         
+                                                                                     
+                                                                          
+                                                                           
+                                                                                  
+                                                                           
+                                                  
+           
+Rakmaskry
+PUSH_BUTTON261
+ITEM_TYPE
+MODULE4
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+KEY-MENU
+KEY-MENU
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+ONEBUTTON
+ONEBUTTON
+yellow
+TWOBUTTON
+TWOBUTTON
+THREEBUTTON
+THREEBUTTON
+Cancel
+D:\M_CASHEAR\HINT
+TOOLBAR
+TOOLBAR
+DEFAULT
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DEFAULT
+yy/mm/dd
+TOOLBAR
+transparent
+Simplified Arabic
+$$dbdate$$
+DEFAULT
+UFORMNAME
+UFORMNAME
+TOOLBAR
+TOOLBAR
+HELP_BUT
+HELP_BUT
+TOOLBAR
+Dark Blue
+transparent
+                                                  
+           
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+COMMIT_FORM
+COMMIT_FORM
+TOOLBAR
+DEFAULT
+                                                                           
+CLEAR_RECORD
+CLEAR_RECORD
+d:\a_navy\clear.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+LIST_VALUES
+LIST_VALUES
+d:\a_navy\listval
+TOOLBAR
+                                                                           
+EXIT_FORM
+EXIT_FORM
+d:\a_navy\exit.ico
+TOOLBAR
+DEFAULT
+                                                                          
+d:\a_navy\left
+TOOLBAR
+DEFAULT
+                                                                                     
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+DEFAULT
+                                                                                     
+CANCEL_QUERY
+CANCEL_QUERY
+d:\a_navy\canqry.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+                      
+EXECUTE_QUERY
+EXECUTE_QUERY
+d:\a_navy\execute.ico
+TOOLBAR
+DEFAULT
+                                                                                       
+ENTER_QUERY
+ENTER_QUERY
+d:\a_navy\entqry
+TOOLBAR
+DEFAULT
+                                                              
+ITEM_TYPE
+ITEM_TYPE
+GENERAL
+ITEM_TYPE
+T_CODE
+T_NAME
+CANVAS1
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+T_CODE
+T_CODE
+T_CODE
+CANVAS1
+Simplified Arabic
+T_NAME
+T_NAME
+T_NAME
+CANVAS1
+Simplified Arabic
+TOOLBAR
+TOOLBAR
+MAIN_WIN
+transparent
+MS Sans Serif
+transparent
+transparent
+Tahoma
+CANVAS1
+CANVAS1
+MAIN_WIN
+RECT681
+RECT681
+r75g75b88
+RECT683
+RECT683
+gray40
+RECT682
+RECT682
+r88g75b75
+GRAPHIC161
+GRAPHIC161
+r88g75b50
+CMPTXT159
+CMPTXT159
+TEXTSTR160
+TEXTSTR160
+Simplified Arabic
+TEXT685
+TEXT685
+r75g75b88
+CMPTXT686
+CMPTXT686
+TEXTSTR687
+TEXTSTR687
+Simplified Arabic
+TEXT688
+TEXT688
+r75g75b88
+CMPTXT689
+CMPTXT689
+TEXTSTR690
+TEXTSTR690
+Simplified Arabic
+r75g75b88
+transparent
+Simplified Arabic
+MANDATORY
+BUTTON_PROC
+BUTTON_PROC
+TOOLBAR
+TOOLBAR
+TOOLBAR
+TOOLBAR
+GENERAL
+GENERAL
+gray96
+r100g88b88
+Tahoma
+CURRENTRECCORD
+CURRENTRECCORD
+r100g88b50
+Arabic Transparent
+MAIN_WIN
+MAIN_WIN
+CANVAS1
+TOOLBAR
+SYSTEM.MOUSE_ITEM
+SYSTEM.MOUSE_ITEM
+TOOLBAR
+TOOLBAR
+TOOLBAR.TEXT
+TOOLBAR.TEXT
+TOOLBAR
+TOOLBAR
+TOOLBAR
+SYSTEM.MESSAGE_LEVEL
+SYSTEM.MESSAGE_LEVEL
+P9_14_MAY_200321_23_29
+TOOLBAR.UFORMNAME
+TOOLBAR.UFORMNAME
+UFORMNAME
+TOOLBAR
+P9_14_MAY_200321_23_29
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P9_14_MAY_200321_23_29
+GLOBAL.S
+GLOBAL.S
+P1_15_AUG_200414_45_13
+===UCS2-LE===
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+]cdfhjln
+#$/156=EIMNU]aefmuy|
+           #$$$$$$$$$$$$$%%%%%%&&&&&&''(())+++#.//////////0000000033333333333334444777777777788899999999999;;;;;;<<<<<<======????????@@@@AABGGGGGGGGHHHJJJJLLLLLLLLLLLMMMMMMMNNNNOOOOR.
+!156;<DHLNP
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!")158<=DLPSVZjnos
+!)178>ACKQTVXZ\^`b
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP

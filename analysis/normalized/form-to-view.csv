@@ -1,0 +1,270 @@
+form,view
+M_CASHEAR/SQL/take_away.fmb,EMP_VIEW
+M_CASHEAR/SQL/take_away.fmb,INV_VIEW
+M_CASHEAR/SQL/take_away.fmb,MEM_VIEW
+M_CASHEAR/SQL/take_away.fmb,ROOM_VIEW
+M_CASHEAR/SQL/take_away.fmb,TEL_VIEW
+M_CASHEAR/SQL/take_away.fmx,EMP_VIEW
+M_CASHEAR/SQL/take_away.fmx,INV_VIEW
+M_CASHEAR/SQL/take_away.fmx,MEM_VIEW
+M_CASHEAR/SQL/take_away.fmx,ROOM_VIEW
+M_CASHEAR/SQL/take_away.fmx,TEL_VIEW
+M_CASHEAR/c_orders.fmb,MEM_VIEW
+M_CASHEAR/c_orders.fmb,ROOM_VIEW
+M_CASHEAR/c_orders.fmx,MEM_VIEW
+M_CASHEAR/c_orders.fmx,ROOM_VIEW
+M_CASHEAR/categ_month.fmb,CATEG_VIEW
+M_CASHEAR/categ_month.fmb,ITEM_CATEG_MONTH_VIEW
+M_CASHEAR/categ_month.fmx,CATEG_VIEW
+M_CASHEAR/categ_month.fmx,ITEM_CATEG_MONTH_VIEW
+M_CASHEAR/categ_year_stat.fmb,CATEG_YEAR_VIEW
+M_CASHEAR/categ_year_stat.fmb,ITEM_CATEG_YEAR_VIEW
+M_CASHEAR/categ_year_stat.fmx,CATEG_YEAR_VIEW
+M_CASHEAR/categ_year_stat.fmx,ITEM_CATEG_YEAR_VIEW
+M_CASHEAR/day_categ_view.fmb,DAY_CATEG_VIEW
+M_CASHEAR/day_categ_view.fmb,DAY_ITEM_CATEG_VIEW
+M_CASHEAR/day_categ_view.fmx,DAY_CATEG_VIEW
+M_CASHEAR/day_categ_view.fmx,DAY_ITEM_CATEG_VIEW
+M_CASHEAR/graph/day_stat.ogd,TDAY_VIEW
+M_CASHEAR/graph/i_t_m_s_view.ogd,I_T_M_S_VIEW
+M_CASHEAR/graph/item_categ_stat.ogd,ITEM_CATEG_VIEW
+M_CASHEAR/graph/month_stat.ogd,TMONTH_VIEW
+M_CASHEAR/graph/shift_stat.ogd,DAY_VIEW
+M_CASHEAR/graph/stat_categ_month.ogd,CATEG_VIEW
+M_CASHEAR/graph/stat_item.ogd,TPDAY_VIEW
+M_CASHEAR/graph/stat_item_month.ogd,TPDAY_VIEW
+M_CASHEAR/graph/stat_item_shift.ogd,PDAY_VIEW
+M_CASHEAR/graph/stat_item_shift_month.ogd,PDAY_VIEW
+M_CASHEAR/graph/t_day_view.ogd,T_DAY_VIEW
+M_CASHEAR/graph/year_month_stat.ogd,YEAR_MONTH_VIEW
+M_CASHEAR/point_close.fmb,DTL_VIEW
+M_CASHEAR/point_close.fmx,DTL_VIEW
+M_CASHEAR/point_close_temp.fmb,DTL_VIEW
+M_CASHEAR/point_close_temp.fmx,DTL_VIEW
+M_CASHEAR/points.fmb,POINT_CAP_VIEW
+M_CASHEAR/points.fmb,POINT_INV_VIEW
+M_CASHEAR/points.fmb,POINT_WRDIA_VIEW
+M_CASHEAR/points.fmb,POINT_YOM_VIEW
+M_CASHEAR/points.fmx,POINT_CAP_VIEW
+M_CASHEAR/points.fmx,POINT_INV_VIEW
+M_CASHEAR/points.fmx,POINT_WRDIA_VIEW
+M_CASHEAR/points.fmx,POINT_YOM_VIEW
+M_CASHEAR/sery - original.fmb,EMP_VIEW
+M_CASHEAR/sery - original.fmb,MEM_VIEW
+M_CASHEAR/sery - original.fmb,NZL_VIEW
+M_CASHEAR/sery - original.fmb,ROOM_VIEW
+M_CASHEAR/sery.fmb,EMP_VIEW
+M_CASHEAR/sery.fmb,MEM_VIEW
+M_CASHEAR/sery.fmb,NZL_VIEW
+M_CASHEAR/sery.fmb,ROOM_VIEW
+M_CASHEAR/sery.fmx,EMP_VIEW
+M_CASHEAR/sery.fmx,MEM_VIEW
+M_CASHEAR/sery.fmx,NZL_VIEW
+M_CASHEAR/sery.fmx,ROOM_VIEW
+M_CASHEAR/sery2.fmb,EMP_VIEW
+M_CASHEAR/sery2.fmb,MEM_VIEW
+M_CASHEAR/sery2.fmb,NZL_VIEW
+M_CASHEAR/sery2.fmb,ROOM_VIEW
+M_CASHEAR/sery2.fmx,EMP_VIEW
+M_CASHEAR/sery2.fmx,MEM_VIEW
+M_CASHEAR/sery2.fmx,NZL_VIEW
+M_CASHEAR/sery2.fmx,ROOM_VIEW
+M_CASHEAR/sery_fki.fmb,EMP_VIEW
+M_CASHEAR/sery_fki.fmb,MEM_VIEW
+M_CASHEAR/sery_fki.fmb,NZL_VIEW
+M_CASHEAR/sery_fki.fmb,ROOM_VIEW
+M_CASHEAR/sery_inv.fmb,EMP_VIEW
+M_CASHEAR/sery_inv.fmb,MEM_VIEW
+M_CASHEAR/sery_inv.fmb,NZL_VIEW
+M_CASHEAR/sery_inv.fmb,ROOM_VIEW
+M_CASHEAR/sery_inv.fmx,EMP_VIEW
+M_CASHEAR/sery_inv.fmx,MEM_VIEW
+M_CASHEAR/sery_inv.fmx,NZL_VIEW
+M_CASHEAR/sery_inv.fmx,ROOM_VIEW
+M_CASHEAR/sery_last.fmb,EMP_VIEW
+M_CASHEAR/sery_last.fmb,MEM_VIEW
+M_CASHEAR/sery_last.fmb,NZL_VIEW
+M_CASHEAR/sery_last.fmb,ROOM_VIEW
+M_CASHEAR/sery_last.fmx,EMP_VIEW
+M_CASHEAR/sery_last.fmx,MEM_VIEW
+M_CASHEAR/sery_last.fmx,NZL_VIEW
+M_CASHEAR/sery_last.fmx,ROOM_VIEW
+M_CASHEAR/sery_last10-10.fmb,EMP_VIEW
+M_CASHEAR/sery_last10-10.fmb,MEM_VIEW
+M_CASHEAR/sery_last10-10.fmb,NZL_VIEW
+M_CASHEAR/sery_last10-10.fmb,ROOM_VIEW
+M_CASHEAR/sery_last12-10.fmb,EMP_VIEW
+M_CASHEAR/sery_last12-10.fmb,MEM_VIEW
+M_CASHEAR/sery_last12-10.fmb,NZL_VIEW
+M_CASHEAR/sery_last12-10.fmb,ROOM_VIEW
+M_CASHEAR/sery_last20.fmb,EMP_VIEW
+M_CASHEAR/sery_last20.fmb,MEM_VIEW
+M_CASHEAR/sery_last20.fmb,NZL_VIEW
+M_CASHEAR/sery_last20.fmb,ROOM_VIEW
+M_CASHEAR/sery_last_Bridge.fmx,EMP_VIEW
+M_CASHEAR/sery_last_Bridge.fmx,MEM_VIEW
+M_CASHEAR/sery_last_Bridge.fmx,NZL_VIEW
+M_CASHEAR/sery_last_Bridge.fmx,ROOM_VIEW
+M_CASHEAR/sery_old.fmb,EMP_VIEW
+M_CASHEAR/sery_old.fmb,MEM_VIEW
+M_CASHEAR/sery_old.fmb,NZL_VIEW
+M_CASHEAR/sery_old.fmb,ROOM_VIEW
+M_CASHEAR/sery_old.fmx,EMP_VIEW
+M_CASHEAR/sery_old.fmx,MEM_VIEW
+M_CASHEAR/sery_old.fmx,NZL_VIEW
+M_CASHEAR/sery_old.fmx,ROOM_VIEW
+M_CASHEAR/sery_w.fmb,EMP_VIEW
+M_CASHEAR/sery_w.fmb,MEM_VIEW
+M_CASHEAR/sery_w.fmb,NZL_VIEW
+M_CASHEAR/sery_w.fmb,ROOM_VIEW
+M_CASHEAR/sery_w.fmx,EMP_VIEW
+M_CASHEAR/sery_w.fmx,MEM_VIEW
+M_CASHEAR/sery_w.fmx,NZL_VIEW
+M_CASHEAR/sery_w.fmx,ROOM_VIEW
+M_CASHEAR/seryehab.fmb,EMP_VIEW
+M_CASHEAR/seryehab.fmb,MEM_VIEW
+M_CASHEAR/seryehab.fmb,NZL_VIEW
+M_CASHEAR/seryehab.fmb,ROOM_VIEW
+M_CASHEAR/seryehab.fmx,EMP_VIEW
+M_CASHEAR/seryehab.fmx,MEM_VIEW
+M_CASHEAR/seryehab.fmx,NZL_VIEW
+M_CASHEAR/seryehab.fmx,ROOM_VIEW
+M_CASHEAR/stat_day.fmb,DAY_VIEW
+M_CASHEAR/stat_day.fmb,I_T_DAY_VIEW
+M_CASHEAR/stat_day.fmb,I_T_D_S_VIEW
+M_CASHEAR/stat_day.fmb,T_DAY_VIEW
+M_CASHEAR/stat_day.fmb,T_D_S_VIEW
+M_CASHEAR/stat_day.fmx,DAY_VIEW
+M_CASHEAR/stat_day.fmx,I_T_DAY_VIEW
+M_CASHEAR/stat_day.fmx,I_T_D_S_VIEW
+M_CASHEAR/stat_day.fmx,T_DAY_VIEW
+M_CASHEAR/stat_day.fmx,T_D_S_VIEW
+M_CASHEAR/stat_month.fmb,ITEM_M_C_VIEW
+M_CASHEAR/stat_month.fmb,I_T_M_S_VIEW
+M_CASHEAR/stat_month.fmb,MONTH_CATEG_VIEW
+M_CASHEAR/stat_month.fmb,MONTH_VIEW
+M_CASHEAR/stat_month.fmb,PMONTH_VIEW
+M_CASHEAR/stat_month.fmb,TMONTH_VIEW
+M_CASHEAR/stat_month.fmb,TPMONTH_VIEW
+M_CASHEAR/stat_month.fmb,T_M_S_VIEW
+M_CASHEAR/stat_month.fmx,ITEM_M_C_VIEW
+M_CASHEAR/stat_month.fmx,I_T_M_S_VIEW
+M_CASHEAR/stat_month.fmx,MONTH_CATEG_VIEW
+M_CASHEAR/stat_month.fmx,MONTH_VIEW
+M_CASHEAR/stat_month.fmx,PMONTH_VIEW
+M_CASHEAR/stat_month.fmx,TMONTH_VIEW
+M_CASHEAR/stat_month.fmx,TPMONTH_VIEW
+M_CASHEAR/stat_month.fmx,T_M_S_VIEW
+M_CASHEAR/stat_year.fmb,PYEAR_VIEW
+M_CASHEAR/stat_year.fmb,TPYEAR_VIEW
+M_CASHEAR/stat_year.fmb,TYEAR_VIEW
+M_CASHEAR/stat_year.fmb,YEAR_VIEW
+M_CASHEAR/stat_year.fmx,PYEAR_VIEW
+M_CASHEAR/stat_year.fmx,TPYEAR_VIEW
+M_CASHEAR/stat_year.fmx,TYEAR_VIEW
+M_CASHEAR/stat_year.fmx,YEAR_VIEW
+M_CASHEAR/statistics_form.fmb,CATEG_VIEW
+M_CASHEAR/statistics_form.fmb,CATEG_YEAR_VIEW
+M_CASHEAR/statistics_form.fmb,DAY_VIEW
+M_CASHEAR/statistics_form.fmb,MONTH_VIEW
+M_CASHEAR/statistics_form.fmb,POINT_VIEW
+M_CASHEAR/statistics_form.fmb,YEAR_VIEW
+M_CASHEAR/statistics_form.fmx,CATEG_VIEW
+M_CASHEAR/statistics_form.fmx,CATEG_YEAR_VIEW
+M_CASHEAR/statistics_form.fmx,DAY_VIEW
+M_CASHEAR/statistics_form.fmx,MONTH_VIEW
+M_CASHEAR/statistics_form.fmx,POINT_VIEW
+M_CASHEAR/statistics_form.fmx,YEAR_VIEW
+M_CASHEAR/take_away - Copy.fmb,EMP_VIEW
+M_CASHEAR/take_away - Copy.fmb,INV_VIEW
+M_CASHEAR/take_away - Copy.fmb,MEM_VIEW
+M_CASHEAR/take_away - Copy.fmb,ROOM_VIEW
+M_CASHEAR/take_away - Copy.fmb,TEL_VIEW
+M_CASHEAR/take_away.fmb,EMP_VIEW
+M_CASHEAR/take_away.fmb,INV_VIEW
+M_CASHEAR/take_away.fmb,MEM_VIEW
+M_CASHEAR/take_away.fmb,ROOM_VIEW
+M_CASHEAR/take_away.fmb,TEL_VIEW
+M_CASHEAR/take_away.fmx,EMP_VIEW
+M_CASHEAR/take_away.fmx,MEM_VIEW
+M_CASHEAR/take_away.fmx,NZL_VIEW
+M_CASHEAR/take_away.fmx,ROOM_VIEW
+M_CASHEAR/take_away_original - Copy.fmb,EMP_VIEW
+M_CASHEAR/take_away_original - Copy.fmb,INV_VIEW
+M_CASHEAR/take_away_original - Copy.fmb,MEM_VIEW
+M_CASHEAR/take_away_original - Copy.fmb,ROOM_VIEW
+M_CASHEAR/take_away_original - Copy.fmb,TEL_VIEW
+M_CASHEAR/take_away_original - Copy.fmx,EMP_VIEW
+M_CASHEAR/take_away_original - Copy.fmx,INV_VIEW
+M_CASHEAR/take_away_original - Copy.fmx,MEM_VIEW
+M_CASHEAR/take_away_original - Copy.fmx,ROOM_VIEW
+M_CASHEAR/take_away_original - Copy.fmx,TEL_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,EMP_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,INV_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,MEM_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,ROOM_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmb,TEL_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,EMP_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,INV_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,MEM_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,ROOM_VIEW
+M_CASHEAR/take_away_withoutStopDes After3-2014.fmx,TEL_VIEW
+M_CASHEAR/takeaway_pizza.fmb,EMP_VIEW
+M_CASHEAR/takeaway_pizza.fmb,INV_VIEW
+M_CASHEAR/takeaway_pizza.fmb,MEM_VIEW
+M_CASHEAR/takeaway_pizza.fmb,ROOM_VIEW
+M_CASHEAR/takeaway_pizza.fmb,TEL_VIEW
+M_CASHEAR/takeaway_pizza.fmx,EMP_VIEW
+M_CASHEAR/takeaway_pizza.fmx,INV_VIEW
+M_CASHEAR/takeaway_pizza.fmx,MEM_VIEW
+M_CASHEAR/takeaway_pizza.fmx,ROOM_VIEW
+M_CASHEAR/takeaway_pizza.fmx,TEL_VIEW
+M_CASHEAR/takeaway_pizza_original.fmb,EMP_VIEW
+M_CASHEAR/takeaway_pizza_original.fmb,INV_VIEW
+M_CASHEAR/takeaway_pizza_original.fmb,MEM_VIEW
+M_CASHEAR/takeaway_pizza_original.fmb,ROOM_VIEW
+M_CASHEAR/takeaway_pizza_original.fmb,TEL_VIEW
+M_CASHEAR/xtake_away.fmx,EMP_VIEW
+M_CASHEAR/xtake_away.fmx,INV_VIEW
+M_CASHEAR/xtake_away.fmx,MEM_VIEW
+M_CASHEAR/xtake_away.fmx,ROOM_VIEW
+M_CASHEAR/xtake_away.fmx,TEL_VIEW
+M_CASHEAR/year_categ_stat.fmb,CATEG_VIEW
+M_CASHEAR/year_categ_stat.fmb,ITEM_CATEG_VIEW
+M_CASHEAR/year_categ_stat.fmb,POINT_VIEW
+M_CASHEAR/year_categ_stat.fmx,CATEG_VIEW
+M_CASHEAR/year_categ_stat.fmx,ITEM_CATEG_VIEW
+M_CASHEAR/year_item_stat.fmb,ITEM_CATEG_POINT_VIEW
+M_CASHEAR/year_item_stat.fmb,ITEM_YEAR_VIEW
+M_CASHEAR/year_item_stat.fmx,ITEM_CATEG_POINT_VIEW
+M_CASHEAR/year_item_stat.fmx,ITEM_YEAR_VIEW
+M_CASHEAR/year_month_stat.fmb,ITEM_CATEG_VIEW
+M_CASHEAR/year_month_stat.fmb,ITEM_POINT_CATEG_VIEW
+M_CASHEAR/year_month_stat.fmb,YEAR_MONTH_VIEW
+M_CASHEAR/year_month_stat.fmx,ITEM_CATEG_VIEW
+M_CASHEAR/year_month_stat.fmx,ITEM_POINT_CATEG_VIEW
+M_CASHEAR/year_month_stat.fmx,YEAR_MONTH_VIEW
+M_CASHEAR/year_point_stat.fmb,CATEG_POINT_VIEW
+M_CASHEAR/year_point_stat.fmb,ITEM_CATEG_POINT_VIEW
+M_CASHEAR/year_point_stat.fmb,POINT_VIEW
+M_CASHEAR/year_point_stat.fmx,CATEG_POINT_VIEW
+M_CASHEAR/year_point_stat.fmx,ITEM_CATEG_POINT_VIEW
+M_CASHEAR/year_point_stat.fmx,POINT_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,EMP_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,MEM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,NZL_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,ROOM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,EMP_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,MEM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,NZL_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,ROOM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,EMP_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,INV_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,MEM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,ROOM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,TEL_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,EMP_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,INV_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,MEM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,ROOM_VIEW
+M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,TEL_VIEW

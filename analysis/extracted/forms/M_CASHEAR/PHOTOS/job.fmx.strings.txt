@@ -1,0 +1,416 @@
+src=M_CASHEAR/PHOTOS/job.fmx
+sha256=168ab79d769d57a1aa5a31abaa7bb0c1da2114b4743b7ba04d7c8254600253d1
+size=1638884
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:10.921656+00:00
+version_markers=none
+ascii_lines=403
+ucs2_lines=0
+trigger_count=0
+pl_sql_markers=5
+===ASCII===
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P4_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P5_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P7_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+FORMS4C
+FORMS4W
+STANDARD
+"PKG INIT"<anonymous>""
+window1
+P1_10_JAN_200413_50_44
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P3_05_DEC_200021_50_18
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+STANDARD
+"PKG INIT"P_RUNREPORT""
+P_RUNREPORT
+CURRENTRECCORD
+Arabic Transparent
+MANDATORY
+Traditional Arabic
+OPTIONAL
+Traditional Arabic
+DISPLAY
+Traditional Arabic
+CANVAS
+Traditional Arabic
+TOOLBAR
+Traditional Arabic
+#POPUPHINT#
+MELFIKY
+Traditional Arabic
+Simplified Arabic
+Cancel
+Simplified Arabic
+Cancel
+My Editor
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+333333
+p=p=p=
+(\(\(\
+ffffff
+Arabic Transparent
+MS Sans Serif
+P0_10_JAN_200414_08_02
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+PREVIOUS
+PREVIOUS
+previous
+P2_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+/NSPC7/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P6_10_JAN_200414_08_02
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+P7_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+DELETE
+DELETE
+Delete
+delete
+P8_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+Traditional Arabic
+JOB_TBL
+JOB_TBL
+JOB_CODE
+Traditional Arabic
+Traditional Arabic
+JOB_NAME
+Traditional Arabic
+JOB_TBL
+WINDOW1
+PREVIOUS
+TOOLBAR
+JOB_NAME
+THREEBUTTON
+CANVAS1
+MYEDITOR
+ONEBUTTON
+P_RUNREPORT
+TWOBUTTON
+JOB_CODE
+DELETE
+UFORMNAME
+IMAGE7
+Arabic Transparent
+{{pRQ@%&
+vJ< g?
+ghZ=SA"
+yV+{hE
+wKsbHkdK
+4f|0`xT
+'bu6mz+Xe@p
+$5:"$)
+Tnz@NJ
+Lb!`u3o
+We&ZkFt
+8cx)Xmm
+>[(Qh'H[
+I^"]pE
+;he-99
+5;Nhn3KQv
+6F=[la
+(KU)IT
++6Pm{D^n
+.B1VjQx
+1M^9]g
+-H_o->Qj~
+9Vd?Zhm
+8D"jtY
+Cdt8Wfw
+)Rs1Wy?n
++Wn7at*K^F_sVv
+1ev6j{L
+Bhm>dig
+?E?twb
+.[i.[i
+IW.lwU
+<Q#K^=asLn~?dr6`l8ep
+	3@Km}'BV
+)4?drPr
+2Wq/Wpr
++Ve+OY79H
+7`v6du<`pj
+Y|&[vQ
+CW0HZD^lc
+E[E`zDh
+,M\AcsX
+*p}<juV
+$ez,`qu
+3X`EszT
+&E.]|l
+1QdFet AP:gu4htr
+ J]:j|n
+0aq!Ue-z
+!Ul3Qb
+(a{;l|&ij
+!`u,Zk
+.a{%Vlp
+Cjs!cvh
+%X[	@EP
+'8KDbu
+B^eJnvT
+Xg1W\0`fU
+Tr} [o
+:ap+Ra8_m'N\
+#EU1[b?}
+$\o%Se,Pb
+;G:^h3_lb~
+5Wd>aeGpsW
+6I=gt.Uc-Tc
+BQD^lRs
+<^^jvz
+;OKbqu
+'HWXx~:~
+;gx  1-ZhZ
+7Qa2L\M{
+5CXryb
+3DQ.EU%BP
+5?&suD
+#@U+E]<_s,Xi<t
+;E%)20qzI
+GZg*CSu
+#0FmuN
+8YiHez`
+,IN/7<y
+(KU)[q
+FLQ./2
+Vo'c{x
+&FY!5F
+-^l$HXd
+<S7IZ2LX6OY
+1#Khcx
+<Y]"4;
+9R\[t~_
+.GQ[]h
+Kbx"J\E
+%5#@E*Y]4
+"ScDq~
+.o~>\m^{
+<K#VjAg
+Xv{;jn
+)Y_.^jP
+-AF!HQX
+0ETzoY
+.[p'AM
+7[k-PZ"]g.{
+)JY(AKXr~Gct
+Cqr9ln
+@hz)]ha
+DV)Tc4w
++BXSdqDYh=`nd~
+-S_ WdS
+E_krmT
+$ZqGdkWq}
+6ar_ml
+3Qj 8Dq
+#ER+KV?s
+JfqmiP
+(-;?mxY
+Ber#?F7hp8
+(Wm5OVFcl_
+>cqYkv
+De"1:-RV
+'CN[T;
+Myz Pb+j~9~
+-Q[7Yf
+F_s!?POs
+#Td<[j[|
+>cyASd
+Poxe[I
+8G'K]Qi
+Cat"@SMl
++UhQiu
+")FTIpx
+ _m+i{U
+,a|,a|
+2FQAMSPfq<^n
+0Mb5DW
+*367<;(+(
+443JN!,.u
+A^s7Qi\
+#4=1FUQx
+>O:dq*MW(GP	
+I]hJfg
+4Wk1Wo#Niv
+>Ne4T_Xt
++ I_9`|
+Sp-]o!Q]
+,:+dzd
+9m~>mqMrn
+qwwY&1
+#]s%[r
+okO0B;
+#EK(R_
+__QGXT
+]{p]`P"
+wJE0ND2bQ>
+56;]ic
+33B>Zk
+0a{!Xsc
+spTurV
+HF${jC
+"0 OeU
++Ra#Ni
+*a|+_p7u
+$/Nq~2av(]jEF<
+ K\1Xg BRa
+9cjYjf:B7
+_YB[Q9
+Xe]idU
+,b{*c}B
+1E"WkZ
+-b}.c~
+as	bwB
+0IEsk^
+Tf0duR
+tpG|c1ta@
+`w'\qK
+Le!\vF
+B_"[{g
+)3$gv,
+=Uk1Um
+>T"_sH
+L^"Wk&`};
++DI(R_'drU
+"N_CO=
+pjMWO1
+(Tl,ezv
+ OW=twY
+&?<4]O8
+o#rgLy
+AzyW3|
+Lft`U?
+<lxKI?
+/^lYWL
+~-ks&r
+/M^XXR
+Rpq{Y+
+Ifo+7;')
+*8Y`[|jM
+QsrlhE
+EW#hw[
+@Y]58/
++@B,.([TE
+8UExj@
+=^r1cz;
+Xsi`fU
+_#qqIh
+c{t[1+
+6PCp|f
+MWF]bSBA7+&
+*Z~!Ntj
+3Q\-Yq
+&GV3ay
+Kx{ma=
+?Vl	8XK
+Vx%^~b
+Xvw2RuM
+.J'OlU
++^~![~
+4D%[~0r
+*Tgcp~
+6X&Z~;t
+4JVAB.
+6dv"d}k
+1OZVSD
+[pn\^A
+0@;VVH
+Uo}lYR
+===UCS2-LE===
+

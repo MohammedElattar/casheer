@@ -1,0 +1,212 @@
+=== LIBRARY HINT ===
+FILE: C:\casheer_rev\HINT.PLL
+
+--- PU #1 name=HINT kind=3 ---
+PACKAGE HINT IS
+
+  PROCEDURE ShowButtonHelp( timedelay NUMBER := 500);
+
+  PROCEDURE ShowButtonHelpHandler;
+
+  PROCEDURE HideButtonHelp;
+
+END HINT;
+
+
+--- PU #2 name=HINT kind=4 ---
+PACKAGE BODY HINT IS
+  --
+  -- SMUENCH/DNAVAS, 1994
+  --
+  BUTTONHELPTIMER   CONSTANT VARCHAR2(80) := 'SHOWBUTTONHELP__X';
+  hint_is_displayed BOOLEAN := FALSE;
+  on_windows_flag   BOOLEAN := NULL;
+  rc                PLS_INTEGER;
+  mouse_item        VARCHAR2(80);
+  mouse_canvas      VARCHAR2(80);
+  mouse_item_hint   VARCHAR2(200);
+  appInst           PLS_INTEGER;
+  HWind             PLS_INTEGER;
+  lh_SHOWHINT       ora_ffi.libHandleType;
+  fh_DisplayHint    ora_ffi.funcHandleType;
+
+
+  FUNCTION i_DisplayHint(funcHandle IN ora_ffi.funcHandleType,
+  AppInstance IN PLS_INTEGER,
+  HWnd IN PLS_INTEGER,
+  PosSq IN PLS_INTEGER,
+  x IN PLS_INTEGER,
+  y IN PLS_INTEGER,
+  message IN OUT VARCHAR2)
+  RETURN PLS_INTEGER;
+
+  PRAGMA INTERFACE(C,i_DisplayHint,11265);
+
+  FUNCTION DisplayHint
+  (AppInstance IN PLS_INTEGER,
+  HWnd IN PLS_INTEGER,
+  PosSq IN PLS_INTEGER,
+  x IN PLS_INTEGER,
+  y IN PLS_INTEGER,
+  message IN  VARCHAR2)
+  RETURN PLS_INTEGER IS 
+  AppInstance_l PLS_INTEGER := AppInstance;
+  HWnd_l PLS_INTEGER := HWnd;
+  PosSq_l PLS_INTEGER := PosSq;
+  x_l PLS_INTEGER := x;
+  y_l PLS_INTEGER := y;
+  message_l VARCHAR2(512) := message;
+  BEGIN 
+       rc  := i_DisplayHint(fh_DisplayHint,
+	      AppInstance_l,
+	      HWnd_l,
+	      PosSq_l,
+	      x_l,
+	      y_l,
+	      message_l);
+
+    RETURN (rc);
+  END ;
+
+  FUNCTION on_windows RETURN BOOLEAN IS
+  BEGIN
+    IF on_windows_flag IS NULL THEN
+      on_windows_flag := Get_Application_Property(USER_INTERFACE)='MSWINDOWS';
+    END IF;
+    RETURN on_windows_flag;
+  END;
+
+  PROCEDURE sync_mouse_info IS
+  BEGIN
+    mouse_item   := Name_In('SYSTEM.MOUSE_ITEM');
+    mouse_canvas := Name_In('SYSTEM.MOUSE_CANVAS');
+    appInst      := TO_NUMBER(
+                      Get_Application_Property(APPLICATION_INSTANCE));
+    IF mouse_item IS NOT NULL THEN
+      hWind        := TO_NUMBER(
+                        Get_Item_Property(mouse_item,WINDOW_HANDLE));
+      mouse_item_hint := Get_Item_Property(mouse_item,HINT_TEXT);
+      IF SUBSTR(mouse_item_hint,1,1) = CHR(0) THEN
+        mouse_item_hint := NULL;
+      END IF;
+    ELSE 
+      hWind := NULL;
+    END IF;
+  END;
+
+  FUNCTION mouse_item_label RETURN VARCHAR2 IS
+    tmp VARCHAR(200) := Get_Item_Property(mouse_item,LABEL);
+  BEGIN
+    IF SUBSTR(tmp,1,1) = CHR(0) THEN
+      RETURN NULL;
+    ELSE
+      RETURN tmp;
+    END IF;
+  RETURN NULL; END;
+
+  FUNCTION mouse_item_is_iconic_button RETURN BOOLEAN IS
+  BEGIN
+    RETURN Get_Item_Property(mouse_item,ITEM_TYPE) LIKE '%BUTTON%'
+           AND Get_Item_Property(mouse_item,ICON_NAME) IS NOT NULL;
+  END;
+
+  FUNCTION mouse_window RETURN VARCHAR2 IS
+  BEGIN
+    RETURN Get_View_Property(mouse_canvas,WINDOW_NAME);
+  END;
+
+  FUNCTION relative_hint_pos RETURN PLS_INTEGER IS
+    left  NUMBER;
+    right NUMBER;
+    win   VARCHAR2(80);
+  BEGIN
+    left  := Get_Item_Property(mouse_item,X_POS);
+    right := left + TO_NUMBER(Get_Item_Property(mouse_item,WIDTH));
+    win   := Get_Window_Property(mouse_window,WIDTH);
+    IF left/win < 0.05 THEN
+      RETURN 16;
+    ELSIF right/win > .95 THEN
+      RETURN -16;
+    ELSE
+      RETURN 0;
+    END IF;
+  RETURN NULL; END;
+
+  PROCEDURE HideButtonHelp IS
+     t Timer := Find_Timer(BUTTONHELPTIMER);
+  BEGIN
+    IF NOT on_windows THEN
+      RETURN;
+    END IF;
+    IF NOT Id_Null(t) THEN
+      Delete_Timer(t);
+    END IF;
+    IF hint_is_displayed THEN
+      rc := DisplayHint(NULL,NULL,7,0,0,NULL);
+      Clear_Message;
+      hint_is_displayed := FALSE;
+    END IF;
+  END;
+
+  PROCEDURE ShowButtonHelp( timedelay NUMBER := 500) IS
+    t Timer := Find_Timer(BUTTONHELPTIMER);
+  BEGIN
+    IF NOT on_windows THEN
+      RETURN;
+    END IF;
+    IF NOT Id_Null(t) THEN
+      Delete_Timer(t);
+    END IF;
+    sync_mouse_info; 
+    IF mouse_item IS NOT NULL AND
+       mouse_item_is_iconic_button THEN
+      IF mouse_item_label IS NOT NULL THEN
+        t := Create_Timer(BUTTONHELPTIMER,timedelay,NO_REPEAT);
+      END IF;
+    ELSE
+      HideButtonHelp;
+    END IF;
+  END;
+
+  PROCEDURE ShowButtonHelpHandler IS
+    t Timer := Find_Timer(BUTTONHELPTIMER);
+    tn VARCHAR2(80) := Get_Application_Property(TIMER_NAME);
+  BEGIN
+    IF NVL(tn,'x') = BUTTONHELPTIMER THEN
+      IF NOT on_windows THEN
+	RETURN;
+      END IF;
+      IF NOT Id_Null(t) THEN
+	Delete_Timer(t);
+      END IF;
+      rc := DisplayHint(appInst,HWind,7,relative_hint_pos+3,0,
+                          mouse_item_label);
+      IF mouse_item_hint IS NOT NULL THEN
+        Message(mouse_item_hint,NO_ACKNOWLEDGE);
+      END IF;
+      hint_is_displayed := TRUE;
+    END IF;
+  END;
+  
+
+BEGIN
+  IF on_windows THEN
+     BEGIN 
+       lh_SHOWHINT := ora_ffi.find_library('SHOWHINT.DLL');
+     EXCEPTION WHEN ora_ffi.FFI_ERROR THEN 
+       lh_SHOWHINT := ora_ffi.load_library(NULL,'SHOWHINT.DLL');
+     END ;
+     fh_DisplayHint := ora_ffi.register_function(lh_SHOWHINT,
+                       'DisplayHint',ora_ffi.C_STD);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_INT);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_INT);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_INT);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_INT);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_INT);
+     ora_ffi.register_parameter(fh_DisplayHint,ORA_FFI.C_CHAR_PTR);
+     ora_ffi.register_return(fh_DisplayHint,ORA_FFI.C_INT);
+  END IF;
+END HINT;
+
+
+=== END count=2 ===

@@ -1,0 +1,3224 @@
+src=M_CASHEAR/year_month_stat.fmb
+sha256=ee5703031a9b7601b22564794e9bdbb8a741cc446ce5b4c20f6dd61947882d5c
+size=360448
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.811629+00:00
+version_markers=ROS.60050
+ascii_lines=3161
+ucs2_lines=51
+trigger_count=151
+pl_sql_markers=171
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+200508_4
+0go_blo
+ATEG_VIE
+ON-PRESS
+$nymous>"
+r0g0b0
+r50g25b0
+r75g50b0
+r88g75b0
+r100r50g88b0
+ITEM_POINT_CATEG_VIEW
+P3_02_AUG_200508_47_36
+*go_block('ITEM_CATEG_VIEW');execute_query;
+%WHEN-BUTTON-PRESSED (TOOLBAR.ITEM867)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_CATEG_VIEW
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P2_12_OCT_200410_29_21
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	tfp:=TEXT_IO.FOPEN('D:\M_CASHEAR\ogd\tmp1.dat','w');
+  TEXT_IO.PUT_LINE (tfp, '');
+  TEXT_IO.FCLOSE(tfp);
+	tfp:=TEXT_IO.FOPEN('D:\M_CASHEAR\ogd\tmp2.dat','w');
+  TEXT_IO.PUT_LINE (tfp, '');
+  TEXT_IO.FCLOSE(tfp);
+ 	tfp:=TEXT_IO.FOPEN('D:\M_CASHEAR\ogd\tmp3.dat','w');
+  TEXT_IO.PUT_LINE (tfp, '');
+  TEXT_IO.FCLOSE(tfp);
+	tfp:=TEXT_IO.FOPEN('D:\M_CASHEAR\ogd\tmp5.dat','w');
+  TEXT_IO.PUT_LINE (tfp, '');
+  TEXT_IO.FCLOSE(tfp);
+	tfp:=TEXT_IO.FOPEN('D:\M_CASHEAR\ogd\tmp6.dat','w');
+  TEXT_IO.PUT_LINE (tfp, '');
+  TEXT_IO.FCLOSE(tfp);   
+og.close('D:\M_CASHEAR\graph\year_month_stat.OGD', 'year_month_stat'); 
+--og.close('D:\M_CASHEAR\graph\SHIFT_STAT_YEAR.OGD', 'SHIFT_STAT_YEAR');
+--og.close('D:\M_CASHEAR\graph\STAT_ITEM_YEAR.OGD', 'STAT_ITEM_YEAR'); 
+--og.close('D:\M_CASHEAR\graph\STAT_ITEM_SHIFT_YEAR.OGD', 'STAT_ITEM_SHIFT_YEAR');  
+exit_form;
+KEY-EXIT (Form)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+SQLFORMS
+"PKG INIT"<anonymous>"TFP"HANDLE""
+D:\M_CASHEAR\ogd\tmp1.dat
+D:\M_CASHEAR\ogd\tmp2.dat
+D:\M_CASHEAR\ogd\tmp3.dat
+D:\M_CASHEAR\ogd\tmp5.dat
+D:\M_CASHEAR\ogd\tmp6.dat
+D:\M_CASHEAR\graph\year_month_stat.OGD
+year_month_stat
+gray16
+transparent
+transparent
+Simplified Arabic
+CANVAS2
+CANVAS2
+MAIN_WIN
+gray16
+RECT694
+RECT694
+P1_14_MAY_200321_23_29
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+yFRM50_BUFFER
+table contains user's buffer
+ROSATTRIBS
+class attributes
+)EGROSLFDESC
+ros lf descrip
+'-PROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(RDROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+TOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P0_14_MAY_200321_23_29
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+ITEM_CATEG_VIEW
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P5_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+ null;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+r50g25b0
+x& ( *
+r75g25b0
+x& ( *
+r88g25b0
+x( * ,
+r100g25b0
+r0g25b50
+x( * , .
+r25g25b50
+x( * , .
+r50g25b50
+x( * , .
+r75g25b50
+x( * , .
+r88g25b50
+x( * , .
+r100g25b50
+r0g25b75
+x( * , .
+r25g25b75
+x( * , .
+r50g25b75
+x( * , .
+r75g25b75
+x( * , .
+r88g25b75
+x( * , .
+r100g25b75
+r0g25b88
+x( * , .
+r25g25b88
+x( * , .
+r50g25b88
+x( * , .
+r75g25b88
+x( * , .
+r88g25b88
+x( * , .
+r100g25b88
+r0g25b100
+x( * , .
+r25g25b100
+x( * , .
+r50g25b100
+x( * , .
+r75g25b100
+x( * , .
+r88g25b100
+x* , . 0
+r100g25b100
+darkred
+darkblue
+x$ & ( *
+gray64(\(\(\
+x$ & ( *
+gray60ffffff
+x$ & ( *
+gray56
+x$ & ( *
+gray52
+r0g50b0
+x& ( *
+r25g50b0
+x& ( *
+r50g50b0
+x& ( *
+r75g50b0
+x& ( *
+r88g50b0
+x( * ,
+r100g50b0
+r0g50b50
+x( * , .
+r25g50b50
+x( * , .
+r50g50b50
+x( * , .
+r75g50b50
+x( * , .
+r88g50b50
+x( * , .
+r100g50b50
+r0g50b75
+x( * , .
+r25g50b75
+x( * , .
+r50g50b75
+x( * , .
+r75g50b75
+x( * , .
+r88g50b75
+x( * , .
+r100g50b75
+r0g50b88
+x( * , .
+r25g50b88
+x( * , .
+r50g50b88
+x( * , .
+r75g50b88
+x( * , .
+r88g50b88
+x( * , .
+r100g50b88
+r0g50b100
+x( * , .
+r25g50b100
+x( * , .
+r50g50b100
+x( * , .
+r75g50b100
+x( * , .
+r88g50b100
+x* , . 0
+r100g50b100
+x$ & (
+yellow
+x( * ,
+darkyellow
+magenta
+darkmagenta
+x$ & ( *
+gray48
+x$ & ( *
+gray44\
+x$ & ( *
+gray40
+x$ & ( *
+gray36
+r0g75b0
+x& ( *
+r25g75b0
+x& ( *
+r50g75b0
+x& ( *
+r75g75b0
+x& ( *
+r88g75b0
+P6_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+	FOR I IN 1..3 LOOP
+	BELL;
+	SYNCHRONIZE;
+	END LOOP;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40401 THEN
+ null;
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+r100r25g88b0
+"x* , .
+r100r50g88b0
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P9_14_MAY_200321_23_29
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('main_win',WINDOW_STATE,MAXIMIZE);
+:scr := :system.current_form;
+:yy := :parameter.y;
+:y1 := :yy;
+:y2 := :yy;
+:y3 := :yy;
+:y4 := :yy;
+:y5 := :yy;
+--:y := :yy;
+:mm := :parameter.m;
+:GLOBAL.S:=0;
+----------------------------
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\year_month_stat.OGD',synchronous, batch, filesystem,pl, 'year_month_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\year_month_stat.OGD', 'year_month_stat',refresh=>true);
+---------------
+go_block('year_month_view');execute_query;
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+TEXT_IO
+	/NSPC1/OG
+SQLFORMS
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+main_win
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\year_month_stat.OGD
+year_month_stat
+year_month_view
+r100r75g100b88
+"x, . 0 2
+r100r88g100b88
+"x. 0 2 4
+r100r100g100b88
+r100r0g100b100
+"x. 0 2 4
+r100r25g100b100
+"x. 0 2 4
+r100r50g100b100
+"x. 0 2 4
+r100r75g100b100
+"x. 0 2 4
+r100r88g100b100
+"x. 0 2 4
+r100r100g100b100
+SQL*Forms
+FORM50
+D:\M_CASHEAR\year_month_stat.fmb
+Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+GLOBAL.M
+GLOBAL.M
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+ hint.hidebuttonhelp;
+block_menu;
+KEY-MENU (Form)
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P12_14_MAY_200321_23_29
+cIF :GLOBAL.S=0 THEN
+show_view('help');
+:GLOBAL.S:=1;
+HIDE_VIEW('HELP');
+:GLOBAL.S:=0;
+END IF;
+&WHEN-BUTTON-PRESSED (TOOLBAR.HELP_BUT)
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_CATEG_VIEW
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P13_14_MAY_200321_23_29
+delete_record;
+*WHEN-BUTTON-PRESSED (TOOLBAR.CLEAR_RECORD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P12_11_JAN_200420_07_34
+call_form('med_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON482)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P14_11_JAN_200420_07_34
+call_form('med_reason');
+%WHEN-BUTTON-PRESSED (TOOLBAR.ITEM483)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+call_form('war_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON561)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P36_11_JAN_200420_07_34
+call_form('country');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON481)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P4_12_OCT_200410_29_21
+declare
+	m number(6);
+m := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\YEAR_MONTH_STAT.OGD', 'YEAR_MONTH_STAT', refresh => true);
+m:=OG.getnumparam3('D:\M_CASHEAR\graph\YEAR_MONTH_STAT.OGD','YEAR_MONTH_STAT','p');
+:global.m :=m;
+select month_name into :m_name from month where month_no = m;
+:m2_name := :m_name;
+:m3_name := :m_name;
+:m4_name := :m_name;
+exception 
+	when no_data_found then :m_name := null;
+-------------------
+*WHEN-MOUSE-CLICK (TOOLBAR.YEAR_MONTH_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+"PKG INIT"<anonymous>"M"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\YEAR_MONTH_STAT.OGD
+YEAR_MONTH_STAT
+SELECT MONTH_NAME   FROM MONTH  WHERE MONTH_NO = :b1"
+         
+ENTER_QUERY
+ENTER_QUERY
+d:\a_navy\entqry
+TOOLBAR
+DEFAULT
+                                                              
+PUSH_BUTTON482
+PUSH_BUTTON482
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM483
+ITEM483
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON561
+PUSH_BUTTON561
+PAGE23
+P1_12_OCT_200414_26_19
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD',synchronous, batch, filesystem,pl, 'STAT_CATEG_MONTH');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD', 'STAT_CATEG_MONTH',refresh=>true);
+---------------
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\month_stat.OGD',synchronous, batch, filesystem,pl, 'month_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\month_stat.OGD', 'month_stat',refresh=>true);
+---------------
+--select point_name into :p_nm from point_tbl where point_code=:global.p;
+--go_block('year_view');execute_query;
+--go_block('tpyear_view');execute_query;
+go_item('btm1');
+0WHEN-MOUSE-DOUBLECLICK (TOOLBAR.YEAR_MONTH_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD
+STAT_CATEG_MONTH
+D:\M_CASHEAR\graph\month_stat.OGD
+month_stat
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+gray12
+Tahoma
+P2_14_OCT_200410_53_01
+declare
+	t number(6);
+t := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD', 'STAT_CATEG_MONTH', refresh => true);
+t:=OG.getnumparam2('D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD','STAT_CATEG_MONTH','d');
+:global.t :=t;
+ select t_name into :t_name2 from item_type where t_code = t;
+exception
+	when no_data_found then :t_name2 := null;
+-------------------
++WHEN-MOUSE-CLICK (TOOLBAR.STAT_CATEG_MONTH)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"T"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\STAT_CATEG_MONTH.OGD
+STAT_CATEG_MONTH
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM_POINT_CATEG_STAT
+ITEM_POINT_CATEG_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P3_14_OCT_200410_53_01
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\item_categ_stat.OGD',synchronous, batch, filesystem,pl, 'item_categ_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\item_categ_stat.OGD', 'item_categ_stat',refresh=>true);
+---------------
+--select shift_name into :s_name from shift_tbl where shift_typ = :global.s;
+--go_block('pyear_view');execute_query;
+go_item('btm2');
+1WHEN-MOUSE-DOUBLECLICK (TOOLBAR.STAT_CATEG_MONTH)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\item_categ_stat.OGD
+item_categ_stat
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+TEXTSTR856
+TEXTSTR856
+Tahoma
+TEXT857
+TEXT857
+gray12
+CMPTXT858
+CMPTXT858
+P1_12_JAN_200407_52_51
+call_form('HI_GAREEMA');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON655)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+D:\M_CASHEAR\graph\item_categ_stat.OGD
+item_categ_stat
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P13_18_OCT_200409_35_31
+declare
+	p number(10);
+p := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\month_stat.OGD', 'month_stat', refresh => true);
+p:=OG.getnumparam1('D:\M_CASHEAR\graph\month_stat.OGD','month_stat','d');
+:global.p :=p;
+select point_name into :p2_name from point_tbl where point_code = p;
+:p3_name := :p2_name;
+exception
+	when no_data_found then :p2_name := null;
+-------------------
+%WHEN-MOUSE-CLICK (TOOLBAR.MONTH_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	POINT_TBL
+"PKG INIT"<anonymous>"P"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\month_stat.OGD
+month_stat
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+T_NAME
+T_NAME
+T Name
+I_CODE
+I_CODE
+I_CODE
+I Code
+I_NAME
+I_NAME
+I_NAME
+ITEM_POINT_CATEG_VIEW
+Tahoma
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+T_CODE
+T_NAME
+P14_18_OCT_200409_35_31
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\point_categ_stat.OGD',synchronous, batch, filesystem,pl,'point_categ_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\point_categ_stat.OGD', 'point_categ_stat',refresh=>true);
+---------------
+go_item('btm4');
++WHEN-MOUSE-DOUBLECLICK (TOOLBAR.MONTH_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\point_categ_stat.OGD
+point_categ_stat
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+TEXTSTR856
+TEXTSTR856
+Tahoma
+TEXT857
+TEXT857
+gray12
+CMPTXT858
+CMPTXT858
+P2_18_OCT_200409_35_31
+wdeclare
+	i number(10);
+i := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\item_categ_stat.OGD', 'item_categ_stat', refresh => true);
+i:=OG.getnumparams('D:\M_CASHEAR\graph\item_categ_stat.OGD','item_categ_stat','d');
+:global.i :=i;
+select i_name into :i_name1 from item_tbl where i_code = i;
+exception 
+	when no_data_found then :i_name1 := null;
+-------------------
+*WHEN-MOUSE-CLICK (TOOLBAR.ITEM_CATEG_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+ITEM_TBL
+"PKG INIT"<anonymous>"I"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\item_categ_stat.OGD
+item_categ_stat
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+ITEM_CATEG_VIEW
+Tahoma
+TOOLBAR
+TOOLBAR
+MAIN_WIN
+transparent
+MS Sans Serif
+gray16
+transparent
+transparent
+Simplified Arabic
+CANVAS2
+CANVAS2
+MAIN_WIN
+gray16
+RECT694
+RECT694
+P4_18_OCT_200409_35_31
+2declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\item_categ_month_stat.OGD',synchronous, batch, filesystem,pl,'item_categ_month_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\item_categ_month_stat.OGD', 'item_categ_month_stat',refresh=>true);
+---------------
+--select shift_name into :s_name from shift_tbl where shift_typ = :global.s;
+--go_block('pyear_view');execute_query;
+go_item('btm3');
+0WHEN-MOUSE-DOUBLECLICK (TOOLBAR.ITEM_CATEG_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\item_categ_month_stat.OGD
+item_categ_month_stat
+TEXT819
+TEXT819
+CMPTXT820
+CMPTXT820
+TEXTSTR821
+TEXTSTR821
+Simplified Arabic
+transparent
+transparent
+Simplified Arabic
+RECT828
+RECT828
+P19_18_OCT_200409_35_31
+declare
+	t number(10);
+t := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\point_categ_stat.OGD', 'point_categ_stat', refresh => true);
+t:=OG.getnumparam2('D:\M_CASHEAR\graph\point_categ_stat.OGD','point_categ_stat','d');
+:global.t :=t;
+ select t_name into :t_name1 from item_type where t_code = t;
+exception
+	when no_data_found then :t_name1 := null;
+-------------------
++WHEN-MOUSE-CLICK (TOOLBAR.POINT_CATEG_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"T"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\point_categ_stat.OGD
+point_categ_stat
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+GRAPHIC843
+GRAPHIC843
+r0g50b75
+GRAPHIC844
+GRAPHIC844
+r25g50b88
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+transparent
+transparent
+Simplified Arabic
+P20_18_OCT_200409_35_31
+2declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\ITEM_POINT_CATEG_STAT.OGD',synchronous, batch, filesystem,pl,'ITEM_POINT_CATEG_STAT');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\ITEM_POINT_CATEG_STAT.OGD', 'ITEM_POINT_CATEG_STAT',refresh=>true);
+---------------
+--select shift_name into :s_name from shift_tbl where shift_typ = :global.s;
+--go_block('pyear_view');execute_query;
+go_item('btm5');
+1WHEN-MOUSE-DOUBLECLICK (TOOLBAR.POINT_CATEG_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\ITEM_POINT_CATEG_STAT.OGD
+ITEM_POINT_CATEG_STAT
+TEXTSTR827
+TEXTSTR827
+Tahoma
+gray12
+transparent
+transparent
+Simplified Arabic
+GRAPHIC834
+"PKG INIT"<anonymous>""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+P0_14_OCT_200407_18_46
+Ghide_window('shift');
+hide_view('shift');
+go_item('year_month_view.y');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM1)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+year_month_view.y
+/LHINT
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P5_14_OCT_200410_53_01
+8hide_window('item');
+hide_view('item');
+go_item('btm1');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM2)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P10_18_OCT_200409_35_31
+:hide_window('month');
+hide_view('month');
+go_item('btm2');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM3)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P25_18_OCT_200409_35_31
+declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\i_p_c_stat.OGD',synchronous, batch, filesystem,pl,'i_p_c_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\i_p_c_stat.OGD', 'i_p_c_stat',refresh=>true);
+---------------
+--select shift_name into :s_name from shift_tbl where shift_typ = :global.s;
+--go_block('pyear_view');execute_query;
+--go_item('btm6');
+6WHEN-MOUSE-DOUBLECLICK (TOOLBAR.ITEM_POINT_CATEG_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\i_p_c_stat.OGD
+i_p_c_stat
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+PARAMETER.M
+PARAMETER.M
+P9_14_MAY_200321_23_29
+GLOBAL.S
+GLOBAL.S
+P9_14_MAY_200321_23_29
+P12_14_MAY_200321_23_29
+GLOBAL.M
+GLOBAL.M
+P16_18_OCT_200409_35_31
+:hide_window('categ');
+hide_view('categ');
+go_item('BTM1');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM4)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_CATEG_VIEW
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P24_18_OCT_200409_35_31
+declare
+	i number(10);
+i := 0;	
+OG.Mousedown ('D:\M_CASHEAR\graph\item_point_categ_stat.OGD', 'item_point_categ_stat', refresh => true);
+i:=OG.getnumparams('D:\M_CASHEAR\graph\item_point_categ_stat.OGD','item_point_categ_stat','i');
+:global.i :=i;
+-------------------
+--null;
+0WHEN-MOUSE-CLICK (TOOLBAR.ITEM_POINT_CATEG_STAT)
+STANDARD
+	/NSPC1/OG
+"PKG INIT"<anonymous>"I""
+D:\M_CASHEAR\graph\item_point_categ_stat.OGD
+item_point_categ_stat
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P26_18_OCT_200409_35_31
+:hide_window('pitem');
+hide_view('pitem');
+go_item('BTM4');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM5)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+P32_11_JAN_200420_07_34
+call_form('war_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON561)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P31_18_OCT_200409_35_31
+2declare
+	tfp TEXT_IO.FILE_TYPE;
+	pl paramlist;
+pl := create_parameter_list('paramlist');
+add_parameter(pl, 'oracle_shutdown', text_parameter, 'YES');
+run_product(graphics,'D:\M_CASHEAR\graph\item_categ_month_stat.OGD',synchronous, batch, filesystem,pl,'item_categ_month_stat');
+destroy_parameter_list(pl);
+og.open('D:\M_CASHEAR\graph\item_categ_month_stat.OGD', 'item_categ_month_stat',refresh=>true);
+---------------
+--select shift_name into :s_name from shift_tbl where shift_typ = :global.s;
+--go_block('pyear_view');execute_query;
+go_item('btm3');
++WHEN-MOUSE-DOUBLECLICK (TOOLBAR.I_P_C_STAT)
+TEXT_IO
+STANDARD
+	/NSPC1/OG
+FORMS40
+"PKG INIT"<anonymous>"TFP"HANDLE"PL"ID""
+paramlist
+oracle_shutdown
+D:\M_CASHEAR\graph\item_categ_month_stat.OGD
+item_categ_month_stat
+ARPARAM
+DECLARE 
+tfp TEXT_IO.FILE_TYPE; 
+BEGIN 
+  tfp := TEXT_IO.FOPEN ('tmp1.dat', 'w'); 
+  TEXT_IO.PUT_LINE (tfp, :
+  TEXT_IO.FCLOSE (tfp); 
+tmp1.dat
+GETNUMPARAM1
+d:\M_CASHEAR\ogd\tmp1.dat
+GETNUMPARAM4
+d:\M_CASHEAR\ogd\tmp3.dat
+GETNUMPARAM2
+d:\M_CASHEAR\ogd\tmp7.dat
+GETNUMPARAM3
+d:\M_CASHEAR\ogd\tmp6.dat
+GETNUMPARAMS
+d:\M_CASHEAR\ogd\tmp4.dat
+GETNUMPARAMD
+d:\a_tanzim\ogd\degtmp.dat
+INTERPRET
+P32_18_OCT_200409_35_31
+6hide_window('ipc');
+hide_view('ipc');
+go_item('BTM5');
+"WHEN-BUTTON-PRESSED (TOOLBAR.BTM6)
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+P30_18_OCT_200409_35_31
+declare
+	i number(10);
+i := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\item_categ_stat.OGD', 'item_categ_stat', refresh => true);
+i:=OG.getnumparams('D:\M_CASHEAR\graph\item_categ_stat.OGD','item_categ_stat','d');
+:global.i :=i;
+-------------------
+%WHEN-MOUSE-CLICK (TOOLBAR.I_P_C_STAT)
+STANDARD
+	/NSPC1/OG
+"PKG INIT"<anonymous>"I""
+D:\M_CASHEAR\graph\item_categ_stat.OGD
+item_categ_stat
+res109_codes
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+BUTTON_PROC
+-- This is a generic button procedure. It reads the NAME of the button and 
+-- performs a DO_KEY(item_name).
+-- Regarding QUERY-operation:
+-- if there are buttons called EXECUTE_QUERY and CANCEL_QUERY, this function shows
+-- them, when the ENTER_QUERY button is pressed and hides them, when EXECUTE_- or 
+-- CANCEL_QUERY ispressed. No error should be returned, if these buttons do not exist.
+-- To make naming of the buttons easier, EXIT, QUIT and EXIT_FORM all perform exit_form,
+-- even if the form is in ENTER-QUERY mode !!!!!!!
+-- A CANCEL_QUERY button-name cancels a currently "open" query.
+PROCEDURE button_proc IS
+  AL_ID    ALERT;
+  AL_BUT   NUMBER;
+  action varchar(80);
+  -- hide a button (for ENTER_-, EXECUTE_- or CANCEL_QUERY)
+  PROCEDURE show_off(item_name VARCHAR2) IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name, DISPLAYED,PROPERTY_FALSE);
+    END IF;
+  END;
+  -- try to show a button (for the two query-states. If there is no button to show,
+  -- return FALSE to the calling procedure.
+  FUNCTION show_on(item_name VARCHAR2) RETURN BOOLEAN IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name,DISPLAYED,PROPERTY_TRUE);
+      Set_Item_Property(item_name,ENABLED,PROPERTY_TRUE);
+      RETURN TRUE;
+    ELSE
+      RETURN FALSE;
+    END IF;
+  RETURN NULL; END;
+BEGIN    
+  action := Get_Item_Property(NAME_IN('SYSTEM.TRIGGER_ITEM'),ITEM_NAME);
+  IF action = 'ENTER_QUERY' THEN
+    -- only hide the ENTER_QUERY button, if there are EXECUTE_QUERY and (!!) CANCEL_QUERY
+    -- buttons. Otherwise an existing EXECUTE_QUERY button will be shown.
+    IF show_on('EXECUTE_QUERY') AND show_on('CANCEL_QUERY') THEN
+      show_off('ENTER_QUERY');
+    END IF;
+  END IF;
+  IF action IN ('EXIT_FORM', 'EXIT','QUIT') THEN
+    action := 'EXIT_FORM';
+    IF NAME_IN('SYSTEM.MODE')='ENTER-QUERY' THEN
+           AL_ID:=FIND_ALERT('MESS_AL');
+           Set_Alert_Property(al_id, alert_message_text, '        
+           al_but:=show_alert(al_id); 
+              IF  al_but =ALERT_BUTTON1 THEN
+                 Do_Key('EXIT_FORM');
+              ELSE 
+                  NULL;
+              END IF;
+    END IF;
+  END IF;
+  IF action = 'CANCEL_QUERY' THEN 
+    action := 'EXIT_FORM';
+  END IF;
+  Do_Key(action);
+  IF NAME_IN('SYSTEM.MODE') != 'ENTER-QUERY' THEN
+    IF show_on('ENTER_QUERY') THEN
+      show_off('EXECUTE_QUERY');
+      show_off('CANCEL_QUERY');
+    END IF;
+  END IF;
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+"BUTTON_PROC"AL_ID"ALERT"AL_BUT"NUMBER"ACTION"VARCHAR"80"SHOW_OFF"ITEM_NAME"VARCHAR2"ID_NULL"FIND_ITEM"NOT"SET_ITEM_PROPERTY"DISPLAYED"PROPERTY_FALSE"FUNCTION"SHOW_ON"RETURN"BOOLEAN"PROPERTY_TRUE"ENABLED"TRUE"FALSE"GET_ITEM_PROPERTY"NAME_IN"SYSTEM.TRIGGER_ITEM"="ENTER_QUERY"EXECUTE_QUERY"CANCEL_QUERY"EXIT_FORM"EXIT"QUIT"SYSTEM.MODE"ENTER-QUERY"FIND_ALERT"MESS_AL"SET_ALERT_PROPERTY"ALERT_MESSAGE_TEXT"        
+"SHOW_ALERT"ALERT_BUTTON1"DO_KEY"!=""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+--------------
+%WHEN-MOUSE-CLICK (TOOLBAR.MONTH_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	POINT_TBL
+"PKG INIT"<anonymous>"P"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\month_stat.OGD
+month_stat
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+T_NAME
+T_NAME
+T Name
+I_CODE
+I_CODE
+I_CODE
+I Code
+I_NAME
+I_NAME
+I_NAME
+ITEM_POINT_CATEG_VIEW
+Tahoma
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+T_CODE
+T_NAME
+P1_02_AUG_200508_47_36
+0go_block('ITEM_POINT_CATEG_VIEW');execute_query;
+#WHEN-BUTTON-PRESSED (TOOLBAR.BTM55)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_POINT_CATEG_VIEW
+P3_02_AUG_200508_47_36
+*go_block('ITEM_CATEG_VIEW');execute_query;
+%WHEN-BUTTON-PRESSED (TOOLBAR.ITEM867)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_CATEG_VIEW
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+QPACKAGE BODY DLL IS
+  l_user Ora_Ffi.LibHandleType;
+  l_gdi  Ora_Ffi.LibHandleType;
+  f_getdc  Ora_Ffi.FuncHandleType;
+  f_reldc  Ora_Ffi.FuncHandleType;
+  f_setmap Ora_Ffi.FuncHandleType;
+  f_gte    Ora_Ffi.FuncHandleType;
+  FUNCTION icd_GetDC(f_getdc IN Ora_Ffi.FuncHandleType,
+                     hwnd IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetDC, 11265);
+  FUNCTION icd_ReleaseDC(f_reldc IN Ora_Ffi.FuncHandleType,
+                         hwnd IN PLS_INTEGER,
+                         hdc IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_ReleaseDC, 11265);
+  FUNCTION icd_SetMapMode(f_setmap IN Ora_Ffi.FuncHandleType,
+                          hdc IN PLS_INTEGER,
+                          mm  IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_SetMapMode, 11265);
+  FUNCTION icd_GetTextExtent(f_gte IN Ora_Ffi.FuncHandleType,
+                             hdc IN PLS_INTEGER,
+                             str IN OUT VARCHAR2,
+                             len IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetTextExtent, 11265);
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER IS
+    hwnd    PLS_INTEGER := Get_Window_Property('Window0',Window_Handle);
+    hdc     PLS_INTEGER := 0;
+    buf     PLS_INTEGER;
+    len     PLS_INTEGER   := NVL(length(str), 0);
+    oldmap  PLS_INTEGER;
+    dummy   PLS_INTEGER;
+    s VARCHAR2(255) := rpad(str,255);
+    s_width PLS_INTEGER;
+  BEGIN
+    hdc     := icd_GetDC(f_getdc,hwnd);			-- Get device context.
+    oldmap  := icd_SetMapMode(f_setmap, hdc, 6);	-- Change mapping to MM_TWIPS (~inch) 
+							-- Set to 1 for MM_TEXT (~pixel) and
+							-- change scaling in TOOLBAR package
+							-- if forms module runs in REAL PIXEL
+    s_width := icd_GetTextExtent(f_gte, hdc, s, len);	-- retrieve width of text from GDI
+    dummy   := icd_SetMapMode(f_setmap, hdc, oldmap);	-- reset mapping mode
+    dummy   := icd_ReleaseDC(f_reldc, hwnd, hdc);	-- release deviec context
+    return(s_width);
+  END;
+break;
+  l_user  := Ora_Ffi.Register_Library('c:\windows\system\','USER.EXE');
+  l_gdi   := Ora_Ffi.Register_Library('c:\windows\system\','GDI.EXE');
+  f_getdc := Ora_Ffi.Register_Function(l_user,'GetDC', ORA_FFI.PASCAL_STD);
+  f_reldc := Ora_Ffi.Register_Function(l_user,'ReleaseDC', ORA_FFI.PASCAL_STD);
+  f_setmap := Ora_Ffi.Register_Function(l_gdi,'SetMapMode',ORA_FFI.PASCAL_STD);
+  f_gte    := Ora_Ffi.Register_Function(l_gdi,'GetTextExtent', ORA_FFI.PASCAL_STD);
+  Ora_Ffi.Register_Return(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_CHAR_PTR);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+/NSPC1/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+P19_18_OCT_200409_35_31
+declare
+	t number(10);
+t := 0;	
+OG.MouseDown ('D:\M_CASHEAR\graph\point_categ_stat.OGD', 'point_categ_stat', refresh => true);
+t:=OG.getnumparam2('D:\M_CASHEAR\graph\point_categ_stat.OGD','point_categ_stat','d');
+:global.t :=t;
+ select t_name into :t_name1 from item_type where t_code = t;
+exception
+	when no_data_found then :t_name1 := null;
+-------------------
++WHEN-MOUSE-CLICK (TOOLBAR.POINT_CATEG_STAT)
+STANDARD
+	/NSPC1/OG
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"T"<cursor ptr>"<SQL statement. Line 11>""
+D:\M_CASHEAR\graph\point_categ_stat.OGD
+point_categ_stat
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = :b1"
+GRAPHIC843
+GRAPHIC843
+r0g50b75
+GRAPHIC844
+GRAPHIC844
+r25g50b88
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+transparent
+transparent
+Simplified Arabic
+TOOLBAR
+PACKAGE toolbar IS
+  tbscale NUMBER := 43;		-- good for 1024x768 (SVGA)
+--  tbscale NUMBER := 40;	-- good for 640x480 (VGA)
+  item_name VARCHAR2(80);
+  PROCEDURE hide_function;
+  PROCEDURE set_timer;
+  PROCEDURE show_function;
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+"PACKAGE"TOOLBAR"TBSCALE"NUMBER"43"ITEM_NAME"VARCHAR2"80"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TEXTSTR827
+TEXTSTR827
+Tahoma
+gray12
+transparent
+transparent
+Simplified Arabic
+GRAPHIC834
+"PKG INIT"<anonymous>""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+TOOLBAR
+6PACKAGE BODY TOOLBAR IS
+  cs VARCHAR2(20);
+  csscale NUMBER;
+  PROCEDURE hide_function IS
+  BEGIN
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_OFF);
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+  END; /* hide_function */
+  PROCEDURE set_timer IS
+    t Timer;
+  BEGIN
+    toolbar.item_name := :SYSTEM.MOUSE_ITEM;
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+    t := Create_Timer('ENTER_TOOLBAR',250,NO_REPEAT);
+  END; /* set_timer */
+  PROCEDURE show_function IS
+    w NUMBER;
+  BEGIN
+    :TOOLBAR.Text := Get_Item_Property(item_name, LABEL);
+    w := dll.tblen(:toolbar.text)*tbscale/100000*csscale;
+    Set_Item_Property('TOOLBAR.TEXT',WIDTH,w);
+    Set_Item_Property('TOOLBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC1/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC1/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+SET_TIMER
+SHOW_FUNCTION
+LBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC1/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC1/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+_PACKAGE og IS
+   -- Coordinate translation constants and globals
+   -- Defaults to real/inches. Following are legitimate combinations:
+   --  ...
+   --  (See "coordinate info dialog" in Forms)
+   -- For example, if using Character coordinates:
+   -- og.coord_system := og.coords_char;
+   -- og.resolution := 90;
+   -- og.cell_width := 20;
+   -- og.cell_height := 40;
+   -- Setting these globals will be unnecessary in the future but will
+   -- be left for backward compatibility.
+   coords_real CONSTANT NUMBER := 1;
+   coords_char CONSTANT NUMBER := 2;
+   units_inch  CONSTANT NUMBER := 1;
+   units_cm    CONSTANT NUMBER := 2;
+   units_pixel CONSTANT NUMBER := 3;
+   units_pica  CONSTANT NUMBER := 4;
+   coord_system NUMBER := coords_real;
+   units        NUMBER := units_inch;
+   resolution   NUMBER := 100;
+   cell_width   NUMBER := 0;
+   cell_height  NUMBER := 0;
+   PROCEDURE open
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      clip         IN BOOLEAN  := TRUE,
+      refresh      IN BOOLEAN := TRUE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   PROCEDURE close
+      display IN VARCHAR2,
+      item    IN VARCHAR2
+   FUNCTION getcharparam
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return VARCHAR2;
+   FUNCTION getnumparam1
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+   FUNCTION getnumparam4
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+  FUNCTION getnumparam2
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+  FUNCTION getnumparam3
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+   PROCEDURE interpret
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      plsstr       IN VARCHAR2,
+      refresh      IN BOOLEAN := TRUE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   PROCEDURE mousedown
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      x            IN NUMBER := 0,
+      y            IN NUMBER := 0,
+      refresh      IN BOOLEAN := TRUE,
+      clickcount   IN NUMBER  := 0,
+      button       IN NUMBER  := 1,
+      constrained  IN BOOLEAN := FALSE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   PROCEDURE mouseup
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      x            IN NUMBER := 0,
+      y            IN NUMBER := 0,
+      refresh      IN BOOLEAN := TRUE,
+      button       IN NUMBER  := 1,
+      constrained  IN BOOLEAN := FALSE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   PROCEDURE refresh
+      display    IN VARCHAR2, 
+      item       IN VARCHAR2,
+      plist      IN TOOLS.paramlist := TOOLS.null_parameter_list
+  FUNCTION getnumparams
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+     FUNCTION getnumparamd
+      display      IN VARCHAR2,
+      item         IN VARCHAR2,
+      param        IN VARCHAR2
+   return NUMBER;
+STANDARD
+"OG"COORDS_REAL"COORDS_CHAR"UNITS_INCH"UNITS_CM"UNITS_PIXEL"UNITS_PICA"COORD_SYSTEM"UNITS"RESOLUTION"CELL_WIDTH"CELL_HEIGHT"OPEN"DISPLAY"ITEM"CLIP"REFRESH"PLIST"ID"CLOSE"GETCHARPARAM"PARAM"GETNUMPARAM1"GETNUMPARAM4"GETNUMPARAM2"GETNUMPARAM3"INTERPRET"PLSSTR"MOUSEDOWN"X"Y"CLICKCOUNT"BUTTON"CONSTRAINED"MOUSEUP"GETNUMPARAMS"GETNUMPARAMD""
+"PACKAGE"OG"COORDS_REAL"CONSTANT"NUMBER"1"COORDS_CHAR"2"UNITS_INCH"UNITS_CM"UNITS_PIXEL"3"UNITS_PICA"4"COORD_SYSTEM"UNITS"RESOLUTION"100"CELL_WIDTH"0"CELL_HEIGHT"OPEN"DISPLAY"VARCHAR2"ITEM"CLIP"BOOLEAN"TRUE"REFRESH"PLIST"TOOLS"PARAMLIST"NULL_PARAMETER_LIST"CLOSE"FUNCTION"GETCHARPARAM"PARAM"RETURN"GETNUMPARAM1"GETNUMPARAM4"GETNUMPARAM2"GETNUMPARAM3"INTERPRET"PLSSTR"MOUSEDOWN"X"Y"CLICKCOUNT"BUTTO
+N"CONSTRAINED"FALSE"MOUSEUP"GETNUMPARAMS"GETNUMPARAMD""
+GETCHARPARAM
+GETNUMPARAM1
+GETNUMPARAM4
+GETNUMPARAM2
+GETNUMPARAM3
+INTERPRET
+MOUSEDOWN
+MOUSEUP
+REFRESH
+GETNUMPARAMS
+GETNUMPARAMD
+1`PACKAGE BODY og IS
+   PROCEDURE run
+      display     IN VARCHAR2, 
+      item        IN VARCHAR2,
+      refresh     IN BOOLEAN,
+      plist       IN TOOLS.paramlist
+   BEGIN
+      -- don't shut down display
+      -- the following should be commented out for windows 3.1
+      --TOOLS.add_parameter (plist, 'oracle_shutdown', 
+      --                     TOOLS.text_parameter, 'no');
+      -- pass back vgs display list
+      IF (refresh) THEN
+         TOOLS.add_parameter(plist,
+                             'oracle_update',
+                             TOOLS.text_parameter, 
+                             'yes');
+      ELSE
+         TOOLS.add_parameter(plist,
+                             'oracle_update',
+                             TOOLS.text_parameter, 
+                             'no');
+      END IF;
+      -- do not call startup trigger if already loaded
+      TOOLS.add_parameter (plist, 
+                           'oracle_startup', 
+                           TOOLS.text_parameter, 
+                           'no');
+      TOOLS.run_product (TOOLS.graphics, 
+                         display, 
+                         TOOLS.synchronous, 
+                         TOOLS.batch, 
+                         TOOLS.filesystem, 
+                         plist, 
+                         item);
+   END run;
+----------------------------------------------------------------------------------------------------
+   PROCEDURE mouseupdown
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      x            IN NUMBER, 
+      y            IN NUMBER, 
+      refresh      IN BOOLEAN,
+      clickcount   IN NUMBER,
+      button       IN NUMBER,
+      constrained  IN BOOLEAN,
+      plist        IN TOOLS.paramlist,
+      down         IN BOOLEAN
+      pl     TOOLS.paramlist;
+      xtmp   NUMBER;
+      ytmp   NUMBER;
+      xscale NUMBER;
+      yscale NUMBER;
+   BEGIN
+      IF (coord_system = coords_real) THEN
+         IF (units = units_inch) THEN
+            xscale := 1;
+            yscale := 1;
+         ELSIF (units = units_cm) THEN
+            xscale := 2.540;
+            yscale := 2.540;
+         ELSIF (units = units_pica) THEN
+            xscale := 72;
+            yscale := 72;
+         ELSE
+            xscale := resolution;
+            yscale := resolution;
+         END IF;
+      ELSE
+         xscale := resolution / cell_width;
+         yscale := resolution / cell_height;
+      END IF;
+      IF (x = 0) THEN
+         xtmp := TO_NUMBER (NAME_IN('system.mouse_x_pos')) / xscale * 8192;
+      END IF;
+      IF (y = 0) THEN
+         ytmp := TO_NUMBER (NAME_IN('system.mouse_y_pos')) / yscale * 8192;
+      END IF;
+      --  create parameter list to pass mouse up event to embedded display.
+      IF (NOT (TOOLS.isnull (plist))) THEN
+         pl := plist;
+      ELSE
+         pl := TOOLS.create_parameter_list ('oracle_olelist');
+      END IF;
+      -- pass mouse coordinates
+      IF (down) THEN
+         BEGIN
+            TOOLS.add_parameter (pl, 
+                                 'oracle_mousedown', 
+                                 TOOLS.text_parameter, 
+                                 TO_CHAR (TRUNC(xtmp)) || ' ' || 
+                                 TO_CHAR (TRUNC(ytmp)) || ' ' ||
+                                                       '1' || ' ' || '1');
+         END;
+      ELSE
+         BEGIN
+            TOOLS.add_parameter (pl, 
+                                 'oracle_mouseup', 
+            TOOLS.text_parameter, 
+            TO_CHAR (TRUNC(xtmp)) || ' ' || TO_CHAR (TRUNC(ytmp)) ||
+                     ' ' || '1' || ' ' || '1');
+         END;
+      END IF;
+      run (display,item, refresh, pl);
+      IF (TOOLS.isnull (plist)) THEN
+         TOOLS.destroy_parameter_list ('oracle_olelist');
+      END IF;
+   END mouseupdown;
+---------------------------------------------------------------------------
+   PROCEDURE open
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      clip         IN BOOLEAN := false,
+     refresh      IN BOOLEAN := false,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+      pl        TOOLS.paramlist;
+      x         NUMBER  := 0;
+      y         NUMBER  := 0; 
+      width     NUMBER  := 0;
+      height    NUMBER  := 0;
+      dispmode  NUMBER  := 0;
+      fstr      VARCHAR(255);
+      ustr      VARCHAR(255);
+   BEGIN
+      fstr := NAME_IN('system.current_form');
+      ustr := GET_FORM_PROPERTY (fstr, COORDINATE_SYSTEM);
+      coord_system := coords_real;
+      IF (ustr = 'INCHES') THEN
+         units := units_inch;
+      ELSIF (ustr = 'CENTIMETERS') THEN
+         units := units_cm;
+      ELSIF (ustr = 'PIXELS') THEN
+         units := units_pixel;
+      ELSIF (ustr = 'POINTS') THEN
+         units := units_pica;
+      ELSE
+         BEGIN
+            coord_system := coords_char;
+            ustr := GET_FORM_PROPERTY (fstr, CHARACTER_CELL_WIDTH);
+            cell_width := TO_NUMBER(ustr);
+            ustr := GET_FORM_PROPERTY (fstr, CHARACTER_CELL_HEIGHT);
+            cell_height := TO_NUMBER(ustr);
+         END;
+      END IF;
+      IF (clip) THEN
+         dispmode := 1;
+      END IF;
+      --  create parameter list to pass mouse up event to embedded display.
+      IF (NOT (TOOLS.isnull (plist))) THEN
+         pl := plist;
+      ELSE
+         pl := TOOLS.create_parameter_list ('oracle_olelist');
+      END IF;
+      -- pass mouse coordinates
+      TOOLS.add_parameter (pl, 'oracle_viewport', TOOLS.text_parameter,
+         TO_CHAR (TRUNC(x)) || ' ' || TO_CHAR (TRUNC(y)) || ' ' ||
+         TO_CHAR(TRUNC(width)) || ' ' || TO_CHAR(TRUNC(height)) || ' ' ||
+         TO_CHAR(dispmode));
+      run (display, item, refresh, pl);
+      IF (TOOLS.isnull (plist)) THEN
+         TOOLS.destroy_parameter_list ('oracle_olelist');
+      END IF;
+   END open;
+------------------------------------------------------------------
+   PROCEDURE close
+      display IN VARCHAR2,
+      item    IN VARCHAR2
+   IS 
+      pl TOOLS.paramlist;
+   BEGIN
+      pl := TOOLS.create_parameter_list ('oracle_olelist');
+      TOOLS.add_parameter (pl, 'close', TOOLS.text_parameter, 'yes');
+      run (display, item, FALSE, pl);
+      TOOLS.destroy_parameter_list ('oracle_olelist');
+   END close;
+   FUNCTION getcharparam
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN VARCHAR2 IS
+      strval  VARCHAR2(255);
+      tfp     TEXT_IO.FILE_TYPE;
+      strint  VARCHAR2(255);
+   BEGIN
+      strint := 
+        'DECLARE '                                          || 
+         'tfp TEXT_IO.FILE_TYPE; '                           || 
+         'BEGIN '                                            ||
+         '  tfp := TEXT_IO.FOPEN (''tmp1.dat'', ''w''); '   ||
+         '  TEXT_IO.PUT_LINE (tfp, :' || param || '); '      ||
+         '  TEXT_IO.FCLOSE (tfp); '                          ||
+         'END; ';
+      og.interpret (display, item, strint, FALSE);
+      tfp := TEXT_IO.FOPEN ('tmp1.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return strval;
+   END getcharparam;
+--------------------------------------------------------------------
+   FUNCTION getnumparam1
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\M_CASHEAR\ogd\tmp1.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparam1;
+------------------------------------------   
+  FUNCTION getnumparam4
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\M_CASHEAR\ogd\tmp3.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparam4;   
+-------------------------------------------
+   FUNCTION getnumparam2
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\M_CASHEAR\ogd\tmp7.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparam2;
+-------------------------------------------   
+   FUNCTION getnumparam3
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\M_CASHEAR\ogd\tmp6.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparam3;
+-------------------------------------------
+ FUNCTION getnumparams
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\M_CASHEAR\ogd\tmp4.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparams;   
+   -----------------------------
+    FUNCTION getnumparamd
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      param    IN VARCHAR2
+   RETURN NUMBER IS
+      strval VARCHAR2(255);
+      tfp TEXT_IO.FILE_TYPE;
+      strint VARCHAR2(255);
+   BEGIN
+       tfp := TEXT_IO.FOPEN ('d:\a_tanzim\ogd\degtmp.dat', 'r');
+      TEXT_IO.GET_LINE (tfp, strval);
+      TEXT_IO.FCLOSE (tfp);
+      return TO_NUMBER(strval);
+   END getnumparamd;   
+   -----------------------------
+   PROCEDURE interpret
+      display  IN VARCHAR2,
+      item     IN VARCHAR2,
+      plsstr   IN VARCHAR2,
+      refresh  IN BOOLEAN := TRUE,
+      plist    IN TOOLS.paramlist := TOOLS.null_parameter_list
+      pl TOOLS.paramlist;
+   BEGIN
+      --  create parameter list to pass mouse up event to embedded display.
+      IF (NOT (TOOLS.isnull (plist))) THEN
+         pl := plist;
+      ELSE
+         pl := TOOLS.create_parameter_list ('oracle_olelist');
+      END IF;
+      -- pass interpret block
+      TOOLS.add_parameter (pl, 'oracle_interpret', TOOLS.text_parameter, '"' ||
+                           plsstr || '"');
+      run (display, item, refresh, pl);
+      IF (TOOLS.isnull (plist)) THEN
+         TOOLS.destroy_parameter_list ('oracle_olelist');
+      END IF;
+   END interpret;
+-----------------------------------------------------------------------------------------------
+   PROCEDURE mousedown
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      x            IN NUMBER := 0,
+      y            IN NUMBER := 0,
+      refresh      IN BOOLEAN := FALSE,
+      clickcount   IN NUMBER  := 0,
+      button       IN NUMBER  := 1,
+      constrained  IN BOOLEAN := FALSE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   BEGIN
+      mouseupdown (display, item, x, y, refresh, clickcount, button,
+                   constrained, plist, true);
+   END mousedown;
+-----------------------------------------------------------------------------------------------------
+   PROCEDURE mouseup
+      display      IN VARCHAR2, 
+      item         IN VARCHAR2,
+      x            IN NUMBER := 0,
+      y            IN NUMBER := 0,
+      refresh      IN BOOLEAN := TRUE,
+      button       IN NUMBER  := 1,
+      constrained  IN BOOLEAN := FALSE,
+      plist        IN TOOLS.paramlist := TOOLS.null_parameter_list
+   BEGIN
+      mouseupdown (display, item, x, y, refresh, 0, button, 
+                   constrained, plist, FALSE);
+   END mouseup;
+   PROCEDURE refresh
+      display  IN VARCHAR2, 
+      item     IN VARCHAR2,
+      plist    IN TOOLS.paramlist := TOOLS.null_parameter_list
+      pl   TO
+OLS.paramlist;
+      str  VARCHAR2(32000);
+   BEGIN
+      --  create parameter list to pass mouse up event to embedded display.
+      IF (NOT (TOOLS.isnull (plist))) THEN
+         pl := plist;
+      ELSE
+         pl := TOOLS.create_parameter_list ('oracle_olelist');
+      END IF;
+      run (display, item, TRUE, pl);
+      IF (TOOLS.isnull (plist)) THEN
+         TOOLS.destroy_parameter_list ('oracle_olelist');
+      END IF;
+   END refresh;
+END og;
+	/NSPC1/OG
+STANDARD
+SQLFORMS
+FORMS40
+TEXT_IO
+"OG"RUN"DISPLAY"ITEM"REFRESH"PLIST"ID"MOUSEUPDOWN"X"Y"CLICKCOUNT"BUTTON"CONSTRAINED"DOWN"PL"XTMP"YTMP"XSCALE"YSCALE"OPEN"CLIP"WIDTH"HEIGHT"DISPMODE"FSTR"USTR"CLOSE"GETCHARPARAM"PARAM"STRVAL"TFP"HANDLE"STRINT"GETNUMPARAM1"GETNUMPARAM4"GETNUMPARAM2"GETNUMPARAM3"GETNUMPARAMS"GETNUMPARAMD"INTERPRET"PLSSTR"MOUSEDOWN"MOUSEUP"STR""
+oracle_update
+oracle_startup
+MOUSEUPDOWN
+system.mouse_x_pos
+system.mouse_y_pos
+oracle_olelist
+oracle_mousedown
+oracle_mouseup
+system.current_form
+INCHES
+CENTIMETERS
+PIXELS
+POINTS
+oracle_viewport
+GETCHARPARAM
+DECLARE 
+tfp TEXT_IO.FILE_TYPE; 
+BEGIN 
+  tfp := TEXT_IO.FOPEN ('tmp1.dat', 'w'); 
+  TEXT_IO.PUT_LINE (tfp, :
+  TEXT_IO.FCLOSE (tfp); 
+tmp1.dat
+GETNUMPARAM1
+d:\M_CASHEAR\ogd\tmp1.dat
+GETNUMPARAM4
+d:\M_CASHEAR\ogd\tmp3.dat
+GETNUMPARAM2
+d:\M_CASHEAR\ogd\tmp7.dat
+GETNUMPARAM3
+d:\M_CASHEAR\ogd\tmp6.dat
+GETNUMPARAMS
+d:\M_CASHEAR\ogd\tmp4.dat
+GETNUMPARAMD
+d:\a_tanzim\ogd\degtmp.dat
+INTERPRET
+oracle_interpret
+MOUSEDOWN
+MOUSEUP
+REFRESH
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+ $ & (
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+ $ & (
+gray88
+ $ & (
+gray84(
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r25g25b0@
+ $ & (
+gray88
+ $ & (
+gray84(
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+ $ & (
+gray88
+ $ & (
+gray84(
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+r75g75b0
+ $ & (
+gray88
+ $ & (
+gray84(
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+ D:\M_CASHEAR\year_month_stat.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+YEAR_MONTH_STAT
+I Code
+T Name
+T Code
+Point Name
+Point Code
+Rakmaskry
+I Code
+T Name
+T Code
+                                                              
+                                                                                     
+                                                                                         
+                                                                                         
+                                                                                     
+                                                                          
+                                                                           
+                                                                                  
+                                                                           
+                                                  
+           
+                                                                                       
+                                                                                  
+                      
+PUSH_BUTTON261
+YEAR_MONTH_STAT
+MAIN_WIN
+KEY-EXIT
+KEY-EXIT
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+KEY-MENU
+KEY-MENU
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+D:\M_CASHEAR\HINT
+TOOLBAR
+TOOLBAR
+DEFAULT
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DEFAULT
+HELP_BUT
+HELP_BUT
+TOOLBAR
+Dark Blue
+transparent
+                                                  
+           
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+yyyy/mm/dd
+TOOLBAR
+gray16
+transparent
+Simplified Arabic
+$$date$$
+COMMIT_FORM
+COMMIT_FORM
+TOOLBAR
+DEFAULT
+                                                                           
+CLEAR_RECORD
+CLEAR_RECORD
+d:\a_navy\clear.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+LIST_VALUES
+LIST_VALUES
+d:\a_navy\listval
+TOOLBAR
+                                                                           
+EXIT_FORM
+EXIT_FORM
+d:\a_navy\exit.ico
+TOOLBAR
+DEFAULT
+                                                                          
+d:\a_navy\left
+TOOLBAR
+DEFAULT
+                                                                                     
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+DEFAULT
+                                                                                     
+DEFAULT
+CANCEL_QUERY
+CANCEL_QUERY
+d:\a_navy\canqry.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+                      
+EXECUTE_QUERY
+EXECUTE_QUERY
+d:\a_navy\execute.ico
+TOOLBAR
+DEFAULT
+                                                                                       
+ENTER_QUERY
+ENTER_QUERY
+d:\a_navy\entqry
+TOOLBAR
+DEFAULT
+                                                              
+PUSH_BUTTON482
+PUSH_BUTTON482
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM483
+ITEM483
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON561
+PUSH_BUTTON561
+PAGE23
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON481
+PUSH_BUTTON481
+PAGE23
+gray16
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON588
+PUSH_BUTTON588
+gray16
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P_NAME
+P_NAME
+r100g88b0
+PUSH_BUTTON655
+PUSH_BUTTON655
+PAGE19
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+TOOLBAR
+gray16
+Simplified Arabic
+YEAR_MONTH_STAT
+YEAR_MONTH_STAT
+CANVAS2
+gray16
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+STAT_CATEG_MONTH
+STAT_CATEG_MONTH
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MONTH_STAT
+MONTH_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+ITEM_CATEG_STAT
+ITEM_CATEG_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+ITEM_CATEG_MONTH_STAT
+ITEM_CATEG_MONTH_STAT
+gray12
+POINT_CATEG_STAT
+POINT_CATEG_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM_POINT_CATEG_STAT
+ITEM_POINT_CATEG_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+M_NAME
+M_NAME
+r100g88b0
+Tahoma
+I_P_C_STAT
+I_P_C_STAT
+gray12
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-CLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+r100g88b0
+Tahoma
+M2_NAME
+M2_NAME
+r100g88b0
+Tahoma
+r100g88b0
+Tahoma
+P2_NAME
+P2_NAME
+r100g88b0
+Tahoma
+M3_NAME
+M3_NAME
+r100g88b0
+Tahoma
+r100g88b0
+Tahoma
+P3_NAME
+P3_NAME
+r100g88b0
+Tahoma
+T_NAME1
+T_NAME1
+r100g88b0
+Tahoma
+M4_NAME
+M4_NAME
+r100g88b0
+Tahoma
+r100g88b0
+Tahoma
+T_NAME2
+r100g88b0
+Tahoma
+r100g88b0
+Tahoma
+I_NAME1
+I_NAME1
+r100g88b0
+Tahoma
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM867
+ITEM867
+gray12
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+YEAR_MONTH_VIEW
+YEAR_MONTH_VIEW
+YEAR_MONTH_VIEW
+MONTH_NAME
+y = :parameter.y
+CANVAS2
+Simplified Arabic
+MONTH_NAME
+MONTH_NAME
+MONTH_NAME
+CANVAS2
+Tahoma
+CANVAS2
+Tahoma
+TEXT_ITEM802
+TEXT_ITEM802
+YEAR_MONTH_VIEW
+CANVAS2
+Tahoma
+ITEM_POINT_CATEG_VIEW
+ITEM_POINT_CATEG_VIEW
+ITEM_POINT_CATEG_VIEW
+POINT_CODE
+POINT_NAME
+T_CODE
+T_NAME
+I_CODE
+I_NAME
+y = :parameter.y and
+m = :global.m and
+point_code = :global.p and
+t_code = :global.t 
+qty desc
+POINT_CODE
+POINT_CODE
+POINT_CODE
+Point Code
+POINT_NAME
+POINT_NAME
+POINT_NAME
+Point Name
+T_CODE
+T_CODE
+T_CODE
+T Code
+T_NAME
+T_NAME
+T_NAME
+T Name
+I_CODE
+I_CODE
+I_CODE
+I Code
+I_NAME
+I_NAME
+I_NAME
+ITEM_POINT_CATEG_VIEW
+Tahoma
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+ITEM_CATEG_VIEW
+T_CODE
+T_NAME
+I_CODE
+I_NAME
+y = :parameter.y and
+m = :global.m and
+t_code = :global.t 
+qty desc
+T_CODE
+T_CODE
+T_CODE
+T Code
+T_NAME
+T_NAME
+T_NAME
+T Name
+I_CODE
+I_CODE
+I_CODE
+I Code
+I_NAME
+I_NAME
+I_NAME
+ITEM_CATEG_VIEW
+Tahoma
+TOOLBAR
+TOOLBAR
+MAIN_WIN
+transparent
+MS Sans Serif
+gray16
+transparent
+transparent
+Simplified Arabic
+CANVAS2
+CANVAS2
+MAIN_WIN
+gray16
+RECT694
+RECT694
+RECT693
+RECT693
+r100g75b0
+transparent
+RECT719
+RECT719
+r88g88b100
+TEXT726
+TEXT726
+custom4
+CMPTXT727
+CMPTXT727
+TEXTSTR728
+TEXTSTR728
+Simplified Arabic
+TEXT796
+TEXT796
+CMPTXT797
+CMPTXT797
+TEXTSTR798
+TEXTSTR798
+Tahoma
+TEXT799
+TEXT799
+CMPTXT800
+CMPTXT800
+TEXTSTR801
+TEXTSTR801
+Tahoma
+TEXT819
+TEXT819
+CMPTXT820
+CMPTXT820
+TEXTSTR821
+TEXTSTR821
+Simplified Arabic
+transparent
+transparent
+Simplified Arabic
+RECT828
+RECT828
+TEXT825
+TEXT825
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+GRAPHIC829
+GRAPHIC829
+GRAPHIC830
+GRAPHIC830
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+transparent
+transparent
+Simplified Arabic
+GRAPHIC843
+GRAPHIC843
+r0g50b75
+GRAPHIC844
+GRAPHIC844
+r25g50b88
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+transparent
+transparent
+Simplified Arabic
+GRAPHIC843
+GRAPHIC843
+r0g50b75
+GRAPHIC844
+GRAPHIC844
+r25g50b75
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+gray12
+transparent
+transparent
+Tahoma
+GRAPHIC834
+GRAPHIC834
+r75g75b100
+GRAPHIC835
+GRAPHIC835
+r75g75b100
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+gray12
+transparent
+transparent
+Simplified Arabic
+GRAPHIC834
+"PKG INIT"<anonymous>""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC1/BUTTON_PROC
+"PKG INIT"<anonymous>""
+r100r0g100b0
+GRAPHIC834
+r75g75b100
+GRAPHIC835
+GRAPHIC835
+r75g75b100
+transparent
+CMPTXT826
+CMPTXT826
+TEXTSTR827
+TEXTSTR827
+Tahoma
+gray12
+transparent
+transparent
+Tahoma
+gray12
+transparent
+Tahoma
+TEXT854
+TEXT854
+gray12
+CMPTXT855
+CMPTXT855
+TEXTSTR856
+TEXTSTR856
+Tahoma
+TEXT857
+TEXT857
+gray12
+CMPTXT858
+CMPTXT858
+TEXTSTR859
+TEXTSTR859
+Tahoma
+TEXT860
+TEXT860
+gray12
+CMPTXT861
+CMPTXT861
+TEXTSTR862
+TEXTSTR862
+Tahoma
+TEXT869
+TEXT869
+gray12
+CMPTXT870
+CMPTXT870
+TEXTSTR871
+TEXTSTR871
+Tahoma
+gray12
+transparent
+transparent
+Tahoma
+TEXT854
+TEXT854
+gray12
+CMPTXT855
+CMPTXT855
+TEXTSTR856
+TEXTSTR856
+Tahoma
+TEXT857
+TEXT857
+gray12
+CMPTXT858
+CMPTXT858
+TEXTSTR859
+TEXTSTR859
+Tahoma
+TEXT860
+TEXT860
+gray12
+CMPTXT861
+CMPTXT861
+TEXTSTR862
+TEXTSTR862
+Tahoma
+TEXT873
+TEXT873
+gray12
+CMPTXT874
+CMPTXT874
+TEXTSTR875
+TEXTSTR875
+Tahoma
+gray12
+Tahoma
+BUTTON_PROC
+BUTTON_PROC
+TOOLBAR
+TOOLBAR
+TOOLBAR
+TOOLBAR
+darkblue
+r75g88b100
+r100g75b50
+r100g100b88
+MAIN_WIN
+MAIN_WIN
+TOOLBAR
+SYSTEM.MOUSE_ITEM
+SYSTEM.MOUSE_ITEM
+TOOLBAR
+TOOLBAR
+TOOLBAR.TEXT
+TOOLBAR.TEXT
+TOOLBAR
+TOOLBAR
+TOOLBAR
+P9_14_MAY_200321_23_29
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+PARAMETER.Y
+PARAMETER.Y
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+P9_14_MAY_200321_23_29
+PARAMETER.M
+PARAMETER.M
+P9_14_MAY_200321_23_29
+GLOBAL.S
+GLOBAL.S
+P9_14_MAY_200321_23_29
+P12_14_MAY_200321_23_29
+GLOBAL.M
+GLOBAL.M
+P4_12_OCT_200410_29_21
+M_NAME
+M_NAME
+M_NAME
+P4_12_OCT_200410_29_21
+M2_NAME
+M2_NAME
+M2_NAME
+P4_12_OCT_200410_29_21
+M3_NAME
+M3_NAME
+M3_NAME
+P4_12_OCT_200410_29_21
+M4_NAME
+M4_NAME
+M4_NAME
+P4_12_OCT_200410_29_21
+GLOBAL.T
+GLOBAL.T
+P2_14_OCT_200410_53_01
+P19_18_OCT_200409_35_31
+T_NAME2
+T_NAME2
+T_NAME2
+P2_14_OCT_200410_53_01
+GLOBAL.P
+GLOBAL.P
+P13_18_OCT_200409_35_31
+P2_NAME
+P2_NAME
+P2_NAME
+P13_18_OCT_200409_35_31
+P3_NAME
+P3_NAME
+P3_NAME
+P13_18_OCT_200409_35_31
+GLOBAL.I
+GLOBAL.I
+P2_18_OCT_200409_35_31
+P24_18_OCT_200409_35_31
+P30_18_OCT_200409_35_31
+I_NAME1
+I_NAME1
+I_NAME1
+P2_18_OCT_200409_35_31
+T_NAME1
+T_NAME1
+T_NAME1
+P19_18_OCT_200409_35_31
+"PKG INIT"<anonymous>""
+res109_codes
+DEFAULT
+===UCS2-LE===
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+#&(./58:<>
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+#&(./58:<>
+#&(./58:<>
+!156;<DHLNP
+#&(./58:<>
+#&(./58:<>
+#&(./58:<>
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+#&(./58:<>
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+#&(./58:<>
+!156;<DHLNP
+!156;<DHLNP
+]cdfhjln
+#$/156=EIMNU]aefmuy|
+           #$$$$$$$$$$$$$%%%%%%&&&&&&''(())+++#.//////////0000000033333333333334444777777777788899999999999;;;;;;<<<<<<======????????@@@@AABGGGGGGGGHHHJJJJLLLLLLLLLLLMMMMMMMNNNNOOOOR.
+!156;<DHLNP
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!")158<=DLPSVZjnos
+!)178>ACKQTVXZ\^`b
+!)178>ACKQTVXZ\^`b
+ &)/28;ADJMSV\_ehnqy
+)0=IUam~
+!")158<=DLPSWX_gknrsz
+      !!!!!!$$$%&&&&''''((((()))))*********---.////000033345555666677779;;;<====>>>>????ACCCDEEEEFFFFGGGGIKKKLMMMMNNNNOOOOQSSSTUUUUVVVVWWWWY[[[\]]]]^^^^____`````aaaaaaaaadddeffffgggghhhhhiiiiijjjjjkkkkklllllmmmmmnnnnnnnnnqqqrssssttttuuuuuvvvvvwwwwwxxxxxyyyyyzzzzzzzzz}}}~
+%+17=CIht
+%+17=CIht
+(./56<?AIO
+[adjmstz}
+HMOQSUW[
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP
+!156;<DHLNP

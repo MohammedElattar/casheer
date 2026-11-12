@@ -1,0 +1,3439 @@
+src=M_CASHEAR/employee.fmb
+sha256=6c82f1b83edeb196df31ccac6826ec221efe68f001d4b70eb3112808c84e038e
+size=847872
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.423122+00:00
+version_markers=ROS.60050
+ascii_lines=3383
+ucs2_lines=44
+trigger_count=120
+pl_sql_markers=83
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+AGE_FAIL
+ Check_P
+Success 
+ Form_Tr
+ END IF;
+KAGE_FAI%
+gray92
+gray68
+r0g50b0
+r25g75b0
+r100gray20IL
+x" *"RAISE"F
+r100custom8
+CHECK_PACKAGE_FAILURE
+ $ & (
+darkgreen
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P2_12_JAN_200411_54_33
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+null ;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+iDECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=40401 THEN
+null ;
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P5_12_JAN_200411_54_33
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+VFRM50_BUFFER
+table contains user's buffer
+,ORROSATTRIBS
+class attributes
+)UCROSLFDESC
+ros lf descrip
+'EMROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+TOOL_MODULE
+table contains information about different module
+"VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P4_12_JAN_200411_54_33
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P7_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P9_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('window1',WINDOW_STATE,MAXIMIZE);
+go_block('emp_tbl');execute_query;
+WHEN-NEW-FORM-INSTANCE (Form)
+FORMS4C
+FORMS4W
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_10_JAN_200413_50_44
+BEGIN  
+	 SET_WINDOW_PROPERTY(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+	 SET_WINDOW_PROPERTY('WINDOW1',WINDOW_STATE,MAXIMIZE);	 
+	 :SYSTEM.MESSAGE_LEVEL := 20;
+	 :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;
+PRE-FORM (Form)
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P0_10_JAN_200414_08_02
+DECLARE
+   vALertId  		ALERT;
+	 vAlertButton  NUMBER;		
+   IF :SYSTEM.MODE = 'NORMAL' THEN
+      IF :SYSTEM.FORM_STATUS = 'CHANGED' 
+  	     AND GET_ITEM_PROPERTY('TOOLBAR.SAVE',ENABLED) = 'TRUE' THEN	
+	       vALertId := FIND_ALERT('TWOBUTTON');
+	       IF NOT ID_NULL(vALertId) THEN
+	   	      -- Set Alert Text ( Title,Message,Button(s) )
+            SET_ALERT_PROPERTY(vALertId,TITLE,'Choices/????????');
+            SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'Save Changes/??? ??????? ?');
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Yes/???');
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON2,LABEL,'No/??');
+           -- Get Return Value
+    	      vAlertButton := SHOW_ALERT(vALertId);
+    	      -- Perform Action Needed per return value
+	          IF    vAlertButton = ALERT_BUTTON1 THEN
+	   	          DO_KEY('COMMIT_FORM');
+	          END IF;	   	    	   
+	       END IF;
+	    END IF;   
+	    CLEAR_FORM(NO_VALIDATE);  
+	    :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;	    
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Ex.Query');
+   	  ENTER_QUERY;
+   ELSE
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Query');   	
+   	  EXECUTE_QUERY;
+   END IF;		 
+#WHEN-BUTTON-PRESSED (TOOLBAR.QUERY)
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+R%L|NDoE
+P3_05_DEC_200021_50_18
+	 P_EXIT;
+KEY-EXIT (Form)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+WINDOW1
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P10_18_SEP_200412_46_36
+-- Begin default relation program section
+  Clear_All_Master_Details;
+-- End default relation program section
+ON-CLEAR-DETAILS (Form)
+/NSPC1/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+WINDOW1
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_10_JAN_200414_08_02
+	 FIRST_RECORD;
+#WHEN-BUTTON-PRESSED (TOOLBAR.FIRST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P2_10_JAN_200414_08_02
+	 PREVIOUS_RECORD;
+&WHEN-BUTTON-PRESSED (TOOLBAR.PREVIOUS)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P6_10_JAN_200414_08_02
+DECLARE
+	vALertId  		ALERT;
+	vAlertButton  NUMBER;	
+	vALertId := FIND_ALERT('ONEBUTTON');
+	IF NOT ID_NULL(vALertId) THEN
+	   SET_ALERT_PROPERTY(vALertId,TITLE,'Information');
+	   SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'No Report');
+	   SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Ok/???');
+	   vAlertButton := SHOW_ALERT(vALertId);
+	END IF;
+DECLARE
+	vAlertButton  NUMBER;	
+	   SET_ALERT_PROPERTY('ONEBUTTON',TITLE,'Information/???????');
+	   SET_ALERT_PROPERTY('ONEBUTTON',ALERT_MESSAGE_TEXT,'No Report/?? ?????????');
+	   SET_ALERT_BUTTON_PROPERTY('ONEBUTTON',ALERT_BUTTON1,LABEL,'Ok/???');
+	   vAlertButton := SHOW_ALERT('ONEBUTTON');
+#WHEN-BUTTON-PRESSED (TOOLBAR.PRINT)
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+GRAPHIC98
+GRAPHIC98
+CMPTXT26
+CMPTXT26
+TEXTSTR27
+TEXTSTR27
+Simplified Arabic
+RECT99
+RECT99
+r25g0b0
+TEXT100
+TEXT100
+CMPTXT101
+CMPTXT101
+TEXTSTR102
+TEXTSTR102
+Simplified Arabic
+TEXT104
+TEXT104
+CMPTXT105
+CMPTXT105
+P3_10_JAN_200414_08_02
+	 NEXT_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.NEXT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+	 LAST_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.LAST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P5_10_JAN_200414_08_02
+	 P_RUNREPORT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.VIEW)
+/NSPC1/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P7_10_JAN_200414_08_02
+	 COMMIT_FORM;
+"WHEN-BUTTON-PRESSED (TOOLBAR.SAVE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P11_18_SEP_200412_46_36
+-- Begin default relation declare section
+DECLARE
+  recstat     VARCHAR2(20) := :System.record_status;   
+  startitm    VARCHAR2(61) := :System.cursor_item;   
+  rel_id      Relation;
+-- End default relation declare section
+-- Begin default relation program section
+  IF ( recstat = 'NEW' or recstat = 'INSERT' ) THEN   
+    RETURN;
+  END IF;
+  -- Begin EMP_POINT detail program section
+  IF ( (:EMP_TBL.EMP_ID is not null) ) THEN   
+    rel_id := Find_Relation('EMP_TBL.EMP_TBL_EMP_POINT');   
+    Query_Master_Details(rel_id, 'EMP_POINT');   
+  END IF;
+  -- End EMP_POINT detail program section
+  IF ( :System.cursor_item <> startitm ) THEN     
+     Go_Item(startitm);     
+     Check_Package_Failure;     
+  END IF;
+-- End default relation program section
+ON-POPULATE-DETAILS (EMP_TBL)
+STANDARD
+FORMS4C
+FORMS40
+/NSPC1/QUERY_MASTER_DETAILS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+EMP_TBL.EMP_TBL_EMP_POINT
+EMP_POINT
+x( * , .
+r88g50b50
+x( * , .
+r100g50b50
+r0g50b75
+x( * , .
+r25g50b75
+x( * , .
+r50g50b75
+x( * , .
+r75g50b75
+x( * , .
+r88g50b75
+x( * , .
+r100g50b75
+r0g50b88
+x( * , .
+r25g50b88
+x( * , .
+r50g50b88
+x( * , .
+r75g50b88
+x( * , .
+r88g50b88
+x( * , .
+r100g50b88
+r0g50b100
+x( * , .
+r25g50b100
+x( * , .
+r50g50b100
+x( * , .
+r75g50b100
+x( * , .
+r88g50b100
+x* , . 0
+r100g50b100
+x$ & (
+yellow
+x( * ,
+darkyellow
+magenta
+darkmagenta
+x$ & ( *
+gray48
+x$ & ( *
+gray44\
+x$ & ( *
+gray40
+x$ & ( *
+gray36
+r0g75b0
+x& ( *
+r25g75b0
+P8_10_JAN_200414_08_02
+BEGIN  
+	 DELETE_RECORD;
+$WHEN-BUTTON-PRESSED (TOOLBAR.DELETE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+BEGIN  
+	 CREATE_RECORD;
+!WHEN-BUTTON-PRESSED (TOOLBAR.ADD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P10_10_JAN_200414_08_02
+   P_EXIT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.EXIT)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+BEGIN  
+	 CREATE_RECORD;
+!WHEN-BUTTON-PRESSED (TOOLBAR.ADD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P12_18_SEP_200412_46_36
+-- Begin default relation program section
+  -- Begin EMP_POINT detail program section
+   DELETE FROM EMP_POINT E
+   WHERE E.EMP_ID = :EMP_TBL.EMP_ID;
+  -- End EMP_POINT detail program section
+-- End default relation program section
+PRE-DELETE (EMP_TBL)
+STANDARD
+MAHROSA
+	EMP_POINT
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM EMP_POINT E WHERE E.EMP_ID = :b1"
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P14_18_SEP_200412_46_36
+	DECLARE
+	tiff_image_dir VARCHAR2(80) := '/usr/staff/photos/';
+	photo_filename VARCHAR2(80);
+BEGIN 
+  :System.Message_Level := '25'; 
+  if :photo_path is not null then
+     READ_IMAGE_FILE(:photo_path, 'any', 'ph');
+  else
+  	 READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'ph');
+  end if;
+  IF NOT FORM_SUCCESS THEN
+  	 --null;
+  	 READ_IMAGE_FILE('D:\M_CASHEAR\PHOTOS\no_photo.bmp', 'any', 'ph');
+  	 MESSAGE('This employee does not have a photo on file.');
+  END IF;
+  :SYSTEM.MESSAGE_LEVEL := '0';
+  END; 
+ POST-CHANGE (EMP_TBL.PHOTO_PATH)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>"TIFF_IMAGE_DIR"PHOTO_FILENAME""
+/usr/staff/photos/
+D:\M_CASHEAR\PHOTOS\no_photo.bmp
+This employee does not have a photo on file.
+Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+P16_18_SEP_200409_14_03
+list_values;
+)WHEN-MOUSE-DOUBLECLICK (EMP_TBL.JOB_CODE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+DELETE FROM EMP_POINT E WHERE E.EMP_ID = :b1"
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P6_18_SEP_200412_23_01
+select JOB_NAME into :JOB_NAME from job_tbl where
+JOB_code = :JOB_code;
+exception when  no_data_found then
+	message('
+	raise form_trigger_failure;
+POST-CHANGE (EMP_TBL.JOB_CODE)
+STANDARD
+MAHROSA
+JOB_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT JOB_NAME   FROM JOB_TBL  WHERE JOB_CODE = :b1"
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P17_18_SEP_200409_14_03
+list_values;
+.WHEN-MOUSE-DOUBLECLICK (EMP_TBL.SUB_DEPT_CODE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+SELECT JOB_NAME   FROM JOB_TBL  WHERE JOB_CODE = :b1"
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P8_18_SEP_200412_23_01
+select sub_dept_name into :sub_dept_name from sub_dept where
+sub_dept_code = :sub_dept_code;
+exception when  no_data_found then
+	message('
+	raise form_trigger_failure;
+#POST-CHANGE (EMP_TBL.SUB_DEPT_CODE)
+STANDARD
+MAHROSA
+SUB_DEPT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT SUB_DEPT_NAME   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P10_18_SEP_200409_14_03
+&go_item('sub_dept_code');
+list_values;
+.WHEN-MOUSE-DOUBLECLICK (EMP_TBL.SUB_DEPT_NAME)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+sub_dept_code
+P11_18_SEP_200409_14_03
+list_values;
+)WHEN-MOUSE-DOUBLECLICK (EMP_TBL.JOB_NAME)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P12_18_SEP_200409_14_03
+':PHOTO_PATH := GET_FILE_NAME('');
+,WHEN-BUTTON-PRESSED (EMP_TBL.PUSH_BUTTON790)
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+_SEP_200409_14_03
+list_values;
+)WHEN-MOUSE-DOUBLECLICK (EMP_TBL.JOB_NAME)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P3_18_SEP_200412_23_01
+&go_item('sub_dept_code');
+list_values;
+$WHEN-BUTTON-PRESSED (EMP_TBL.ITEM75)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+sub_dept_code
+P5_18_SEP_200412_23_01
+!go_item('job_code');
+list_values;
+$WHEN-BUTTON-PRESSED (EMP_TBL.ITEM76)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+job_code
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P13_18_SEP_200412_46_36
+commit;
+$WHEN-NEW-RECORD-INSTANCE (EMP_POINT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+sub_dept_code
+P5_18_SEP_200412_23_01
+!go_item('job_code');
+list_values;
+$WHEN-BUTTON-PRESSED (EMP_TBL.ITEM76)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+job_code
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P5_18_SEP_200412_46_36
+DECLARE 
+	 a_value_chosen BOOLEAN;
+	 BEGIN   a_value_chosen := Show_Lov('LOV87'); 
+	IF NOT a_value_chosen THEN     Message('You have not selected a value.'); 
+		    Bell;
+		   RAISE Form_Trigger_Failure;
+		    END IF; 
+	END; 
+&WHEN-BUTTON-PRESSED (EMP_POINT.ITEM75)
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+"PKG INIT"<anonymous>""
+job_code
+emp_tbl
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P6_18_SEP_200412_46_36
+select point_name into :point_name from  point_tbl where
+ point_code = :point_code;
+exception when  no_data_found then
+	message('
+	raise form_trigger_failure;
+"POST-CHANGE (EMP_POINT.POINT_CODE)
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+GIF89a
+5*<xR#D
+v?^u9u
+*y%J">\
+E.mQ8`
+V52Y}@W#1
+0	n 	n
+4T93"M
+sF3WDS
+N2/}RC>
+lpC:_D
+jo$wC"
+B,4A7(D
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+V` R!+b
+"=jc'J
+`G"c\6aI
+	neMz%X
+*ja&F-8
+ 4z"{B'
+C17:"#bo
+vh?!aglq
+5X#ap_oI:
+9WZ6/R2P
+)_h?{)
+JPbd(I	
+>])TfN
+D0BI&\
+<1I%X|PH'
+Ln/eSS
+MvVlk]
+#&ahDN
+}UaQgxTx*u
+2;5S4c
+AEpDM2B!Q
+HQ0I}pI
+4SetS/
+\mV\yv`
+sOpl/7
+I8u%P'
+KczmgZ6-
+q=z'AZg
+V/}HKW
+>?yTT~
+@%8$qE
+fg-5^T
+n!	%XP
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+$KJ|eD
+3YGN~2
+'Dgl?h
+<~+_u;b
+$B.`C6$0:
+eXr Y*&c
+`R%_Va
+:+>v$n
+ajd@nf
+?o)1?$
+7^).W2
+yRv>j.f3
+{!}2x^
+gD^6	f
+D:f&BgTG
+#;<>C|
+{^{-?f^Ne
+!D7._B
+o%qC	I&
+	S}WU'
+<'9#xNJ
+.>?x_Q
+eK3MtC
+u4C)qC
+pP'RR3P
+`%!aYuP
+cm1dyqd
+s'UzwW%
+6op&%X
+=ve}1!
+nWUf'2^}Q
+z{w7R5{
+=E^e92'
+'1	7\0
+-HF4.1
+ %5hI_
+t#1=)GP&
++]k{[)
+eBg8NN
+Ntb#]+
+{OM~tR
+;'Y/yrR>
+"ny\bl
+)dB*,A
+0lA2\A3DC
+$DJ4AR4A
+\A \DBT
+G_$Ho\CVd
+H\B`TI5|G
+TK_UAB=
+UEV!|Ut
+@[P_-eY
+CEE0dc
+$g<6gv]f
+ungl|gj
+uN=~R&MR
+|O}u\)U
+tI}vgS'CT
+n'v~wXq
+tg_wZowi
+_z'-V(L
+H#.|	4
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+%D~cXFdW
+a1Vc	r
+!Gne_j
+'x* Krgz
+fK6#{ngw
+g#&gqf
+$m{*on
+dklmG7nS
+vwV~wD
+J0>onq_
+INg8_8
+,^f{^^q%
+;n"~c7
+0-b<D"{
+cG-5FfQ
+9R*Wr*]
+HOTLSqAY
+2ma?!t1
+YquZ{0'{
+ZIqYmp]
++_V$)T6
+%17wApw_
+	.,8p`
+v%y5	S
+%q@70p
+Pl`'UYY
+;e-tC)
+|IO4}U
+U7Ww/v
+MPQfte
+dA=$@}
+FI(Gkd
+@h%TJeJ
+IHZi\Z\<U
+_3%H{|W
++tGene
+(5]=\bjv
+gv>JTFf[
+H\fS]n
+o4ksMkq~^
+FLLYNJ
+]h_Gd`
+5k9'YI
+v6y?|N
+t&.g	Q1
+`dOIR[
+4izXj?
+:>d2F$
+OJ#HJ"@
+n>gMZb
+lF&Uz'mV
+d}>g~Z
+`7R`H" \
+&j+nr+
+~c *$9f
+fmQj`:v
+`[B-~*
+"b0pjp
+30zr3$
+<'c=G3;_tsf
+^vfk-*r
+bvXk6n
+7sS6~>
+3@Lr3I
+6'"T94$L
+#TPBI:
+ErMepY*
+n[v	iWb
+"#+[#:t
+#,-t!KH
+?3(QP41
+TwpScu
+bWQtmSG
+P3)qTg
+^osdY0m=uu
+6*%AiW
+jc<2iV
+QAA0ds
+55>txr
+8A\J"	
+'6Y8R~
+lE$BKlT
+.r{{+[br
+iojxWw
+q}HI&qC
+U1lSF2q<sR-
+oy3N){
+24c#K8
+<#$uHC6V
+9@.62	<
+`2_)	_
+BKLAL$B^
+`D@.dBZ
+@#DHT\
+-4C3|E1
+B*eR+m
+4@SUWa\
+-|S%fO
+Tc&na'~cG
+R%L|NDoE
+5"t_hJAr
+3,`}YX
+(*b)z!
+fb5:!0
+7v`(Z! 
+N ?j$ER
+G*dMf$
+^#T"$A
+aIreF&f[N&H
+2fl>&mJ&W
+'r(	~)
+n`P"aOf`q
+r.PNfE
+5Wt>o17K
+8UZ`CF
+{c6rc@
+0%ycC7
+--PGIm5
+U\*S,q
+u!epUq
+$n!	7(
+qG7*}G2
+)s0ys<
+?m35YP@
+s3-sW)
+-Ov:SV#
+uiqu:5
+P(+q8+
+Y\r]|8
+nWPk'<
+S[!5y i
+n)qcp"B%
+$%%?NJ
+6,(BmF
+ljSeXR
+L_%%Q~vDJ
+oMRVGz
+L1UsN#?M2
+7Atu_+5f
+otk,N,
+d@I@@%H@
+A9$@:$
+B/tDYDAZLC
+Df,Dgd
+@%@HQL
+cuTD4A
+A:=Bq$Ah4
+"Vb6~Q<
+>dUNdV
+`Dj6Tj
+UpptpF
+PC_F%WV_
+U[[$\@
+te5UyNr
++)C62s
+]T$h_K
+d'Bc8M^JS
+*R`6r 6N
+a	z`Rb$@
+j$9N!bj
+7b'Tf#t2#Mn
+(oBh]6cfb`
+2Jf+2!k
+^JlS:`
+KofL;bF
+&]seV{5r
+nobos+p
+S`tB:<
+F\(Q#F
+PI$#t0
+lQPB%1
+Qd1C0	
+kINg0uv
+p.q(c]
+5ur,YS
+61S7+S;;
+T<S3C?0
+UT93WI
+2`yPh{
+5r[rvs
+v+x6/X
+hA0~qs?
+$nnIR2
+&!	7(A	
+P3_18_SEP_200412_46_36
+DECLARE 
+	 a_value_chosen BOOLEAN;
+	 BEGIN   a_value_chosen := Show_Lov('LOV87'); 
+	IF NOT a_value_chosen THEN     Message('You have not selected a value.'); 
+		    Bell;
+		   RAISE Form_Trigger_Failure;
+		    END IF; 
+	END; 
+-WHEN-MOUSE-DOUBLECLICK (EMP_POINT.POINT_NAME)
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P_RUNREPORT
+jPROCEDURE P_RUNREPORT IS
+  RUN_PRODUCT(REPORTS,'EMP01',SYNCHRONOUS,RUNTIME,FILESYSTEM,'',NULL);
+STANDARD
+"PKG INIT"P_RUNREPORT""
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+RPROCEDURE Query_Master_Details(rel_id Relation,detail VARCHAR2) IS
+  oldmsg VARCHAR2(2);  -- Old Message Level Setting
+  reldef VARCHAR2(5);  -- Relation Deferred Setting
+  -- Initialize Local Variable(s)
+  reldef := Get_Relation_Property(rel_id, DEFERRED_COORDINATION);
+  oldmsg := :System.Message_Level;
+  -- If NOT Deferred, Goto detail and execute the query.
+  IF reldef = 'FALSE' THEN
+    Go_Block(detail);
+    Check_Package_Failure;
+    :System.Message_Level := '10';
+    Execute_Query;
+    :System.Message_Level := oldmsg;
+  ELSE
+    --
+    -- Relation is deferred, mark the detail block as un-coordinated
+    --
+    Set_Block_Property(detail, COORDINATION_STATUS, NON_COORDINATED);
+  END IF;
+EXCEPTION
+    WHEN Form_Trigger_Failure THEN
+      :System.Message_Level := oldmsg;
+      RAISE;
+END Query_Master_Details;
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+"QUERY_MASTER_DETAILS"REL_ID"RELATION"DETAIL"VARCHAR2"OLDMSG"2"RELDEF"5"GET_RELATION_PROPERTY"DEFERRED_COORDINATION"System.Message_Level""="FALSE"GO_BLOCK"CHECK_PACKAGE_FAILURE"10"EXECUTE_QUERY"SET_BLOCK_PROPERTY"COORDINATION_STATUS"NON_COORDINATED"FORM_TRIGGER_FAILURE"RAISE""
+QUERY_MASTER_DETAILS
+LI)\Iw<H=$J
+UGfd]XL[3
+@A}Gq|H
+L>c'nb
+2LM+?P,
+~rb~R)
+wb:EK3Lvv
+{W]muM
+CLEAR_ALL_MASTER_DETAILS
+sPROCEDURE Clear_All_Master_Details IS
+  mastblk  VARCHAR2(30);  -- Initial Master Block Causing Coord
+  coordop  VARCHAR2(30);  -- Operation Causing the Coord
+  trigblk  VARCHAR2(30);  -- Cur Block On-Clear-Details Fires On
+  startitm VARCHAR2(61);  -- Item in which cursor started
+  frmstat  VARCHAR2(15);  -- Form Status
+  curblk   VARCHAR2(30);  -- Current Block
+  currel   VARCHAR2(30);  -- Current Relation
+  curdtl   VARCHAR2(30);  -- Current Detail Block
+  FUNCTION First_Changed_Block_Below(Master VARCHAR2)
+  RETURN VARCHAR2 IS
+    curblk VARCHAR2(30);  -- Current Block
+    currel VARCHAR2(30);  -- Current Relation
+    retblk VARCHAR2(30);  -- Return Block
+  BEGIN
+    --
+    -- Initialize Local Vars
+    --
+    curblk := Master;
+    currel := Get_Block_Property(curblk,  FIRST_MASTER_RELATION);
+    --
+    -- While there exists another relation for this block
+    --
+    WHILE currel IS NOT NULL LOOP
+      --
+      -- Get the name of the detail block
+      --
+      curblk := Get_Relation_Property(currel, DETAIL_NAME);
+      --
+      -- If this block has changes, return its name
+      --
+      IF ( Get_Block_Property(curblk, STATUS) = 'CHANGED' ) THEN
+        RETURN curblk;
+      ELSE
+        --
+        -- No changes, recursively look for changed blocks below
+        --
+        retblk := First_Changed_Block_Below(curblk);
+        --
+        -- If some block below is changed, return its name
+        --
+        IF retblk IS NOT NULL THEN
+          RETURN retblk;
+        ELSE
+          --
+          -- Consider the next relation
+          --
+          currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+        END IF;
+      END IF;
+    END LOOP;
+    --
+    -- No changed blocks were found
+    --
+    RETURN NULL;
+  END First_Changed_Block_Below;
+  -- Init Local Vars
+  mastblk  := :System.Master_Block;
+  coordop  := :System.Coordination_Operation;
+  trigblk  := :System.Trigger_Block;
+  startitm := :System.Cursor_Item;
+  frmstat  := :System.Form_Status;
+  -- If the coordination operation is anything but CLEAR_RECORD or
+  -- SYNCHRONIZE_BLOCKS, then continue checking.
+  IF coordop NOT IN ('CLEAR_RECORD', 'SYNCHRONIZE_BLOCKS') THEN
+    --
+    -- If we're processing the driving master block...
+    --
+    IF mastblk = trigblk THEN
+      --
+      -- If something in the form is changed, find the
+      -- first changed block below the master
+      --
+      IF frmstat = 'CHANGED' THEN
+        curblk := First_Changed_Block_Below(mastblk);
+        --
+        -- If we find a changed block below, go there
+        -- and Ask to commit the changes.
+        --
+        IF curblk IS NOT NULL THEN
+          Go_Block(curblk);
+          Check_Package_Failure;
+          Clear_Block(ASK_COMMIT);
+          --
+          -- If user cancels commit dialog, raise error
+          --
+          IF NOT ( :System.Form_Status = 'QUERY'
+                   OR :System.Block_Status = 'NEW' ) THEN
+            RAISE Form_Trigger_Failure;
+          END IF;
+        END IF;
+      END IF;
+    END IF;
+  END IF;
+  -- Clear all the detail blocks for this master without
+  -- any further asking to commit.
+  currel := Get_Block_Property(trigblk, FIRST_MASTER_RELATION);
+  WHILE currel IS NOT NULL LOOP
+    curdtl := Get_Relation_Property(currel, DETAIL_NAME);
+    IF Get_Block_Property(curdtl, STATUS) <> 'NEW'  THEN
+      Go_Block(curdtl);
+      Check_Package_Failure;
+      Clear_Block(NO_VALIDATE);
+      IF :System.Block_Status <> 'NEW' THEN
+        RAISE Form_Trigger_Failure;
+      END IF;
+    END IF;
+    currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+  END LOOP;
+  -- Put cursor back where it started
+  IF :System.Cursor_Item <> startitm THEN
+    Go_Item(startitm);
+    Check_Package_Failure;
+  END IF;
+EXCEPTION
+  WHEN Form_Trigger_Failure THEN
+    IF :System.Cursor_Item <> startitm THEN
+      Go_Item(startitm);
+    END IF;
+    RAISE;
+END Clear_All_Master_Details;
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC1/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+"CLEAR_ALL_MASTER_DETAILS"MASTBLK"VARCHAR2"30"COORDOP"TRIGBLK"STARTITM"61"FRMSTAT"15"CURBLK"CURREL"CURDTL"FUNCTION"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETURN"RETBLK"GET_BLOCK_PROPERTY"FIRST_MASTER_RELATION"WHILE"IS NOT NULL"LOOP"GET_RELATION_PROPERTY"DETAIL_NAME"STATUS"="CHANGED"NEXT_MASTER_RELATION"System.Master_Block""System.Coordination_Operation"System.Trigger_Block"System.Cursor_Item"System.Form_Status"CLEAR_RECORD"SYNCHRONIZE_BLOCKS"GO_BLOCK"CHECK_PACKAGE_FAILURE"CLEAR_BLOCK"ASK_COMMIT"QUERY"System.Block_Status"NEW"NOT"RAISE"FORM_TRIGGER_FAILURE"!="NO_VALIDATE"GO_ITEM""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+nsggMi9
+AbdC6,F0
+G)TG+d
+ADNedD
+c%TTMWmlV0|VwuTx
+ 6a/Fa0
+|J\}dz
+Htnfy\
+EG8|Z*
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+darkgreen
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+gray72G
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+ $ & (
+gray96
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\employee.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.h
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+EMPLOYEE
+My Editor
+DELETE
+DELETE
+Delete
+Cancel
+PREVIOUS
+PREVIOUS
+Sub_Dept_Name
+Sub_Dept_Code
+Job_Name
+Job_Code
+Point_Name
+Point_Code
+Emp Id
+EMPLOYEE
+WINDOW1
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+PRE-FORM
+PRE-FORM
+KEY-EXIT
+KEY-EXIT
+ON-CLEAR-DETAILS
+ON-CLEAR-DETAILS
+ONEBUTTON
+ONEBUTTON
+yellow
+Simplified Arabic
+TWOBUTTON
+TWOBUTTON
+Simplified Arabic
+THREEBUTTON
+THREEBUTTON
+Cancel
+Simplified Arabic
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+TOOLBAR
+TOOLBAR
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PREVIOUS
+PREVIOUS
+previous
+MS Sans Serif
+PREVIOUS
+PREVIOUS
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DELETE
+DELETE
+Delete
+delete
+MS Sans Serif
+DELETE
+DELETE
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+UFORMNAME
+UFORMNAME
+r100g25b0
+CANVAS1
+r25g50b88
+Simplified Arabic
+EMP_TBL
+EMP_TBL
+EMP_TBL
+EMP_ID
+EMP_NAME
+JOB_CODE
+IN_DATE
+OUT_DATE
+EMP_TYP
+PHOTO_PATH
+EMP_PASS
+EMP_PRV
+SERV_FLG
+SUB_DEPT_CODE
+BIRTH_D
+ADDRESS
+MOBILE_NO
+ID_TYP
+M_STATUS
+BLD_TYP
+ON-POPULATE-DETAILS
+ON-POPULATE-DETAILS
+PRE-DELETE
+PRE-DELETE
+EMP_ID
+EMP_ID
+EMP_ID
+CANVAS1
+Simplified Arabic
+ID_TYP
+ID_TYP
+ID_TYP
+CANVAS1
+Simplified Arabic
+EMP_NAME
+EMP_NAME
+EMP_NAME
+CANVAS1
+Simplified Arabic
+M_STATUS
+M_STATUS
+M_STATUS
+CANVAS1
+Simplified Arabic
+BLD_TYP
+BLD_TYP
+BLD_TYP
+CANVAS1
+Simplified Arabic
+JOB_CODE
+JOB_CODE
+JOB_CODE
+Tahoma
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+POST-CHANGE
+POST-CHANGE
+IN_DATE
+IN_DATE
+IN_DATE
+CANVAS1
+Simplified Arabic
+OUT_DATE
+OUT_DATE
+OUT_DATE
+CANVAS1
+Simplified Arabic
+EMP_TYP
+EMP_TYP
+EMP_TYP
+CANVAS1
+Simplified Arabic
+PHOTO_PATH
+PHOTO_PATH
+PHOTO_PATH
+CANVAS1
+r25g50b75
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+EMP_PASS
+EMP_PASS
+EMP_PASS
+CANVAS1
+Simplified Arabic
+EMP_PRV
+EMP_PRV
+EMP_PRV
+Simplified Arabic
+SERV_FLG
+SERV_FLG
+SERV_FLG
+CANVAS1
+r50g25b100
+Simplified Arabic
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+CANVAS1
+Simplified Arabic
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+POST-CHANGE
+POST-CHANGE
+SUB_DEPT_NAME
+SUB_DEPT_NAME
+CANVAS1
+r88g88b100
+Simplified Arabic
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+JOB_NAME
+JOB_NAME
+CANVAS1
+r88g88b100
+Simplified Arabic
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+PUSH_BUTTON790
+PUSH_BUTTON790
+CANVAS1
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MELFIKY
+CANVAS1
+r88g88b100
+ITEM75
+ITEM75
+CANVAS1
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM76
+ITEM76
+CANVAS1
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+BIRTH_D
+BIRTH_D
+BIRTH_D
+CANVAS1
+Simplified Arabic
+ADDRESS
+ADDRESS
+ADDRESS
+CANVAS1
+Simplified Arabic
+CANVAS1
+Simplified Arabic
+MOBILE_NO
+MOBILE_NO
+MOBILE_NO
+CANVAS1
+Simplified Arabic
+EMP_TBL_EMP_POINT
+EMP_TBL_EMP_POINT
+EMP_POINT
+emp_tbl.emp_id =EMP_POINT.emp_id
+EMP_POINT
+EMP_POINT
+EMP_POINT
+EMP_ID
+POINT_CODE
+SHIFT_TYP
+point_code,shift_typ
+WHEN-NEW-RECORD-INSTANCE
+WHEN-NEW-RECORD-INSTANCE
+EMP_ID
+EMP_ID
+EMP_TBL.EMP_ID
+EMP_ID
+Emp Id
+ITEM75
+ITEM75
+CANVAS1
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+POINT_CODE
+POINT_CODE
+POINT_CODE
+POST-CHANGE
+POST-CHANGE
+SHIFT_TYP
+SHIFT_TYP
+SHIFT_TYP
+CANVAS1
+Simplified Arabic
+POINT_NAME
+POINT_NAME
+CANVAS1
+r100g100b75
+Simplified Arabic
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+WINDOW1
+transparent
+transparent
+Simplified Arabic
+CANVAS1
+CANVAS1
+WINDOW1
+IMAGE17
+IMAGE17
+GRAPHIC18
+GRAPHIC18
+GRAPHIC20
+GRAPHIC20
+GRAPHIC19
+GRAPHIC19
+RECT96
+RECT96
+gray16
+GRAPHIC95
+GRAPHIC95
+r100g88b75
+GROUP64
+GROUP64
+RECT21
+RECT21
+TEXT13
+TEXT13
+transparent
+r0g50b0
+CMPTXT14
+CMPTXT14
+TEXTSTR15
+TEXTSTR15
+Simplified Arabic
+TEXT25
+TEXT25
+CMPTXT26
+CMPTXT26
+TEXTSTR27
+TEXTSTR27
+Simplified Arabic
+TEXT28
+TEXT28
+CMPTXT29
+CMPTXT29
+TEXTSTR30
+TEXTSTR30
+Simplified Arabic
+TEXT31
+TEXT31
+CMPTXT32
+CMPTXT32
+TEXTSTR33
+TEXTSTR33
+Simplified Arabic
+TEXT34
+TEXT34
+CMPTXT35
+CMPTXT35
+TEXTSTR36
+TEXTSTR36
+Simplified Arabic
+TEXT37
+TEXT37
+CMPTXT38
+CMPTXT38
+TEXTSTR39
+TEXTSTR39
+Simplified Arabic
+TEXT40
+TEXT40
+CMPTXT41
+CMPTXT41
+TEXTSTR42
+TEXTSTR42
+Simplified Arabic
+TEXT43
+TEXT43
+CMPTXT44
+CMPTXT44
+TEXTSTR45
+TEXTSTR45
+Simplified Arabic
+TEXT49
+TEXT49
+CMPTXT50
+CMPTXT50
+TEXTSTR51
+TEXTSTR51
+Simplified Arabic
+TEXT70
+TEXT70
+CMPTXT71
+CMPTXT71
+TEXTSTR72
+TEXTSTR72
+Simplified Arabic
+RECT92
+RECT92
+r100g88b75
+GRAPHIC93
+GRAPHIC93
+CMPTXT38
+CMPTXT38
+TEXTSTR39
+TEXTSTR39
+Simplified Arabic
+GRAPHIC94
+GRAPHIC94
+CMPTXT38
+CMPTXT38
+TEXTSTR39
+TEXTSTR39
+Simplified Arabic
+GRAPHIC98
+GRAPHIC98
+CMPTXT26
+CMPTXT26
+TEXTSTR27
+TEXTSTR27
+Simplified Arabic
+RECT99
+RECT99
+r25g0b0
+TEXT100
+TEXT100
+CMPTXT101
+CMPTXT101
+TEXTSTR102
+TEXTSTR102
+Simplified Arabic
+TEXT104
+TEXT104
+CMPTXT105
+CMPTXT105
+TEXTSTR106
+TEXTSTR106
+Simplified Arabic
+TEXT107
+TEXT107
+CMPTXT108
+CMPTXT108
+TEXTSTR109
+TEXTSTR109
+Simplified Arabic
+TEXT110
+TEXT110
+CMPTXT111
+CMPTXT111
+TEXTSTR112
+TEXTSTR112
+Simplified Arabic
+TEXT113
+TEXT113
+CMPTXT114
+CMPTXT114
+TEXTSTR115
+TEXTSTR115
+Simplified Arabic
+TEXT116
+TEXT116
+CMPTXT117
+CMPTXT117
+TEXTSTR118
+TEXTSTR118
+Simplified Arabic
+GRAPHIC119
+GRAPHIC119
+CMPTXT26
+CMPTXT26
+TEXTSTR27
+TEXTSTR27
+Simplified Arabic
+TEXT136
+TEXT136
+CMPTXT137
+CMPTXT137
+TEXTSTR138
+TEXTSTR138
+Simplified Arabic
+transparent
+transparent
+Simplified Arabic
+MYEDITOR
+MYEDITOR
+My Editor
+r100g100b50
+JOB_CODE
+JOB_CODE
+Job_Code
+EMP_TBL.JOB_CODE
+JOB_NAME
+JOB_NAME
+Job_Name
+EMP_TBL.JOB_NAME
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+Sub_Dept_Code
+EMP_TBL.SUB_DEPT_CODE
+SUB_DEPT_NAME
+SUB_DEPT_NAME
+Sub_Dept_Name
+EMP_TBL.SUB_DEPT_NAME
+POINT_CODE
+POINT_CODE
+Point_Code
+EMP_POINT.POINT_CODE
+POINT_NAME
+POINT_NAME
+Point_Name
+EMP_POINT.POINT_NAME
+MELFIKY
+MELFIKY
+P_RUNREPORT
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+SELECT ALL SUB_DEPT.SUB_DEPT_CODE, SUB_DEPT.SUB_
+DEPT_NAME
+FROM SUB_DEPT 
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+SUB_DEPT_NAME
+SUB_DEPT_NAME
+SELECT ALL JOB_TBL.JOB_CODE, JOB_TBL.JOB_NAME
+FROM JOB_TBL 
+JOB_CODE
+JOB_CODE
+JOB_NAME
+JOB_NAME
+SELECT ALL POINT_TBL.POINT_CODE, POINT_TBL.POINT_NAME
+FROM POINT_TBL 
+where p_typ = 1
+POINT_CODE
+POINT_CODE
+POINT_NAME
+POINT_NAME
+r100g75b0
+WINDOW1
+WINDOW1
+SUB_DEPT_NAME
+SUB_DEPT_NAME
+SUB_DEPT_NAME
+P8_18_SEP_200412_23_01
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+SUB_DEPT_CODE
+P8_18_SEP_200412_23_01
+SYSTEM.MESSAGE_LEVEL
+SYSTEM.MESSAGE_LEVEL
+QUERY_MASTER_DETAILS
+P1_10_JAN_200413_50_44
+P14_18_SEP_200412_46_36
+SYSTEM.MASTER_BLOCK
+SYSTEM.MASTER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.COORDINATION_OPERATION
+SYSTEM.COORDINATION_OPERATION
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.TRIGGER_BLOCK
+SYSTEM.TRIGGER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.CURSOR_ITEM
+SYSTEM.CURSOR_ITEM
+CLEAR_ALL_MASTER_DETAILS
+P11_18_SEP_200412_46_36
+SYSTEM.FORM_STATUS
+SYSTEM.FORM_STATUS
+CLEAR_ALL_MASTER_DETAILS
+P0_10_JAN_200414_08_02
+SYSTEM.BLOCK_STATUS
+SYSTEM.BLOCK_STATUS
+CLEAR_ALL_MASTER_DETAILS
+TOOLBAR.UFORMNAME
+TOOLBAR.UFORMNAME
+UFORMNAME
+TOOLBAR
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.MODE
+SYSTEM.MODE
+P0_10_JAN_200414_08_02
+SYSTEM.RECORD_STATUS
+SYSTEM.RECORD_STATUS
+P11_18_SEP_200412_46_36
+EMP_TBL.EMP_ID
+EMP_TBL.EMP_ID
+EMP_ID
+EMP_TBL
+P11_18_SEP_200412_46_36
+P12_18_SEP_200412_46_36
+JOB_NAME
+JOB_NAME
+JOB_NAME
+P6_18_SEP_200412_23_01
+JOB_CODE
+JOB_CODE
+JOB_CODE
+P6_18_SEP_200412_23_01
+PHOTO_PATH
+PHOTO_PATH
+PHOTO_PATH
+P14_18_SEP_200412_46_36
+P12_18_SEP_200409_14_03
+POINT_NAME
+POINT_NAME
+POINT_NAME
+P6_18_SEP_200412_46_36
+POINT_CODE
+POINT_CODE
+POINT_CODE
+P6_18_SEP_200412_46_36
+3'=/ik"
+T #a8FH
+O;J\rJ
+bc<T	_
+===UCS2-LE===
+#$/138<=AFJNRWXZ^`cfnqt|
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+*017:<>@B
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/138<=AFJNRWXZ^`cfnqt|
+#$/136:?CDIMNPSWY]_`
+#$)*26;<DHSUYZaimpswx
+   '0007
+#$/156=EILOST[cgjmqry
+!!!!!!!!!!!!!""##''''''+++++++,,--111111199:
+<@@@AAABBBCCCDDDJJJJJJJJJNNNNNNNNSSSSSSSSTTTTTTYYYYYYYZZZZ[[[\\\\`````````````aaaaaabbmmmmmmmnnnnnnnoooooooppppppppppppqqqqrrrssssttttttttuuxxxxxxx~~~~~~~~
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`

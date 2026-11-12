@@ -1,0 +1,1653 @@
+src=M_CASHEAR/log_in_in.fmb
+sha256=5d2de1b64a9f97088f3b7c038aae5540c7d895316e8914e18eabe5bbfc7935cb
+size=1826816
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.393041+00:00
+version_markers=ROS.60050
+ascii_lines=1630
+ucs2_lines=11
+trigger_count=92
+pl_sql_markers=79
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+r100cust
+x" ( * ,
+gray12
+r100gray
+green0
+gray80
+ $100b0
+gray608
+gray40
+x" ( .
+r100gray320b
+r100custom7
+r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\log_in_in.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+P_RUNREPORT
+P2_12_JAN_200411_54_33
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+null ;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P25_06_APR_200521_56_26
+P26_06_APR_200521_56_26
+P27_06_APR_200521_56_26
+P3_12_JAN_200411_54_33
+iDECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=40401 THEN
+null ;
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+INVOICE.P_EMP_ID
+INVOICE.P_EMP_ID
+P_EMP_ID
+INVOICE
+P5_12_JAN_200411_54_33
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+FRM50_BUFFER
+table contains user's buffer
+1ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'REROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+TOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P4_12_JAN_200411_54_33
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+P7_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+tSet_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('window1',WINDOW_STATE,MAXIMIZE);
+WHEN-NEW-FORM-INSTANCE (Form)
+FORMS4C
+FORMS4W
+STANDARD
+"PKG INIT"<anonymous>""
+window1
+P0_10_JAN_200414_08_02
+DECLARE
+   vALertId  		ALERT;
+	 vAlertButton  NUMBER;		
+   IF :SYSTEM.MODE = 'NORMAL' THEN
+      IF :SYSTEM.FORM_STATUS = 'CHANGED' 
+  	     AND GET_ITEM_PROPERTY('TOOLBAR.SAVE',ENABLED) = 'TRUE' THEN	
+	       vALertId := FIND_ALERT('TWOBUTTON');
+	       IF NOT ID_NULL(vALertId) THEN
+	   	      -- Set Alert Text ( Title,Message,Button(s) )
+            SET_ALERT_PROPERTY(vALertId,TITLE,'Choices/????????');
+            SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'Save Changes/??? ??????? ?');
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Yes/???');
+            SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON2,LABEL,'No/??');
+           -- Get Return Value
+    	      vAlertButton := SHOW_ALERT(vALertId);
+    	      -- Perform Action Needed per return value
+	          IF    vAlertButton = ALERT_BUTTON1 THEN
+	   	          DO_KEY('COMMIT_FORM');
+	          END IF;	   	    	   
+	       END IF;
+	    END IF;   
+	    CLEAR_FORM(NO_VALIDATE);  
+	    :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;	    
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Ex.Query');
+   	  ENTER_QUERY;
+   ELSE
+   	  SET_ITEM_PROPERTY('TOOLBAR.QUERY',LABEL,'Query');   	
+   	  EXECUTE_QUERY;
+   END IF;		 
+#WHEN-BUTTON-PRESSED (TOOLBAR.QUERY)
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+TABLE_NO
+TABLE_NO
+Simplified Arabic
+SERV_PER
+SERV_PER
+SERV_PER
+Serv Per
+P1_10_JAN_200413_50_44
+BEGIN  
+	 SET_WINDOW_PROPERTY(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+	 SET_WINDOW_PROPERTY('WINDOW1',WINDOW_STATE,MAXIMIZE);	 
+	 :SYSTEM.MESSAGE_LEVEL := 20;
+	 :TOOLBAR.UFORMNAME := :SYSTEM.CURRENT_FORM;
+PRE-FORM (Form)
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+"PKG INIT"<anonymous>""
+window1
+P3_05_DEC_200021_50_18
+	 P_EXIT;
+KEY-EXIT (Form)
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P1_10_JAN_200414_08_02
+	 FIRST_RECORD;
+#WHEN-BUTTON-PRESSED (TOOLBAR.FIRST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+P2_10_JAN_200414_08_02
+	 PREVIOUS_RECORD;
+&WHEN-BUTTON-PRESSED (TOOLBAR.PREVIOUS)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+	 NEXT_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.NEXT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+P6_10_JAN_200414_08_02
+DECLARE
+	vALertId  		ALERT;
+	vAlertButton  NUMBER;	
+	vALertId := FIND_ALERT('ONEBUTTON');
+	IF NOT ID_NULL(vALertId) THEN
+	   SET_ALERT_PROPERTY(vALertId,TITLE,'Information');
+	   SET_ALERT_PROPERTY(vALertId,ALERT_MESSAGE_TEXT,'No Report');
+	   SET_ALERT_BUTTON_PROPERTY(vALertId,ALERT_BUTTON1,LABEL,'Ok/???');
+	   vAlertButton := SHOW_ALERT(vALertId);
+	END IF;
+DECLARE
+	vAlertButton  NUMBER;	
+	   SET_ALERT_PROPERTY('ONEBUTTON',TITLE,'Information/???????');
+	   SET_ALERT_PROPERTY('ONEBUTTON',ALERT_MESSAGE_TEXT,'No Report/?? ?????????');
+	   SET_ALERT_BUTTON_PROPERTY('ONEBUTTON',ALERT_BUTTON1,LABEL,'Ok/???');
+	   vAlertButton := SHOW_ALERT('ONEBUTTON');
+#WHEN-BUTTON-PRESSED (TOOLBAR.PRINT)
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+TEXTSTR772
+TEXTSTR772
+r50g0b0
+Simplified Arabic
+TEXT777
+TEXT777
+gray16
+CMPTXT778
+CMPTXT778
+TEXTSTR779
+TEXTSTR779
+Arabic Transparent
+TEXT780
+TEXT780
+gray16
+CMPTXT781
+CMPTXT781
+TEXTSTR782
+TEXTSTR782
+Arabic Transparent
+TEXT786
+TEXT786
+gray16
+P4_10_JAN_200414_08_02
+	 LAST_RECORD;
+"WHEN-BUTTON-PRESSED (TOOLBAR.LAST)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+	 P_RUNREPORT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.VIEW)
+/NSPC2/P_RUNREPORT
+"PKG INIT"<anonymous>""
+window1
+P7_10_JAN_200414_08_02
+	 COMMIT_FORM;
+"WHEN-BUTTON-PRESSED (TOOLBAR.SAVE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P8_10_JAN_200414_08_02
+BEGIN  
+	 DELETE_RECORD;
+$WHEN-BUTTON-PRESSED (TOOLBAR.DELETE)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+P5_14_SEP_200411_31_57
+Adeclare
+	c number(3);
+	D number(3);
+	select EMP_NAME into :USER_NAME from emp_tbl where emp_id = :emp_id;
+  select SUB_DEPT_CODE into c from emp_tbl where emp_id = :emp_id;
+  select SUB_DEPT_NAME,DEPT_CODE INTO :SUB_DEPT,D FROM SUB_DEPT WHERE SUB_DEPT_CODE = C;
+  select DEPT_NAME into :DEPT from DEPT_tbl where DEPT_CODE = D;
+  IF C = 1 THEN  
+	  SET_ITEM_PROPERTY('POINT',DISPLAYED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('ITEM19',DISPLAYED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('ITEM19',ENABLED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('POINT',ENABLED,PROPERTY_TRUE);
+  ELSE
+  	:POINT := NULL;
+	  SET_ITEM_PROPERTY('POINT',DISPLAYED,PROPERTY_FALSE);
+	  SET_ITEM_PROPERTY('ITEM19',DISPLAYED,PROPERTY_FALSE);
+  END IF;  
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN NULL;
+-----------------------------------------------------
+POST-CHANGE (BLK.EMP_ID)
+STANDARD
+MAHROSA
+EMP_TBL
+MAHROSA
+SUB_DEPT
+MAHROSA
+DEPT_TBL
+"PKG INIT"<anonymous>"C"D"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 7>"<SQL statement. Line 8>"<SQL statement. Line 9>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_CODE   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_NAME,DEPT_CODE   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"SELECT DEPT_NAME   FROM DEPT_TBL  WHERE DEPT_CODE = :b1"
+TEXT170
+TEXT170
+CMPTXT168
+CMPTXT168
+TEXTSTR169
+TEXTSTR169
+Simplified Arabic
+TEXT164
+TEXT164
+CMPTXT165
+CMPTXT165
+P9_10_JAN_200414_08_02
+BEGIN  
+	 CREATE_RECORD;
+!WHEN-BUTTON-PRESSED (TOOLBAR.ADD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+/BEGIN
+   exit_form;
+   --P_EXIT;
+"WHEN-BUTTON-PRESSED (TOOLBAR.EXIT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+window1
+P8_14_SEP_200411_31_57
+DECLARE
+  c number;
+	dd date;
+	 dd := sysdate - 10;
+	if :d < dd then
+		 message('  
+....  ');
+		 return;
+	end if;
+-------------------------------------------------	
+	if :d is null then
+		 message('
+ ....  ');
+		 return;
+	end if;
+-------------------------------------------------	
+	SELECT COUNT(*) INTO C FROM EMP_TBL WHERE EMP_ID = :EMP_ID AND EMP_PASS = :PASS;
+	if :PASS = '
+' then c := 1;
+		end if;
+--------------------------------------------------	
+	IF C = 0 THEN
+		MESSAGE('
+		RETURN;
+			SELECT COUNT(*) INTO C FROM emp_point WHERE
+             EMP_ID = :EMP_ID AND 
+             point_code = :blk.point_id and 
+	           shift_typ =:wrd;
+	    IF C = 0 THEN
+	     	MESSAGE('
+	    	RETURN;
+	    ELSE
+	    	:PASS := '******************';
+	   	  :global.d := :d;
+        :global.e_id := :EMP_ID;
+        :global.p_id := :blk.point_id;
+        :global.wrdia := :wrd;
+        if :POINT_ID not in(60) then
+           message('
+           return;
+        else
+           CALL_FORM('k_main',no_HIDE,NO_REPLACE,NO_QUERY_ONLY,'');
+        end if;
+	        
+	   END IF;	
+	END IF;
+-------------------------------------------------------
+DECLARE
+	C NUMBER;
+	list_id paramlist;
+	dd date;
+	--------------------- date-----------------------------------------
+	 dd := sysdate - 10;
+	if :d < dd then
+		 message('  
+		 return;
+	end if;
+	if :d is null then
+		 message('
+ .... 
+		 return;
+	end if;
+	------------------------ employee ------------------------------------
+	SELECT COUNT(*) INTO C FROM EMP_TBL WHERE EMP_ID = :EMP_ID AND EMP_PASS = :PASS;
+	if :PASS = 'advisor' then c := 1;
+		end if;
+	IF C = 0 THEN
+		MESSAGE('
+		RETURN;
+			SELECT COUNT(*) INTO C FROM emp_point WHERE
+             EMP_ID = :EMP_ID AND 
+             point_code = :blk.point_id and 
+	           shift_typ =:wrd;
+	    IF C = 0 THEN
+	     	MESSAGE('
+	    	RETURN;
+	    ELSE
+	    	:PASS := '????????????????';
+	   	  list_id := create_parameter_list('data');
+	   	  add_parameter(list_id,'dt',TEXT_parameter,:d);
+        add_parameter(list_id,'e_id',TEXT_parameter,:EMP_ID);
+        add_parameter(list_id,'pt_code',TEXT_parameter,:blk.point_id);
+        add_parameter(list_id,'wrdia',TEXT_parameter,:wrd);
+        if :POINT_ID not in(12,13) then
+           CALL_FORM('D:\m_cashear\sery',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+        else
+           CALL_FORM('D:\TakeAway\TAKE_AWAY',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+        end if;
+	        destroy_parameter_list(list_id);
+	   END IF;	
+	END IF;
+DECLARE
+	C NUMBER;
+	list_id paramlist;
+	dd date;
+		:global.prnt:=:prnt;
+	--------------------- date-----------------------------------------
+	 dd := sysdate - 10;
+	if :d < dd then
+		 message('  
+		 return;
+	end if;
+	if :d is null then
+		 message('
+ .... 
+		 return;
+	end if;
+	------------------------ employee ------------------------------------
+	SELECT COUNT(*) INTO C FROM EMP_TBL WHERE EMP_ID = :EMP_ID AND EMP_PASS = :PASS;
+	if :PASS = 'advisor' then c := 1;
+		end if;
+	IF C = 0 THEN
+		MESSAGE('
+		RETURN;
+			SELECT COUNT(*) INTO C FROM emp_point WHERE
+             EMP_ID = :EMP_ID AND 
+             point_code = :blk.point_id and 
+	           shift_typ =:wrd;
+	    IF C = 0 THEN
+	     	MESSAGE('
+	    	RETURN;
+	    ELSE
+	    	:PASS := null;
+	   	  list_id := create_parameter_list('data');
+	   	  add_parameter(list_id,'dt',TEXT_parameter,:d);
+        add_parameter(list_id,'e_id',TEXT_parameter,:EMP_ID);
+        add_parameter(list_id,'pt_code',TEXT_parameter,:blk.point_id);
+        add_parameter(list_id,'
+wrdia',TEXT_parameter,:wrd);
+        if :POINT_ID in(12,13) then
+        	CALL_FORM('D:\TakeAway\TAKE_AWAY',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+           --CALL_FORM('D:\m_cashear\sery',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+        elsif
+        	:POINT_ID in(60) then
+        	:global.d := :d;
+        :global.e_id := :EMP_ID;
+        :global.p_id := :blk.point_id;
+        :global.wrdia := :wrd;
+           CALL_FORM('D:\a_mahroosa\k_main2',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+        else 
+        	CALL_FORM('D:\m_cashear\sery',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+        end if;
+	        destroy_parameter_list(list_id);
+	   END IF;	
+	END IF;
+'WHEN-BUTTON-PRESSED (BLK.PUSH_BUTTON29)
+STANDARD
+SQLFORMS
+MAHROSA
+EMP_TBL
+MAHROSA
+	EMP_POINT
+FORMS4C
+"PKG INIT"<anonymous>"C"LIST_ID"ID"DD"<cursor ptr>"<SQL statement. Line 118>"<SQL statement. Line 126>""
+ .... 
+advisor
+pt_code
+D:\TakeAway\TAKE_AWAY
+D:\a_mahroosa\k_main2
+D:\m_cashear\sery
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1  AND EMP_PASS = :b2"SELECT COUNT(*)   FROM EMP_POINT  WHERE EMP_ID = :b1  AND POINT_CODE = :b2  AND SHIFT_TYP = :b3"
+TEXTSTR889
+Tahoma
+TEXT890
+TEXT890
+r100g100b88
+CMPTXT891
+CMPTXT891
+TEXTSTR892
+TEXTSTR892
+Tahoma
+r100g75b88
+transparent
+transparent
+Simplified Arabic
+r88g75b88
+RECT872
+RECT872
+r100g88b88
+transparent
+TEXT848
+TEXT848
+r100g100b88
+CMPTXT849
+CMPTXT849
+TEXTSTR850
+TEXTSTR850
+Simplified Arabic
+TEXT851
+TEXT851
+r100g100b88
+CMPTXT852
+CMPTXT852
+TEXTSTR853
+TEXTSTR853
+Simplified Arabic
+TEXT854
+TEXT854
+r100g100b88
+P0_14_SEP_200411_31_57
+go_item('emp_id');
+list_values;
+'WHEN-BUTTON-PRESSED (BLK.PUSH_BUTTON14)
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+emp_id
+"PKG INIT"<anonymous>""
+P2_11_OCT_200413_47_42
+#DECLARE
+	C NUMBER;list_id paramlist;
+	if :d is null then
+		 message('
+ .... 
+		 return;
+	end if;
+	SELECT COUNT(*) INTO C FROM EMP_TBL WHERE EMP_ID = :EMP_ID AND EMP_PASS = :PASS;
+		if :PASS = '
+' then c := 1;end if;
+	IF C = 0 THEN
+		MESSAGE('
+		RETURN;
+			SELECT COUNT(*) INTO C FROM emp_point WHERE
+             EMP_ID = :EMP_ID AND 
+             point_code = :blk.point_id and 
+	           shift_typ =:wrd;
+	    IF C = 0 THEN
+	     	MESSAGE('
+	    	RETURN;
+	    ELSE
+	    	:PASS := '******************';
+	   	  list_id := create_parameter_list('data');
+	   	  add_parameter(list_id,'dt',TEXT_parameter,:d);
+        add_parameter(list_id,'e_id',TEXT_parameter,:EMP_ID);
+        add_parameter(list_id,'pt_code',TEXT_parameter,:blk.point_id);
+        add_parameter(list_id,'wrdia',TEXT_parameter,:wrd);
+        CALL_FORM('point_close',HIDE,NO_REPLACE,NO_QUERY_ONLY,LIST_ID);
+	      destroy_parameter_list(list_id);
+	   END IF;	
+	END IF;
+ WHEN-BUTTON-PRESSED (BLK.ITEM69)
+STANDARD
+SQLFORMS
+MAHROSA
+EMP_TBL
+MAHROSA
+	EMP_POINT
+FORMS4C
+"PKG INIT"<anonymous>"C"LIST_ID"ID"<cursor ptr>"<SQL statement. Line 9>"<SQL statement. Line 15>""
+ .... 
+******************
+pt_code
+point_close
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1  AND EMP_PASS = :b2"SELECT COUNT(*)   FROM EMP_POINT  WHERE EMP_ID = :b1  AND POINT_CODE = :b2  AND SHIFT_TYP = :b3"
+P2_26_MAR_200513_28_32
+Adeclare
+	c number(3);
+	D number(3);
+	select EMP_NAME into :USER_NAME from emp_tbl where emp_id = :emp_id;
+  select SUB_DEPT_CODE into c from emp_tbl where emp_id = :emp_id;
+  select SUB_DEPT_NAME,DEPT_CODE INTO :SUB_DEPT,D FROM SUB_DEPT WHERE SUB_DEPT_CODE = C;
+  select DEPT_NAME into :DEPT from DEPT_tbl where DEPT_CODE = D;
+  IF C = 1 THEN  
+	  SET_ITEM_PROPERTY('POINT',DISPLAYED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('ITEM19',DISPLAYED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('ITEM19',ENABLED,PROPERTY_TRUE);
+	  SET_ITEM_PROPERTY('POINT',ENABLED,PROPERTY_TRUE);
+  ELSE
+  	:POINT := NULL;
+	  SET_ITEM_PROPERTY('POINT',DISPLAYED,PROPERTY_FALSE);
+	  SET_ITEM_PROPERTY('ITEM19',DISPLAYED,PROPERTY_FALSE);
+  END IF;  
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN NULL;
+-----------------------------------------------------
+POST-CHANGE (BLK.D)
+STANDARD
+MAHROSA
+EMP_TBL
+MAHROSA
+SUB_DEPT
+MAHROSA
+DEPT_TBL
+"PKG INIT"<anonymous>"C"D"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 7>"<SQL statement. Line 8>"<SQL statement. Line 9>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_CODE   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_NAME,DEPT_CODE   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"SELECT DEPT_NAME   FROM DEPT_TBL  WHERE DEPT_CODE = :b1"
+ed Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM1035
+ITEM1035
+CANVAS2
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM1038
+ITEM1038
+Simplified Arabic
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+LoDLh#C!>Q
+	6Ry|l
+M K,S,
+R6=ZLc
+S`m.^A5
+mn!Amt
+m$w0F:
+T7:;n/.
+^BGIOU
+w(E#>Sq
+{Ut3GC`
+Ees"nf
+l4.sVvEIek
+N*@vF>e4
+mD!sc6F
+[_3L{g
+,MS1GL
+MD*{",dj
+srqXIr
+]g8P!(
+P{{T?u
+dkc6yW
+C#[\G,_|
+cse8{X
+L	lW7k
+;3E5+)E
+E5	%O*
+b$[y%O1
+QdQy5i
+=ZoCMn
+o(l2pq
+s^c4/G
+!^[V5.v
+S'a$k}
+\@#`7)Z
+A$V?dk
+dY],!v
+tW-zV|
+m:T{Kl
+7,Zio{
+Gb$9'vA
+\evEld.
+bxolfB.m
+vQn%\t
+P2_14_SEP_200411_31_57
+/*go_item('point');
+list_values;*/
+DECLARE
+	   a_value_chosen BOOLEAN;
+	  BEGIN
+	  a_value_chosen := Show_Lov('lov20');
+	   IF NOT a_value_chosen THEN
+	 	     Message('You have not selected a value.');
+	 	      Bell;
+	 	       RAISE Form_Trigger_Failure;
+	 	      END IF;
+	 END; 
+ WHEN-BUTTON-PRESSED (BLK.ITEM19)
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+P3_18_SEP_200408_48_54
+exit_form;
+ WHEN-BUTTON-PRESSED (BLK.ITEM60)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_12_JAN_200411_54_33
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+P_RUNREPORT
+jPROCEDURE P_RUNREPORT IS
+  RUN_PRODUCT(REPORTS,'EMP01',SYNCHRONOUS,RUNTIME,FILESYSTEM,'',NULL);
+STANDARD
+"PKG INIT"P_RUNREPORT""
+"P_RUNREPORT"RUN_PRODUCT"REPORTS"EMP01"SYNCHRONOUS"RUNTIME"FILESYSTEM"""
+P_RUNREPORT
+ $ & (
+P_RUNREPORT
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+P_RUNREPORT
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+darkcyan
+P_RUNREPORT
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+P_RUNREPORT
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+ $ & (
+gray44
+P_RUNREPORT
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+P_RUNREPORT
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\log_in_in.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+P_RUNREPORT
+LOG_IN_IN
+My Editor
+DELETE
+DELETE
+Delete
+Cancel
+PREVIOUS
+PREVIOUS
+Shift_Name
+Point_Name
+Point_Code
+LOG_IN_IN
+WINDOW1
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+PRE-FORM
+PRE-FORM
+KEY-EXIT
+KEY-EXIT
+ONEBUTTON
+ONEBUTTON
+yellow
+Simplified Arabic
+TWOBUTTON
+TWOBUTTON
+Simplified Arabic
+THREEBUTTON
+THREEBUTTON
+Cancel
+Simplified Arabic
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+TOOLBAR
+TOOLBAR
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+TOOLBAR
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PREVIOUS
+PREVIOUS
+previous
+MS Sans Serif
+PREVIOUS
+PREVIOUS
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DELETE
+DELETE
+Delete
+delete
+MS Sans Serif
+DELETE
+DELETE
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+MS Sans Serif
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+UFORMNAME
+UFORMNAME
+TOOLBAR
+r100g88b0
+USER_NAME
+USER_NAME
+CANVAS1
+r75g88b100
+Simplified Arabic
+EMP_ID
+EMP_ID
+CANVAS1
+custom6
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+PUSH_BUTTON14
+PUSH_BUTTON14
+CANVAS1
+custom6
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS1
+custom6
+Simplified Arabic
+CANVAS1
+r75g88b100
+Simplified Arabic
+SUB_DEPT
+SUB_DEPT
+CANVAS1
+r75g88b100
+Simplified Arabic
+CANVAS1
+custom6
+Simplified Arabic
+POINT_ID
+POINT_ID
+custom6
+ITEM19
+ITEM19
+CANVAS1
+custom6
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON29
+PUSH_BUTTON29
+CANVAS1
+custom6
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM60
+ITEM60
+CANVAS1
+custom6
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS1
+custom6
+Simplified Arabic
+ITEM69
+ITEM69
+CANVAS1
+custom6
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+CANVAS1
+custom6
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+CANVAS1
+r75g88b100
+Simplified Arabic
+WINDOW1
+TOOLBAR
+gray16
+transparent
+transparent
+CANVAS1
+CANVAS1
+WINDOW1
+IMAGE87
+IMAGE87
+RECT54
+RECT54
+r75g75b5
+ROUNDRECT30
+ROUNDRECT30
+r50g50b0
+GRAPHIC32
+GRAPHIC32
+r25g50b0
+GRAPHIC33
+GRAPHIC33
+r25g50b75
+r100g100b50
+TEXT34
+TEXT34
+r50g100b50
+CMPTXT35
+CMPTXT35
+TEXTSTR36
+TEXTSTR36
+GRAPHIC37
+GRAPHIC37
+r25g50b75
+r100g100b50
+TEXT39
+TEXT39
+r50g100b50
+CMPTXT40
+CMPTXT40
+TEXTSTR41
+TEXTSTR41
+Simplified Arabic
+TEXT42
+TEXT42
+r50g100b50
+CMPTXT43
+CMPTXT43
+TEXTSTR44
+TEXTSTR44
+Simplified Arabic
+TEXT45
+TEXT45
+r50g100b50
+CMPTXT46
+CMPTXT46
+TEXTSTR47
+TEXTSTR47
+Simplified Arabic
+TEXT48
+TEXT48
+r50g100b50
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+Simplified Arabic
+GRAPHIC59
+GRAPHIC59
+r50g50b0
+GRAPHIC61
+GRAPHIC61
+r50g100b50
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+Simplified Arabic
+GRAPHIC66
+GRAPHIC66
+r50g100b50
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+Simplified Arabic
+GRAPHIC68
+GRAPHIC68
+r50g50b0
+TEXT84
+TEXT84
+r50g100b50
+CMPTXT85
+CMPTXT85
+TEXTSTR86
+TEXTSTR86
+Simplified Arabic
+IMAGE88
+IMAGE88
+GRAPHIC90
+GRAPHIC90
+r50g100b50
+CMPTXT49
+CMPTXT49
+TEXTSTR50
+TEXTSTR50
+Simplified Arabic
+r50g100b50
+Simplified Arabic
+MYEDITOR
+MYEDITOR
+My Editor
+r100g100b50
+EMP_ID
+EMP_ID
+BLK.EMP_ID
+EMP_NAME
+EMP_NAME
+BLK.USER_NAME
+POINT_CODE
+POINT_CODE
+Point_Code
+BLK.POINT_ID
+POINT_NAME
+POINT_NAME
+Point_Name
+BLK.POINT
+SHIFT_NAME
+SHIFT_NAME
+Shift_Name
+MELFIKY
+MELFIKY
+MANDATORY
+P_RUNREPORT
+P_RUNREPORT
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL  where JOB_CODE=13
+order by emp_NAME
+EMP_ID
+EMP_ID
+EMP_NAME
+EMP_NAME
+SELECT ALL POINT_TBL.POINT_CODE, 
+POINT_TBL.POINT_NAME, EMP_POINT.SHIFT_TYP, SHIFT_TBL.SHIFT_NAME
+FROM POINT_TBL, EMP_POINT, SHIFT_TBL
+WHERE ((EMP_POINT.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (SHIFT_TBL.SHIFT_TYP = EMP_POINT.SHIFT_TYP))
+and EMP_POINT.emp_id = :emp_id and
+EMP_POINT.shift_typ = :wrd
+ORDER BY POINT_TBL.POINT_CODE 
+POINT_CODE
+POINT_CODE
+POINT_NAME
+POINT_NAME
+SHIFT_TYP
+SHIFT_TYP
+SHIFT_NAME
+SHIFT_NAME
+CURRENTRECCORD
+CURRENTRECCORD
+yellow
+Arabic Transparent
+MANDATORY
+MANDATORY
+darkblue
+r0g100b100
+Traditional Arabic
+OPTIONAL
+OPTIONAL
+gray96
+Traditional Arabic
+DISPLAY
+DISPLAY
+gray96
+r75g100b0
+Traditional Arabic
+CANVAS
+CANVAS
+gray96
+Traditional Arabic
+TOOLBAR
+TOOLBAR
+darkgray
+Traditional Arabic
+WINDOW1
+WINDOW1
+SYSTEM.MESSAGE_LEVEL
+SYSTEM.MESSAGE_LEVEL
+P1_10_JAN_200413_50_44
+TOOLBAR.UFORMNAME
+TOOLBAR.UFORMNAME
+UFORMNAME
+TOOLBAR
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P1_10_JAN_200413_50_44
+P0_10_JAN_200414_08_02
+SYSTEM.MODE
+SYSTEM.MODE
+P0_10_JAN_200414_08_02
+SYSTEM.FORM_STATUS
+SYSTEM.FORM_STATUS
+P0_10_JAN_200414_08_02
+USER_NAME
+USER_NAME
+USER_NAME
+P5_14_SEP_200411_31_57
+P2_26_MAR_200513_28_32
+EMP_ID
+EMP_ID
+EMP_ID
+P5_14_SEP_200411_31_57
+P8_14_SEP_200411_31_57
+P2_11_OCT_200413_47_42
+P2_26_MAR_200513_28_32
+SUB_DEPT
+SUB_DEPT
+SUB_DEPT
+P5_14_SEP_200411_31_57
+P2_26_MAR_200513_28_32
+P5_14_SEP_200411_31_57
+P2_26_MAR_200513_28_32
+GLOBAL.PRNT
+GLOBAL.PRNT
+P8_14_SEP_200411_31_57
+P8_14_SEP_200411_31_57
+P8_14_SEP_200411_31_57
+P2_11_OCT_200413_47_42
+P8_14_SEP_200411_31_57
+P2_11_OCT_200413_47_42
+BLK.POINT_ID
+BLK.POINT_ID
+POINT_ID
+P8_14_SEP_200411_31_57
+P2_11_OCT_200413_47_42
+P8_14_SEP_200411_31_57
+P2_11_OCT_200413_47_42
+POINT_ID
+POINT_ID
+POINT_ID
+P8_14_SEP_200411_31_57
+GLOBAL.D
+GLOBAL.D
+P8_14_SEP_200411_31_57
+GLOBAL.E_ID
+GLOBAL.E_ID
+P8_14_SEP_200411_31_57
+GLOBAL.P_ID
+GLOBAL.P_ID
+P8_14_SEP_200411_31_57
+GLOBAL.WRDIA
+GLOBAL.WRDIA
+P8_14_SEP_200411_31_57
+===UCS2-LE===
+#$/138<=AFJNRWXZ^`cfnqt|
+ !'*+,24:=
+>DFLOPQWY_b
+cilmntv|
+%&,/178>@FIOQWZ\^`bdfh
+%&,/179?BHJPSUWY[]_
+ !'*+,24:=
+>DFLOPQWY_b
+cilmntv|
+#$/138<=AFJNRWXZ^`cfnqt|
+#$/138<=AFJNRWXZ^`cfnqt|

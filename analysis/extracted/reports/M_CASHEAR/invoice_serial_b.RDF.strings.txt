@@ -1,0 +1,2873 @@
+src=M_CASHEAR/invoice_serial_b.RDF
+sha256=b56abda4e82f3fee7456e9b846e9a5ab2eb6356bbf35ed4edbaeec1faa51f49c
+size=167936
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.991435+00:00
+version_markers=ROS.60050
+ascii_lines=2837
+ucs2_lines=24
+trigger_count=0
+pl_sql_markers=85
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+cancel
+status
+MS Sans Serif
+	activity
+cancel
+MS Sans Serif
+MS Sans Serif
+<uiw60>save
+<uiw60>cut
+<uiw60>copy
+<uiw60>paste
+rwzmin
+rwzmot
+<uiw60>help
+rwspar
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body dir=&Directiondp
+	r75g25b88
+00r88g75b100ls
+00r100g100b100
+<td><input t
+EMP_NAME
+EMP_TBL.EMP_NAME
+EMP_NAME
+</form>
+</html>
+<hr size=5 noshade>
+INVOICE_SERIAL_B
+<?xml version_CURRENCY
+k0^0_0`0a0b0c d0f0g
+i8j8l0n
+NAfr]r
+Enter values for the parameters
+B_INV_TOT1
+ JpL d
+   " $
+gray92
+F_SumINV_TOTPerReport1
+   " $
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+	r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+	r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+	r100g0b88
+r0g0b100
+	r25g0b100
+	r50g0b100
+	r75g0b100
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+k0l0m0n8p8r
+t v0x0y
+r%rHrHr]r]r]r]r]rb
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<font color=red><!--error--></font>
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+INVOICE_SERIAL_B
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+NAfr]r
+Report Parameters
+Enter values for the parameters
+   " $
+	darkgreen
+   " $
+gray96
+   " $
+gray92
+   " $
+gray88
+   " $
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+	r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+	r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+	r100g0b88
+r0g0b100
+	r25g0b100
+	r50g0b100
+	r75g0b100
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ROSATTRIBS
+class attributes
+)rcROSLFDESC
+ros lf descrip
+'	 ROSOBJMAP
+ros name->id
+) 	ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+#SRW2_ANCHOR
+$beSRW2_BODY_LOCATION
+"VOSRW2_BOILERPLATE
+OMSRW2_BUTTON
+OISRW2_COLUMN
+!  SRW2_DATA_MODEL
+":iSRW2_DISPLAY_TAG
+#.PSRW2_DISTRIBUTION
+adSRW2_ELEMENT
+ICSRW2_FIELD
+'  SRW2_FORMAT_EXCEPTION
+  SRW2_FRAME
+  SRW2_GROUP
+ SRW2_GROUP_NODE
+ COSRW2_HYPERLINK
+"ICSRW2_JAVA_APPLET
+&  SRW2_JAVA_PROPERTIES
+  SRW2_LAYOUT
+#= SRW2_LAYOUT_GROUP
+maSRW2_LINK
+0)SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+bSRW2_TEXT_SEGMENT
+TOOL_ACCESS
+TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+bTOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+class attributes
+)rcROSLFDESC
+ros lf descrip
+'	 ROSOBJMAP
+ros name->id
+) 	ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+#SRW2_ANCHOR
+$beSRW2_BODY_LOCATION
+"VOSRW2_BOILERPLATE
+OMSRW2_BUTTON
+OISRW2_COLUMN
+!  SRW2_DATA_MODEL
+":iSRW2_DISPLAY_TAG
+#.PSRW2_DISTRIBUTION
+adSRW2_ELEMENT
+ICSRW2_FIELD
+'  SRW2_FORMAT_EXCEPTION
+  SRW2_FRAME
+  SRW2_GROUP
+ SRW2_GROUP_NODE
+ COSRW2_HYPERLINK
+"ICSRW2_JAVA_APPLET
+&  SRW2_JAVA_PROPERTIES
+  SRW2_LAYOUT
+#= SRW2_LAYOUT_GROUP
+maSRW2_LINK
+0)SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+bSRW2_TEXT_SEGMENT
+TOOL_ACCESS
+TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+bTOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+class attributes
+)rcROSLFDESC
+ros lf descrip
+'	 ROSOBJMAP
+ros name->id
+) 	ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+#SRW2_ANCHOR
+$beSRW2_BODY_LOCATION
+"VOSRW2_BOILERPLATE
+OMSRW2_BUTTON
+OISRW2_COLUMN
+!  SRW2_DATA_MODEL
+":iSRW2_DISPLAY_TAG
+#.PSRW2_DISTRIBUTION
+adSRW2_ELEMENT
+ICSRW2_FIELD
+'  SRW2_FORMAT_EXCEPTION
+  SRW2_FRAME
+  SRW2_GROUP
+ SRW2_GROUP_NODE
+ COSRW2_HYPERLINK
+"ICSRW2_JAVA_APPLET
+&  SRW2_JAVA_PROPERTIES
+  SRW2_LAYOUT
+#= SRW2_LAYOUT_GROUP
+maSRW2_LINK
+0)SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+bSRW2_TEXT_SEGMENT
+TOOL_ACCESS
+TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+bTOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+A"A&1*1+A.A2A6A:A>AB1F1G
+$beSRW2_BODY_LOCATION
+"VOSRW2_BOILERPLATE
+OMSRW2_BUTTON
+OISRW2_COLUMN
+!  SRW2_DATA_MODEL
+":iSRW2_DISPLAY_TAG
+#.PSRW2_DISTRIBUTION
+adSRW2_ELEMENT
+ICSRW2_FIELD
+'  SRW2_FORMAT_EXCEPTION
+  SRW2_FRAME
+  SRW2_GROUP
+ SRW2_GROUP_NODE
+ COSRW2_HYPERLINK
+"ICSRW2_JAVA_APPLET
+&  SRW2_JAVA_PROPERTIES
+  SRW2_LAYOUT
+#= SRW2_LAYOUT_GROUP
+maSRW2_LINK
+0)SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+bSRW2_TEXT_SEGMENT
+TOOL_ACCESS
+TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+bTOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+E<HTML>
+<TITLE>Oracle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Total number of pages
+var basefilename = "&file_name"		// Base file name
+var fileext = "&file_ext"		//File extension
+/* jumps to "new_page" */
+function new_page(form, new_page)
+	form.reqpage.value = new_page;
+	parent.frames[0].location = basefilename + "_" + new_page + "."+fileext;
+/* go back one page */
+function back(form)
+	/* if we are not in first page */
+	if (jump_index > 1)
+		jump_index--;
+		new_page(form, jump_index);
+/* go forward one page */
+function forward(form)
+	/* if we are not in last page */
+	if (jump_index < num_pages)
+		jump_index++;
+		new_page(form, jump_index);
+/* go to first page */
+function first(form)
+	if(jump_index != 1)
+		jump_index = 1;
+		new_page(form, jump_index);
+/* go to last page */
+function last(form)
+	if(jump_index != num_pages)
+		jump_index = num_pages;
+		new_page(form, jump_index);
+/* go to the user specified page number */
+function pagenum(form)
+	/* sanity check */
+	if (form.reqpage.value < 1)
+		form.reqpage.value = 1;
+	if (form.reqpage.value > num_pages)
+		form.reqpage.value = num_pages;
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+'VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+ $ & (
+r100g25b88
+	r0g25b100
+ $ & (
+r25g25b100@
+ $ & (
+r50g25b100
+ $ & (
+r75g25b100
+ $ & (
+r88g25b100
+ & ( *
+r100g25b100
+darkred
+darkblue
+   " $
+gray64\(\(\(
+   " $
+gray60ffffff
+   " $
+gray56p
+   " $
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+	r100g50b0
+r0g50b50
+ $ & (
+	r25g50b50
+ $ & (
+	r50g50b50
+ $ & (
+	r75g50b50
+ $ & (
+	r88g50b50
+ $ & (
+r100g50b50
+r0g50b75
+ $ & (
+	r25g50b75
+ $ & (
+	r50g50b75
+ $ & (
+	r75g50b75
+ $ & (
+	r88g50b75
+ $ & (
+r100g50b75
+r0g50b88
+ $ & (
+	r25g50b88
+ $ & (
+	r50g50b88
+ $ & (
+	r75g50b88
+ $ & (
+	r88g50b88
+ $ & (
+r100g50b88
+	r0g50b100
+ $ & (
+r25g50b100@
+ $ & (
+r50g50b100
+ $ & (
+r75g50b100
+ $ & (
+r88g50b100
+ & ( *
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+   " $
+gray48
+   " $
+gray44
+   " $
+gray40
+   " $
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+	r100g75b0
+00r0g75b50
+ ( * ,
+	00r25g75b50
+ ( * ,
+	00r50g75b50
+ ( * ,
+	00r75g75b50
+ ( * ,
+	00r88g75b50
+ ( * ,
+00r100g75b50
+00r0g75b75
+ ( * ,
+	00r25g75b75
+ ( * ,
+	00r50g75b75
+ ( * ,
+	00r75g75b75
+ ( * ,
+	00r88g75b75
+ ( * ,
+00r100g75b75
+00r0g75b88
+ ( * ,
+	00r25g75b88
+ ( * ,
+	00r50g75b88
+ ( * ,
+	00r75g75b88
+ ( * ,
+	00r88g75b88
+ ( * ,
+00r100g75b88
+	00r0g75b100
+ ( * ,
+00r25g75b100@
+ ( * ,
+00r50g75b100
+ ( * ,
+00r75g75b100
+ ( * ,
+00r88g75b100
+ * , .
+00r100g75b100
+ & ( *
+00custom1
+ & ( *
+00custom2
+ & ( *
+00custom3
+ & ( *
+00custom4
+ $ & (
+00gray32
+ $ & (
+00gray28
+ $ & (
+00gray24
+ $ & (
+00gray20
+00r0g88b0
+00r25g88b0@
+00r50g88b0
+00r75g88b0
+00r88g88b0
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ ( * ,
+	00r50g88b50
+ ( * ,
+	00r75g88b50
+ ( * ,
+	00r88g88b50
+ ( * ,
+00r100g88b50
+00r0g88b75
+ ( * ,
+	00r25g88b75
+ ( * ,
+	00r50g88b75
+ ( * ,
+	00r75g88b75
+ ( * ,
+	00r88g88b75
+ ( * ,
+00r100g88b75
+00r0g88b88
+ ( * ,
+	00r25g88b88
+ ( * ,
+	00r50g88b88
+ ( * ,
+	00r75g88b88
+ ( * ,
+	00r88g88b88
+ ( * ,
+00r100g88b88
+	00r0g88b100
+ ( * ,
+00r25g88b100@
+ ( * ,
+00r50g88b100
+ ( * ,
+00r75g88b100
+ ( * ,
+00r88g88b100
+ * , .
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+	00r25g100b0
+	00r50g100b0
+	00r75g100b0
+	00r88g100b0
+00r100g100b0
+	00r0g100b50
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+ * , .
+00r100g100b100
+>p?p?pB0B
+>p?p?pB0B
+>p?p?p?0K
+Courier New
+>p?p?p?0K
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@p@0L
+LCourier New
+ >p@p@p@0L
+NCourier New
+ >p@p@p@0L
+fCourier New
+ >p@p@p@0L
+hCourier New
+ >p@p@p@0N
+MS Sans Serif
+ >p@p@pB0B
+ >p@p@p@0N
+MS Sans Serif
+ >p@p@p@0N
+MS Sans Serif
+ >p@p@pB0B
+m_nameformula
+aglformula
+nkdformula
+'mdnyformula
+)mshformula
++mdirformula
+-empformula
+0mdir_aglformula
+2nzilformula
+4kasmformula
+SjSERIAL_NO
+INVOICE_HIST.SERIAL_NO
+SERIAL_NO
+MmINV_TOT
+INVOICE_HIST.INV_TOT
+INV_TOT
+0gray4
+00r0g100b0
+	00r25g100b0
+	00r50g100b0
+	00r75g100b0
+	00r88g100b0
+00r100g100b0
+	00r0g100b50
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+x0y0z0{0|0}0~p
+_CURRENCY
+Currency Symbol
+y0z0{0|0}0~0
+`COPIES
+Number of Copies
+aDESFORMAT
+Destination Format
+|0}0~0
+bDESNAME
+Destination Name
+cDESTYPE
+Screen
+Destination Type
+{0|0}0~0
+iSERIAL_NO
+Serial No
+SERIAL_NO
+{0|0}0~0
+lINV_TOT
+Inv Tot
+INV_TOT
+oSumINV_TOTPerReport
+fTotal:
+SUMINV_TOTPERREPORT
+{0|0}0~0
+PT_CODE
+Pt Code
+PT_CODE
+w0x0y0z0{0|0}p~
+INV_DT
+Inv Dt
+INV_DT
+w0x0y0z0{0|0}p~
+EMP_CODE
+Emp Code
+EMP_CODE
+w0x0y0z0{0|0}p~(
+EMP_NAME
+Emp Name
+EMP_NAME
+{0|0}0~0
+POINT_NAME
+Point Name
+POINT_NAME
+w0x0y0z0{0|0}p~(
+inv_date
+Inv Date
+INV_DATE
+	MADF_TYP
+Madf Typ
+MADF_TYP
+SHIFT_NAME
+Shift Name
+SHIFT_NAME
+{0|0}0~0
+m_name
+M_NAME
+s0t0u@v8z8|8~p
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+s0t0u@v8z8|8~p
+{0|0}@~8
+.MDIR_AGL
+MDIR_AGL
+w0x0y@z8~8
+w0x0y@z8~8
+{0|0}0~0
+jdel_flg
+Del Flg
+DEL_FLG
+{0|0}0~0
+mdel_q
+{0|0}0~0
+sser_no
+Ser No
+SER_NO
+w0x0y0z0{0|0}p~
+}SHIFT_T
+Shift T
+SHIFT_T
+d(jpnpn0n@r8v8x
+B_Total
+`(fpjpj0j8l8n8p
+`(fpjpj0j8l8n8p
+EMP_CODE
+w0x0y0z0{0|0}p~(
+EMP_NAME
+Emp Name
+EMP_NAME
+{0|0}0~0
+POINT_NAME
+Point Name
+POINT_NAME
+w0x0y0z0{0|0}p~(
+inv_date
+Inv Date
+INV_DATE
+	MADF_TYP
+Madf Typ
+MADF_TYP
+SHIFT_NAME
+Shift Name
+SHIFT_NAME
+{0|0}0~0
+m_name
+M_NAME
+s0t0u@v8z8|8~p
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+# JpL d
+f(jpnpn8n8p8r8t
+F_SumINV_TOTPerReport1
+NNNNNNNN0D00
+# JpL d
+f(jpnpn8n@r8v8x
+F_SumINV_TOTPerReport2
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+:F_SumINV_TOTPerReport3
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+=F_SumINV_TOTPerReport4
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+?F_SumINV_TOTPerReport5
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+AF_SumINV_TOTPerReport6
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+DF_SumINV_TOTPerReport7
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+FF_SumINV_TOTPerReport8
+NNNNNNNN0D00
+d(jpnpn8n8p8r8t
+HF_SumINV_TOTPerReport9
+NNNNNNNN0D00
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+PF_PT_CODE
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+PF_INV_DT
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+PF_EMP_CODE
+# JpL X
+Z(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+PF_SHIFT_T
+EMP_NAME
+Emp Name
+EMP_NAME
+{0|0}0~0
+POINT_NAME
+Point Name
+POINT_NAME
+w0x0y0z0{0|0}p~(
+inv_date
+Inv Date
+INV_DATE
+	MADF_TYP
+Madf Typ
+MADF_TYP
+SHIFT_NAME
+Shift Name
+SHIFT_NAME
+{0|0}0~0
+m_name
+M_NAME
+s0t0u@v8z8|8~p
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+s0t0u@v8z8|8~p
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+M_NAMEFORMULA
+function m_nameFormula return Char is
+t varchar2(10);
+     if :madf_typ = 1 then
+  	    t := '
+     else
+  	    t := '
+  	 end if;
+  	if :del_flg = 1 then
+		   t := '
+	  end if;
+  return t;
+STANDARD
+"PKG INIT"M_NAMEFORMULA"T""
+"FUNCTION"M_NAMEFORMULA"RETURN"CHAR"T"VARCHAR2"10"MADF_TYP""="1"
+"DEL_FLG"
+M_NAMEFORMULA
+AGLFORMULA
+#function aglFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE ((INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                and INVOICE_HIST.madf_TYP = 2
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                and INVOICE_HIST.shift_ok = :shift_t)
+                OR  
+                   (INVOICE_HIST.EMP_ID = :emp_code
+                AND INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.INV_TYP IN (3,4)
+                and INVOICE_HIST.shift_ok = :shift_t
+                and INVOICE_HIST.madf_TYP = 2));
+ t := t + nvl(:kasm,0);  
+ return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"AGLFORMULA"T"<cursor ptr>"<SQL statement. Line 4>""
+"FUNCTION"AGLFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_OK"1"MADF_TYP"P_EMP_ID"EMP_CODE"SHIFT_OK"SHIFT_T"EMP_ID"INV_TYP"3"4"+"NVL"KASM"0""
+AGLFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE ((INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_OK = 1  AND INVOICE_HIST.MADF_TYP = 2  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.SHIFT_OK = :b4 ) OR (INVOICE_HIST.EMP_ID = :b3  AND INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.INV_TYP IN ( 3,4  ) AND INVOICE_HIST.SHIFT_OK = :b4  AND INVOICE_HIST.MADF_TYP = 2 ))"
+rwbwne
+window
+rwbmfi
+rwbwvpudp
+out_search_tool
+rwbmnrbtb
+toolbar
+rwbmntdmtb
+toolbar
+rwbmndmtb
+toolbar
+rwbf_lp_dflt
+rwbfd_hint
+rwbf_group
+rwbf_summary
+rwbf_parameter
+Fields
+Sections
+Templates
+FinishedQuery
+rwwt_Express
+wizard
+vgmisq_help
+string
+rwbwvpul
+rwlfs_help
+string
+string
+rwdqe_help
+string
+rwbwol
+window
+rwbwdo
+window
+rwbwfe
+window
+rwbwet
+window
+rwbwtp
+window
+rwbhre
+window
+rwbwtr
+window
+rwbwfi1
+window
+rwbwcm
+window
+rwbwdi
+window
+rwbwmr
+window
+rwbwrg
+window
+rwbwcn
+window
+rwbwsr
+window
+rwbwgi
+window
+HyperlinksWW
+MatrixCell
+rwbwmf
+window
+vgmitx_help
+string
+vgmirt_help
+string
+vgmigr_help
+string
+NKDFORMULA
+function nkdFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE ((INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                and INVOICE_HIST.shift_ok = :shift_t)
+                OR  (INVOICE_HIST.P_OK = 0
+                AND INVOICE_HIST.EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3,4)
+                and INVOICE_HIST.shift_ok = :shift_t))
+                and INVOICE_HIST.madf_TYP = 1;
+ return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"NKDFORMULA"T"<cursor ptr>"<SQL statement. Line 4>""
+"FUNCTION"NKDFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_OK"1"P_EMP_ID"EMP_CODE"SHIFT_OK"SHIFT_T"0"EMP_ID"INV_TYP"3"4"MADF_TYP""
+NKDFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE ((INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_OK = 1  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.SHIFT_OK = :b4 ) OR (INVOICE_HIST.P_OK = 0  AND INVOICE_HIST.EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 3,4  ) AND INVOICE_HIST.SHIFT_OK = :b4 )) AND INVOICE_HIST.MADF_TYP = 1"
+<ucol60>ucolde
+<ucol60>ucolex
+<ucol60>ucolco
+<ucol60>ucolea
+<ucol60>ucolca
+VG_COLOR
+NAME_SET
+VG_COLOR
+NAME_LENGTH
+VG_COLOR
+COLOR_NAME
+VG_COLOR
+VG_COLOR
+VG_COLOR
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+1"A&A*1+1.A2A6A:A>ABAF1G1H
+MDNYFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (I
+MDNYFORMULA
+function mdnyFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (2)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"MDNYFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"MDNYFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_OK"1"P_EMP_ID"EMP_CODE"INV_TYP"SHIFT_OK"SHIFT_T""
+MDNYFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (I
+NVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_OK = 1  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 2  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+Welcome to Report Builder
+Where to start
+Designing:
+Learning:
+&Use the Report Wizard
+&Build a new report manually
+&Open an existing report
+&Run the Quick Tour (concepts)
+&Explore the Cue Cards (tasks)
+&Display at startup0
+Cancel
+where_lb
+cue_rdW2
+where_lb
+quick_rd
+New ReportP
+Create a new report
+&Use the Report WizardW2
+&Build a new report manually                              
+Cancel
+create_lb
+new_rd
+create_lb
+new_rdNA
+Report on Reports
+Generate documentation on reports stored in
+the database by selecting an orientation.EN
+Orientation
+----------------------------
+-----------------------------
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+v(z(~(
+RUNONLYpar
+invoice_serial_b
+1"A&A*1+1.A2A6A:A>ABAF1G1H
+rwbwcn
+window
+rwbwsr
+window
+rwbwgi
+window
+HyperlinksWW
+MatrixCell
+rwbwmf
+window
+vgmitx_help
+string
+vgmirt_help
+string
+vgmigr_help
+string
+function m_nameFormula return Char is
+t varchar2(10);
+     if :madf_typ = 1 then
+  	    t := '
+     else
+  	    t := '
+  	 end if;
+  	if :del_flg = 1 then
+		   t := '
+	  end if;
+  return t;
+#function aglFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE ((INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                and INVOICE_HIST.madf_TYP = 2
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                and INVOICE_HIST.shift_ok = :shift_t)
+                OR  
+                   (INVOICE_HIST.EMP_ID = :emp_code
+                AND INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.INV_TYP IN (3,4)
+                and INVOICE_HIST.shift_ok = :shift_t
+                and INVOICE_HIST.madf_TYP = 2));
+ t := t + nvl(:kasm,0);  
+ return t;
+b(fpjpj8j8l8n8p
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_PT_CODE
+* Zp\ f
+h(nprpr8r8t8v8x
+PB_INV_DT
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_EMP_CODE
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_SHIFT_T
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+MSHFORMULA
+function MSHFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (1)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"MSHFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"MSHFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_OK"1"P_EMP_ID"EMP_CODE"INV_TYP"SHIFT_OK"SHIFT_T""
+MSHFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (I
+NVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_OK = 1  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 1  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+vgmiln_help
+string
+vgmigs_help
+string
+rwle_help
+string
+rwlrf_help
+string
+rwla_help
+string
+MatrixGroups
+Totals
+MatrixTotals
+LabelText
+QueryName
+vgmisy_help
+string
+vgmiel_help
+string
+rwlm_help
+string
+rwlb_help
+string
+string
+rwdsc_help
+string
+Data_Express
+vgmimg_help
+string
+string
+string
+rwbmnrbsb
+toolbar
+rwbmntlptb
+toolbar
+rwbmnlpsb
+toolbar
+rwbmnlptb
+toolbar
+rwbwvputb
+rwbwvpuvo
+rwbwvpupo
+rwbwvpulo
+string
+string
+rwdqt_help
+string
+rwbwvputl
+rwbwvpuv
+rwbmol
+rwbmis
+rwbwcf
+window
+rwbwlv
+window
+rwbwgd
+window
+rwbwrs
+window
+window
+window
+window
+rwbwgr
+window
+rwbwct
+window
+rwbwcr
+window
+rwbwas
+window
+rwbwrp
+window
+rwbwdd
+window
+rwbwip
+window
+rwbwoo
+window
+window
+rwbwsq
+window
+rwbwcd
+window
+rwbwlov
+window
+rwbwds
+window
+rwbwro
+window
+rwbwrn
+window
+rwbwid
+window
+rwbwrr
+window
+rwbwne
+window
+rwbmfi
+rwbwvpudp
+out_search_tool
+rwbmnrbtb
+toolbar
+rwbmntdmtb
+toolbar
+rwbmndmtb
+toolbar
+rwbf_lp_dflt
+rwbfd_hint
+rwbf_group
+rwbf_summary
+rwbf_parameter
+Fields
+Sections
+Templates
+FinishedQuery
+rwwt_Express
+wizard
+vgmisq_help
+string
+rwbwvpul
+rwlfs_help
+string
+string
+rwdqe_help
+string
+rwbwol
+window
+rwbwdo
+window
+rwbwfe
+window
+rwbwet
+window
+rwbwtp
+window
+rwbhre
+window
+rwbwtr
+window
+rwbwfi1
+window
+rwbwcm
+window
+rwbwdi
+window
+rwbwmr
+window
+rwbwrg
+window
+rwbwcn
+window
+rwbwsr
+window
+rwbwgi
+window
+HyperlinksWW
+MatrixCell
+rwbwmf
+window
+vgmitx_help
+string
+vgmirt_help
+string
+vgmigr_help
+string
+MDIRFORMULA
+function MDIRFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"MDIRFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"MDIRFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"MADF_TYP"1"P_EMP_ID"EMP_CODE"INV_TYP"3"SHIFT_OK"SHIFT_T""
+MDIRFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  
+WHERE (INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.MADF_TYP = 1  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 3  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+Displays the help system
+Cuts the selected text
+Copies the selected text
+Pastes into the selected field
+Run ReportU
+Runs the report
+Cancel Run@p
+Closes the parameter form without running the report
+Previous Page
+Goes to the previous page of the form
+Next Page
+Goes to the next page of the form
+Displays the help system
+Summary ColumnW
+Click in a group or open area to create a summary column
+Formula Columne
+Click in a group or open area to create a formula column
+Placeholder Column
+Click in a group or open area to create a placeholder column
+Data Link
+Drag a link between queries, groups, or columns
+SQL Query
+Click or drag a rectangle to create a SQL Querydirformula
+empformula
+mdir_aglformula
+nzilformula
+kasmformula
+p)p@pJ
+jSERIAL_NO
+INVOICE_HIST.SERIAL_NO
+SERIAL_NO
+p'p<pD
+mINV_TOT
+INVOICE_HIST.INV_TOT
+INV_TOT
+INVOICE_HIST.del_flg
+DEL_FLG
+  p&p9p?
+INVOICE_HIST.del_q
+  p'p;pB
+ser_no
+INVOICE_HIST.ser_no
+SER_NO
+fxf8h8j8l8n
+pppp|p|
+hG_SERIAL_NO
+G_SERIAL_NO
+LIST_G_SERIAL_NO
+fxf8h8j8l8n
+pppp{p{
+G_EMP_NAME
+G_EMP_NAME
+LIST_G_EMP_NAME
+|0}0~0
+YPRINTJOB
+Show Print Job Dialog
+|0}0~0
+Default
+Output Mode
+[BACKGROUND
+Run in Background
+\ORIENTATION
+Default
+Orientation
+|0}0~0
+]DECIMAL
+Decimal Indicator
+|0}0~0
+^THOUSANDS
+Thousands Indicator
+Currency Symbol
+EMPFORMULA
+function EMPFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.p_ok = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (5)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"EMPFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"EMPFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_OK"1"P_EMP_ID"EMP_CODE"INV_TYP"5"SHIFT_OK"SHIFT_T""
+EMPFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (INV
+OICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_OK = 1  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 5  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+( * #1
+" $ -=
+8& ( *
+8$ & (
+8& ( *
+8& ( *
+8& ( *
+0& ( *
+8( * ,
+x  " $
+x  " $ 
+8" $ &
+8r0g75b0
+8g75b0
+00r0g75b50
+x( * , .
+	00r25g75b50
+x( * , .
+	00r50g75b50
+x( * , .
+	00r75g75b50
+x( * , .
+	00r88g75b50
+x( * , .
+00r100g75b50
+00r0g75b75
+x( * , .
+	00r25g75b75
+x( * , .
+	00r50g75b75
+x( * , .
+	00r75g75b75
+x( * , .
+	00r88g75b75
+x( * , .
+00r100g75b75
+00r0g75b88
+x( * , .
+	00r25g75b88
+x( * , .
+	00r50g75b88
+x( * , .
+	00r75g75b88
+x( * , .
+	00r88g75b88
+x( * , .
+00r100g75b88
+	00r0g75b100
+x( * , .
+00r25g75b100
+x( * , .
+00r50g75b100
+x( * , .
+00r75g75b100
+x( * , .
+00r88g75b100
+function nkdFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE ((INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                and INVOICE_HIST.shift_ok = :shift_t)
+                OR  (INVOICE_HIST.P_OK = 0
+                AND INVOICE_HIST.EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3,4)
+                and INVOICE_HIST.shift_ok = :shift_t))
+                and INVOICE_HIST.madf_TYP = 1;
+ return t;
+function mdnyFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (2)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+function MSHFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_OK = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (1)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+ ( * ,
+00r25g88b100@
+ ( * ,
+00r50g88b100
+ ( * ,
+00r75g88b100
+ ( * ,
+00r88g88b100
+ * , .
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+	00r25g100b0
+	00r50g100b0
+	00r75g100b0
+	00r88g100b0
+00r100g100b0
+	00r0g100b50
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+MDIR_AGLFORMULA
+function MDIR_AGLFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 2
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"MDIR_AGLFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"MDIR_AGLFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"MADF_TYP"P_EMP_ID"EMP_CODE"INV_TYP"3"SHIFT_OK"SHIFT_T""
+MDIR_AGLFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   
+FROM INVOICE_HIST  WHERE (INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.MADF_TYP = 2  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 3  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+&Available Charts:
+&Charts:
+If you would like to include HTML from a file at the beginning and/or end of your report, specify the name(s) of the file(s).
+&Header HTML file:
+&Browse...OR
+&Footer HTML file:
+B&rowse...q
+Congratulations!  You have finished preparing your report for the World Wide Web.  When you click Finish, the wizard will perform the action you choose below.
+Generate &HTML output now
+Generate HTML &style sheet output now
+Generate &PDF output now
+Return to &Builder
+Generate output to a &Web browser
+modality
+appmenu
+navigation
+canresize
+canmaximize
+canminimize
+canclose
+canmove
+vsatype
+hsatype
+content
+genattrs
+matchnearest
+cansynthesize
+weight
+rpolicy
+contentstack
+dimension
+childstacks
+springs
+natural
+shrink
+stretch
+elasticity
+direction
+springcnt
+subviews
+innerwd
+innerht
+imagefile
+alignment
+autocoordinate
+outerwd
+outerht
+isdefault
+groups
+contentclass
+borderuse
+borderbevel
+borderwd
+bgcolor
+assocview
+itemcnt
+valueindex
+selectstyle
+alwayshome
+maxlen
+cwidth
+cheight
+autoscrolled
+secure
+editable
+horizontal
+scrollee
+navigable
+tabstop
+pagecnt
+numcols
+scrollself
+columns
+slowdraw
+lineincrement
+private
+csprings
+cspringcnt
+iconfile
+autoskip
+canreorder
+contentwd
+contentht
+enabled
+nitems
+hidden
+tearoff
+submenu
+accelerator
+standardkey
+keyval
+modifiers
+startgroup
+cantitle
+vtatype
+htatype
+statustype
+statusclass
+status
+htaclass
+vtaclass
+iconsize
+showlabels
+canvasmovable
+viewclass
+casefold
+splitmode
+string
+pageresource
+current
+canapply
+eventprocname
+eventargname
+fgcolor
+compress
+buttons
+properties
+ismapped
+maprequest
+isdragsource
+numrows
+ishoriz
+selected
+enable
+eanble
+MADF_TYP
+Madf Typ
+MADF_TYP
+/b dpo
+SHIFT_NAME
+Shift Name
+SHIFT_NAME
+/b dpk
+|0}0~0
+m_name
+M_NAME
+/b dph
+t0u0v@z8|8~8
+/b dph
+t0u0v@z8|8~8
+/b dpi
+x0y0z@~8
+/b dph
+t0u0v@z8|8~8
+NZILFORMULA
+function NZILFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (4)
+                AND INVOICE_HIST.MADF_TYP = 2
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"NZILFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"NZILFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"P_EMP_ID"EMP_CODE"INV_TYP"4"MADF_TYP"SHIFT_OK"SHIFT_T""
+NZILFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  W
+HERE (INVOICE_HIST.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 4  ) AND INVOICE_HIST.MADF_TYP = 2  AND INVOICE_HIST.SHIFT_OK = :b4 )"
+rwbwfi2
+window
+rwbwln
+window
+rwbwio
+window
+rwbwud
+window
+rwbwwe
+window
+string
+rwdl_help
+string
+rwdfc_help
+string
+HTML_filesWW
+vgmior_help
+string
+vgmied_help
+string
+rwlf_help
+string
+string
+rwdqr_help
+string
+string
+Repeat
+Letter
+Labels
+MatrixColumns
+WelcomeDW
+vgmipl_help
+string
+string
+string
+rwbwvpuo
+rwbmpp
+rwbmhe
+rwbmpg
+rwbwop
+rwbmher
+rwbwvpup
+rwbwvpudq
+rwbmtl
+rwbwvpudo
+rwbwvpud
+rwbf_lovparam
+rwbmvw
+wizard
+WelcomeWW
+MatrixRows
+Finished
+vgmisr_help
+string
+rwlo_help
+string
+rwbmar
+rwbmly
+FinishedWW
+ChartsWW
+OutlinesWW
+wizard
+Groups
+Welcome
+vgmiar_help
+string
+string
+rwldl_help
+string
+string
+rwdpc_help
+string
+rwbf_outliner
+rwbf_pf_dflt
+rwbf_dflt
+rwbfd_label
+rwbfd_status
+rwbf_pf_name
+rwbf_formula
+rwbf_column
+rwbf_query
+vgmipg_help
+string
+vgmiss_help
+string
+string
+string
+string
+rwbf_parameter
+Fields
+Sections
+Templates
+FinishedQuery
+rwwt_Express
+wizard
+vgmisq_help
+string
+rwbwvpul
+rwlfs_help
+string
+string
+rwdqe_help
+string
+rwbwol
+window
+rwbwdo
+window
+rwbwfe
+window
+rwbwet
+window
+rwbwtp
+window
+rwbhre
+window
+rwbwtr
+window
+rwbwfi1
+window
+rwbwcm
+window
+rwbwdi
+window
+rwbwmr
+window
+rwbwrg
+window
+rwbwcn
+window
+rwbwsr
+window
+rwbwgi
+window
+HyperlinksWW
+MatrixCell
+rwbwmf
+window
+vgmitx_help
+string
+vgmirt_help
+string
+vgmigr_help
+string
+function MDIRFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+function EMPFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.p_ok = 1
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (5)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+function MDIR_AGLFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 2
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+function NZILFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (4)
+                AND INVOICE_HIST.MADF_TYP = 2
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+ end;ODE
+function KASMFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 3
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+-SELECT ALL INVOICE_HIST.SERIAL_NO, 
+INVOICE_HIST.INV_TOT, EMP_TBL.EMP_NAME, POINT_TBL.POINT_NAME, 
+INVOICE_HIST.INV_DATE, INVOICE_HIST.MADF_TYP, SHIFT_TBL.SHIFT_NAME,
+INVOICE_HIST.del_flg,INVOICE_HIST.del_q,INVOICE_HIST.ser_no
+FROM INVOICE_HIST, EMP_TBL, POINT_TBL, SHIFT_TBL
+WHERE 
+((INVOICE_HIST.POINT_CODE = :pt_code
+ AND INVOICE_HIST.INV_DATE = :inv_dt
+ AND INVOICE_HIST.P_OK = 1
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.P_EMP_ID = :emp_code)
+ (INVOICE_HIST.P_OK = 0
+ AND INVOICE_HIST.EMP_ID = :emp_code
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.INV_TYP IN (3, 4)))
+ AND ((INVOICE_HIST.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (INVOICE_HIST.SHIFT_TYP = SHIFT_TBL.SHIFT_TYP)
+ AND (INVOICE_HIST.P_EMP_ID = EMP_TBL.EMP_ID))
+and invoice_hist.shift_ok = :shift_t
+ORDER BY INVOICE_HIST.SERIAL_NO 
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+KASMFORMULA
+function KASMFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 3
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+STANDARD
+MAHROSA
+INVOICE_HIST
+"PKG INIT"KASMFORMULA"T"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"KASMFORMULA"RETURN"NUMBER"T"10"2"SUM"INVOICE_HIST"INV_TOT"POINT_CODE"PT_CODE""="INV_DATE"INV_DT"MADF_TYP"3"P_EMP_ID"EMP_CODE"INV_TYP"SHIFT_OK"SHIFT_T""
+KASMFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (INVOICE_HIS
+T.POINT_CODE = :b1  AND INVOICE_HIST.INV_DATE = :b2  AND INVOICE_HIST.MADF_TYP = 3  AND INVOICE_HIST.P_EMP_ID = :b3  AND INVOICE_HIST.INV_TYP IN ( 3  ) AND INVOICE_HIST.SHIFT_OK = :b4 )"
+	activity
+cancel
+status
+MS Sans Serif
+	activity
+cancel
+MS Sans Serif
+MS Sans Serif
+mlabel
+MS Sans Serif
+finishopts
+radiog
+rwetc_rgeh
+rwetc_rgea
+MS Sans Serif
+generate_to_web
+	checkbox
+MS Sans Serif
+RESFILE
+8headerfield
+Report Parameters
+Enter values for the parameters
+Pt Code
+Inv Dt
+Emp Code
+Shift T
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+1"A&A*1+1.A2A6A:A>ABAF1G1H
+MDNYFORMULA
+SELECT SUM(INVOICE_HIST.INV_TOT)   FROM INVOICE_HIST  WHERE (I
+EMP_NAME
+EMP_TBL.EMP_NAME
+EMP_NAME
+POINT_NAME
+POINT_TBL.POINT_NAME
+POINT_NAME
+inv_date
+INVOICE_HIST.INV_DATE
+INV_DATE
+p p)p?
+MADF_TYP
+INVOICE_HIST.MADF_TYP
+MADF_TYP
+p p+p@
+SHIFT_NAME
+SHIFT_TBL.SHIFT_NAME
+SHIFT_NAME
+p p(p=
+kdel_flg
+INVOICE_HIST.del_flg
+DEL_FLG
+p p&p9
+ndel_q
+INVOICE_HIST.del_q
+p p'p;
+tser_no
+INVOICE_HIST.ser_no
+SER_NO
+2p6p6p6
+88:8<8>8@
+cxf8f8h8j8l
+oppppp|
+hG_SERIAL_NO
+G_SERIAL_NO
+LIST_G_SERIAL_NO
+bxf8f8h8j8l
+oppppp{
+G_EMP_NAME
+G_EMP_NAME
+LIST_G_EMP_NAME
+{0|0}0~0
+YPRINTJOB
+Show Print Job Dialog
+{0|0}0~0
+Default
+Output Mode
+[BACKGROUND
+Run in Background
+\ORIENTATION
+Default
+Orientation
+{0|0}0~0
+]DECIMAL
+Decimal Indicator
+{0|0}0~0
+^THOUSANDS
+Thousands Indicator
+ end;ODE
+function KASMFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 3
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+-SELECT ALL INVOICE_HIST.SERIAL_NO, 
+INVOICE_HIST.INV_TOT, EMP_TBL.EMP_NAME, POINT_TBL.POINT_NAME, 
+INVOICE_HIST.INV_DATE, INVOICE_HIST.MADF_TYP, SHIFT_TBL.SHIFT_NAME,
+INVOICE_HIST.del_flg,INVOICE_HIST.del_q,INVOICE_HIST.ser_no
+FROM INVOICE_HIST, EMP_TBL, POINT_TBL, SHIFT_TBL
+WHERE 
+((INVOICE_HIST.POINT_CODE = :pt_code
+ AND INVOICE_HIST.INV_DATE = :inv_dt
+ AND INVOICE_HIST.P_OK = 1
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.P_EMP_ID = :emp_code)
+ (INVOICE_HIST.P_OK = 0
+ AND INVOICE_HIST.EMP_ID = :emp_code
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.INV_TYP IN (3, 4)))
+ AND ((INVOICE_HIST.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (INVOICE_HIST.SHIFT_TYP = SHIFT_TBL.SHIFT_TYP)
+ AND (INVOICE_HIST.P_EMP_ID = EMP_TBL.EMP_ID))
+and invoice_hist.shift_ok = :shift_t
+ORDER BY INVOICE_HIST.SERIAL_NO 
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+X(^pbpb0b0c8d@f
+m0n0o0p0q0r0s
+M_G_SERIAL_NO_GRPFR
+V XpZpZ0Z8\8^8`
+e0f0g0h0i0j0k
+M_G_SERIAL_NO_FTR
+H(NpRpR0R0S8T8V
+[0\0]0^0_0`0a
+RIAL_0
+W XpZpZ0Z8\8^8`
+e0f0g0h0i0j0k
+M_G_SERIAL_NO_HDR1
+S(VpZpZ0Z8\8^8`
+e0f0g0h0i0j0k
+R_G_SERIAL_NO1
+d(jpnpn8n@r8v8x
+F_SumINV_TOTPerReport
+NNNNNNNN0D00
+W(Zp^p^8^8`8b8d
+n0o0p0qprp
+F_INV_TOT1
+NNNNNNNN0D00
+Y(Zp^p^0^8`8b8d
+n0o0p0qprpr0r
+F_SERIAL_NO1
+P(VpZpZ0Z8\8^8`
+j0k0l0mpnpn0n
+AL_NO 
+P(VpZpZ0Z0[8\8^
+h0i0j0kplpn0n
+AL_NO 
+P(VpZpZ0Z8\8^8`
+j0k0l0mpnpn0n
+AL_NO 
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+F_DATE1
+T(Zp^p^8^8`8b8d
+n0o0p0qprp~0~
+F_DATE2
+HH:MI AM
+Z(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+F_SERIAL_NO2
+^THOUSANDS
+Thousands Indicator
+ end;ODE
+function KASMFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 3
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+-SELECT ALL INVOICE_HIST.SERIAL_NO, 
+INVOICE_HIST.INV_TOT, EMP_TBL.EMP_NAME, POINT_TBL.POINT_NAME, 
+INVOICE_HIST.INV_DATE, INVOICE_HIST.MADF_TYP, SHIFT_TBL.SHIFT_NAME,
+INVOICE_HIST.del_flg,INVOICE_HIST.del_q,INVOICE_HIST.ser_no
+FROM INVOICE_HIST, EMP_TBL, POINT_TBL, SHIFT_TBL
+WHERE 
+((INVOICE_HIST.POINT_CODE = :pt_code
+ AND INVOICE_HIST.INV_DATE = :inv_dt
+ AND INVOICE_HIST.P_OK = 1
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.P_EMP_ID = :emp_code)
+ (INVOICE_HIST.P_OK = 0
+ AND INVOICE_HIST.EMP_ID = :emp_code
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.INV_TYP IN (3, 4)))
+ AND ((INVOICE_HIST.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (INVOICE_HIST.SHIFT_TYP = SHIFT_TBL.SHIFT_TYP)
+ AND (INVOICE_HIST.P_EMP_ID = EMP_TBL.EMP_ID))
+and invoice_hist.shift_ok = :shift_t
+ORDER BY INVOICE_HIST.SERIAL_NO 
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+g(jpnpn8n8p8r8t
+B_INV_TOT1
+i(jpnpn0n8p8r8t
+B_SERIAL_NO1
+`(fpjpj8j8l8n8p
+)AL_NO0
+`(fpjpj8j8l8n8p
++AL_NO0
+a(bpfpf0f8h8j8l
+a(bpfpf0f@j8n8p
+* Zp\ `
+b(fpjpj0j@n8r0t
+* Zp\ `
+b(fpjpj0j8l8n0p
+a(bpfpf8f8h8j8l
+b(fpjpj8j8l8n8p
+_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (4)
+                AND INVOICE_HIST.MADF_TYP = 2
+                and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+ end;ODE
+function KASMFormula return Number is
+t number(10,2);
+  SELECT sum(INVOICE_HIST.INV_TOT) into t  
+         FROM INVOICE_HIST
+         WHERE (INVOICE_HIST.POINT_CODE = :pt_code
+                AND INVOICE_HIST.INV_DATE = :inv_dt
+                AND INVOICE_HIST.MADF_TYP = 3
+                AND INVOICE_HIST.P_EMP_ID = :emp_code
+                AND INVOICE_HIST.INV_TYP IN (3)and INVOICE_HIST.shift_ok = :shift_t);
+                
+  return t;
+-SELECT ALL INVOICE_HIST.SERIAL_NO, 
+INVOICE_HIST.INV_TOT, EMP_TBL.EMP_NAME, POINT_TBL.POINT_NAME, 
+INVOICE_HIST.INV_DATE, INVOICE_HIST.MADF_TYP, SHIFT_TBL.SHIFT_NAME,
+INVOICE_HIST.del_flg,INVOICE_HIST.del_q,INVOICE_HIST.ser_no
+FROM INVOICE_HIST, EMP_TBL, POINT_TBL, SHIFT_TBL
+WHERE 
+((INVOICE_HIST.POINT_CODE = :pt_code
+ AND INVOICE_HIST.INV_DATE = :inv_dt
+ AND INVOICE_HIST.P_OK = 1
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.P_EMP_ID = :emp_code)
+ (INVOICE_HIST.P_OK = 0
+ AND INVOICE_HIST.EMP_ID = :emp_code
+ AND INVOICE_HIST.MADF_TYP = 2
+ AND INVOICE_HIST.INV_TYP IN (3, 4)))
+ AND ((INVOICE_HIST.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (INVOICE_HIST.SHIFT_TYP = SHIFT_TBL.SHIFT_TYP)
+ AND (INVOICE_HIST.P_EMP_ID = EMP_TBL.EMP_ID))
+and invoice_hist.shift_ok = :shift_t
+ORDER BY INVOICE_HIST.SERIAL_NO 
+SQL*ReportWriters
+REPORT
+MAHROSA
+invoice_serial_b
+MAHROSAxh
+MAHROSAxp
+w0x0y@z8~8
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+5g75b100
+b(fpjpj0j8l8n8p
+b(fpjpj0j8l8n8p
+* Zp\ b
+d(jpnpn0n8p8r0t
+b(fpjpj0j8l8n8p
+b(fpjpj0j8l8n8p
+b(fpjpj0j8l8n8p
+b(fpjpj8j8l8n8p
+b(fpjpj8j8l8n8p
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_PT_CODE
+* Zp\ f
+h(nprpr8r8t8v8x
+PB_INV_DT
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_EMP_CODE
+* Zp\ h
+j(nprpr8r8t8v8x
+PB_SHIFT_T
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+===UCS2-LE===
+#$(359:AIMPSUX\aefmprvz
+*+'++()++
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+*+'+++)-+++
+FILORUX[^ad<
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+*+'++()++
+/7:=@CFILQ
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz
+%()*028;=?A
+#$(359:AIMPSVX]cghlorvz

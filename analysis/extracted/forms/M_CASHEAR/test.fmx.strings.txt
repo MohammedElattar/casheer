@@ -1,0 +1,76 @@
+src=M_CASHEAR/test.fmx
+sha256=98ca7f7f315a964fbdccc11d93029d86286c35542a07b513ff1280f878bc2167
+size=16540
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.937538+00:00
+version_markers=none
+ascii_lines=63
+ucs2_lines=0
+trigger_count=0
+pl_sql_markers=0
+===ASCII===
+MODULE2
+DEFAULT&SMARTBAR
+AMERICAN_AMERICA.AR8MSWIN1256
+#POPUPHINT#
+333333
+p=p=p=
+(\(\(\
+ffffff
+INVOICE
+INVOICE
+SERIAL_NO
+POINT_CODE
+Point Code
+INV_DATE
+Inv Date
+EMP_ID
+Emp Id
+SHIFT_TYP
+Shift Typ
+INV_TYP
+Inv Typ
+TABLE_NO
+Table No
+SERV_PER
+Serv Per
+SERV_Q
+Serv Q
+DISC_PER
+Disc Per
+DISC_Q
+Disc Q
+MEM_ID
+Mem Id
+ROOM_NO
+Room No
+TEL_NO
+Tel No
+DEL_NAME
+Del Name
+DEL_ADDRESS
+Del Address
+INV_TOT
+Inv Tot
+CANVAS2
+EMP_ID
+DISC_Q
+SERV_Q
+DEL_ADDRESS
+INV_TYP
+TEL_NO
+INV_DATE
+SERIAL_NO
+TABLE_NO
+ROOM_NO
+MEM_ID
+INV_TOT
+SHIFT_TYP
+WINDOW1
+INVOICE
+DISC_PER
+POINT_CODE
+SERV_PER
+DEL_NAME
+===UCS2-LE===
+

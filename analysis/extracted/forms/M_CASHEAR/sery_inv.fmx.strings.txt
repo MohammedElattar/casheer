@@ -1,0 +1,1505 @@
+src=M_CASHEAR/sery_inv.fmx
+sha256=14f5078d0541d0a762fed72578bb4dd537dd8893db7174973693d9f9be4792d3
+size=351316
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:08.698762+00:00
+version_markers=none
+ascii_lines=1473
+ucs2_lines=20
+trigger_count=0
+pl_sql_markers=55
+===ASCII===
+AMERICAN_AMERICA.AR8MSWIN1256
+P0_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P1_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P5_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P6_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+                                                  
+P7_14_MAY_200321_23_29
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+STANDARD
+FORMS4C
+FORMS4W
+MAHROSA
+EMP_TBL
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 10>"<SQL statement. Line 12>""
+main_win
+table_view
+nzl_view
+emp_view
+ITEM_PRICE_VIEW
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+P28_26_SEP_200412_05_09
+/NSPC2/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+BUTTON_PROC
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+STANDARD
+"DLL"TBLEN"STR""
+/NSPC2/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+TOOLBAR
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+TOOLBAR
+STANDARD
+/NSPC2/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC2/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOOLBAR
+SET_TIMER
+SHOW_FUNCTION
+CHECK_PACKAGE_FAILURE
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+QUERY_MASTER_DETAILS
+#POPUPHINT#
+MS Sans Serif
+Simplified Arabic
+D:\M_CASHEAR\HINT
+SELECT ALL MEM_VIEW.MEM_SERIAL, MEM_VIEW.MEM_ID, MEM_VIEW.MEM_NAME
+FROM MEM_VIEW 
+MEM_SERIAL
+MEM_ID
+MEM_NAME
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL 
+where emp_typ in(1)
+EMP_ID
+EMP_NAME
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL 
+where emp_typ in(1)
+EMP_ID
+EMP_NAME
+SELECT ALL ROOM_VIEW.H_NO, ROOM_VIEW.H_NAME, ROOM_VIEW.ROOM_NO
+FROM ROOM_VIEW 
+order by ROOM_VIEW.ROOM_NO
+H_NAME
+ROOM_NO
+SELECT ALL ROOM_VIEW.H_NO, ROOM_VIEW.H_NAME, ROOM_VIEW.ROOM_NO
+FROM ROOM_VIEW 
+order by ROOM_VIEW.ROOM_NO
+H_NAME
+ROOM_NO
+Emp_Id
+Emp_NameEmp_Id
+Emp_Name
+Tahoma
+Tahoma
+Simplified Arabic
+Simplified Arabic
+Simplified Arabic
+Arabic Transparent
+Arabic Transparent
+Arabic Transparent
+Simplified Arabic
+Simplified Arabic
+                                                  
+           
+P12_14_MAY_200321_23_29
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+Simplified Arabic
+yyyy/mm/dd
+yyyy/mm/dd
+d:\a_navy\clear.ico
+d:\a_navy\listval
+CLEAR_ALL_MASTER_DETAILS
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+333333
+p=p=p=
+(\(\(\
+ffffff
+                                                                           
+                                                                                  
+P13_14_MAY_200321_23_29
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+invoice.serial_no
+invoice
+inv_dtl
+                                                                           
+                                                                          
+d:\a_navy\exit.ico
+                                                                                     
+d:\a_navy\left
+                                                                                         
+d:\a_navy\right
+                                                                                         
+d:\a_navy\down
+                                                                                     
+d:\a_navy\up
+                                                                                  
+                      
+d:\a_navy\canqry.ico
+                                                                                       
+d:\a_navy\execute.ico
+                                                              
+d:\a_navy\entqry
+P12_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+P14_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+P36_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+Tahoma
+P40_11_JAN_200420_07_34
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+P1_12_JAN_200407_52_51
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+Simplified Arabic
+P11_14_MAY_200321_23_29
+/NSPC2/BUTTON_PROC
+"PKG INIT"<anonymous>""
+Simplified Arabic
+Simplified Arabic
+P0_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+Simplified Arabic
+P1_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+Simplified Arabic
+Simplified Arabic
+Simplified Arabic
+P2_25_SEP_200412_07_48
+SQLFORMS
+"PKG INIT"<anonymous>""
+Simplified Arabic
+P3_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 1"
+P4_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 2"
+P5_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 3"
+P6_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 4"
+P7_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 5"
+P8_25_SEP_200412_07_48
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_PRICE_VIEW
+P9_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 7"
+P10_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 8"
+P11_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 9"
+Simplified Arabic
+Tahoma
+Simplified Arabic
+Tahoma
+P12_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 10"
+P13_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 16"
+P14_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 14"
+P15_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 15"
+P16_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 6"
+P17_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 17"
+P18_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 18"
+Simplified Arabic
+P19_25_SEP_200412_07_48
+STANDARD
+MAHROSA
+INVOICE
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 7>""
+SELECT COUNT(*)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND TABLE_NO = :b3  AND P_OK = 0"
+P20_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P22_25_SEP_200412_07_48
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"C""
+blk1.captn_no
+invoice
+table_view
+P21_25_SEP_200412_07_48
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+Simplified Arabic
+P23_25_SEP_200412_07_48
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+blk1.tbl_no
+P24_25_SEP_200412_07_48
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+blk1.captn2
+Simplified Arabic
+P25_25_SEP_200412_07_48
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>"C""
+blk1.captn2
+P26_25_SEP_200412_07_48
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+Simplified Arabic
+P28_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P29_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P30_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P31_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P32_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P33_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P34_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P35_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P36_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P37_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+Simplified Arabic
+P38_25_SEP_200412_07_48
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"K""
+inv_dtl
+invoice
+P39_25_SEP_200412_07_48
+STANDARD
+"PKG INIT"<anonymous>""
+P11_26_SEP_200411_18_57
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>"LIST_ID"ID""
+ser_no
+inv_dt
+pt_code
+invoice
+inv_dtl
+table_view
+emp_view
+P4_04_OCT_200400_46_46
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+My_Private_LOV
+P7_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 11"
+Simplified Arabic
+Tahoma
+Tahoma
+Simplified Arabic
+Simplified Arabic
+INVOICE
+INVOICE
+P8_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 13"
+P9_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 15"
+P10_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 19"
+P12_04_OCT_200420_18_59
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+blk1.c_no
+P14_04_OCT_200420_18_59
+STANDARD
+"PKG INIT"<anonymous>""
+P20_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 12>""
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+P21_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 12>""
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+P24_04_OCT_200420_18_59
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice
+P26_04_OCT_200420_18_59
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+My_Private_LOV
+P28_04_OCT_200420_18_59
+STANDARD
+SQLFORMS
+FORMS40
+MAHROSA
+INVOICE
+FORMS4W
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 20>""
+blk1.c_no
+invoice
+table_view
+emp_view
+nzl_view
+SELECT MAX(SERIAL_NO)   FROM INVOICE  WHERE POINT_CODE = :b1  AND EMP_ID = :b2  AND SHIFT_TYP = :b3  AND INV_DATE = :b4"
+P30_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+INVOICE
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 7>""
+SELECT COUNT(*)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND EMP_ID = :b3  AND SHIFT_TYP = :b4  AND TABLE_NO = :b5  AND P_OK = 0"
+P32_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+INVOICE
+SQLFORMS
+FORMS40
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 7>""
+******************
+invoice.mem_id
+invoice.kasm_per
+invoice.emp_code
+invoice.room_no
+emp_view
+table_view
+nzl_view
+invoice
+tbll_no
+SELECT COUNT(*)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND EMP_ID = :b3  AND SHIFT_TYP = :b4  AND TABLE_NO = :b5  AND P_OK = 0"
+P34_04_OCT_200420_18_59
+STANDARD
+SQLFORMS
+FORMS4W
+"PKG INIT"<anonymous>""
+emp_view
+table_view
+invoice
+P36_04_OCT_200420_18_59
+STANDARD
+MAHROSA
+	ITEM_TYPE
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_PRICE_VIEW
+SELECT T_NAME   FROM ITEM_TYPE  WHERE T_CODE = 20"
+P17_06_OCT_200420_05_34
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+My_Private_LOV
+P33_06_OCT_200420_05_34
+STANDARD
+FORMS40
+"PKG INIT"<anonymous>""
+blk1.cc_no
+P36_06_OCT_200420_05_34
+STANDARD
+"PKG INIT"<anonymous>""
+P51_06_OCT_200420_05_34
+STANDARD
+MAHROSA
+INVOICE
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 7>""
+SELECT COUNT(*)   FROM INVOICE  WHERE INV_DATE = :b1  AND POINT_CODE = :b2  AND EMP_ID = :b3  AND SHIFT_TYP = :b4  AND TABLE_NO = :b5  AND P_OK = 0"
+P44_06_OCT_200420_05_34
+STANDARD
+MAHROSA
+	ROOM_VIEW
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"C"K"<cursor ptr>"<SQL statement. Line 13>"<SQL statement. Line 20>""
+SELECT COUNT(*)   FROM ROOM_VIEW  WHERE ROOM_NO = :b1"SELECT H_NAME   FROM ROOM_VIEW  WHERE :b1 = H_NO  AND ROOM_NO = :b2"
+P45_06_OCT_200420_05_34
+STANDARD
+MAHROSA
+	ROOM_VIEW
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 5>""
+SELECT H_NAME   FROM ROOM_VIEW  WHERE :b1 = H_NO  AND ROOM_NO = :b2"
+P46_06_OCT_200420_05_34
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice
+P47_06_OCT_200420_05_34
+STANDARD
+SQLFORMS
+FORMS40
+MAHROSA
+INVOICE
+FORMS4W
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 20>""
+blk1.cc_no
+invoice
+table_view
+emp_view
+nzl_view
+SELECT MAX(SERIAL_NO)   FROM INVOICE  WHERE POINT_CODE = :b1  AND EMP_ID = :b2  AND SHIFT_TYP = :b3  AND INV_DATE = :b4"
+(table_no = :1 or :2 is null) and (serial_no = :3 or :4 is null) and (p_ok in(0,1)) and (point_code = :5) and (inv_date = :6)
+serial_no
+SERIAL_NO
+POINT_CODE
+Point Code
+INV_DATE
+Inv Date
+EMP_ID
+Emp Id
+SHIFT_TYP
+Shift Typ
+INV_TYP
+Inv Typ
+Simplified Arabic
+P49_06_OCT_200420_05_34
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+My_Private_LOV
+P9_08_OCT_200421_46_29
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+P22_10_OCT_200408_07_58
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice1
+P24_10_OCT_200408_07_58
+STANDARD
+SQLFORMS
+FORMS4W
+"PKG INIT"<anonymous>""
+invoice
+P0_12_OCT_200409_27_11
+STANDARD
+"PKG INIT"<anonymous>"LIST_ID"ID""
+emp_code
+inv_dt
+pt_code
+invoice_serial
+P2_03_OCT_200422_49_42
+"PKG INIT"<anonymous>""
+P1_03_OCT_200423_30_23
+"PKG INIT"<anonymous>""
+TABLE_NO
+Tahoma
+Simplified Arabic
+SERV_PER
+Tahoma
+SERV_Q
+DISC_PER
+DISC_Q
+MEM_ID
+P5_03_OCT_200402_11_22
+STANDARD
+MAHROSA
+MEM_VIEW
+SQLFORMS
+"PKG INIT"<anonymous>"K"<cursor ptr>"<SQL statement. Line 5>"<SQL statement. Line 16>""
+SELECT COUNT(*)   FROM MEM_VIEW  WHERE MEM_ID = :b1"SELECT MEM_NAME   FROM MEM_VIEW  WHERE MEM_ID = :b1"
+P7_03_OCT_200402_11_22
+STANDARD
+MAHROSA
+MEM_VIEW
+SQLFORMS
+"PKG INIT"<anonymous>"K"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 16>""
+SELECT COUNT(*)   FROM MEM_VIEW  WHERE MEM_ID = :b1"SELECT MEM_NAME,MEM_SERIAL,M_TYP   FROM MEM_VIEW  WHERE MEM_ID = :b1"
+P6_10_OCT_200408_07_58
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+My_Private_LOV
+P4_10_OCT_200408_07_58
+STANDARD
+MAHROSA
+MEM_VIEW
+SQLFORMS
+FORMS4W
+"PKG INIT"<anonymous>"K"C"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 16>""
+table_view
+emp_view
+nzl_view
+invoice
+SELECT COUNT(*)   FROM MEM_VIEW  WHERE MEM_ID = :b1"SELECT MEM_NAME,MEM_SERIAL,M_TYP   FROM MEM_VIEW  WHERE MEM_ID = :b1"
+P3_10_OCT_200408_07_58
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice
+ROOM_NO
+P20_06_OCT_200420_05_34
+STANDARD
+MAHROSA
+	ROOM_VIEW
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"C"K"<cursor ptr>"<SQL statement. Line 11>"<SQL statement. Line 18>""
+SELECT COUNT(*)   FROM ROOM_VIEW  WHERE ROOM_NO = :b1"SELECT H_NAME   FROM ROOM_VIEW  WHERE :b1 = H_NO  AND ROOM_NO = :b2"
+P19_06_OCT_200420_05_34
+STANDARD
+MAHROSA
+	ROOM_VIEW
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 5>""
+SELECT H_NAME   FROM ROOM_VIEW  WHERE :b1 = H_NO  AND ROOM_NO = :b2"
+P2_08_OCT_200423_18_16
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+table_view
+emp_view
+nzl_view
+invoice
+P30_06_OCT_200420_05_34
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+table_view
+emp_view
+nzl_view
+invoice
+TEL_NO
+Tel No
+DEL_NAME
+Del Name
+DEL_ADDRESS
+Del Address
+INV_TOT
+Simplified Arabic
+9999990.90
+9999990.90
+Tahoma
+99990.90
+99990.90
+P21_26_SEP_200412_05_09
+STANDARD
+"PKG INIT"<anonymous>""
+99990.90
+99990.90
+P22_26_SEP_200412_05_09
+STANDARD
+"PKG INIT"<anonymous>""
+Simplified Arabic
+99990.90
+99990.90
+P23_26_SEP_200412_05_09
+STANDARD
+"PKG INIT"<anonymous>""
+MEM_SERIAL
+Mem Serial
+EMP_CODE
+P1_04_OCT_200400_46_46
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 12>""
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+P2_04_OCT_200400_46_46
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+FORMS4C
+FORMS40
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 12>""
+invoice.kasm_per
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+MADF_TYP
+Tahoma
+KASM_Q
+KASM_PER
+P6_04_OCT_200400_46_46
+STANDARD
+"PKG INIT"<anonymous>""
+P8_04_OCT_200400_46_46
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+table_view
+emp_view
+nzl_view
+invoice
+u_emp_id
+p_emp_id
+INV_DTL
+INV_DTL
+i_serial desc
+SERIAL_NO
+Serial No
+EMP_ID
+P5_04_OCT_200400_46_46
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>"C""
+invoice.kasm_per
+P2_08_OCT_200422_47_16
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+table_view
+emp_view
+nzl_view
+invoice
+P35_26_SEP_200412_05_09
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice
+inv_dtl
+P2_26_SEP_200411_18_57
+STANDARD
+MAHROSA
+INVOICE
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 5>""
+SELECT MAX(SERIAL_NO)   FROM INVOICE  WHERE POINT_CODE = :b1  AND EMP_ID = :b2  AND SHIFT_TYP = :b3  AND INV_DATE = :b4"
+P31_26_SEP_200412_05_09
+STANDARD
+FORMS4C
+FORMS40
+/NSPC2/QUERY_MASTER_DETAILS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+INVOICE.INVOICE_INV_DTL
+INV_DTL
+P32_26_SEP_200412_05_09
+STANDARD
+MAHROSA
+INV_DTL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM INV_DTL I WHERE I.SERIAL_NO = :b1  AND I.POINT_CODE = :b2  AND I.INV_DATE = :b3  AND I.EMP_ID = :b4  AND I.SHIFT_TYP = :b5"
+P38_26_SEP_200412_05_09
+SQLFORMS
+"PKG INIT"<anonymous>""
+POINT_CODE
+Point Code
+INV_DATE
+Inv Date
+Emp Id
+SHIFT_TYP
+Shift Typ
+I_SERIAL
+I_CODE
+P20_26_SEP_200412_05_09
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+Simplified Arabic
+P16_26_SEP_200412_05_09
+STANDARD
+"PKG INIT"<anonymous>""
+P18_26_SEP_200412_05_09
+STANDARD
+"PKG INIT"<anonymous>""
+CAP_NO
+99990.90
+99990.90
+P1_26_SEP_200412_05_09
+SQLFORMS
+"PKG INIT"<anonymous>""
+P15_26_SEP_200412_05_09
+STANDARD
+MAHROSA
+INV_DTL
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>""
+SELECT MAX(I_SERIAL)   FROM INV_DTL  WHERE SERIAL_NO = :b1  AND POINT_CODE = :b2  AND INV_DATE = :b3  AND EMP_ID = :b4  AND SHIFT_TYP = :b5"
+Simplified Arabic
+P12_08_OCT_200421_46_29
+STANDARD
+FORMS4W
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+invoice
+invoice.serial_no
+P13_08_OCT_200421_46_29
+STANDARD
+FORMS4W
+FORMS40
+FORMS4C
+SQLFORMS
+"PKG INIT"<anonymous>"C""
+tbll_no
+invoice.mem_id
+invoice.kasm_per
+invoice.emp_code
+invoice.room_no
+table_view
+emp_view
+nzl_view
+invoice
+Simplified Arabic
+ITEM_PRICE_VIEW
+ITEM_PRICE_VIEW
+((t_code = :1) or (:2 is null and t_code in (6,17,18)) or (:3 is null and :4 = '--')) and point_code = :5
+i_name
+I_CODE
+I Code
+T_CODE
+T Code
+POINT_CODE
+Point Code
+Simplified Arabic
+P40_25_SEP_200412_07_48
+STANDARD
+FORMS4W
+SQLFORMS
+FORMS4C
+FORMS40
+"PKG INIT"<anonymous>"C"K""
+inv_dtl
+invoice.kasm_per
+invoice
+TABLE_VIEW
+TABLE_VIEW
+(point_code = :1) and (inv_date = :2)
+table_no
+TABLE_NO
+POINT_CODE
+Point Code
+SHIFT_TYP
+Shift Typ
+EMP_ID
+Emp Id
+INV_DATE
+Inv Date
+P1_02_OCT_200423_31_38
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+nzl_view
+emp_view
+invoice
+EMP_VIEW
+EMP_VIEW
+(point_code = :1) and (inv_date = :2)
+emp_name
+POINT_CODE
+Point Code
+SHIFT_TYP
+Shift Typ
+EMP_ID
+Emp Id
+INV_DATE
+Inv Date
+TABLE_NO
+Table No
+EMP_CODE
+Emp Code
+EMP_NAME
+Tahoma
+Tahoma
+SERIAL_NO
+Serial No
+P2_04_OCT_200420_18_59
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+nzl_view
+table_view
+invoice
+NZL_VIEW
+NZL_VIEW
+(point_code = :1) and (inv_date = :2)
+POINT_CODE
+Point Code
+SHIFT_TYP
+Shift Typ
+INV_DATE
+Inv Date
+TABLE_NO
+Table No
+H_NAME
+H Name
+SERIAL_NO
+Serial No
+Tahoma
+ROOM_NO
+Room No
+P1_08_OCT_200419_55_08
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+table_view
+emp_view
+invoice
+INVOICE
+INVOICE
+(p_ok = 1) and (p_emp_id = :1) and (point_code = :2) and (inv_date = :3)
+serial_no
+POINT_CODE
+Point Code
+P30_10_OCT_200408_07_58
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+INV_DATE
+EMP_ID
+Emp Id
+SHIFT_TYP
+Shift Typ
+INV_TYP
+Inv Typ
+TABLE_NO
+Simplified Arabic
+SERV_PER
+Serv Per
+SERV_Q
+Serv Q
+DISC_PER
+Disc Per
+DISC_Q
+Disc Q
+MEM_ID
+Mem Id
+ROOM_NO
+TEL_NO
+Tel No
+DEL_NAME
+Del Name
+DEL_ADDRESS
+Del Address
+MEM_SERIAL
+Mem Serial
+EMP_CODE
+Emp Code
+P34_10_OCT_200408_07_58
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+MADF_TYP
+Madf Typ
+KASM_Q
+Kasm Q
+KASM_PER
+Kasm Per
+SERIAL_NO
+Simplified Arabic
+INV_TOT
+Simplified Arabic
+999990.90
+999990.90
+Tahoma
+P32_10_OCT_200408_07_58
+SQLFORMS
+"PKG INIT"<anonymous>""
+Simplified Arabic
+p_emp_id
+P20_10_OCT_200408_07_58
+STANDARD
+MAHROSA
+INV_DTL
+SQLFORMS
+"PKG INIT"<anonymous>"DUMMY_DEFINE"INV_DTL1_CUR"<cursor ptr>""
+Cannot delete master record when matching detail records exist.
+INV_DTL1_CUR
+SELECT 1   FROM INV_DTL I  WHERE I.SERIAL_NO = :b1  AND I.POINT_CODE = :b2  AND I.INV_DATE = :b3  AND I.EMP_ID = :b4  AND I.SHIFT_TYP = :b5"
+INV_DTL
+INV_DTL
+i_serial
+SERIAL_NO
+Serial No
+POINT_CODE
+Point Code
+INV_DATE
+Inv Date
+EMP_ID
+Emp Id
+SHIFT_TYP
+P19_10_OCT_200408_07_58
+STANDARD
+FORMS4C
+FORMS40
+/NSPC2/QUERY_MASTER_DETAILS
+/NSPC2/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+INVOICE1.INVOICE1_INV_DTL1
+INV_DTL1
+P25_10_OCT_200408_07_58
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+invoice
+Shift Typ
+I_SERIAL
+I Serial
+I_CODE
+P16_10_OCT_200408_07_58
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+Simplified Arabic
+Tahoma
+CAP_NO
+INV_TYP
+MEM_ID
+E_NAME
+CURRNT_CAPTN
+H_NAME
+I_NAME
+ITEM_PRICE_VIEW
+I_EMP_NAME
+CLEAR_RECORD
+ENTER_QUERY
+P_NAME
+BUTTON_PROC
+P_EMP_ID
+TYP_CODE
+EMP_CODE
+ROOM_NO
+U_EMP_ID
+EMP_VIEW
+I_H_NO
+PT_CODE
+ITEM150
+CAPTN_NO
+KASM_Q
+ITEM483
+ITEM253
+ITEM254
+ITEM255
+CAPTN2
+ITEM256
+ITEM950
+ITEM257
+ITEM753
+ITEM258
+ITEM259
+ITEM1009
+LIST_VALUES
+ITEM927
+INV_TYP
+CAP_NO
+SERV_PER
+MAIN_WIN
+PUSH_BUTTON561
+PUSH_BUTTON482
+DISC_PER
+PP_NAME
+INVOICE_INV_DTL
+CAPTN_ORDER
+TABLE_VIEW
+HELP_BUT
+MADF_TYP
+NZL_VIEW
+TOOLBAR
+CHECK_PACKAGE_FAILURE
+SERV_Q
+COMMIT_FORM
+EXECUTE_QUERY
+TBBL_NO
+I_H_NAME
+V_INV_TOT
+DISC_Q
+TBLL_NO
+TABLE_NO
+INV_DTL
+ITEM268
+ITEM797
+ITEM269
+CANCEL_QUERY
+I_CODE
+I_EMP_CODE
+ITEM935
+I_ROOM_NO
+SHIFT_TYP
+PREVIOUS_BLOCK
+NEW_TABLE
+TYP_NAME
+T_CODE
+INV_DTL1
+ITEM909
+EMP_NAME
+INV_TIME
+PUSH_BUTTON588
+INV_NO
+EMP_ID
+PUSH_BUTTON252
+MEMB_NAME
+TEL_NO
+P_HSB2
+EE_NAME
+TBL_NO
+INVOICE
+POINT_CODE
+SERIAL_NO
+INVOICE1_INV_DTL1
+NEW_TBL
+INVOICE1
+CANVAS2
+QUERY_MASTER_DETAILS
+ITEM273
+ITEM274
+MEM_SERIAL
+CLEAR_ALL_MASTER_DETAILS
+EXIT_FORM
+ITEM147
+ITEM874
+ITEM148
+ITEM149
+NEW_CAPTN_ORD
+ITEM1008
+I_SERIAL
+ITEM946
+ITEM916
+PUSH_BUTTON859
+DEL_ADDRESS
+PUSH_BUTTON655
+INV_DATE
+DEL_NAME
+V_SERV_Q
+NEXT_BLOCK
+INV_TOT
+V_DISC_Q
+PUSH_BUTTON481
+KASM_PER
+RECT734
+RECT841
+RECT903
+RECT898
+RECT902
+RECT965
+GRAPHIC791
+RECT790
+RECT134
+TEXT157
+Simplified Arabic
+TEXT770
+Simplified Arabic
+TEXT777
+Arabic Transparent
+TEXT780
+TEXT786
+GRAPHIC789
+TEXT792
+Arabic Transparent
+GRAPHIC795
+GRAPHIC796
+GRAPHIC801
+TEXT802
+TEXT810
+TEXT813
+TEXT816
+TEXT819
+TEXT822
+TEXT825
+TEXT831
+Arabic Transparent
+TEXT836
+TEXT842
+TEXT899
+TEXT966
+TEXT164
+Simplified Arabic
+TEXT167
+Simplified Arabic
+TEXT170
+TEXT164
+Simplified Arabic
+TEXT170
+TEXT848
+Tahoma
+TEXT851
+TEXT854
+Tahoma
+RECT872
+TEXT848
+TEXT851
+TEXT854
+RECT883
+TEXT884
+TEXT887
+TEXT890
+TEXT893
+RECT872
+TEXT848
+TEXT851
+TEXT854
+TEXT913
+RECT872
+TEXT848
+TEXT851
+TEXT854
+TEXT913
+RECT872
+TEXT848
+TEXT851
+TEXT854
+TEXT913
+GRAPHIC945
+TEXT958
+GRAPHIC994
+RECT872
+TEXT854
+TEXT999
+RECT841
+TEXT813
+TEXT816
+TEXT819
+TEXT822
+TEXT825
+TEXT1010
+TEXT1013
+RECT1016
+GRAPHIC1017
+RECT993
+TEXT987
+TEXT990
+TEXT1018
+TEXT1024
+TEXT1027
+TEXT913
+TEXT913
+RECT971
+===UCS2-LE===
+]cdfhjln
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!)178>ACKQTVXZ\^`b
+%'-068>A
+%'-068>A
+ !')/2468
+%(.069?AGJ
+ !')/2468
+%'-068>A
+%'-068>A
+BHKLMSVWXZ\^`bdf
+%(.069?AGJ
+KQTUV\_`acegikmoq
+%(.069?AGJ
+%'-068>A
+%'-068>A
+*017:<>@B
+ (.069;=?A
+*017:<>@B

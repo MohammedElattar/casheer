@@ -1,0 +1,1904 @@
+src=M_CASHEAR/pation_kard.rep
+sha256=241503908983d6e2fdda635c8af4ca031df2894a29a6634f4900518a9eb2d408
+size=81920
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.279806+00:00
+version_markers=ROS.60050
+ascii_lines=1891
+ucs2_lines=1
+trigger_count=0
+pl_sql_markers=14
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+F_OS_AX
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+F_OS_READ
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+F_OS_VA
+# JpL V
+X(^pbpb@b@f8j8l
+v0w0x0ypzpz0z
+F_OS_IPD
+# JpL P
+R(VpZpZ8Z@^8b8d
+n0o0p0qprpr0r
+# JpL R
+T(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_SCI_OS
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+# JpL T
+V(Zp^p^@^8b8d8f
+r0s0t0upvpv0v
+F_OS_IR
+# JpL P
+R(VpZpZ8Z@^8b8d
+p0q0r0sptpv0v
+# JpL T
+V(Zp^p^@^@b8f8h
+t0u0v0wpxpz0z
+F_OS_K
+# JpL P
+R(VpZpZ8Z8\8^8`
+l0m0n0opppr0r
+# JpL P
+R(VpZpZ@Z8^8`8b
+n0o0p0qprpr0r
+p0q0r0sptpv0v
+qF_AC_OS
+# JpL X
+Z(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+sF_PUPIL_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+uF_LENS_OS
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+wF_T_OS
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+yF_CORNEA_R
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+{F_OD_SPH
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+}F_OD_CYL
+# JpL T
+V(Zp^p^8^@b8f8h
+r0s0t0upvpv0v
+F_OD_AX
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+F_OD_READ
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+F_OD_VA
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+\ORIENTATION
+Landscape
+Orientation
+acle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Totadp
+ (ps to "n
+r88g25b75
+x" ,page)
+r100r100g75b75ne
+x" ,es[0].lo
+r100r25g100b75+ 
+C+fileext;
+PUPIL_OS
+HGZ_TBL.PUPIL_OS
+PUPIL_OS
+oin first page */
+	if (jump_index > 1)
+		jump_index--;
+		new_page(form, jump_index
+6DECIMAL
+munction forward(form)
+	/* if we are not in last page */
+	if (jump_index < num_page
+kOPHTH
+n(form, jump_index);
+/* go to first page */
+function first(form)
+	if(jump_ind
+OD_CYL
+nnew_page(form, jump_index);
+/* go to last page */
+function last(form)
+	if(ju
+g_name
+ JpL R
+T(Zp^_index = num_pages;
+		new_page(form, jump_index);
+(F_MED
+ JpL V
+X(^pbunction pagenum(form)
+	/* sanity check */
+	if (form.reqpag
+`F_OD_IPD
+eqpage.value = 1;
+	if (form.reqpage.value > num_pages)
+		form.reqpage.value = num_pages;
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+SELECT ALL PATION_TBL.P_ID, 
+PATION_TBL.P_NAME, PATION_TBL.B_DATE, PATION_TBL.AGEE, PATION_TBL.GENDER, 
+HGZ_TBL.P_DATE, PATION_TBL.HTN_R, PATION_TBL.IDDM_R, PATION_TBL.NIDDM_R, 
+PATION_TBL.CANDIADIAC_R, PATION_TBL.RENAL_R, PATION_TBL.OTHR_R, PATION_TBL.MED, 
+PATION_TBL.OPHTH, HGZ_TBL.CO, HGZ_TBL.VA, HGZ_TBL.LID, HGZ_TBL.CONJ, 
+HGZ_TBL.LAC, HGZ_TBL.EOM, HGZ_TBL.PUPIL, HGZ_TBL.LENS, HGZ_TBL.T, HGZ_TBL.CORNEA_L, 
+HGZ_TBL.VA_OS, HGZ_TBL.LID_OS, HGZ_TBL.CONJ_OS, HGZ_TBL.LAC_OS, 
+HGZ_TBL.EOM_OS, HGZ_TBL.AC_OS, HGZ_TBL.PUPIL_OS, HGZ_TBL.LENS_OS, HGZ_TBL.T_OS, 
+HGZ_TBL.CORNEA_R, HGZ_TBL.OD_SPH, HGZ_TBL.OD_CYL, HGZ_TBL.OD_AX, 
+HGZ_TBL.OD_READ, HGZ_TBL.OD_VA, HGZ_TBL.AC, HGZ_TBL.OD_IPD, HGZ_TBL.OS_SPH, 
+HGZ_TBL.OS_CYL, HGZ_TBL.OS_AX, HGZ_TBL.OS_READ, HGZ_TBL.OS_VA, HGZ_TBL.OS_IPD, 
+HGZ_TBL.R, HGZ_TBL.H_REM, HGZ_TBL.SEL, HGZ_TBL.ASBKIA, HGZ_TBL.SCI_OS, 
+HGZ_TBL.SCI, HGZ_TBL.IR, HGZ_TBL.OS_IR, HGZ_TBL.K, HGZ_TBL.OS_K
+FROM HGZ_TBL, PATION_TBL
+WHERE (PATION_TBL.P_ID = HGZ_TBL.P_ID) and
+PATION_TBL.P_ID = :p_i and 
+HGZ_TBL.P_DATE = :p_d
+SELECT ALL HGZ_TBL_PHOTOS.P_ID, 
+HGZ_TBL_PHOTOS.PHOTO, HGZ_TBL_PHOTOS.E_TYPE, HGZ_TBL_PHOTOS.P_DATE
+FROM HGZ_TBL_PHOTOS 
+where 
+HGZ_TBL_PHOTOS.P_ID = :p_i and
+HGZ_TBL_PHOTOS.P_DATE = :p_d
+and HGZ_TBL_PHOTOS.E_TYPE = 3
+SELECT ALL HGZ_TBL_PHOTOS.P_ID, 
+HGZ_TBL_PHOTOS.PHOTO, HGZ_TBL_PHOTOS.E_TYPE, HGZ_TBL_PHOTOS.P_DATE
+FROM HGZ_TBL_PHOTOS 
+where 
+HGZ_TBL_PHOTOS.P_ID = :p_i and
+HGZ_TBL_PHOTOS.P_DATE = :p_d
+and HGZ_TBL_PHOTOS.E_TYPE =4
+n(n(r(v
+RUNONLY
+pation_kard
+\F_OD_VA
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+\ORIENTATION
+Landscape
+Orientation
+k0l0m0n8p8r
+r#rFrFr[r[r[r[r[r^
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<font color=red><!--error--></font>
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+PATION_KARD
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+Report Parameters
+Enter values for the parameters
+ $ & (
+darkgreen
+ $ & (
+gray96
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+Landscape
+Orientation
+[ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'rbROSOBJMAP
+ros name->id
+)| ROSSTRINGS
+tk2 uiStrings
+(f"ROSSTRUCTS
+struct types
+( bROSTK2RESV
+tk2 reserved
+ctSRW2_ANCHOR
+$amSRW2_BODY_LOCATION
+" cSRW2_BOILERPLATE
+<pSRW2_BUTTON
+lpSRW2_COLUMN
+!miSRW2_DATA_MODEL
+"reSRW2_DISPLAY_TAG
+#/cSRW2_DISTRIBUTION
+ nSRW2_ELEMENT
+<?SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+SRW2_JAVA_APPLET
+0SRW2_JAVA_PROPERTIES
+meSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+SRW2_LINK
+=SRW2_LISTS
+0SRW2_MATRIX
+% $SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+p_SRW2_QUERY
+SRW2_TEXT_SEGMENT
+0TOOL_COMMENT
+ &TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+0VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+Landscape
+Orientation
+class attributes
+ROSLFDESC
+ros lf descrip
+'rbROSOBJMAP
+ros name->id
+)| ROSSTRINGS
+tk2 uiStrings
+(f"ROSSTRUCTS
+struct types
+( bROSTK2RESV
+tk2 reserved
+ctSRW2_ANCHOR
+$amSRW2_BODY_LOCATION
+" cSRW2_BOILERPLATE
+<pSRW2_BUTTON
+lpSRW2_COLUMN
+!miSRW2_DATA_MODEL
+"reSRW2_DISPLAY_TAG
+#/cSRW2_DISTRIBUTION
+ nSRW2_ELEMENT
+<?SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+SRW2_JAVA_APPLET
+0SRW2_JAVA_PROPERTIES
+meSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+SRW2_LINK
+=SRW2_LISTS
+0SRW2_MATRIX
+% $SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+p_SRW2_QUERY
+SRW2_TEXT_SEGMENT
+0TOOL_COMMENT
+ &TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+0VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+Landscape
+Orientation
+class attributes
+ROSLFDESC
+ros lf descrip
+'rbROSOBJMAP
+ros name->id
+)| ROSSTRINGS
+tk2 uiStrings
+(f"ROSSTRUCTS
+struct types
+( bROSTK2RESV
+tk2 reserved
+ctSRW2_ANCHOR
+$amSRW2_BODY_LOCATION
+" cSRW2_BOILERPLATE
+<pSRW2_BUTTON
+lpSRW2_COLUMN
+!miSRW2_DATA_MODEL
+"reSRW2_DISPLAY_TAG
+#/cSRW2_DISTRIBUTION
+ nSRW2_ELEMENT
+<?SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+SRW2_JAVA_APPLET
+0SRW2_JAVA_PROPERTIES
+meSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+SRW2_LINK
+=SRW2_LISTS
+0SRW2_MATRIX
+% $SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+p_SRW2_QUERY
+SRW2_TEXT_SEGMENT
+0TOOL_COMMENT
+ &TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+0VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+Landscape
+Orientation
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+$amSRW2_BODY_LOCATION
+" cSRW2_BOILERPLATE
+<pSRW2_BUTTON
+lpSRW2_COLUMN
+!miSRW2_DATA_MODEL
+"reSRW2_DISPLAY_TAG
+#/cSRW2_DISTRIBUTION
+ nSRW2_ELEMENT
+<?SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+SRW2_JAVA_APPLET
+0SRW2_JAVA_PROPERTIES
+meSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+SRW2_LINK
+=SRW2_LISTS
+0SRW2_MATRIX
+% $SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+p_SRW2_QUERY
+SRW2_TEXT_SEGMENT
+0TOOL_COMMENT
+ &TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+0VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+Landscape
+Orientation
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+Landscape
+Orientation
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+Orientation
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+g_nameformula
+BlP_ID
+PATION_TBL.P_ID
+HoP_NAME
+PATION_TBL.P_NAME
+P_NAME
+HrB_DATE
+PATION_TBL.B_DATE
+B_DATE
+BuAGEE
+PATION_TBL.AGEE
+HxGENDER
+PATION_TBL.GENDER
+GENDER
+E{P_DATE
+HGZ_TBL.P_DATE
+P_DATE
+E~HTN_R
+PATION_TBL.HTN_R
+IDDM_R
+PATION_TBL.IDDM_R
+IDDM_R
+NIDDM_R
+PATION_TBL.NIDDM_R
+NIDDM_R
+CANDIADIAC_R
+PATION_TBL.CANDIADIAC_R
+CANDIADIAC_R
+RENAL_R
+PATION_TBL.RENAL_R
+RENAL_R
+OTHR_R
+PATION_TBL.OTHR_R
+OTHR_R
+PATION_TBL.MED
+PATION_TBL.OPHTH
+1 20405
+HGZ_TBL.CO
+1 20405
+HGZ_TBL.VA
+4 60809
+HGZ_TBL.LID
+7 80:0;
+HGZ_TBL.CONJ
+4 60809
+HGZ_TBL.LAC
+4 60809
+HGZ_TBL.EOM
+: <0>0?
+HGZ_TBL.PUPIL
+7 80:0;
+HGZ_TBL.LENS
+HGZ_TBL.T
+CORNEA_L
+HGZ_TBL.CORNEA_L
+CORNEA_L
+: <0>0?
+HGZ_TBL.VA_OS
+= >0@0A
+LID_OS
+HGZ_TBL.LID_OS
+LID_OS
+@ B0D0E
+CONJ_OS
+HGZ_TBL.CONJ_OS
+CONJ_OS
+= >0@0A
+LAC_OS
+HGZ_TBL.LAC_OS
+LAC_OS
+= >0@0A
+EOM_OS
+HGZ_TBL.EOM_OS
+EOM_OS
+: <0>0?
+HGZ_TBL.AC_OS
+C D0F0G
+PUPIL_OS
+HGZ_TBL.PUPIL_OS
+PUPIL_OS
+@ B0D0E
+LENS_OS
+HGZ_TBL.LENS_OS
+LENS_OS
+HGZ_TBL.T_OS
+CORNEA_R
+HGZ_TBL.CORNEA_R
+CORNEA_R
+OD_SPH
+HGZ_TBL.OD_SPH
+OD_SPH
+OD_CYL
+HGZ_TBL.OD_CYL
+OD_CYL
+HGZ_TBL.OD_AX
+OD_READ
+HGZ_TBL.OD_READ
+OD_READ
+HGZ_TBL.OD_VA
+1 20405
+HGZ_TBL.AC
+OD_IPD
+HGZ_TBL.OD_IPD
+OD_IPD
+OS_SPH
+HGZ_TBL.OS_SPH
+OS_SPH
+OS_CYL
+HGZ_TBL.OS_CYL
+OS_CYL
+HGZ_TBL.OS_AX
+OS_READ
+HGZ_TBL.OS_READ
+OS_READ
+HGZ_TBL.OS_VA
+OS_IPD
+HGZ_TBL.OS_IPD
+OS_IPD
+. 00203
+HGZ_TBL.R
+: <0>0?
+HGZ_TBL.H_REM
+HGZ_TBL.SEL
+p p'p6
+ASBKIA
+HGZ_TBL.ASBKIA
+ASBKIA
+p p'p6
+> @0B0C
+SCI_OS
+HGZ_TBL.SCI_OS
+SCI_OS
+p p$p0
+5 60809
+HGZ_TBL.SCI
+p p#p.
+2 40607
+HGZ_TBL.IR
+p p&p4
+; <0>0?
+HGZ_TBL.OS_IR
+p p"p,
+/ 00203
+HGZ_TBL.K
+p p%p2
+8 :0<0=
+HGZ_TBL.OS_K
+p p%p9
+@0A0B D
+HGZ_TBL_PHOTOS.P_ID
+p p&p;
+C0D0E F
+HGZ_TBL_PHOTOS.PHOTO
+p p'p=
+F0G0H J
+E_TYPE
+HGZ_TBL_PHOTOS.E_TYPE
+E_TYPE
+p p'p=
+F0G0H J
+P_DATE
+HGZ_TBL_PHOTOS.P_DATE
+P_DATE
+p p%p9
+@0A0B D
+HGZ_TBL_PHOTOS.P_ID
+p p&p;
+C0D0E F
+HGZ_TBL_PHOTOS.PHOTO
+p p'p=
+F0G0H J
+E_TYPE
+HGZ_TBL_PHOTOS.E_TYPE
+E_TYPE
+p p'p=
+F0G0H J
+P_DATE
+HGZ_TBL_PHOTOS.P_DATE
+P_DATE
+.p2p2p2
+4@:8>8@8B
+.p2p2p2
+4@:8>8@8B
+.p2p2p2
+4@:8>8@8B
+_xb@b8f8h@j n
+ppqpqpx
+AG_P_ID
+G_P_ID
+LIST_G_P_ID
+bxf@f8j8l8n
+qprprpz
+G_P_ID1
+G_P_ID1
+LIST_G_P_ID1
+bxf@f@j8n8p
+sptptp|
+G_P_ID2
+G_P_ID2
+LIST_G_P_ID2
+2PRINTJOB
+Show Print Job Dialog
+Default
+Output Mode
+4BACKGROUND
+Run in Background
+5ORIENTATION
+Landscape
+Orientation
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+{0|0}0~0
+7THOUSANDS
+Thousands Indicator
+|0}0~0
+8CURRENCY
+Currency Symbol
+9COPIES
+Number of Copies
+:DESFORMAT
+Destination Format
+x0y0z0{0|0}0~p
+;DESNAME
+Destination Name
+<DESTYPE
+Screen
+Destination Type
+s0t0u0v0w0x0ypz
+s0t0u0v0w0x0ypz
+w0x0y0z0{0|0}p~(
+{0|0}0~0
+GP_NAME
+P Name
+P_NAME
+{0|0}0~0
+JB_DATE
+B Date
+B_DATE
+w0x0y0z0{0|0}p~ 
+{0|0}0~0
+PGENDER
+Gender
+GENDER
+{0|0}0~0
+SP_DATE
+P Date
+P_DATE
+w0x0y0z0{0|0}p~(
+VHTN_R
+{0|0}0~0
+YIDDM_R
+Iddm R
+IDDM_R
+w0x0y0z0{0|0}p~(
+\NIDDM_R
+Niddm R
+NIDDM_R
+_CANDIADIAC_R
+Candiadiac R
+CANDIADIAC_R
+w0x0y0z0{0|0}p~(
+bRENAL_R
+Renal R
+RENAL_R
+{0|0}0~0
+eOTHR_R
+Othr R
+OTHR_R
+s0t0u0v0w0x0ypz(~
+5ORIENTATION
+Landscape
+Orientation
+w0x0y0z0{0|0}p~(
+kOPHTH
+x0y0z0{0|0}0~p
+x0y0z0{0|0}0~p
+t0u0v0w0x0y0zp{(
+x0y0z0{0|0}0~p
+t0u0v0w0x0y0zp{(
+t0u0v0w0x0y0zp{(
+x0y0z0{0|0}0~p
+x0y0z0{0|0}0~p
+s0t0u0v0w0x0ypz(~
+{0|0}0~0
+CORNEA_L
+Cornea L
+CORNEA_L
+x0y0z0{0|0}0~p
+|0}0~0
+LID_OS
+Lid Os
+LID_OS
+x0y0z0{0|0}0~p
+CONJ_OS
+Conj Os
+CONJ_OS
+|0}0~0
+LAC_OS
+Lac Os
+LAC_OS
+|0}0~0
+EOM_OS
+Eom Os
+EOM_OS
+x0y0z0{0|0}0~p
+|0}0~0
+PUPIL_OS
+Pupil Os
+PUPIL_OS
+x0y0z0{0|0}0~p
+LENS_OS
+Lens Os
+LENS_OS
+w0x0y0z0{0|0}p~(
+{0|0}0~0
+CORNEA_R
+Cornea R
+CORNEA_R
+{0|0}0~0
+OD_SPH
+Od Sph
+OD_SPH
+5ORIENTATION
+Landscape
+Orientation
+{0|0}0~0
+OD_CYL
+Od Cyl
+OD_CYL
+w0x0y0z0{0|0}p~(
+w0x0y0z0{0|0}p~(
+OD_READ
+Od Read
+OD_READ
+w0x0y0z0{0|0}p~(
+x0y0z0{0|0}0~p
+{0|0}0~0
+OD_IPD
+Od Ipd
+OD_IPD
+{0|0}0~0
+OS_SPH
+Os Sph
+OS_SPH
+{0|0}0~0
+OS_CYL
+Os Cyl
+OS_CYL
+w0x0y0z0{0|0}p~(
+w0x0y0z0{0|0}p~(
+OS_READ
+Os Read
+OS_READ
+w0x0y0z0{0|0}p~(
+{0|0}0~0
+OS_IPD
+Os Ipd
+OS_IPD
+t0u0v0w0x0y0zp{(
+x0y0z0{0|0}0~p
+s0t0u0v0w0x0ypz ~
+{0|0}0~0
+ASBKIA
+Asbkia
+ASBKIA
+|0}0~0
+SCI_OS
+Sci Os
+SCI_OS
+x0y0z0{0|0}0~p
+x0y0z0{0|0}0~p
+|0}0~0
+x0y0z0{0|0}0~p
+|0}0~0
+5ORIENTATION
+Landscape
+Orientation
+{0|0}0~0
+g_name
+G_NAME
+{0|0}0~0
+{0|0}0~0
+E_TYPE
+E Type
+E_TYPE
+P_DATE1
+P Date1
+P_DATE1
+{0|0}0~0
+PHOTO1
+Photo1
+PHOTO1
+E_TYPE1
+E Type1
+E_TYPE1
+P_DATE2
+P Date2
+P_DATE2
+ BpD N
+P(VpZpZ0Z0[@^@b
+i0j0k0l0m0n0o
+R_G_P_ID
+ BpD H
+J(NpRpR8R8T8V8X
+_0`0a0b0c0d0e
+ BpD H
+J(NpRpR@R8V8X8Z
+a0b0c0d0e0f0g
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+F_P_ID
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_P_NAME
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+F_B_DATE
+# JpL T
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+F_AGEE
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_GENDER
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_P_DATE
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+F_HTN_R
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_IDDM_R
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+ F_NIDDM_R
+# JpL \
+^(bpfpf@f8j8l8n
+x0y0z0{p|p~0~
+"F_CANDIADIAC_R
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+$F_RENAL_R
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+&F_OTHR_R
+5ORIENTATION
+Landscape
+Orientation
+# JpL R
+T(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+(F_MED
+# JpL T
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+*F_OPHTH
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+0F_LID
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+2F_CONJ
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+4F_LAC
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+6F_EOM
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+8F_PUPIL
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+:F_LENS
+# JpL P
+R(VpZpZ8Z@^8b8d
+n0o0p0qprpr0r
+# JpL X
+Z(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+>F_CORNEA_L
+# JpL T
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+@F_VA_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+BF_LID_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+DF_CONJ_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+FF_LAC_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+HF_EOM_OS
+# JpL T
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+JF_AC_OS
+# JpL X
+Z(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+LF_PUPIL_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+NF_LENS_OS
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+PF_T_OS
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+RF_CORNEA_R
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+TF_OD_SPH
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+VF_OD_CYL
+# JpL T
+V(Zp^p^8^@b8f8h
+r0s0t0upvpv0v
+XF_OD_AX
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+ZF_OD_READ
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+\F_OD_VA
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+\ORIENTATION
+Landscape
+Orientation
+# JpL V
+X(^pbpb@b@f8j8l
+v0w0x0ypzpz0z
+`F_OD_IPD
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+bF_OS_SPH
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+dF_OS_CYL
+# JpL T
+V(Zp^p^8^@b8f8h
+r0s0t0upvpv0v
+fF_OS_AX
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+hF_OS_READ
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+jF_OS_VA
+# JpL V
+X(^pbpb@b@f8j8l
+v0w0x0ypzpz0z
+lF_OS_IPD
+# JpL P
+R(VpZpZ8Z@^8b8d
+n0o0p0qprpr0r
+# JpL R
+T(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+rF_SEL
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+vF_SCI_OS
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+xF_SCI
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+# JpL T
+V(Zp^p^@^8b8d8f
+r0s0t0upvpv0v
+|F_OS_IR
+# JpL P
+R(VpZpZ8Z@^8b8d
+p0q0r0sptpv0v
+# JpL T
+V(Zp^p^@^@b8f8h
+t0u0v0wpxpz0z
+F_OS_K
+# JpL P
+R(VpZpZ8Z8\8^8`
+l0m0n0opppr0r
+# JpL P
+R(VpZpZ@Z8^8`8b
+n0o0p0qprpr0r
+p0q0r0sptpv0v
+JF_AC_OS
+# JpL X
+Z(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+LF_PUPIL_OS
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+NF_LENS_OS
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+PF_T_OS
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+RF_CORNEA_R
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+TF_OD_SPH
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+VF_OD_CYL
+# JpL T
+V(Zp^p^8^@b8f8h
+r0s0t0upvpv0v
+XF_OD_AX
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+ZF_OD_READ
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvpv0v
+\F_OD_VA
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+\ORIENTATION
+Landscape
+Orientation
+G_NAMEFORMULA
+STANDARD
+"PKG INIT"G_NAMEFORMULA"T""
+"FUNCTION"G_NAMEFORMULA"RETURN"CHAR"T"VARCHAR2"20"GENDER""="1"
+G_NAMEFORMULA
+tatype
+htatype
+statustype
+statusclass
+status
+htaclass
+vtaclass
+iconsize
+showlabels
+canvasmovable
+viewclass
+casefold
+splitmode
+string
+pageresource
+current
+canapply
+eventprocname
+eventargname
+fgcolor
+compress
+buttons
+properties
+ismapped
+maprequest
+isdragsource
+numrows
+ishoriz
+selected
+enable
+eanble
+2p2p2p2
+:@>8@8B8D
+bxb@f8h8j@n p
+qpqpxpx
+hG_P_ID
+G_P_ID
+LIST_G_P_ID
+ F HpP
+fxf@j8l8n8p
+rprpzpz
+G_P_ID1
+G_P_ID1
+LIST_G_P_ID1
+ F HpP
+fxf@j@n8p8r
+tptp|p|
+G_P_ID2
+G_P_ID2
+LIST_G_P_ID2
+|0}0~0
+YPRINTJOB
+Show Print Job Dialog
+|0}0~0
+Default
+Output Mode
+[BACKGROUND
+Run in Background
+\ORIENTATION
+Landscape
+Orientation
+string
+vgmirt_help
+string
+vgmigr_help
+string
+E<HTML>
+<TITLE>Oracle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Total number of pages
+var basefilename = "&file_name"		// Base file name
+var fileext = "&file_ext"		//File extension
+/* jumps to "new_page" */
+function new_page(form, new_page)
+	form.reqpage.value = new_page;
+	parent.frames[0].location = basefilename + "_" + new_page + "."+fileext;
+/* go back one page */
+function back(form)
+	/* if we are not in first page */
+	if (jump_index > 1)
+		jump_index--;
+		new_page(form, jump_index);
+/* go forward one page */
+function forward(form)
+	/* if we are not in last page */
+	if (jump_index < num_pages)
+		jump_index++;
+		new_page(form, jump_index);
+/* go to first page */
+function first(form)
+	if(jump_index != 1)
+		jump_index = 1;
+		new_page(form, jump_index);
+/* go to last page */
+function last(form)
+	if(jump_index != num_pages)
+		jump_index = num_pages;
+		new_page(form, jump_index);
+/* go to the user specified page number */
+function pagenum(form)
+	/* sanity check */
+	if (form.reqpage.value < 1)
+		form.reqpage.value = 1;
+	if (form.reqpage.value > num_pages)
+		form.reqpage.value = num_pages;
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+SELECT ALL PATION_TBL.P_ID, 
+PATION_TBL.P_NAME, PATION_TBL.B_DATE, PATION_TBL.AGEE, PATION_TBL.GENDER, 
+HGZ_TBL.P_DATE, PATION_TBL.HTN_R, PATION_TBL.IDDM_R, PATION_TBL.NIDDM_R, 
+PATION_TBL.CANDIADIAC_R, PATION_TBL.RENAL_R, PATION_TBL.OTHR_R, PATION_TBL.MED, 
+PATION_TBL.OPHTH, HGZ_TBL.CO, HGZ_TBL.VA, HGZ_TBL.LID, HGZ_TBL.CONJ, 
+HGZ_TBL.LAC, HGZ_TBL.EOM, HGZ_TBL.PUPIL, HGZ_TBL.LENS, HGZ_TBL.T, HGZ_TBL.CORNEA_L, 
+HGZ_TBL.VA_OS, HGZ_TBL.LID_OS, HGZ_TBL.CONJ_OS, HGZ_TBL.LAC_OS, 
+HGZ_TBL.EOM_OS, HGZ_TBL.AC_OS, HGZ_TBL.PUPIL_OS, HGZ_TBL.LENS_OS, HGZ_TBL.T_OS, 
+HGZ_TBL.CORNEA_R, HGZ_TBL.OD_SPH, HGZ_TBL.OD_CYL, HGZ_TBL.OD_AX, 
+HGZ_TBL.OD_READ, HGZ_TBL.OD_VA, HGZ_TBL.AC, HGZ_TBL.OD_IPD, HGZ_TBL.OS_SPH, 
+HGZ_TBL.OS_CYL, HGZ_TBL.OS_AX, HGZ_TBL.OS_READ, HGZ_TBL.OS_VA, HGZ_TBL.OS_IPD, 
+HGZ_TBL.R, HGZ_TBL.H_REM, HGZ_TBL.SEL, HGZ_TBL.ASBKIA, HGZ_TBL.SCI_OS, 
+HGZ_TBL.SCI, HGZ_TBL.IR, HGZ_TBL.OS_IR, HGZ_TBL.K, HGZ_TBL.OS_K
+FROM HGZ_TBL, PATION_TBL
+WHERE (PATION_TBL.P_ID = HGZ_TBL.P_ID) and
+PATION_TBL.P_ID = :p_i and 
+HGZ_TBL.P_DATE = :p_d
+SELECT ALL HGZ_TBL_PHOTOS.P_ID, 
+HGZ_TBL_PHOTOS.PHOTO, HGZ_TBL_PHOTOS.E_TYPE, HGZ_TBL_PHOTOS.P_DATE
+FROM HGZ_TBL_PHOTOS 
+where 
+HGZ_TBL_PHOTOS.P_ID = :p_i and
+HGZ_TBL_PHOTOS.P_DATE = :p_d
+and HGZ_TBL_PHOTOS.E_TYPE = 3
+SELECT ALL HGZ_TBL_PHOTOS.P_ID, 
+HGZ_TBL_PHOTOS.PHOTO, HGZ_TBL_PHOTOS.E_TYPE, HGZ_TBL_PHOTOS.P_DATE
+FROM HGZ_TBL_PHOTOS 
+where 
+HGZ_TBL_PHOTOS.P_ID = :p_i and
+HGZ_TBL_PHOTOS.P_DATE = :p_d
+and HGZ_TBL_PHOTOS.E_TYPE =4
+n(n(r(v
+RUNONLY
+pation_kard
+\F_OD_VA
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+\ORIENTATION
+Landscape
+Orientation
+===UCS2-LE===
+#$(359:AIMPSUX\aefmprvz

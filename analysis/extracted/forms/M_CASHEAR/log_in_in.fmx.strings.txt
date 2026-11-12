@@ -1,0 +1,344 @@
+src=M_CASHEAR/log_in_in.fmx
+sha256=8f84bb381f42331996470aa0298434fc22c6a90b7ab68b2e0c8ea79185d2b2ae
+size=1703416
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:06.094417+00:00
+version_markers=none
+ascii_lines=324
+ucs2_lines=8
+trigger_count=0
+pl_sql_markers=11
+===ASCII===
+LOG_IN_IN
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P4_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P5_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P7_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+FORMS4C
+FORMS4W
+STANDARD
+"PKG INIT"<anonymous>""
+window1
+P1_10_JAN_200413_50_44
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P3_05_DEC_200021_50_18
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+STANDARD
+"PKG INIT"P_RUNREPORT""
+P_RUNREPORT
+CURRENTRECCORD
+Arabic Transparent
+MANDATORY
+Traditional Arabic
+OPTIONAL
+Traditional Arabic
+DISPLAY
+Traditional Arabic
+CANVAS
+Traditional Arabic
+TOOLBAR
+Traditional Arabic
+#POPUPHINT#
+MELFIKY
+Traditional Arabic
+Simplified Arabic
+Cancel
+Simplified Arabic
+Cancel
+My Editor
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL  where JOB_CODE=13
+order by emp_NAME
+EMP_ID
+EMP_NAME
+SELECT ALL POINT_TBL.POINT_CODE, 
+POINT_TBL.POINT_NAME, EMP_POINT.SHIFT_TYP, SHIFT_TBL.SHIFT_NAME
+FROM POINT_TBL, EMP_POINT, SHIFT_TBL
+WHERE ((EMP_POINT.POINT_CODE = POINT_TBL.POINT_CODE)
+ AND (SHIFT_TBL.SHIFT_TYP = EMP_POINT.SHIFT_TYP))
+and EMP_POINT.emp_id = :emp_id and
+EMP_POINT.shift_typ = :wrd
+ORDER BY POINT_TBL.POINT_CODE 
+POINT_CODE
+POINT_NAME
+SHIFT_TYP
+SHIFT_NAME
+Point_Code
+Point_Name
+Shift_Name
+333333
+p=p=p=
+(\(\(\
+ffffff
+Simplified Arabic
+MS Sans Serif
+P0_10_JAN_200414_08_02
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/????????
+Save Changes/??? ??????? ?
+Yes/???
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+PREVIOUS
+PREVIOUS
+previous
+P2_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+/NSPC1/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P6_10_JAN_200414_08_02
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+Ok/???
+P7_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+DELETE
+DELETE
+Delete
+delete
+P8_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+Traditional Arabic
+Simplified Arabic
+Simplified Arabic
+P5_14_SEP_200411_31_57
+STANDARD
+MAHROSA
+EMP_TBL
+MAHROSA
+SUB_DEPT
+MAHROSA
+DEPT_TBL
+"PKG INIT"<anonymous>"C"D"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 7>"<SQL statement. Line 8>"<SQL statement. Line 9>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_CODE   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_NAME,DEPT_CODE   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"SELECT DEPT_NAME   FROM DEPT_TBL  WHERE DEPT_CODE = :b1"
+Simplified Arabic
+WINDOW1
+THREEBUTTON
+USER_NAME
+PUSH_BUTTON29
+EMP_ID
+P0_14_SEP_200411_31_57
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+emp_id
+P2_14_SEP_200411_31_57
+STANDARD
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>"A_VALUE_CHOSEN""
+You have not selected a value.
+P8_14_SEP_200411_31_57
+STANDARD
+SQLFORMS
+MAHROSA
+EMP_TBL
+MAHROSA
+	EMP_POINT
+FORMS4C
+"PKG INIT"<anonymous>"C"LIST_ID"ID"DD"<cursor ptr>"<SQL statement. Line 118>"<SQL statement. Line 126>""
+ .... 
+advisor
+pt_code
+D:\TakeAway\TAKE_AWAY
+D:\a_mahroosa\k_main2
+D:\m_cashear\sery
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1  AND EMP_PASS = :b2"SELECT COUNT(*)   FROM EMP_POINT  WHERE EMP_ID = :b1  AND POINT_CODE = :b2  AND SHIFT_TYP = :b3"
+P3_18_SEP_200408_48_54
+SQLFORMS
+"PKG INIT"<anonymous>""
+P2_11_OCT_200413_47_42
+STANDARD
+SQLFORMS
+MAHROSA
+EMP_TBL
+MAHROSA
+	EMP_POINT
+FORMS4C
+"PKG INIT"<anonymous>"C"LIST_ID"ID"<cursor ptr>"<SQL statement. Line 9>"<SQL statement. Line 15>""
+ .... 
+******************
+pt_code
+point_close
+SELECT COUNT(*)   FROM EMP_TBL  WHERE EMP_ID = :b1  AND EMP_PASS = :b2"SELECT COUNT(*)   FROM EMP_POINT  WHERE EMP_ID = :b1  AND POINT_CODE = :b2  AND SHIFT_TYP = :b3"
+P2_26_MAR_200513_28_32
+STANDARD
+MAHROSA
+EMP_TBL
+MAHROSA
+SUB_DEPT
+MAHROSA
+DEPT_TBL
+"PKG INIT"<anonymous>"C"D"<cursor ptr>"<SQL statement. Line 6>"<SQL statement. Line 7>"<SQL statement. Line 8>"<SQL statement. Line 9>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_CODE   FROM EMP_TBL  WHERE EMP_ID = :b1"SELECT SUB_DEPT_NAME,DEPT_CODE   FROM SUB_DEPT  WHERE SUB_DEPT_CODE = :b1"SELECT DEPT_NAME   FROM DEPT_TBL  WHERE DEPT_CODE = :b1"
+PUSH_BUTTON14
+ITEM60
+MYEDITOR
+UFORMNAME
+POINT_ID
+DELETE
+TOOLBAR
+CANVAS1
+SUB_DEPT
+TWOBUTTON
+P_RUNREPORT
+PREVIOUS
+ITEM19
+ITEM69
+ONEBUTTON
+IMAGE87
+RECT54
+ROUNDRECT30
+GRAPHIC32
+GRAPHIC33
+TEXT34
+GRAPHIC37
+TEXT39
+Simplified Arabic
+TEXT42
+TEXT45
+TEXT48
+GRAPHIC59
+GRAPHIC61
+GRAPHIC66
+GRAPHIC68
+TEXT84
+IMAGE88
+GRAPHIC90
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+O"(jVv
+hR5<4x
+pWG,`s
+{}+n?q
+1ZlfKgq
++Ju,/gq<
+5gdb\]M/
+|{W%|!
+w=Z_	|
+Dyt=Jf
++zP+d`
+Vb(kVBH
+F>^3^y
+=<49t4e
+0B"\V7
+.S_+$B
+np=:7_
+(A}:\$7
+~n?v?w
+B+2(?tq
+3KRKy<E
+,*F_Xd
+?wR1WeR
+F.UzWN
+{`qK@H
+Url&})
+OcMn~N;v
+Y!LBP 
+cRkd_)GL
+P1G[ds
+uaLjlWo
+dkxz_6
+s\5bZ6
+W<4588
+H@L9`pF
+W'c2?>
+Q-"]4t
+===UCS2-LE===
+ !'*+,24:=
+>DFLOPQWY_b
+cilmntv|
+%&,/178>@FIOQWZ\^`bdfh
+%&,/179?BHJPSUWY[]_
+ !'*+,24:=
+>DFLOPQWY_b
+cilmntv|

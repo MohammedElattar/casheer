@@ -1,0 +1,17 @@
+stem,ext,path,size_bytes,triggers,rank,verdict,evidence,confirmation
+sery,.fmb,M_CASHEAR/sery_last.fmb,1277952,171,1,CANDIDATE_ACTIVE,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmb,M_CASHEAR/sery_last20.fmb,1277952,171,2,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmb,M_CASHEAR/sery.fmb,778240,169,3,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmb,M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmb,643072,152,4,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmb,M_CASHEAR/sery_old.fmb,1085440,150,5,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmx,M_CASHEAR/sery_last.fmx,525128,0,1,CANDIDATE_ACTIVE,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmx,M_CASHEAR/امتداد عضوية  حتى شهر3/sery.fmx,393048,0,2,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmx,M_CASHEAR/sery_old.fmx,392944,0,3,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+sery,.fmx,M_CASHEAR/sery.fmx,392752,0,4,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmb,M_CASHEAR/take_away.fmb,1183744,171,1,CANDIDATE_ACTIVE,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmb,M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmb,1110016,163,2,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmb,M_CASHEAR/take_away - Copy.fmb,1097728,163,3,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmb,M_CASHEAR/SQL/take_away.fmb,737280,163,4,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmx,M_CASHEAR/SQL/take_away.fmx,455248,0,1,CANDIDATE_ACTIVE,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmx,M_CASHEAR/امتداد عضوية  حتى شهر3/take_away.fmx,454848,0,2,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED
+take_away,.fmx,M_CASHEAR/take_away.fmx,383884,0,3,candidate_historical,"max(triggers,size) in variant group",BUSINESS_OWNER_CONFIRMATION_REQUIRED

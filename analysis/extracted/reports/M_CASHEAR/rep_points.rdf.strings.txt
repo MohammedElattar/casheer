@@ -1,0 +1,1452 @@
+src=M_CASHEAR/rep_points.rdf
+sha256=5d164dc42dff33f177fb2483995f65f9e2094318552bdfba193dd04c5b0b4821
+size=69632
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.742925+00:00
+version_markers=ROS.60050
+ascii_lines=1438
+ucs2_lines=2
+trigger_count=0
+pl_sql_markers=14
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+# JpL T
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+F_DATE1
+# JpL ^
+`(fpjpj8j8l8n8p
+|0}0~0
+F_SumTOTPerReport
+NNNNNNNN0D00
+X(^pbpb8b0d8f8h
+r0s0t0upvpv0v
+F_inv_date
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_POINT_NAME
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_EMP_NAME
+Z(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+F_SHIFT_NAME
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprp
+NNNNNNNN0D00
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_CAP_NO
+# JpL P
+R(VpZpZ@Z8^8`8b
+l0m0n0oppp
+NNNNNNNN0D00
+# JpL Z
+\(bpfpf0f8h8j8l
+x0y0z0{p|p~0~
+hF_SERIAL_NO1
+# JpL Z
+\(bpfpf8f8h8j8l
+x0y0z0{p|p~0~
+F_SERIAL_NO2
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn0n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+X(^pbpb0b0c@f8j
+q0r0s0t0u0v0w
+M_G_inv_date_GRPFR
+R(VpZpZ0Z0[@^8b
+i0j0k0l0m0n0o
+R_G_inv_date
+Q(RpVpV0V8X@Z8^
+e0f0g0h0i0j0k
+M_G_2_GRPFR
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+)&'ROSLFDESC
+ros lf descrip
+'VWROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrindp
+ $SRW2_BOD
+	r88g25b88
+ *SRW2_DAT
+00r100g75b100
+00r100g100b100
+SRW2_PARAM_FORM
+TOOL_ACCESS
+^THOUSANDS
+~TOOL_MODULE
+VG_COLOR
+VG_COLOR
+~SHIFT_OK
+K(NpRp
+)VG_COLOR
+CELLID
+0R_G_2
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+OINT_NAME
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_EMP_NAME
+Z(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+F_SHIFT_NAME
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprp
+NNNNNNNN0D00
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+F_CAP_NO
+# JpL P
+R(VpZpZ@Z8^8`8b
+l0m0n0oppp
+NNNNNNNN0D00
+# JpL Z
+\(bpfpf0f8h8j8l
+x0y0z0{p|p~0~
+hF_SERIAL_NO1
+# JpL Z
+\(bpfpf8f8h8j8l
+x0y0z0{p|p~0~
+F_SERIAL_NO2
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn0n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+X(^pbpb0b0c@f8j
+q0r0s0t0u0v0w
+M_G_inv_date_GRPFR
+R(VpZpZ0Z0[@^8b
+i0j0k0l0m0n0o
+R_G_inv_date
+Q(RpVpV0V8X@Z8^
+e0f0g0h0i0j0k
+M_G_2_GRPFR
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+k0l8n0p8r8t
+v x0z0{
+r'rJrJr_r_r_r_r_rb
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<font color=red><!--error--></font>
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+REP_POINTS
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+Report Parameters
+Enter values for the parameters
+   " $
+	darkgreen
+   " $
+gray96
+   " $
+gray92
+   " $
+gray88
+   " $
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+	r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+	r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+	r100g0b88
+r0g0b100
+	r25g0b100
+	r50g0b100
+	r75g0b100
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'rfROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(ffROSSTRUCTS
+struct types
+(tiROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$_pSRW2_BODY_LOCATION
+"foSRW2_BOILERPLATE
+erSRW2_BUTTON
+ cSRW2_COLUMN
+!=sSRW2_DATA_MODEL
+"ypSRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+zeSRW2_ELEMENT
+SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+"acSRW2_JAVA_APPLET
+&itSRW2_JAVA_PROPERTIES
+eeSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+ $SRW2_LINK
+SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+5gSRW2_QUERY
+SRW2_TEXT_SEGMENT
+8^TOOL_ACCESS
+ "TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+class attributes
+ROSLFDESC
+ros lf descrip
+'rfROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(ffROSSTRUCTS
+struct types
+(tiROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$_pSRW2_BODY_LOCATION
+"foSRW2_BOILERPLATE
+erSRW2_BUTTON
+ cSRW2_COLUMN
+!=sSRW2_DATA_MODEL
+"ypSRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+zeSRW2_ELEMENT
+SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+"acSRW2_JAVA_APPLET
+&itSRW2_JAVA_PROPERTIES
+eeSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+ $SRW2_LINK
+SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+5gSRW2_QUERY
+SRW2_TEXT_SEGMENT
+8^TOOL_ACCESS
+ "TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+class attributes
+ROSLFDESC
+ros lf descrip
+'rfROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(ffROSSTRUCTS
+struct types
+(tiROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$_pSRW2_BODY_LOCATION
+"foSRW2_BOILERPLATE
+erSRW2_BUTTON
+ cSRW2_COLUMN
+!=sSRW2_DATA_MODEL
+"ypSRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+zeSRW2_ELEMENT
+SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+"acSRW2_JAVA_APPLET
+&itSRW2_JAVA_PROPERTIES
+eeSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+ $SRW2_LINK
+SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+5gSRW2_QUERY
+SRW2_TEXT_SEGMENT
+8^TOOL_ACCESS
+ "TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+$_pSRW2_BODY_LOCATION
+"foSRW2_BOILERPLATE
+erSRW2_BUTTON
+ cSRW2_COLUMN
+!=sSRW2_DATA_MODEL
+"ypSRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+zeSRW2_ELEMENT
+SRW2_FIELD
+'(FSRW2_FORMAT_EXCEPTION
+tSRW2_FRAME
+SRW2_GROUP
+!PaSRW2_GROUP_NODE
+ rsSRW2_HYPERLINK
+"acSRW2_JAVA_APPLET
+&itSRW2_JAVA_PROPERTIES
+eeSRW2_LAYOUT
+SRW2_LAYOUT_GROUP
+ $SRW2_LINK
+SRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+5gSRW2_QUERY
+SRW2_TEXT_SEGMENT
+8^TOOL_ACCESS
+ "TOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+E<HTML>
+<TITLE>Oracle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Total number of pages
+var basefilename = "&file_name"		// Base file name
+var fileext = "&file_ext"		//File extension
+/* jumps to "new_page" */
+function new_page(form, new_page)
+	form.reqpage.value = new_page;
+	parent.frames[0].location = basefilename + "_" + new_page + "."+fileext;
+/* go back one page */
+function back(form)
+	/* if we are not in first page */
+	if (jump_index > 1)
+		jump_index--;
+		new_page(form, jump_index);
+/* go forward one page */
+function forward(form)
+	/* if we are not in last page */
+	if (jump_index < num_pages)
+		jump_index++;
+		new_page(form, jump_index);
+/* go to first page */
+function first(form)
+	if(jump_index != 1)
+		jump_index = 1;
+		new_page(form, jump_index);
+/* go to last page */
+function last(form)
+	if(jump_index != num_pages)
+		jump_index = num_pages;
+		new_page(form, jump_index);
+/* go to the user specified page number */
+function pagenum(form)
+	/* sanity check */
+	if (form.reqpage.value < 1)
+		form.reqpage.value = 1;
+	if (form.reqpage.value > num_pages)
+		form.reqpage.value = num_pages;
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+function SHIFT_NAMEFormula return Char is
+T VARCHAR2(20);
+  IF :SHIFT_OK = 1 THEN
+  	 T := '
+  ELSIF :SHIFT_OK = 1 THEN
+  	 T := '
+  ELSE
+  	 T :='
+  END IF;
+  RETURN T;
+function del_fFormula return Char is
+t varchar2(20);
+  if :del_flg = 1 then
+  	 t := 'deled';
+  end if;
+  return t;
+OSELECT ALL POINT_CAP_VIEW.INV_DATE, POINT_CAP_VIEW.POINT_CODE, POINT_CAP_VIEW.POINT_NAME,POINT_CAP_VIEW.EMP_NAME, POINT_CAP_VIEW.SERIAL_NO, POINT_CAP_VIEW.CAP_NO, POINT_INV_VIEW.SERIAL_NO, POINT_INV_VIEW.TOT, POINT_CAP_VIEW.Tot t,
+POINT_INV_VIEW.SHIFT_OK,POINT_INV_VIEW.SER_NO,POINT_INV_VIEW.del_flg
+FROM POINT_CAP_VIEW, POINT_INV_VIEW
+WHERE ((POINT_INV_VIEW.SERIAL_NO = POINT_CAP_VIEW.SERIAL_NO)
+ AND (POINT_INV_VIEW.EMP_ID = POINT_CAP_VIEW.EMP_ID)
+ AND (POINT_INV_VIEW.SHIFT_TYP = POINT_CAP_VIEW.SHIFT_TYP)
+ AND (POINT_INV_VIEW.POINT_CODE = POINT_CAP_VIEW.POINT_CODE)
+ AND (POINT_INV_VIEW.INV_DATE = POINT_CAP_VIEW.INV_DATE)) and
+POINT_INV_VIEW.INV_DATE = :inv_dt and
+POINT_INV_VIEW.POINT_CODE = :pt_code and
+POINT_INV_VIEW.SHIFT_OK = :shift_code and
+POINT_INV_VIEW.P_EMP_ID = :emp_code
+order by    POINT_INV_VIEW.SERIAL_NO,POINT_CAP_VIEW.CAP_NO
+SQL*ReportWriterKg
+REPORT
+MAHROSAF
+rep_points
+MAHROSAxh
+MAHROSAxi
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+ $ & (
+r100g25b88
+	r0g25b100
+ $ & (
+r25g25b100@
+ $ & (
+r50g25b100
+ $ & (
+r75g25b100
+ $ & (
+r88g25b100
+ & ( *
+r100g25b100
+darkred
+darkblue
+   " $
+gray64\(\(\(
+   " $
+gray60ffffff
+   " $
+gray56p
+   " $
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+	r100g50b0
+r0g50b50
+ $ & (
+	r25g50b50
+ $ & (
+	r50g50b50
+ $ & (
+	r75g50b50
+ $ & (
+	r88g50b50
+ $ & (
+r100g50b50
+r0g50b75
+ $ & (
+	r25g50b75
+ $ & (
+	r50g50b75
+ $ & (
+	r75g50b75
+ $ & (
+	r88g50b75
+ $ & (
+r100g50b75
+r0g50b88
+ $ & (
+	r25g50b88
+ $ & (
+	r50g50b88
+ $ & (
+	r75g50b88
+ $ & (
+	r88g50b88
+ $ & (
+r100g50b88
+	r0g50b100
+ $ & (
+r25g50b100@
+ $ & (
+r50g50b100
+ $ & (
+r75g50b100
+ $ & (
+r88g50b100
+ & ( *
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+   " $
+gray48
+   " $
+gray44
+   " $
+gray40
+   " $
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+	r100g75b0
+00r0g75b50
+ ( * ,
+	00r25g75b50
+ ( * ,
+	00r50g75b50
+ ( * ,
+	00r75g75b50
+ ( * ,
+	00r88g75b50
+ ( * ,
+00r100g75b50
+00r0g75b75
+ ( * ,
+	00r25g75b75
+ ( * ,
+	00r50g75b75
+ ( * ,
+	00r75g75b75
+ ( * ,
+	00r88g75b75
+ ( * ,
+00r100g75b75
+00r0g75b88
+ ( * ,
+	00r25g75b88
+ ( * ,
+	00r50g75b88
+ ( * ,
+	00r75g75b88
+ ( * ,
+	00r88g75b88
+ ( * ,
+00r100g75b88
+	00r0g75b100
+ ( * ,
+00r25g75b100@
+ ( * ,
+00r50g75b100
+ ( * ,
+00r75g75b100
+ ( * ,
+00r88g75b100
+ * , .
+00r100g75b100
+ & ( *
+00custom1
+ & ( *
+00custom2
+ & ( *
+00custom3
+ & ( *
+00custom4
+ $ & (
+00gray32
+ $ & (
+00gray28
+ $ & (
+00gray24
+ $ & (
+00gray20
+00r0g88b0
+00r25g88b0@
+00r50g88b0
+00r75g88b0
+00r88g88b0
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ ( * ,
+	00r50g88b50
+ ( * ,
+	00r75g88b50
+ ( * ,
+	00r88g88b50
+ ( * ,
+00r100g88b50
+00r0g88b75
+ ( * ,
+	00r25g88b75
+ ( * ,
+	00r50g88b75
+ ( * ,
+	00r75g88b75
+ ( * ,
+	00r88g88b75
+ ( * ,
+00r100g88b75
+00r0g88b88
+ ( * ,
+	00r25g88b88
+ ( * ,
+	00r50g88b88
+ ( * ,
+	00r75g88b88
+ ( * ,
+	00r88g88b88
+ ( * ,
+00r100g88b88
+	00r0g88b100
+ ( * ,
+00r25g88b100@
+ ( * ,
+00r50g88b100
+ ( * ,
+00r75g88b100
+ ( * ,
+00r88g88b100
+ * , .
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+	00r25g100b0
+	00r50g100b0
+	00r75g100b0
+	00r88g100b0
+00r100g100b0
+	00r0g100b50
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+00r75g75b100
+ ( * ,
+00r88g75b100
+ * , .
+00r100g100b100
+>p?p?pB0B
+>p?p?pB0B
+>p?p?p?0K
+Courier New
+>p?p?p?0K
+Courier New
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0L
+SCourier New
+ >p@p@p@0L
+TCourier New
+ >p@p@pB0B
+ >p@p@p@0L
+kCourier New
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+shift_nameformula
+del_fformula
+UjSERIAL_NO
+POINT_INV_VIEW.SERIAL_NO
+SERIAL_NO
+EMP_NAME
+POINT_CAP_VIEW.EMP_NAME
+EMP_NAME
+POINT_NAME
+POINT_CAP_VIEW.POINT_NAME
+POINT_NAME
+inv_date
+POINT_CAP_VIEW.INV_DATE
+INV_DATE
+POINT_CODE
+POINT_CAP_VIEW.POINT_CODE
+POINT_CODE
+SERIAL_NO
+POINT_CAP_VIEW.SERIAL_NO
+SERIAL_NO
+CAP_NO
+POINT_CAP_VIEW.CAP_NO
+CAP_NO
+POINT_INV_VIEW.TOT
+POINT_CAP_VIEW.Tot
+p p)pA
+SHIFT_OK
+POINT_INV_VIEW.SHIFT_OK
+SHIFT_OK
+p p'p=
+SER_NO
+POINT_INV_VIEW.SER_NO
+SER_NO
+p p(p?
+del_flg
+POINT_INV_VIEW.del_flg
+DEL_FLG
+2p6p6p6
+88:8<8>8@
+axb8b8d8f8h j
+lpmpmpv
+hG_CAP_NO
+G_CAP_NO
+LIST_G_CAP_NO
+cxf8f8h8j8l
+oppppp{
+G_inv_date
+%C,e5{.
+G_INV_DATE
+LIST_G_INV_DATE
+]x^8^8`8b8d f
+hpipipm
+LIST_G_2
+{0|0}0~0
+YPRINTJOB
+Show Print Job Dialog
+{0|0}0~0
+Default
+Output Mode
+[BACKGROUND
+Run in Background
+\ORIENTATION
+Default
+Orientation
+{0|0}0~0
+]DECIMAL
+Decimal Indicator
+8g75b100
+{0|0}0~0
+^THOUSANDS
+Thousands Indicator
+x0y0z0{0|0}0~p
+_CURRENCY
+Currency Symbol
+y0z0{0|0}0~0
+`COPIES
+Number of Copies
+aDESFORMAT
+Destination Format
+|0}0~0
+bDESNAME
+Destination Name
+cDESTYPE
+Screen
+Destination Type
+iSERIAL_NO
+Serial No
+SERIAL_NO
+{0|0}0~0
+PT_CODE
+Pt Code
+PT_CODE
+w0x0y0z0{0|0}p~
+INV_DT
+Inv Dt
+INV_DT
+w0x0y0z0{0|0}p~
+EMP_CODE
+Emp Code
+EMP_CODE
+{0|0}0~0
+EMP_NAME
+Emp Name
+EMP_NAME
+POINT_NAME
+Point Name
+POINT_NAME
+{0|0}0~0
+inv_date
+Inv Date
+INV_DATE
+{0|0}0~0
+POINT_CODE
+Point Code
+POINT_CODE
+{0|0}0~0
+SERIAL_NO1
+Serial No1
+SERIAL_NO1
+w0x0y0z0{0|0}p~(
+CAP_NO
+Cap No
+CAP_NO
+w0x0y0z0{0|0}p~(
+s0t0u0v0w0x0ypz(
+SumTOTPerinv_date
+Total:
+SUMTOTPERINV_DATE
+SumTOTPerReport
+fTotal:
+SUMTOTPERREPORT
+cshift_code
+Shift Code
+SHIFT_CODE
+{0|0}0~0
+]DECIMAL
+Decimal Indicator
+8g75b100
+~SHIFT_OK
+Shift Ok
+SHIFT_OK
+SHIFT_NAME
+Shift Name
+SHIFT_NAME
+SER_NO
+Ser No
+SER_NO
+del_flg
+Del Flg
+DEL_FLG
+{0|0}0~0
+`(fpjpj@j8n8p8r
+_INV_0
+o(rpvpv8v8x8z8|
+?B_SumTOTPerReport
+a(bpfpf8f0h8j8l
+a(bpfpf8f8h8j8l
+a(bpfpf8f8h8j8l
+a(bpfpf8f8h8j8l
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn0n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+X(^pbpb0b0c@f8j
+q0r0s0t0u0v0w
+"M_G_inv_date_GRPFR
+R(VpZpZ0Z0[@^8b
+i0j0k0l0m0n0o
+$R_G_inv_date
+Q(RpVpV0V8X@Z8^
+e0f0g0h0i0j0k
+.M_G_2_GRPFR
+{0|0}0~0
+]DECIMAL
+Decimal Indicator
+8g75b100
+SHIFT_NAMEFORMULA
+function SHIFT_NAMEFormula return Char is
+T VARCHAR2(20);
+  IF :SHIFT_OK = 1 THEN
+  	 T := '
+  ELSIF :SHIFT_OK = 1 THEN
+  	 T := '
+  ELSE
+  	 T :='
+  END IF;
+  RETURN T;
+STANDARD
+"PKG INIT"SHIFT_NAMEFORMULA"T""
+"FUNCTION"SHIFT_NAMEFORMULA"RETURN"CHAR"T"VARCHAR2"20"SHIFT_OK""="1"
+"ELSIF"
+SHIFT_NAMEFORMULA
+G_CAP_NO
+LIST_G_CAP_NO
+ F HpS
+fxf8h8j8l8n
+pppp{p{
+G_inv_date
+C%e,{5
+G_INV_DATE
+LIST_G_INV_DATE
+ F HpL
+^x^8`8b8d8f h
+ipipmpm
+LIST_G_2
+|0}0~0
+YPRINTJOB
+Show Print Job Dialog
+|0}0~0
+Default
+Output Mode
+[BACKGROUND
+Run in Background
+\ORIENTATION
+Default
+Orientation
+|0}0~0
+]DECIMAL
+Decimal Indicator
+string
+vgmigr_help
+string
+DEL_FFORMULA
+function del_fFormula return Char is
+t varchar2(20);
+  if :del_flg = 1 then
+  	 t := 'deled';
+  end if;
+  return t;
+STANDARD
+"PKG INIT"DEL_FFORMULA"T""
+"FUNCTION"DEL_FFORMULA"RETURN"CHAR"T"VARCHAR2"20"DEL_FLG""="1"deled""
+DEL_FFORMULA
+INT_NAME
+|0}0~0
+inv_date
+Inv Date
+INV_DATE
+|0}0~0
+POINT_CODE
+Point Code
+POINT_CODE
+|0}0~0
+SERIAL_NO1
+Serial No1
+SERIAL_NO1
+x0y0z0{0|0}0~p
+CAP_NO
+Cap No
+CAP_NO
+x0y0z0{0|0}0~p
+t0u0v0w0x0y0zp
+/b dpv
+SumTOTPerinv_date
+Total:
+SUMTOTPERINV_DATE
+/b dpt
+SumTOTPerReport
+Total:
+SUMTOTPERREPORT
+/b dpo
+shift_code
+Shift Code
+SHIFT_CODE
+/b dpm
+SHIFT_OK
+Shift Ok
+SHIFT_OK
+T_CODE
+x* , . 0
+00r100g75b100
+K(NpRpR0R8T@V8Z
+a0b0c0d0e0f0g
+0R_G_2
+P(VpZpZ8Z8\8^8`
+e0f0g0h0i0j0k
+7R_G_CAP_NO
+V XpZpZ0Z8\@^8b
+i0j0k0l0m0n0o
+>M_G_inv_date_FTR
+ BpD H
+J(NpRpR0R8T@V8Z
+_0`0a0b0c0d0e
+V(Zp^p^@^8b8d8f
+p0q0r0sptpv0v
+F_DATE1
+# JpL ^
+`(fpjpj8j8l8n8p
+|0}0~0
+ F_SumTOTPerReport
+NNNNNNNN0D00
+X(^pbpb8b0d8f8h
+r0s0t0upvpv0v
+%F_inv_date
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+'F_POINT_NAME
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+)F_EMP_NAME
+Z(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
++F_SHIFT_NAME
+# JpL R
+T(Zp^p^8^8`8b8d
+n0o0p0qprp
+3F_TOT
+NNNNNNNN0D00
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+8F_CAP_NO
+# JpL P
+R(VpZpZ@Z8^8`8b
+l0m0n0oppp
+NNNNNNNN0D00
+# JpL Z
+\(bpfpf0f8h8j8l
+x0y0z0{p|p~0~
+F_SERIAL_NO1
+# JpL Z
+\(bpfpf8f8h8j8l
+x0y0z0{p|p~0~
+F_SERIAL_NO2
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn0n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+X(^pbpb0b0c@f8j
+q0r0s0t0u0v0w
+"M_G_inv_date_GRPFR
+R(VpZpZ0Z0[@^8b
+i0j0k0l0m0n0o
+$R_G_inv_date
+Q(RpVpV0V8X@Z8^
+e0f0g0h0i0j0k
+.M_G_2_GRPFR
+{0|0}0~0
+]DECIMAL
+Decimal Indicator
+8g75b100
+===UCS2-LE===
+#$(359:AIMPSUX\aefmprvz
+#$(359:AIMPSUX\aefmprvz

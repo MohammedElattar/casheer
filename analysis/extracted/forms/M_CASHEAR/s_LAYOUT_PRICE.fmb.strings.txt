@@ -1,0 +1,2491 @@
+src=M_CASHEAR/s_LAYOUT_PRICE.fmb
+sha256=83aa6ada4135529dd4fab0fbec4f8dcf7a7f032aa32cd944f9b9433faa4a6458
+size=294912
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:09.200997+00:00
+version_markers=ROS.60050
+ascii_lines=2426
+ucs2_lines=53
+trigger_count=131
+pl_sql_markers=160
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+r100cust
+x" ( * ,
+r100r0g1
+r100r75g$
+gray92 ,
+gray68
+%r100r0g1
+r0g50b0
+r25g75b0
+r100gray2000
+r100custom8
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\s_LAYOUT_PRICE.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_14_MAY_200321_23_29
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+: *FRM50_BUFFER
+table contains user's buffer
+ROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+' ,ROSOBJMAP
+ros name->id
+) (ROSSTRINGS
+tk2 uiStrings
+ROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+bTOOL_MODULE
+table contains information about different module
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+P0_14_MAY_200321_23_29
+HINT.ShowButtonHelpHandler;
+WHEN-TIMER-EXPIRED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\s_LAYOUT_PRICE.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P5_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=MESSAGE_CODE;
+	ERR_TXT		VARCHAR2(80) :=MESSAGE_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=MESSAGE_TYPE;
+	IF ERR_NUM=40400 OR ERR_NUM=40404 THEN 
+         	MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40401 THEN
+ null;
+        ELSIF ERR_NUM=40209 THEN 
+		MESSAGE('                                                   
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                   
+	ELSIF ERR_NUM=40200 THEN
+	MESSAGE('                                                          
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-MESSAGE (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+ hint.hidebuttonhelp;
+block_menu;
+KEY-MENU (Form)
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_14_MAY_200321_23_29
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('main_win',WINDOW_STATE,MAXIMIZE);
+:scr := :system.current_form;
+next_block;execute_query;
+go_block('ITEM_TYPE');execute_query;
+:GLOBAL.S:=0;
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+ITEM_TYPE
+P8_11_OCT_200408_37_00
+-- Begin default relation program section
+  Clear_All_Master_Details;
+-- End default relation program section
+ON-CLEAR-DETAILS (Form)
+ /NSPC10/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+vgegtlkt
+string
+vgeicpal
+string
+vgmipl_help
+P6_14_MAY_200321_23_29
+DECLARE
+	ERR_NUM		NUMBER :=ERROR_CODE;
+	ERR_TXT		VARCHAR2(80) :=ERROR_TEXT;
+	ERR_TYPE	VARCHAR2(80) :=ERROR_TYPE;
+	FOR I IN 1..3 LOOP
+	BELL;
+	SYNCHRONIZE;
+	END LOOP;
+ 	IF ERR_NUM=40209 THEN
+		MESSAGE('                                                     
+ YYYY/MM/DD');
+	ELSIF ERR_NUM=50016 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40401 THEN
+ null;
+	ELSIF ERR_NUM=41003 THEN
+		MESSAGE('                                                     
+	ELSIF ERR_NUM=40353 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40360 THEN
+		MESSAGE('                                                    
+	ELSIF ERR_NUM=40200 THEN
+		MESSAGE('                                                       
+	ELSIF ERR_NUM=40202 THEN
+		MESSAGE('                       
+      Message(ERR_TYPE||'-'||to_char(ERR_NUM)||':'||ERR_TXT);
+      RAISE Form_Trigger_Failure; 
+	END IF;
+ON-ERROR (Form)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE"I""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+r100g0b0
+r0g0b50
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P8_14_MAY_200321_23_29
+ hint.hidebuttonhelp;
+block_menu;
+KEY-MENU (Form)
+/LHINT
+SQLFORMS
+"PKG INIT"<anonymous>""
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P9_14_MAY_200321_23_29
+Set_Window_Property(FORMS_MDI_WINDOW,WINDOW_STATE,MAXIMIZE);
+Set_Window_Property('main_win',WINDOW_STATE,MAXIMIZE);
+:scr := :system.current_form;
+next_block;execute_query;
+go_block('ITEM_TYPE');execute_query;
+:GLOBAL.S:=0;
+WHEN-NEW-FORM-INSTANCE (Form)
+STANDARD
+FORMS4C
+FORMS4W
+SQLFORMS
+"PKG INIT"<anonymous>""
+main_win
+ITEM_TYPE
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P8_11_OCT_200408_37_00
+-- Begin default relation program section
+  Clear_All_Master_Details;
+-- End default relation program section
+ON-CLEAR-DETAILS (Form)
+ /NSPC19/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+P11_14_MAY_200321_23_29
+button_proc;
+WHEN-BUTTON-PRESSED (TOOLBAR)
+/NSPC19/BUTTON_PROC
+"PKG INIT"<anonymous>""
+_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P12_14_MAY_200321_23_29
+cIF :GLOBAL.S=0 THEN
+show_view('help');
+:GLOBAL.S:=1;
+HIDE_VIEW('HELP');
+:GLOBAL.S:=0;
+END IF;
+&WHEN-BUTTON-PRESSED (TOOLBAR.HELP_BUT)
+STANDARD
+FORMS4W
+"PKG INIT"<anonymous>""
+"PKG INIT"<anonymous>""
+_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P13_14_MAY_200321_23_29
+delete_record;
+*WHEN-BUTTON-PRESSED (TOOLBAR.CLEAR_RECORD)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P12_11_JAN_200420_07_34
+call_form('med_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON482)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_codes
+ ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P14_11_JAN_200420_07_34
+call_form('med_reason');
+%WHEN-BUTTON-PRESSED (TOOLBAR.ITEM483)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+med_reason
+P32_11_JAN_200420_07_34
+call_form('war_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON561)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+war_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P36_11_JAN_200420_07_34
+call_form('country');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON481)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+country
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_12_JAN_200407_52_51
+call_form('HI_GAREEMA');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON655)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+HI_GAREEMA
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_11_JAN_200514_20_13
+Jrun_product(reports,'REP_ITEMS',synchronous,runtime,filesystem,'',null);
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON732)
+STANDARD
+"PKG INIT"<anonymous>""
+REP_ITEMS
+0_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P9_11_OCT_200408_37_00
+-- Begin default relation declare section
+DECLARE
+  recstat     VARCHAR2(20) := :System.record_status;   
+  startitm    VARCHAR2(61) := :System.cursor_item;   
+  rel_id      Relation;
+-- End default relation declare section
+-- Begin default relation program section
+  IF ( recstat = 'NEW' or recstat = 'INSERT' ) THEN   
+    RETURN;
+  END IF;
+  -- Begin ITEM_POINT detail program section
+  IF ( (:POINT_TBL.POINT_CODE is not null) ) THEN   
+    rel_id := Find_Relation('POINT_TBL.POINT_TBL_ITEM_POINT');   
+    Query_Master_Details(rel_id, 'ITEM_POINT');   
+  END IF;
+  -- End ITEM_POINT detail program section
+  IF ( :System.cursor_item <> startitm ) THEN     
+     Go_Item(startitm);     
+     Check_Package_Failure;     
+  END IF;
+-- End default relation program section
+ON-POPULATE-DETAILS (POINT_TBL)
+STANDARD
+FORMS4C
+FORMS40
+/NSPC19/QUERY_MASTER_DETAILS
+/NSPC19/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+POINT_TBL.POINT_TBL_ITEM_POINT
+ITEM_POINT
+P10_11_OCT_200408_37_00
+-- Begin default relation declare section
+DECLARE
+  Dummy_Define CHAR(1);
+  -- Begin ITEM_POINT detail declare section
+  CURSOR ITEM_POINT_cur IS      
+    SELECT 1 FROM ITEM_POINT I     
+    WHERE I.POINT_CODE = :POINT_TBL.POINT_CODE;
+  -- End ITEM_POINT detail declare section
+-- End default relation declare section
+-- Begin default relation program section
+  -- Begin ITEM_POINT detail program section
+  OPEN ITEM_POINT_cur;     
+  FETCH ITEM_POINT_cur INTO Dummy_Define;     
+  IF ( ITEM_POINT_cur%found ) THEN     
+    Message('Cannot delete master record when matching detail records exist.');     
+    CLOSE ITEM_POINT_cur;     
+    RAISE Form_Trigger_Failure;     
+  END IF;
+  CLOSE ITEM_POINT_cur;
+  -- End ITEM_POINT detail program section
+-- End default relation program section
+"ON-CHECK-DELETE-MASTER (POINT_TBL)
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"DUMMY_DEFINE"ITEM_POINT_CUR"<cursor ptr>""
+Cannot delete master record when matching detail records exist.
+ITEM_POINT_CUR
+SELECT 1   FROM ITEM_POINT I  WHERE I.POINT_CODE = :b1"
+P2_16_JUN_201916_03_42
+delete ITEM_POINT where point_code = :point_tbl.point_code and i_code = :item_point.i_code;
+go_block('ITEM_TBL');execute_query;
+go_block('ITEM_POINT');execute_query;
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON734)
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+ITEM_TBL
+ITEM_POINT
+DELETE FROM ITEM_POINT WHERE POINT_CODE = :b1  AND I_CODE = :b2"
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P0_11_OCT_200408_37_00
+commit;
+$WHEN-NEW-RECORD-INSTANCE (POINT_TBL)
+SQLFORMS
+"PKG INIT"<anonymous>""
+P4_11_OCT_200408_37_00
+commit;
+%WHEN-NEW-RECORD-INSTANCE (ITEM_POINT)
+SQLFORMS
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P13_11_OCT_200408_37_00
+declare
+	c number;
+begin	
+	select count(*) into c  FROM item_tbl WHERE
+         i_CODE =:item_point.i_CODE   ;
+  if c > 0 then
+     SELECT i_NAME,t_price INTO :item_point.i_NAME,:item_point.price
+            FROM item_tbl WHERE i_CODE =:item_point.i_CODE   ;
+  else
+  			MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+  end if;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+&WHEN-VALIDATE-ITEM (ITEM_POINT.I_CODE)
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 5>"<SQL statement. Line 8>""
+SELECT COUNT(*)   FROM ITEM_TBL  WHERE I_CODE = :b1"SELECT I_NAME,T_PRICE   FROM ITEM_TBL  WHERE I_CODE = :b1"
+                              
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+DEFAULT
+                                                                                     
+P11_11_OCT_200408_37_00
+SELECT i_NAME INTO :item_point.i_NAME
+ FROM item_tbl
+i_CODE =:item_point.i_CODE   ;
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN 
+		MESSAGE('
+	RAISE FORM_TRIGGER_FAILURE;
+POST-CHANGE (ITEM_POINT.I_CODE)
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P1_11_OCT_200408_37_00
+list_values;
+*WHEN-MOUSE-DOUBLECLICK (ITEM_POINT.I_NAME)
+SQLFORMS
+"PKG INIT"<anonymous>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P15_11_OCT_200408_37_00
+-- Begin default relation declare section
+DECLARE
+  recstat     VARCHAR2(20) := :System.record_status;   
+  startitm    VARCHAR2(61) := :System.cursor_item;   
+  rel_id      Relation;
+-- End default relation declare section
+-- Begin default relation program section
+  IF ( recstat = 'NEW' or recstat = 'INSERT' ) THEN   
+    RETURN;
+  END IF;
+  -- Begin ITEM_TBL detail program section
+  IF ( (:ITEM_TYPE.T_CODE is not null) ) THEN   
+    rel_id := Find_Relation('ITEM_TYPE.ITEM_TYPE_ITEM_TBL');   
+    Query_Master_Details(rel_id, 'ITEM_TBL');   
+  END IF;
+  -- End ITEM_TBL detail program section
+  IF ( :System.cursor_item <> startitm ) THEN     
+     Go_Item(startitm);     
+     Check_Package_Failure;     
+  END IF;
+-- End default relation program section
+ON-POPULATE-DETAILS (ITEM_TYPE)
+STANDARD
+FORMS4C
+FORMS40
+/NSPC19/QUERY_MASTER_DETAILS
+/NSPC19/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+ITEM_TYPE.ITEM_TYPE_ITEM_TBL
+ITEM_TBL
+DISPLAY
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+99990.90
+LOV716
+CANVAS2
+Simplified Arabic
+yellow
+Simplified Arabic
+PUSH_BUTTON715
+PUSH_BUTTON715
+CANVAS2
+r75g88b100
+Traditional Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM_TYPE
+ITEM_TYPE
+ITEM_TBL
+ITEM_TYPE
+P12_11_OCT_200408_37_00
+DECLARE  
+	 lv_id  LOV; 
+	   status BOOLEAN;
+	  BEGIN 
+	  lv_id := Find_LOV('lov716');
+	   IF Id_Null(lv_id) THEN
+	 	     lv_id := Find_LOV('My_Private_LOV');
+	 	    END IF; 
+	   status := Show_LOV(lv_id,10,20);
+	  END; 
+/WHEN-BUTTON-PRESSED (ITEM_POINT.PUSH_BUTTON715)
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>"LV_ID"ID"STATUS""
+lov716
+My_Private_LOV
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P14_11_OCT_200408_37_00
+declare 
+	c number;
+	begin
+select max(t_code) into c from item_type ;
+if c is null then 
+	c :=1;
+	c := c+1;
+end if;
+:item_type.t_code :=c;
+PRE-INSERT (ITEM_TYPE)
+STANDARD
+MAHROSA
+	ITEM_TYPE
+"PKG INIT"<anonymous>"C"<cursor ptr>"<SQL statement. Line 6>""
+SELECT MAX(T_CODE)   FROM ITEM_TYPE"
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+P0_11_OCT_200410_15_17
+declare
+	c number;
+	cursor cur is
+	    select I_CODE,T_PRICE from item_tbl where T_CODE = :item_type.t_code;
+	for i in cur loop
+		  select count(*) into c from item_point where
+		         point_code = :point_tbl.point_code and
+		         i_code = i.i_code;
+		  if c = 0 then
+      insert into item_point(point_code,i_code,price) values
+                  (:point_tbl.point_code,i.i_code,i.t_price);commit;
+      end if;	  
+	end loop;
+  go_block('item_point');execute_query;		
+       
+        
+"WHEN-MOUSE-DOUBLECLICK (ITEM_TYPE)
+STANDARD
+MAHROSA
+ITEM_TBL
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"C"CUR"<cursor ptr>"I_CODE"T_PRICE"I"<SQL statement. Line 8>"<SQL statement. Line 12>""
+item_point
+SELECT I_CODE,T_PRICE   FROM ITEM_TBL  WHERE T_CODE = :b1"SELECT COUNT(*)   FROM ITEM_POINT  WHERE POINT_CODE = :b1  AND I_CODE = :b2"INSERT INTO ITEM_POINT ( POINT_CODE,I_CODE,PRICE )  VALUES ( :b1,:b2,:b3  )"
+TEXT736
+TEXT736
+CMPTXT737
+CMPTXT737
+TEXTSTR738
+TEXTSTR738
+Simplified Arabic
+P16_11_OCT_200408_37_00
+-- Begin default relation program section
+  -- Begin ITEM_TBL detail program section
+   DELETE FROM ITEM_TBL I
+   WHERE I.T_CODE = :ITEM_TYPE.T_CODE;
+  -- End ITEM_TBL detail program section
+-- End default relation program section
+PRE-DELETE (ITEM_TYPE)
+STANDARD
+MAHROSA
+ITEM_TBL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM ITEM_TBL I WHERE I.T_CODE = :b1"
+BUTTON_PROC
+-- This is a generic button procedure. It reads the NAME of the button and 
+-- performs a DO_KEY(item_name).
+-- Regarding QUERY-operation:
+-- if there are buttons called EXECUTE_QUERY and CANCEL_QUERY, this function shows
+-- them, when the ENTER_QUERY button is pressed and hides them, when EXECUTE_- or 
+-- CANCEL_QUERY ispressed. No error should be returned, if these buttons do not exist.
+-- To make naming of the buttons easier, EXIT, QUIT and EXIT_FORM all perform exit_form,
+-- even if the form is in ENTER-QUERY mode !!!!!!!
+-- A CANCEL_QUERY button-name cancels a currently "open" query.
+PROCEDURE button_proc IS
+  AL_ID    ALERT;
+  AL_BUT   NUMBER;
+  action varchar(80);
+  -- hide a button (for ENTER_-, EXECUTE_- or CANCEL_QUERY)
+  PROCEDURE show_off(item_name VARCHAR2) IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name, DISPLAYED,PROPERTY_FALSE);
+    END IF;
+  END;
+  -- try to show a button (for the two query-states. If there is no button to show,
+  -- return FALSE to the calling procedure.
+  FUNCTION show_on(item_name VARCHAR2) RETURN BOOLEAN IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name,DISPLAYED,PROPERTY_TRUE);
+      Set_Item_Property(item_name,ENABLED,PROPERTY_TRUE);
+      RETURN TRUE;
+    ELSE
+      RETURN FALSE;
+    END IF;
+  RETURN NULL; END;
+BEGIN    
+  action := Get_Item_Property(NAME_IN('SYSTEM.TRIGGER_ITEM'),ITEM_NAME);
+  IF action = 'ENTER_QUERY' THEN
+    -- only hide the ENTER_QUERY button, if there are EXECUTE_QUERY and (!!) CANCEL_QUERY
+    -- buttons. Otherwise an existing EXECUTE_QUERY button will be shown.
+    IF show_on('EXECUTE_QUERY') AND show_on('CANCEL_QUERY') THEN
+      show_off('ENTER_QUERY');
+    END IF;
+  END IF;
+  IF action IN ('EXIT_FORM', 'EXIT','QUIT') THEN
+    action := 'EXIT_FORM';
+    IF NAME_IN('SYSTEM.MODE')='ENTER-QUERY' THEN
+           AL_ID:=FIND_ALERT('MESS_AL');
+           Set_Alert_Property(al_id, alert_message_text, '        
+           al_but:=show_alert(al_id); 
+              IF  al_but =ALERT_BUTTON1 THEN
+                 Do_Key('EXIT_FORM');
+              ELSE 
+                  NULL;
+              END IF;
+    END IF;
+  END IF;
+  IF action = 'CANCEL_QUERY' THEN 
+    action := 'EXIT_FORM';
+  END IF;
+  Do_Key(action);
+  IF NAME_IN('SYSTEM.MODE') != 'ENTER-QUERY' THEN
+    IF show_on('ENTER_QUERY') THEN
+      show_off('EXECUTE_QUERY');
+      show_off('CANCEL_QUERY');
+    END IF;
+  END IF;
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+"BUTTON_PROC"AL_ID"ALERT"AL_BUT"NUMBER"ACTION"VARCHAR"80"SHOW_OFF"ITEM_NAME"VARCHAR2"ID_NULL"FIND_ITEM"NOT"SET_ITEM_PROPERTY"DISPLAYED"PROPERTY_FALSE"FUNCTION"SHOW_ON"RETURN"BOOLEAN"PROPERTY_TRUE"ENABLED"TRUE"FALSE"GET_ITEM_PROPERTY"NAME_IN"SYSTEM.TRIGGER_ITEM"="ENTER_QUERY"EXECUTE_QUERY"CANCEL_QUERY"EXIT_FORM"EXIT"QUIT"SYSTEM.MODE"ENTER-QUERY"FIND_ALERT"MESS_AL"SET_ALERT_PROPERTY"ALERT_MESSAGE_TEXT"        
+"SHOW_ALERT"ALERT_BUTTON1"DO_KEY"!=""
+BUTTON_PROC
+SYSTEM.TRIGGER_ITEM
+ENTER_QUERY
+EXECUTE_QUERY
+CANCEL_QUERY
+ENTER_QUERY
+EXIT_FORM
+SYSTEM.MODE
+ENTER-QUERY
+MESS_AL
+        
+CANCEL_QUERY
+SHOW_OFF
+SHOW_ON
+Could not resolve reference to attached library %[1]s (no database connection).
+Delete reference?
+Attempted to modify a library which is open READONLY
+The library being created already exists
+This library is in an old format which is only supported READONLY
+This operation is only supported for database libraries
+A tools common schema table is missing from the object store
+The specified library, %[1]s, does not exist in the database
+Could not find library %[1]s
+Low level open failed for library %[1]s
+Couldn't rename %[1]s, the library name %[2]s is currently in use.
+Create failed for library %[1]s.
+Unable to fetch record from table %[1]s.
+Cannot open file for use as a PL/SQL library.
+The stored representation of the program unit %[1]s is too large.
+The specified library in the database couldn't be locked.
+Unable to update old version of library.
+Unable to obtain write lock on %[1]s. Another process may be accessing it.
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+P0_16_JUN_201916_03_42
+<go_block('ITEM_POINT');execute_query;
+go_block('ITEM_TYPE');
+$WHEN-NEW-RECORD-INSTANCE (ITEM_TYPE)
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>""
+ITEM_POINT
+ITEM_TYPE
+P40_11_JAN_200420_07_34
+call_form('res109_codes');
+,WHEN-BUTTON-PRESSED (TOOLBAR.PUSH_BUTTON588)
+STANDARD
+SQLFORMS
+FORMS40
+"PKG INIT"<anonymous>""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+QPACKAGE BODY DLL IS
+  l_user Ora_Ffi.LibHandleType;
+  l_gdi  Ora_Ffi.LibHandleType;
+  f_getdc  Ora_Ffi.FuncHandleType;
+  f_reldc  Ora_Ffi.FuncHandleType;
+  f_setmap Ora_Ffi.FuncHandleType;
+  f_gte    Ora_Ffi.FuncHandleType;
+  FUNCTION icd_GetDC(f_getdc IN Ora_Ffi.FuncHandleType,
+                     hwnd IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetDC, 11265);
+  FUNCTION icd_ReleaseDC(f_reldc IN Ora_Ffi.FuncHandleType,
+                         hwnd IN PLS_INTEGER,
+                         hdc IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_ReleaseDC, 11265);
+  FUNCTION icd_SetMapMode(f_setmap IN Ora_Ffi.FuncHandleType,
+                          hdc IN PLS_INTEGER,
+                          mm  IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_SetMapMode, 11265);
+  FUNCTION icd_GetTextExtent(f_gte IN Ora_Ffi.FuncHandleType,
+                             hdc IN PLS_INTEGER,
+                             str IN OUT VARCHAR2,
+                             len IN PLS_INTEGER)
+    RETURN PLS_INTEGER;
+  PRAGMA INTERFACE(C, icd_GetTextExtent, 11265);
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER IS
+    hwnd    PLS_INTEGER := Get_Window_Property('Window0',Window_Handle);
+    hdc     PLS_INTEGER := 0;
+    buf     PLS_INTEGER;
+    len     PLS_INTEGER   := NVL(length(str), 0);
+    oldmap  PLS_INTEGER;
+    dummy   PLS_INTEGER;
+    s VARCHAR2(255) := rpad(str,255);
+    s_width PLS_INTEGER;
+  BEGIN
+    hdc     := icd_GetDC(f_getdc,hwnd);			-- Get device context.
+    oldmap  := icd_SetMapMode(f_setmap, hdc, 6);	-- Change mapping to MM_TWIPS (~inch) 
+							-- Set to 1 for MM_TEXT (~pixel) and
+							-- change scaling in TOOLBAR package
+							-- if forms module runs in REAL PIXEL
+    s_width := icd_GetTextExtent(f_gte, hdc, s, len);	-- retrieve width of text from GDI
+    dummy   := icd_SetMapMode(f_setmap, hdc, oldmap);	-- reset mapping mode
+    dummy   := icd_ReleaseDC(f_reldc, hwnd, hdc);	-- release deviec context
+    return(s_width);
+  END;
+break;
+  l_user  := Ora_Ffi.Register_Library('c:\windows\system\','USER.EXE');
+  l_gdi   := Ora_Ffi.Register_Library('c:\windows\system\','GDI.EXE');
+  f_getdc := Ora_Ffi.Register_Function(l_user,'GetDC', ORA_FFI.PASCAL_STD);
+  f_reldc := Ora_Ffi.Register_Function(l_user,'ReleaseDC', ORA_FFI.PASCAL_STD);
+  f_setmap := Ora_Ffi.Register_Function(l_gdi,'SetMapMode',ORA_FFI.PASCAL_STD);
+  f_gte    := Ora_Ffi.Register_Function(l_gdi,'GetTextExtent', ORA_FFI.PASCAL_STD);
+  Ora_Ffi.Register_Return(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_getdc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_reldc, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_setmap, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Return(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_CHAR_PTR);
+  Ora_Ffi.Register_Parameter(f_gte, ORA_FFI.C_INT);
+/NSPC19/DLL
+ORA_FFI
+STANDARD
+FORMS4W
+FORMS4C
+SQLFORMS
+"DLL"L_USER"HANDLE"L_GDI"F_GETDC"F_RELDC"F_SETMAP"F_GTE"ICD_GETDC"HWND"ICD_RELEASEDC"HDC"ICD_SETMAPMODE"MM"ICD_GETTEXTEXTENT"STR"LEN"TBLEN"BUF"OLDMAP"DUMMY"S"S_WIDTH""
+c:\windows\system\
+USER.EXE
+GDI.EXE
+ReleaseDC
+SetMapMode
+GetTextExtent
+ICD_GETDC
+ICD_RELEASEDC
+ICD_SETMAPMODE
+ICD_GETTEXTEXTENT
+Window0
+P1_14_MAY_200321_23_29
+HINT.ShowButtonHelp;
+WHEN-MOUSE-ENTER (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P2_14_MAY_200321_23_29
+HINT.HideButtonHelp;
+WHEN-MOUSE-UP (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P4_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-DEACTIVATED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+P7_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-WINDOW-CLOSED (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+TOOLBAR
+PACKAGE toolbar IS
+  tbscale NUMBER := 43;		-- good for 1024x768 (SVGA)
+--  tbscale NUMBER := 40;	-- good for 640x480 (VGA)
+  item_name VARCHAR2(80);
+  PROCEDURE hide_function;
+  PROCEDURE set_timer;
+  PROCEDURE show_function;
+STANDARD
+"TOOLBAR"TBSCALE"ITEM_NAME"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+"PACKAGE"TOOLBAR"TBSCALE"NUMBER"43"ITEM_NAME"VARCHAR2"80"HIDE_FUNCTION"SET_TIMER"SHOW_FUNCTION""
+HIDE_FUNCTION
+SET_TIMER
+SHOW_FUNCTION
+P3_14_MAY_200321_23_29
+hint.hidebuttonhelp;
+WHEN-MOUSE-DOWN (Form)
+/LHINT
+"PKG INIT"<anonymous>""
+                                     
+TOOLBAR
+6PACKAGE BODY TOOLBAR IS
+  cs VARCHAR2(20);
+  csscale NUMBER;
+  PROCEDURE hide_function IS
+  BEGIN
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_OFF);
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+  END; /* hide_function */
+  PROCEDURE set_timer IS
+    t Timer;
+  BEGIN
+    toolbar.item_name := :SYSTEM.MOUSE_ITEM;
+    IF NOT Id_Null(Find_Timer('ENTER_TOOLBAR')) THEN
+      Delete_Timer('ENTER_TOOLBAR');
+    END IF;
+    t := Create_Timer('ENTER_TOOLBAR',250,NO_REPEAT);
+  END; /* set_timer */
+  PROCEDURE show_function IS
+    w NUMBER;
+  BEGIN
+    :TOOLBAR.Text := Get_Item_Property(item_name, LABEL);
+    w := dll.tblen(:toolbar.text)*tbscale/100000*csscale;
+    Set_Item_Property('TOOLBAR.TEXT',WIDTH,w);
+    Set_Item_Property('TOOLBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC19/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC19/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+SET_TIMER
+SHOW_FUNCTION
+LBAR.TEXT',POSITION,
+                       to_number(Get_Item_Property(item_name,X_POS)),
+                       to_number(Get_Item_Property(item_name,Y_POS)) +
+                       to_number(Get_Item_Property(item_name,HEIGHT)));
+    Set_Item_Property('TOOLBAR.TEXT',DISPLAYED,PROPERTY_ON);
+  END; /* show_function */
+  cs := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),COORDINATE_SYSTEM);
+  IF    cs = 'INCHES'      THEN csscale := 1;
+  ELSIF cs = 'PIXELS'      THEN csscale := 120;
+  ELSIF cs = 'POINTS'      THEN csscale := 72;
+  ELSIF cs = 'CENTIMETERS' THEN csscale := 2.56;
+  ELSIF cs = 'CHARACTER_CELL' THEN
+    csscale := Get_Form_Property(Get_Application_Property(CURRENT_FORM_NAME),CHARACTER_CELL_WIDTH);
+    csscale := 140/csscale;
+  END IF;
+STANDARD
+/NSPC19/TOOLBAR
+FORMS4C
+FORMS40
+/NSPC19/DLL
+FORMS4G
+"TOOLBAR"CS"CSSCALE"HIDE_FUNCTION"SET_TIMER"T"ID"SHOW_FUNCTION"W""
+INCHES
+PIXELS
+POINTS
+CENTIMETERS
+CHARACTER_CELL
+HIDE_FUNCTION
+TOOLBAR.TEXT
+ENTER_TOO
+P20_11_OCT_200408_37_00
+insert into item_point(point_code,i_code,price) values
+ (:point_tbl.point_code,:item_tbl.i_code,:item_tbl.t_price);
+go_block('item_point');execute_query;
+go_block('ITEM_TBL');execute_query;
+!WHEN-MOUSE-DOUBLECLICK (ITEM_TBL)
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+item_point
+ITEM_TBL
+INSERT INTO ITEM_POINT ( POINT_CODE,I_CODE,PRICE )  VALUES ( :b1,:b2,:b3  )"
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+res109_codes
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+RPROCEDURE Query_Master_Details(rel_id Relation,detail VARCHAR2) IS
+  oldmsg VARCHAR2(2);  -- Old Message Level Setting
+  reldef VARCHAR2(5);  -- Relation Deferred Setting
+  -- Initialize Local Variable(s)
+  reldef := Get_Relation_Property(rel_id, DEFERRED_COORDINATION);
+  oldmsg := :System.Message_Level;
+  -- If NOT Deferred, Goto detail and execute the query.
+  IF reldef = 'FALSE' THEN
+    Go_Block(detail);
+    Check_Package_Failure;
+    :System.Message_Level := '10';
+    Execute_Query;
+    :System.Message_Level := oldmsg;
+  ELSE
+    --
+    -- Relation is deferred, mark the detail block as un-coordinated
+    --
+    Set_Block_Property(detail, COORDINATION_STATUS, NON_COORDINATED);
+  END IF;
+EXCEPTION
+    WHEN Form_Trigger_Failure THEN
+      :System.Message_Level := oldmsg;
+      RAISE;
+END Query_Master_Details;
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC19/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+"QUERY_MASTER_DETAILS"REL_ID"RELATION"DETAIL"VARCHAR2"OLDMSG"2"RELDEF"5"GET_RELATION_PROPERTY"DEFERRED_COORDINATION"System.Message_Level""="FALSE"GO_BLOCK"CHECK_PACKAGE_FAILURE"10"EXECUTE_QUERY"SET_BLOCK_PROPERTY"COORDINATION_STATUS"NON_COORDINATED"FORM_TRIGGER_FAILURE"RAISE""
+QUERY_MASTER_DETAILS
+_Item(startitm);     
+     Check_Package_Failure;     
+  END IF;
+-- End default relation program section
+ON-POPULATE-DETAILS (ITEM_TYPE)
+STANDARD
+FORMS4C
+FORMS40
+/NSPC19/QUERY_MASTER_DETAILS
+/NSPC19/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+ITEM_TYPE.ITEM_TYPE_ITEM_TBL
+ITEM_TBL
+DISPLAY
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+99990.90
+LOV716
+CANVAS2
+Simplified Arabic
+yellow
+Simplified Arabic
+PUSH_BUTTON715
+PUSH_BUTTON715
+CANVAS2
+r75g88b100
+Traditional Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM_TYPE
+ITEM_TYPE
+ITEM_TBL
+ITEM_TYPE
+CLEAR_ALL_MASTER_DETAILS
+sPROCEDURE Clear_All_Master_Details IS
+  mastblk  VARCHAR2(30);  -- Initial Master Block Causing Coord
+  coordop  VARCHAR2(30);  -- Operation Causing the Coord
+  trigblk  VARCHAR2(30);  -- Cur Block On-Clear-Details Fires On
+  startitm VARCHAR2(61);  -- Item in which cursor started
+  frmstat  VARCHAR2(15);  -- Form Status
+  curblk   VARCHAR2(30);  -- Current Block
+  currel   VARCHAR2(30);  -- Current Relation
+  curdtl   VARCHAR2(30);  -- Current Detail Block
+  FUNCTION First_Changed_Block_Below(Master VARCHAR2)
+  RETURN VARCHAR2 IS
+    curblk VARCHAR2(30);  -- Current Block
+    currel VARCHAR2(30);  -- Current Relation
+    retblk VARCHAR2(30);  -- Return Block
+  BEGIN
+    --
+    -- Initialize Local Vars
+    --
+    curblk := Master;
+    currel := Get_Block_Property(curblk,  FIRST_MASTER_RELATION);
+    --
+    -- While there exists another relation for this block
+    --
+    WHILE currel IS NOT NULL LOOP
+      --
+      -- Get the name of the detail block
+      --
+      curblk := Get_Relation_Property(currel, DETAIL_NAME);
+      --
+      -- If this block has changes, return its name
+      --
+      IF ( Get_Block_Property(curblk, STATUS) = 'CHANGED' ) THEN
+        RETURN curblk;
+      ELSE
+        --
+        -- No changes, recursively look for changed blocks below
+        --
+        retblk := First_Changed_Block_Below(curblk);
+        --
+        -- If some block below is changed, return its name
+        --
+        IF retblk IS NOT NULL THEN
+          RETURN retblk;
+        ELSE
+          --
+          -- Consider the next relation
+          --
+          currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+        END IF;
+      END IF;
+    END LOOP;
+    --
+    -- No changed blocks were found
+    --
+    RETURN NULL;
+  END First_Changed_Block_Below;
+  -- Init Local Vars
+  mastblk  := :System.Master_Block;
+  coordop  := :System.Coordination_Operation;
+  trigblk  := :System.Trigger_Block;
+  startitm := :System.Cursor_Item;
+  frmstat  := :System.Form_Status;
+  -- If the coordination operation is anything but CLEAR_RECORD or
+  -- SYNCHRONIZE_BLOCKS, then continue checking.
+  IF coordop NOT IN ('CLEAR_RECORD', 'SYNCHRONIZE_BLOCKS') THEN
+    --
+    -- If we're processing the driving master block...
+    --
+    IF mastblk = trigblk THEN
+      --
+      -- If something in the form is changed, find the
+      -- first changed block below the master
+      --
+      IF frmstat = 'CHANGED' THEN
+        curblk := First_Changed_Block_Below(mastblk);
+        --
+        -- If we find a changed block below, go there
+        -- and Ask to commit the changes.
+        --
+        IF curblk IS NOT NULL THEN
+          Go_Block(curblk);
+          Check_Package_Failure;
+          Clear_Block(ASK_COMMIT);
+          --
+          -- If user cancels commit dialog, raise error
+          --
+          IF NOT ( :System.Form_Status = 'QUERY'
+                   OR :System.Block_Status = 'NEW' ) THEN
+            RAISE Form_Trigger_Failure;
+          END IF;
+        END IF;
+      END IF;
+    END IF;
+  END IF;
+  -- Clear all the detail blocks for this master without
+  -- any further asking to commit.
+  currel := Get_Block_Property(trigblk, FIRST_MASTER_RELATION);
+  WHILE currel IS NOT NULL LOOP
+    curdtl := Get_Relation_Property(currel, DETAIL_NAME);
+    IF Get_Block_Property(curdtl, STATUS) <> 'NEW'  THEN
+      Go_Block(curdtl);
+      Check_Package_Failure;
+      Clear_Block(NO_VALIDATE);
+      IF :System.Block_Status <> 'NEW' THEN
+        RAISE Form_Trigger_Failure;
+      END IF;
+    END IF;
+    currel := Get_Relation_Property(currel, NEXT_MASTER_RELATION);
+  END LOOP;
+  -- Put cursor back where it started
+  IF :System.Cursor_Item <> startitm THEN
+    Go_Item(startitm);
+    Check_Package_Failure;
+  END IF;
+EXCEPTION
+  WHEN Form_Trigger_Failure THEN
+    IF :System.Cursor_Item <> startitm THEN
+      Go_Item(startitm);
+    END IF;
+    RAISE;
+END Clear_All_Master_Details;
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC19/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+"CLEAR_ALL_MASTER_DETAILS"MASTBLK"VARCHAR2"30"COORDOP"TRIGBLK"STARTITM"61"FRMSTAT"15"CURBLK"CURREL"CURDTL"FUNCTION"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETURN"RETBLK"GET_BLOCK_PROPERTY"FIRST_MASTER_RELATION"WHILE"IS NOT NULL"LOOP"GET_RELATION_PROPERTY"DETAIL_NAME"STATUS"="CHANGED"NEXT_MASTER_RELATION"System.Master_Block""System.Coordination_Operation"System.Trigger_Block"System.Cursor_Item"System.Form_Status"CLEAR_RECORD"SYNCHRONIZE_BLOCKS"GO_BLOCK"CHECK_PACKAGE_FAILURE"CLEAR_BLOCK"ASK_COMMIT"QUERY"System.Block_Status"NEW"NOT"RAISE"FORM_TRIGGER_FAILURE"!="NO_VALIDATE"GO_ITEM""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+No error should be returned, if these buttons do not exist.
+-- To make naming of the buttons easier, EXIT, QUIT and EXIT_FORM all perform exit_form,
+-- even if the form is in ENTER-QUERY mode !!!!!!!
+-- A CANCEL_QUERY button-name cancels a currently "open" query.
+PROCEDURE button_proc IS
+  AL_ID    ALERT;
+  AL_BUT   NUMBER;
+  action varchar(80);
+  -- hide a button (for ENTER_-, EXECUTE_- or CANCEL_QUERY)
+  PROCEDURE show_off(item_name VARCHAR2) IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name, DISPLAYED,PROPERTY_FALSE);
+    END IF;
+  END;
+  -- try to show a button (for the two query-states. If there is no button to show,
+  -- return FALSE to the calling procedure.
+  FUNCTION show_on(item_name VARCHAR2) RETURN BOOLEAN IS
+  BEGIN
+    IF NOT Id_Null(Find_Item(item_name)) THEN
+      Set_Item_Property(item_name,DISPLAYED,PROPERTY_TRUE);
+      Set_Item_Property(item_name,ENABLED,PROPERTY_TRUE);
+      RETURN TRUE;
+    ELSE
+      RETURN FALSE;
+    END IF;
+  RETURN NULL; END;
+BEGIN    
+  action := Get_Item_Property(NAME_IN('SYSTEM.TRIGGER_ITEM'),ITEM_NAME);
+  IF action = 'ENTER_QUERY' THEN
+    -- only hide the ENTER_QUERY button, if there are EXECUTE_QUERY and (!!) CANCEL_QUERY
+    -- buttons. Otherwise an existing EXECUTE_QUERY button will be shown.
+    IF show_on('EXECUTE_QUERY') AND show_on('CANCEL_QUERY') THEN
+      show_off('ENTER_QUERY');
+    END IF;
+  END IF;
+  IF action IN ('EXIT_FORM', 'EXIT','QUIT') THEN
+    action := 'EXIT_FORM';
+    IF NAME_IN('SYSTEM.MODE')='ENTER-QUERY' THEN
+           AL_ID:=FIND_ALERT('MESS_AL');
+           Set_Alert_Property(al_id, alert_message_text, '        
+           al_but:=show_alert(al_id); 
+              IF  al_but =ALERT_BUTTON1 THEN
+                 Do_Key('EXIT_FORM');
+              ELSE 
+                  NULL;
+              END IF;
+    END IF;
+  END IF;
+  IF action = 'CANCEL_QUERY' THEN 
+    action := 'EXIT_FORM';
+  END IF;
+  Do_Key(action);
+  IF NAME_IN('SYSTEM.MODE') != 'ENTER-QUERY' THEN
+    IF show_on('ENTER_QUERY') THEN
+      show_off('EXECUTE_QUERY');
+      show_off('CANCEL_QUERY');
+    END IF;
+  END IF;
+FORMS4C
+STANDARD
+FORMS40
+SQLFORMS
+FORMS4W
+"PKG INIT"BUTTON_PROC"AL_ID"ID"AL_BUT"ACTION"SHOW_OFF"ITEM_NAME"SHOW_ON""
+CHECK_PACKAGE_FAILURE
+vProcedure Check_Package_Failure IS
+  IF NOT ( Form_Success ) THEN
+    RAISE Form_Trigger_Failure;
+  END IF;
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+darkgreen
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray92
+ $ & (
+gray88
+ $ & (
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+r100g0b88
+r0g0b100
+r25g0b100
+r50g0b100
+r75g0b100
+r88g0b100
+r100g0b100
+ " $ &
+ & ( *
+darkgray
+darkcyan
+ $ & (
+gray80333333
+ $ & (
+gray76=p=p=p
+ $ & (
+gray72G
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+ $ & (
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+r100g25b0
+r0g25b50
+ ( * ,
+r25g25b50
+ ( * ,
+r50g25b50
+ ( * ,
+r75g25b50
+ ( * ,
+r88g25b50
+ ( * ,
+r100g25b50
+r0g25b75
+ ( * ,
+r25g25b75
+ ( * ,
+r50g25b75
+ ( * ,
+r75g25b75
+ ( * ,
+r88g25b75
+ ( * ,
+r100g25b75
+r0g25b88
+ ( * ,
+r25g25b88
+ ( * ,
+r50g25b88
+ ( * ,
+r75g25b88
+ ( * ,
+r88g25b88
+ ( * ,
+r100g25b88
+r0g25b100
+ ( * ,
+r25g25b100@
+ ( * ,
+r50g25b100
+ ( * ,
+r75g25b100
+ ( * ,
+r88g25b100
+ * , .
+r100g25b100
+darkred
+darkblue
+ $ & (
+gray64\(\(\(
+ $ & (
+gray60ffffff
+ $ & (
+gray56p
+ $ & (
+gray52z
+gray72G
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r0g50b0
+r25g50b0@
+r50g50b0
+r75g50b0
+r88g50b0
+r100g50b0
+r0g50b50
+ ( * ,
+r25g50b50
+ ( * ,
+r50g50b50
+ ( * ,
+r75g50b50
+ ( * ,
+r88g50b50
+ ( * ,
+r100g50b50
+r0g50b75
+ ( * ,
+r25g50b75
+ ( * ,
+r50g50b75
+ ( * ,
+r75g50b75
+ ( * ,
+r88g50b75
+ ( * ,
+r100g50b75
+r0g50b88
+ ( * ,
+r25g50b88
+ ( * ,
+r50g50b88
+ ( * ,
+r75g50b88
+ ( * ,
+r88g50b88
+ ( * ,
+r100g50b88
+r0g50b100
+ ( * ,
+r25g50b100@
+ ( * ,
+r50g50b100
+ ( * ,
+r75g50b100
+ ( * ,
+r88g50b100
+ * , .
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+ $ & (
+gray48
+ $ & (
+gray44
+ $ & (
+gray40
+ $ & (
+gray36
+r0g75b0
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+r100g75b0
+r100r0g75b50
+x" , . 0
+r100r25g75b50
+x" , . 0
+r100r50g75b50
+x" , . 0
+r100r75g75b50
+x" , . 0
+r100r88g75b50
+x" , . 0
+r100r100g75b50
+r100r0g75b75
+x" , . 0
+r100r25g75b75
+x" , . 0
+r100r50g75b75
+x" , . 0
+r100r75g75b75
+x" , . 0
+r100r88g75b75
+x" , . 0
+r100r100g75b75
+r100r0g75b88
+x" , . 0
+r100r25g75b88
+x" , . 0
+r100r50g75b88
+x" , . 0
+r100r75g75b88
+x" , . 0
+r100r88g75b88
+x" , . 0
+r100r100g75b88
+r100r0g75b100
+x" , . 0
+r100r25g75b100@
+x" , . 0
+r100r50g75b100
+x" , . 0
+r100r75g75b100
+x" , . 0
+r100r88g75b100
+x" . 0 2
+r100r100g75b100
+x" * , .
+r100custom1
+x" * , .
+r100custom2
+x" * , .
+r100custom3
+x" * , .
+r100custom4
+x" ( * ,
+r100gray32
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" ( * ,
+r100gray20
+r100r0g88b0
+x" * ,
+r100r25g88b0@
+x" * ,
+r100r50g88b0
+x" * ,
+r100r75g88b0
+x" * ,
+r100r88g88b0
+x" , .
+r100r100g88b0
+r100r0g88b50
+x" , . 0
+r100r25g88b50
+x" , . 0
+r100r50g88b50
+x" , . 0
+r100r75g88b50
+x" , . 0
+r100r88g88b50
+x" , . 0
+r100r100g88b50
+r100r0g88b75
+x" , . 0
+r100r25g88b75
+x" , . 0
+r100r50g88b75
+x" , . 0
+r100r75g88b75
+x" , . 0
+r100r88g88b75
+x" , . 0
+r100r100g88b75
+r100r0g88b88
+x" , . 0
+r100r25g88b88
+x" , . 0
+r100r50g88b88
+x" , . 0
+r100r75g88b88
+x" , . 0
+r100r88g88b88
+x" , . 0
+r100r100g88b88
+r100r0g88b100
+x" , . 0
+r100r25g88b100@
+x" , . 0
+r100r50g88b100
+x" , . 0
+r100r75g88b100
+x" , . 0
+r100r88g88b100
+x" . 0 2
+r100r100g88b100
+x" * , .
+r100custom5
+x" * , .
+r100custom6
+x" * , .
+r100custom7
+x" ( * ,
+r100gray28
+x" ( * ,
+r100gray24
+r0g75b0
+ $ & (
+gray96
+=KAGE_FAILURE""
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+x" * , .
+r100custom8
+x" ( * ,
+r100gray16
+x" ( * ,
+r100gray12
+x" ( * ,
+r100gray8
+x" ( * ,
+r100gray4
+r100r0g100b0
+x" , .
+r100r25g100b0
+x" , .
+r100r50g100b0
+x" , .
+r100r75g100b0
+x" , .
+r100r88g100b0
+x" , .
+r100r100g100b0
+r100r0g100b50
+x" , . 0
+r100r25g100b50@
+x" , . 0
+r100r50g100b50
+x" , . 0
+r100r75g100b50
+x" , . 0
+r100r88g100b50
+x" . 0 2
+r100r100g100b50
+r100r0g100b75
+x" , . 0
+r100r25g100b75@
+x" , . 0
+r100r50g100b75
+x" , . 0
+r100r75g100b75
+x" , . 0
+r100r88g100b75
+x" . 0 2
+r100r100g100b75
+r100r0g100b88
+x" , . 0
+r100r25g100b88@
+x" , . 0
+r100r50g100b88
+x" , . 0
+r100r75g100b88
+x" , . 0
+r100r88g100b88
+x" . 0 2
+r100r100g100b88
+r100r0g100b100
+x" . 0 2
+r100r25g100b100
+x" . 0 2
+r100r50g100b100
+x" . 0 2
+r100r75g100b100
+x" . 0 2
+r100r88g100b100
+x" . 0 2
+r100r100g100b100
+	SQL*Forms
+FORM50
+D:\M_CASHEAR\s_LAYOUT_PRICE.fmb
+;Copyright (c) Oracle Corporation 1990. All Rights Reserved.
+"CHECK_PACKAGE_FAILURE"FORM_SUCCESS"NOT"RAISE"FORM_TRIGGER_FAILURE""
+CHECK_PACKAGE_FAILURE
+S_LAYOUT_PRICE
+MODULE4
+T_Price
+Point Code
+I_Name
+I_Code
+T Code
+Rakmaskry
+                                                              
+                                                                                     
+                                                                                         
+                                                                                         
+                                                                                     
+                                                                          
+                                                                           
+                                                                                  
+                                                                           
+                                                  
+           
+                                                                                       
+                                                                                  
+                      
+PUSH_BUTTON261
+S_LAYOUT_PRICE
+MODULE4
+MAIN_WIN
+WHEN-TIMER-EXPIRED
+WHEN-TIMER-EXPIRED
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-ENTER
+WHEN-MOUSE-UP
+WHEN-MOUSE-UP
+WHEN-MOUSE-DOWN
+WHEN-MOUSE-DOWN
+WHEN-WINDOW-DEACTIVATED
+WHEN-WINDOW-DEACTIVATED
+ON-MESSAGE
+ON-MESSAGE
+ON-ERROR
+ON-ERROR
+WHEN-WINDOW-CLOSED
+WHEN-WINDOW-CLOSED
+KEY-MENU
+KEY-MENU
+WHEN-NEW-FORM-INSTANCE
+WHEN-NEW-FORM-INSTANCE
+ON-CLEAR-DETAILS
+ON-CLEAR-DETAILS
+D:\M_CASHEAR\HINT
+TOOLBAR
+TOOLBAR
+DEFAULT
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+DEFAULT
+HELP_BUT
+HELP_BUT
+TOOLBAR
+Dark Blue
+transparent
+                                                  
+           
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+yyyy/mm/dd
+TOOLBAR
+gray16
+transparent
+Simplified Arabic
+$$date$$
+COMMIT_FORM
+COMMIT_FORM
+TOOLBAR
+DEFAULT
+                                                                           
+CLEAR_RECORD
+CLEAR_RECORD
+d:\a_navy\clear.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+LIST_VALUES
+LIST_VALUES
+d:\a_navy\listval
+TOOLBAR
+                                                                           
+EXIT_FORM
+EXIT_FORM
+d:\a_navy\exit.ico
+TOOLBAR
+DEFAULT
+                                                                          
+d:\a_navy\left
+TOOLBAR
+DEFAULT
+                                                                                     
+d:\a_navy\right
+TOOLBAR
+DEFAULT
+                                                                                         
+NEXT_BLOCK
+NEXT_BLOCK
+d:\a_navy\down
+TOOLBAR
+DEFAULT
+                                                                                         
+PREVIOUS_BLOCK
+PREVIOUS_BLOCK
+d:\a_navy\up
+TOOLBAR
+DEFAULT
+                                                                                     
+DEFAULT
+CANCEL_QUERY
+CANCEL_QUERY
+d:\a_navy\canqry.ico
+TOOLBAR
+DEFAULT
+                                                                                  
+                      
+EXECUTE_QUERY
+EXECUTE_QUERY
+d:\a_navy\execute.ico
+TOOLBAR
+DEFAULT
+                                                                                       
+ENTER_QUERY
+ENTER_QUERY
+d:\a_navy\entqry
+TOOLBAR
+DEFAULT
+                                                              
+PUSH_BUTTON482
+PUSH_BUTTON482
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM483
+ITEM483
+PAGE22
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON561
+PUSH_BUTTON561
+PAGE23
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON481
+PUSH_BUTTON481
+PAGE23
+gray16
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON588
+PUSH_BUTTON588
+gray16
+Tahoma
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+P_NAME
+P_NAME
+r100g88b0
+PUSH_BUTTON655
+PUSH_BUTTON655
+PAGE19
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+TOOLBAR
+gray16
+Simplified Arabic
+PUSH_BUTTON732
+PUSH_BUTTON732
+D:\M_CASHEAR\print.ico
+CANVAS2
+r0g25b0
+gray32
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+PUSH_BUTTON734
+PUSH_BUTTON734
+CANVAS2
+r75g88b75
+Simplified Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+POINT_TBL
+POINT_TBL
+POINT_TBL
+POINT_CODE
+POINT_NAME
+p_typ  in (1,2)
+POINT_CODE
+CANVAS2
+WHEN-NEW-RECORD-INSTANCE
+WHEN-NEW-RECORD-INSTANCE
+ON-POPULATE-DETAILS
+ON-POPULATE-DETAILS
+ON-CHECK-DELETE-MASTER
+ON-CHECK-DELETE-MASTER
+Tahoma
+POINT_CODE
+POINT_CODE
+POINT_CODE
+CANVAS2
+Simplified Arabic
+POINT_NAME
+POINT_NAME
+POINT_NAME
+CANVAS2
+Simplified Arabic
+gray12
+Simplified Arabic
+POINT_TBL_ITEM_POINT
+POINT_TBL_ITEM_POINT
+ITEM_POINT
+point_tbl.point_code =ITEM_POINT.point_code
+ITEM_POINT
+ITEM_POINT
+ITEM_POINT
+POINT_CODE
+I_CODE
+i_code in (select p.i_code from item_tbl p where
+           t_code = :item_type.t_code)
+I_CODE
+CANVAS2
+gray12
+WHEN-NEW-RECORD-INSTANCE
+WHEN-NEW-RECORD-INSTANCE
+POINT_CODE
+POINT_CODE
+POINT_TBL.POINT_CODE
+POINT_CODE
+Point Code
+I_CODE
+I_CODE
+I_CODE
+LOV716
+CANVAS2
+Simplified Arabic
+POST-CHANGE
+POST-CHANGE
+WHEN-VALIDATE-ITEM
+WHEN-VALIDATE-ITEM
+I_NAME
+I_NAME
+LOV716
+CANVAS2
+r75g88b88
+Simplified Arabic
+DISPLAY
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+99990.90
+LOV716
+CANVAS2
+Simplified Arabic
+yellow
+Simplified Arabic
+PUSH_BUTTON715
+PUSH_BUTTON715
+CANVAS2
+r75g88b100
+Traditional Arabic
+WHEN-BUTTON-PRESSED
+WHEN-BUTTON-PRESSED
+ITEM_TYPE
+ITEM_TYPE
+ITEM_TBL
+ITEM_TYPE
+T_CODE
+T_NAME
+T_NAME
+CANVAS2
+gray20
+PRE-INSERT
+PRE-INSERT
+ON-POPULATE-DETAILS
+ON-POPULATE-DETAILS
+PRE-DELETE
+PRE-DELETE
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+WHEN-NEW-RECORD-INSTANCE
+WHEN-NEW-RECORD-INSTANCE
+T_CODE
+T_CODE
+T_CODE
+r88g100b100
+Simplified Arabic
+Simplified Arabic
+T_NAME
+T_NAME
+T_NAME
+CANVAS2
+r88g88b100
+Simplified Arabic
+Simplified Arabic
+ITEM_TYPE_ITEM_TBL
+ITEM_TYPE_ITEM_TBL
+ITEM_TBL
+item_type.t_code=ITEM_TBL.t_code
+ITEM_TBL
+ITEM_TBL
+ITEM_TYPE
+ITEM_TBL
+I_CODE
+I_NAME
+T_CODE
+T_PRICE
+i_code not in (select p.i_code from item_point p where
+           p.point_code = :point_tbl.point_code)
+I_CODE
+CANVAS2
+gray20
+WHEN-MOUSE-DOUBLECLICK
+WHEN-MOUSE-DOUBLECLICK
+I_CODE
+I_CODE
+I_CODE
+r50g0b0
+Traditional Arabic
+Traditional Arabic
+T_CODE
+T_CODE
+ITEM_TYPE.T_CODE
+T_CODE
+T Code
+I_NAME
+I_NAME
+I_NAME
+CANVAS2
+r0g0b0
+gray16
+Simplified Arabic
+Traditional Arabic
+OPTIONAL
+T_PRICE
+T_PRICE
+99999.90
+T_PRICE
+r50g0b0
+Traditional Arabic
+r75g100b88
+Traditional Arabic
+TOOLBAR
+TOOLBAR
+MAIN_WIN
+transparent
+MS Sans Serif
+transparent
+Simplified Arabic
+CANVAS2
+CANVAS2
+MAIN_WIN
+gray20
+RECT694
+RECT694
+gray96
+RECT693
+RECT693
+transparent
+TEXT690
+TEXT690
+CMPTXT691
+CMPTXT691
+TEXTSTR692
+TEXTSTR692
+RECT697
+RECT697
+r25g0b0
+transparent
+TEXT698
+TEXT698
+CMPTXT699
+CMPTXT699
+TEXTSTR700
+TEXTSTR700
+Simplified Arabic
+TEXT701
+TEXT701
+CMPTXT702
+CMPTXT702
+TEXTSTR703
+TEXTSTR703
+Simplified Arabic
+GRAPHIC711
+GRAPHIC711
+r0g0b0
+transparent
+GRAPHIC712
+GRAPHIC712
+CMPTXT699
+CMPTXT699
+TEXTSTR700
+TEXTSTR700
+yellow
+Simplified Arabic
+GRAPHIC713
+GRAPHIC713
+CMPTXT702
+CMPTXT702
+TEXTSTR703
+TEXTSTR703
+yellow
+Simplified Arabic
+RECT727
+RECT727
+transparent
+GRAPHIC728
+GRAPHIC728
+r0g25b0
+transparent
+TEXT736
+TEXT736
+CMPTXT737
+CMPTXT737
+TEXTSTR738
+TEXTSTR738
+Simplified Arabic
+gray12
+transparent
+transparent
+Simplified Arabic
+LOV716
+LOV716
+LOV716
+I_CODE
+I_CODE
+I_Code
+ITEM_POINT.I_CODE
+I_NAME
+I_NAME
+I_Name
+ITEM_POINT.I_NAME
+T_PRICE
+T_PRICE
+T_Price
+ITEM_POINT.PRICE
+BUTTON_PROC
+BUTTON_PROC
+TOOLBAR
+TOOLBAR
+TOOLBAR
+TOOLBAR
+CHECK_PACKAGE_FAILURE
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+LOV716
+LOV716
+SELECT ALL ITEM_TBL.I_CODE, ITEM_TBL.I_NAME, ITEM_TBL.T_PRICE
+FROM ITEM_TBL
+ORDER BY ITEM_TBL.I_NAME 
+I_CODE
+I_CODE
+I_NAME
+I_NAME
+T_PRICE
+T_PRICE
+darkblue
+r75g88b100
+r50g25b0
+MAIN_WIN
+MAIN_WIN
+TOOLBAR
+SYSTEM.MOUSE_ITEM
+SYSTEM.MOUSE_ITEM
+TOOLBAR
+TOOLBAR
+TOOLBAR.TEXT
+TOOLBAR.TEXT
+TOOLBAR
+TOOLBAR
+TOOLBAR
+SYSTEM.MESSAGE_LEVEL
+SYSTEM.MESSAGE_LEVEL
+QUERY_MASTER_DETAILS
+SYSTEM.MASTER_BLOCK
+SYSTEM.MASTER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.COORDINATION_OPERATION
+SYSTEM.COORDINATION_OPERATION
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.TRIGGER_BLOCK
+SYSTEM.TRIGG
+ER_BLOCK
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.CURSOR_ITEM
+SYSTEM.CURSOR_ITEM
+CLEAR_ALL_MASTER_DETAILS
+P9_11_OCT_200408_37_00
+P15_11_OCT_200408_37_00
+SYSTEM.FORM_STATUS
+SYSTEM.FORM_STATUS
+CLEAR_ALL_MASTER_DETAILS
+SYSTEM.BLOCK_STATUS
+SYSTEM.BLOCK_STATUS
+CLEAR_ALL_MASTER_DETAILS
+P9_14_MAY_200321_23_29
+SYSTEM.CURRENT_FORM
+SYSTEM.CURRENT_FORM
+P9_14_MAY_200321_23_29
+GLOBAL.S
+GLOBAL.S
+P9_14_MAY_200321_23_29
+P12_14_MAY_200321_23_29
+POINT_TBL.POINT_CODE
+POINT_TBL.POINT_CODE
+POINT_CODE
+POINT_TBL
+P2_16_JUN_201916_03_42
+P9_11_OCT_200408_37_00
+P10_11_OCT_200408_37_00
+P0_11_OCT_200410_15_17
+P20_11_OCT_200408_37_00
+ITEM_POINT.I_CODE
+ITEM_POINT.I_CODE
+I_CODE
+ITEM_POINT
+P2_16_JUN_201916_03_42
+P11_11_OCT_200408_37_00
+P13_11_OCT_200408_37_00
+SYSTEM.RECORD_STATUS
+SYSTEM.RECORD_STATUS
+P9_11_OCT_200408_37_00
+P15_11_OCT_200408_37_00
+ITEM_POINT.I_NAME
+ITEM_POINT.I_NAME
+I_NAME
+ITEM_POINT
+P11_11_OCT_200408_37_00
+P13_11_OCT_200408_37_00
+ITEM_POINT.PRICE
+ITEM_POINT.PRICE
+ITEM_POINT
+P13_11_OCT_200408_37_00
+ITEM_TYPE.T_CODE
+ITEM_TYPE.T_CODE
+T_CODE
+ITEM_TYPE
+P14_11_OCT_200408_37_00
+P15_11_OCT_200408_37_00
+P16_11_OCT_200408_37_00
+P0_11_OCT_200410_15_17
+ITEM_TBL.I_CODE
+ITEM_TBL.I_CODE
+I_CODE
+ITEM_TBL
+P20_11_OCT_200408_37_00
+ITEM_TBL.T_PRICE
+ITEM_TBL.T_PRICE
+T_PRICE
+ITEM_TBL
+P20_11_OCT_200408_37_00
+"PKG INIT"<anonymous>""
+ITEM_POINT
+ITEM_TYPE
+P20_11_OCT_200408_37_00
+insert into item_point(point_code,i_code,price) values
+ (:point_tbl.point_code,:item_tbl.i_code,:item_tbl.t_price);
+go_block('item_point');execute_query;
+go_block('ITEM_TBL');execute_query;
+!WHEN-MOUSE-DOUBLECLICK (ITEM_TBL)
+STANDARD
+MAHROSA
+ITEM_POINT
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+item_point
+ITEM_TBL
+INSERT INTO ITEM_POINT ( POINT_CODE,I_CODE,PRICE )  VALUES ( :b1,:b2,:b3  )"
+IPACKAGE dll IS
+  FUNCTION tblen(str IN VARCHAR2) RETURN PLS_INTEGER;
+STANDARD
+"DLL"TBLEN"STR""
+"PACKAGE"DLL"FUNCTION"TBLEN"STR"VARCHAR2"RETURN"PLS_INTEGER""
+TOOLBAR.TEXT
+ENTER_TOO
+===UCS2-LE===
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+*017:<>@B
+ (.069;=?A
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+%'-068>A
+BHKLMOQSUWY
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+*017:<>@B
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+'-/589:@CDEKLRUVWY_bcdflntw}
+]cdfhjln
+#$/156=EIMNU]aefmuy|
+           #$$$$$$$$$$$$$%%%%%%&&&&&&''(())+++#.//////////0000000033333333333334444777777777788899999999999;;;;;;<<<<<<======????????@@@@AABGGGGGGGGHHHJJJJLLLLLLLLLLLMMMMMMMNNNNOOOOR.
+#$/136:?CDIMNPSWY]_`
+ &'-0289?BDJKQTV\]cfhnouxz
+XZ\^`bdh
+!")158<=DLPSVZjnos
+!)178>ACKQTVXZ\^`b
+!)178>ACKQTVXZ\^`b
+#$/136:?CDIMNPSWY]_`
+!156;<DHLNP
+#$/136:?CDIMNPSWY]_`
+#$)*26;<DHSUYZaimpswx
+   '0007
+*017:<>@B
+#$/156=EILOST[cgjmqry
+!!!!!!!!!!!!!""##''''''+++++++,,--111111199:
+<@@@AAABBBCCCDDDJJJJJJJJJNNNNNNNNSSSSSSSSTTTTTTYYYYYYYZZZZ[[[\\\\`````````````aaaaaabbmmmmmmmnnnnnnnoooooooppppppppppppqqqqrrrssssttttttttuuxxxxxxx~~~~~~~~
+]cdfhjln
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+#$/136:?CDIMNPSWY]_`
+!156;<DHLNP

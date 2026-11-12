@@ -1,0 +1,13 @@
+table,line,timing,event,columns,body_first_line,sql_keyword_hits
+HAGZ_TBL,2,,update,"h_name,h_flag",BEGIN,3
+HAGZ_TBL,10,,update,"out_date,h_from,h_to,h_day",declare,21
+HAGZ_ROOM,55,,insert,,declare,7
+HAGZ_ROOM,76,,delete,,BEGIN,9
+HAGZ_ROOM,103,,insert,,declare,4
+HAGZ_ROOM,115,,delete,,declare,12
+HAGZ_ROOM,148,,insert,,BEGIN,2
+HAGZ_ROOM,154,,delete,,BEGIN,6
+HAGZ_ROOM,172,,insert,,BEGIN,10
+HAGZ_ROOM,190,,delete,,BEGIN,30
+HAGZ_ROOM,239,,insert,,BEGIN,2
+HAGZ_ROOM,245,,delete,,BEGIN,5

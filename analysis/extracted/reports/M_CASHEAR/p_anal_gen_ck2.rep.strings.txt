@@ -1,0 +1,2931 @@
+src=M_CASHEAR/p_anal_gen_ck2.rep
+sha256=f67e580a4bba43b90eeea17eb6ca98f818f281439615c9498e29e2759337402c
+size=270336
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:07.221988+00:00
+version_markers=ROS.60050
+ascii_lines=2883
+ucs2_lines=36
+trigger_count=0
+pl_sql_markers=6
+===ASCII===
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+r75g50b0
+	00r50g88b50
+ >p@p@p@0L
+Courier New
+ >p@p@p@0P
+lTimes New Roman
+f_ts_ckformattrigger
+vTS_CK
+INVEST_GEN.TS_CK
+2PRINTJOB
+cCOAGULATION_T_CK
+ANTI_PH_CK
+INVST_DATE
+ Zp\ `
+kSELECT ALL PATION_TBL.P_ID, 
+INVEST_GEN.BATNY_CK
+ Zp\ b
+d(jpnE_CK, INVEST_GEN.TS_CK, 
+INVEST_GEN.CB_PICT_CK, INVEST_GEN.FSTING_BLD_SGR_CK
+ Zp\ b
+d(jpnSERUM_CK, INVEST_GEN.PLAELET_C_CK, INVEST_GEN.BLEEDING_T_CK, 
+INVEST_GEN.COA
+ Zp\ b
+d(jpnGEN.PTT_CK, INVEST_GEN.BLD_UREA_CK, 
+INVEST_GEN.CHOLESTEROL_CK, INVEST_GEN.T
+ Zp\ b
+d(jpnEST_GEN.HDL_CK, INVEST_GEN.SGOT_CK, INVEST_GEN.SGPT_CK, 
+INVEST_GEN.ALKALINE
+ BpD N
+P(VpZST_GEN.SERUMPROTEIN_CK, 
+INVEST_GEN.URINE_ANAL_CK, I
+ER_G_P_ID
+ JpL V
+X(^pb, 
+INVEST_GEN.OTH1_CK, INVEST_GEN.OTH2_CK, INVEST_GEN.OTH3_C
+aF_OTH1_CK
+:p;K, INVEST_GEN.FACT5_CK, INVEST_G
+:p; INVEST_GEN.PRO_S_CK, PATION_TBL
+:p;TBL.GENDER, PATION_TBL.AGEE, INV
+INVEST_GEN.OTH2_NM, INVEST_GEN.
+:p;PATION_TBL, INVEST_GEN
+WHERE (PA
+ = INVEST_GEN.P_ID) 
+PATION_TBL.P_ID = :p_i and 
+P_DATE = :p_d
+r(r(v(z
+RUNONLY
+p_anal_gen_ck2
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+ChPBW2
+k0l0m0n8p8r
+t v0x0y
+r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+tpupupu
+= '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+Stool Analysis
+INVESTIGATION REQUIERD
+Dr. Samir El Baha Eye Center
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0S
+Traditional Arabic
+ >p@p@p@0L
+Courier New
+ >p@p@p@0S
+Traditional Arabic
+ >p@p@p@0S
+Traditional Arabic
+9g_nameformula
+xf_batny_ckformattrigger
+{f_hart_ckformattrigger
+|f_nose_ckformattrigger
+INVEST_GEN.OTH2_NM, INVEST_GEN.
+:p;PATION_TBL, INVEST_GEN
+WHERE (PA
+ = INVEST_GEN.P_ID) 
+PATION_TBL.P_ID = :p_i and 
+P_DATE = :p_d
+r(r(v(z
+RUNONLY
+p_anal_gen_ck2
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+ChPBW2
+k0l0m0n8p8r
+t v0x0y
+r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+tpupupu
+= '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+rROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+hROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+kROSSTRUCTS
+struct types
+ROSTK2RESV
+tk2 reserved
+SRW2_ANCHOR
+SRW2_BODY_LOCATION
+pSRW2_BOILERPLATE
+SRW2_BUTTON
+SRW2_COLUMN
+!DaSRW2_DATA_MODEL
+vSRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+meSRW2_ELEMENT
+SRW2_FIELD
+*SRW2_FORMAT_EXCEPTION
+SRW2_FRAME
+SRW2_GROUP
+!OTSRW2_GROUP_NODE
+SRW2_HYPERLINK
+"p\SRW2_JAVA_APPLET
+SRW2_JAVA_PROPERTIES
+:SRW2_LAYOUT
+USRW2_LAYOUT_GROUP
+SRW2_LINK
+8jSRW2_LISTS
+SRW2_MATRIX
+SRW2_OGD_COLUMN_MAP
+SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+8pSRW2_QUERY
+SRW2_TEXT_SEGMENT
+OTTOOL_COMMENT
+TOOL_LIBRARY
+TOOL_MODULE
+8rTOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+'VG_COLOR
+BLOOD LIPIDS
+Factor 5 Lidan
+Triglycerides
+Protein S
+Protein c
+C.B. Picture
+Fasting Blood Sugar
+P.P.Blood Sugar
+Serum Electrolytes K Na
+COAGULATION SCREEN
+Platelet Count
+KIDNEY FUNCTION TESTS
+Bleeding Time
+Coagulation Time
+Prothrombin Time (PT)
+Partial Thromboplastin T
+Blood Urea
+CRATINIE
+L. D. L.
+Anti Phospholrpid 
+Blood Coag.
+Cholesterol
+BLOOD LIPIDS
+Alkaline Phosphatase
+Bilirubin 
+Serum protein 
+OTHERS
+Culture & Sensitivity
+  from conjunctive Sac 
+Urine Analysis
+   " $
+	darkgreen
+   " $
+gray96
+   " $
+gray92
+   " $
+gray88
+   " $
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+	r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+	r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+	r100g0b88
+r0g0b100
+	r25g0b100
+	r50g0b100
+	r75g0b100
+	r88g0b100
+r100g0b100
+ " $ &
+darkgray
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+r25g25b0@
+r50g25b0
+r75g25b0
+r88g25b0
+	r100g25b0
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+r100g25b50
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+r100g25b75
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+ $ & (
+r100g25b88
+	r0g25b100
+ $ & (
+r25g25b100@
+ $ & (
+r50g25b100
+ $ & (
+r75g25b100
+ $ & (
+r88g25b100
+ & ( *
+r100g25b100
+darkred
+darkblue
+   " $
+gray64\(\(\(
+   " $
+gray60ffffff
+   " $
+gray56p
+   " $
+gray52z
+r0g50b0
+r25g50b0@
+r50g50b0
+rine Analysis
+r75g50b0
+r88g50b0
+	r100g50b0
+r0g50b50
+ $ & (
+	r25g50b50
+ $ & (
+	r50g50b50
+ $ & (
+	r75g50b50
+ $ & (
+	r88g50b50
+ $ & (
+r100g50b50
+r0g50b75
+ $ & (
+	r25g50b75
+ $ & (
+	r50g50b75
+ $ & (
+	r75g50b75
+ $ & (
+	r88g50b75
+ $ & (
+r100g50b75
+r0g50b88
+ $ & (
+	r25g50b88
+ $ & (
+	r50g50b88
+ $ & (
+	r75g50b88
+ $ & (
+	r88g50b88
+ $ & (
+r100g50b88
+	r0g50b100
+ $ & (
+r25g50b100@
+ $ & (
+r50g50b100
+ $ & (
+r75g50b100
+ $ & (
+r88g50b100
+ & ( *
+r100g50b100
+yellow
+darkyellow
+magenta
+darkmagenta
+   " $
+gray48
+   " $
+gray44
+   " $
+gray40
+   " $
+gray36
+r0g75b0
+r25g75b0@
+r50g75b0
+r75g75b0
+r88g75b0
+	r100g75b0
+00r0g75b50
+ ( * ,
+	00r25g75b50
+ ( * ,
+	00r50g75b50
+ ( * ,
+	00r75g75b50
+ ( * ,
+	00r88g75b50
+ ( * ,
+00r100g75b50
+00r0g75b75
+ ( * ,
+	00r25g75b75
+ ( * ,
+	00r50g75b75
+ ( * ,
+	00r75g75b75
+ ( * ,
+	00r88g75b75
+ ( * ,
+00r100g75b75
+00r0g75b88
+ ( * ,
+	00r25g75b88
+ ( * ,
+	00r50g75b88
+ ( * ,
+	00r75g75b88
+ ( * ,
+	00r88g75b88
+ ( * ,
+00r100g75b88
+	00r0g75b100
+ ( * ,
+00r25g75b100@
+ ( * ,
+00r50g75b100
+ ( * ,
+00r75g75b100
+ ( * ,
+00r88g75b100
+ * , .
+00r100g75b100
+ & ( *
+00custom1
+ & ( *
+00custom2
+ & ( *
+00custom3
+ & ( *
+00custom4
+ $ & (
+00gray32
+ $ & (
+00gray28
+ $ & (
+00gray24
+ $ & (
+00gray20
+00r0g88b0
+00r25g88b0@
+00r50g88b0
+00r75g88b0
+00r88g88b0
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ ( * ,
+	00r50g88b50
+ ( * ,
+	00r75g88b50
+ ( * ,
+	00r88g88b50
+ ( * ,
+00r100g88b50
+00r0g88b75
+ ( * ,
+	00r25g88b75
+ ( * ,
+	00r50g88b75
+ ( * ,
+	00r75g88b75
+ ( * ,
+	00r88g88b75
+ ( * ,
+00r100g88b75
+00r0g88b88
+ ( * ,
+	00r25g88b88
+ ( * ,
+	00r50g88b88
+ ( * ,
+	00r75g88b88
+ ( * ,
+	00r88g88b88
+ ( * ,
+00r100g88b88
+	00r0g88b100
+ ( * ,
+00r25g88b100@
+ ( * ,
+00r50g88b100
+ ( * ,
+00r75g88b100
+ ( * ,
+00r88g88b100
+ * , .
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+	00r25g100b0
+	00r50g100b0
+	00r75g100b0
+	00r88g100b0
+00r100g100b0
+	00r0g100b50
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@p@0L
+$Courier New
+ >p@p@pB8B
+ >p@p@p@0L
+-Courier New
+ >p@p@p@0L
+ICourier New
+ >p@p@p@0L
+LCourier New
+ >p@p@p@0G
+MTahoma
+ >p@p@p@0G
+NTahoma
+ >p@p@p@0P
+OTimes New Roman
+ >p@p@p@0P
+PTimes New Roman
+ >p@p@p@0R
+QSimplified Arabic
+ >p@p@p@0R
+RSimplified Arabic
+ >p@p@p@0R
+SSimplified Arabic
+ >p@p@p@0P
+_Times New Roman
+ >p@p@p@0P
+`Times New Roman
+ ( * ,
+00r25g100b50@
+ ( * ,
+00r50g100b50
+ ( * ,
+00r75g100b50
+ ( * ,
+00r88g100b50
+ * , .
+00r100g100b50
+	00r0g100b75
+ ( * ,
+00r25g100b75@
+ ( * ,
+00r50g100b75
+ ( * ,
+00r75g100b75
+ ( * ,
+00r88g100b75
+ * , .
+00r100g100b75
+	00r0g100b88
+ ( * ,
+00r25g100b88@
+ ( * ,
+00r50g100b88
+ ( * ,
+00r75g100b88
+ ( * ,
+00r88g100b88
+ * , .
+00r100g100b88
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+EvTS_CK
+INVEST_GEN.TS_CK
+TyCB_PICT_CK
+INVEST_GEN.CB_PICT_CK
+CB_PICT_CK
+i|FSTING_BLD_SGR_CK
+INVEST_GEN.FSTING_BLD_SGR_CK
+FSTING_BLD_SGR_CK
+PP_BLD_SGR_CK
+INVEST_GEN.PP_BLD_SGR_CK
+PP_BLD_SGR_CK
+SERUM_CK
+INVEST_GEN.SERUM_CK
+SERUM_CK
+PLAELET_C_CK
+INVEST_GEN.PLAELET_C_CK
+PLAELET_C_CK
+BLEEDING_T_CK
+INVEST_GEN.BLEEDING_T_CK
+BLEEDING_T_CK
+COAGULATION_T_CK
+INVEST_GEN.COAGULATION_T_CK
+COAGULATION_T_CK
+INVEST_GEN.PT_CK
+PTT_CK
+INVEST_GEN.PTT_CK
+PTT_CK
+BLD_UREA_CK
+INVEST_GEN.BLD_UREA_CK
+BLD_UREA_CK
+CHOLESTEROL_CK
+INVEST_GEN.CHOLESTEROL_CK
+CHOLESTEROL_CK
+TRIGLYCERIDES_CK
+INVEST_GEN.TRIGLYCERIDES_CK
+TRIGLYCERIDES_CK
+LDL_CK
+INVEST_GEN.LDL_CK
+LDL_CK
+HDL_CK
+INVEST_GEN.HDL_CK
+HDL_CK
+SGOT_CK
+INVEST_GEN.SGOT_CK
+SGOT_CK
+SGPT_CK
+INVEST_GEN.SGPT_CK
+SGPT_CK
+ALKALINE_FSFAT_CK
+INVEST_GEN.ALKALINE_FSFAT_CK
+ALKALINE_FSFAT_CK
+BILIRUBIN_CK
+INVEST_GEN.BILIRUBIN_CK
+BILIRUBIN_CK
+SERUMPROTEIN_CK
+INVEST_GEN.SERUMPROTEIN_CK
+SERUMPROTEIN_CK
+URINE_ANAL_CK
+INVEST_GEN.URINE_ANAL_CK
+URINE_ANAL_CK
+STOOL_ANAL_CK
+INVEST_GEN.STOOL_ANAL_CK
+STOOL_ANAL_CK
+CSFCS_CK
+INVEST_GEN.CSFCS_CK
+CSFCS_CK
+OTH1_CK
+INVEST_GEN.OTH1_CK
+OTH1_CK
+OTH2_CK
+INVEST_GEN.OTH2_CK
+OTH2_CK
+OTH3_CK
+INVEST_GEN.OTH3_CK
+OTH3_CK
+CRATINIE_CK
+INVEST_GEN.CRATINIE_CK
+CRATINIE_CK
+AT3_CK
+INVEST_GEN.AT3_CK
+AT3_CK
+FACT5_CK
+INVEST_GEN.FACT5_CK
+FACT5_CK
+ANTI_PH_CK
+INVEST_GEN.ANTI_PH_CK
+ANTI_PH_CK
+PRO_C_CK
+INVEST_GEN.PRO_C_CK
+PRO_C_CK
+PRO_S_CK
+INVEST_GEN.PRO_S_CK
+PRO_S_CK
+P_NAME
+PATION_TBL.P_NAME
+P_NAME
+B_DATE
+PATION_TBL.B_DATE
+B_DATE
+GENDER
+PATION_TBL.GENDER
+GENDER
+PATION_TBL.AGEE
+p p'p9
+P_DATE
+INVEST_GEN.P_DATE
+P_DATE
+p p(p;
+OTH3_NM
+INVEST_GEN.OTH3_NM
+OTH3_NM
+p p(p;
+OTH2_NM
+INVEST_GEN.OTH2_NM
+OTH2_NM
+p p(p;
+OTH1_NM
+INVEST_GEN.OTH1_NM
+OTH1_NM
+p p+pA
+INVST_DATE
+INVEST_GEN.INVST_DATE
+INVST_DATE
+.p2p2p2
+486888:8<
+_xb8b8d8f@j
+opppppw
+AG_P_ID
+G_P_ID
+LIST_G_P_ID
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+2PRINTJOB
+Show Print Job Dialog
+Default
+Output Mode
+4BACKGROUND
+Run in Background
+5ORIENTATION
+Default
+Orientation
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+{0|0}0~0
+7THOUSANDS
+Thousands Indicator
+|0}0~0
+8CURRENCY
+Currency Symbol
+9COPIES
+Number of Copies
+:DESFORMAT
+Destination Format
+x0y0z0{0|0}0~p
+;DESNAME
+Destination Name
+<DESTYPE
+Screen
+Destination Type
+w0x0y0z0{0|0}p~(~
+{0|0}0~0
+EBATNY_CK
+BATNY_CK
+w0x0y0z0{0|0}p~ ~
+HHART_CK
+HART_CK
+w0x0y0z0{0|0}p~ ~
+KNOSE_CK
+NOSE_CK
+w0x0y0z0{0|0}p~ ~
+NTS_CK
+QCB_PICT_CK
+CB_PICT_CK
+TFSTING_BLD_SGR_CK
+FSTING_BLD_SGR_CK
+WPP_BLD_SGR_CK
+PP_BLD_SGR_CK
+{0|0}0~0
+ZSERUM_CK
+SERUM_CK
+]PLAELET_C_CK
+PLAELET_C_CK
+`BLEEDING_T_CK
+BLEEDING_T_CK
+G_P_ID
+LIST_G_P_ID
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+cCOAGULATION_T_CK
+COAGULATION_T_CK
+w0x0y0z0{0|0}p~ ~
+fPT_CK
+{0|0}0~0
+iPTT_CK
+PTT_CK
+{0|0}0~0
+lBLD_UREA_CK
+BLD_UREA_CK
+oCHOLESTEROL_CK
+CHOLESTEROL_CK
+rTRIGLYCERIDES_CK
+TRIGLYCERIDES_CK
+{0|0}0~0
+uLDL_CK
+LDL_CK
+{0|0}0~0
+xHDL_CK
+HDL_CK
+w0x0y0z0{0|0}p~ ~
+{SGOT_CK
+SGOT_CK
+w0x0y0z0{0|0}p~ ~
+~SGPT_CK
+SGPT_CK
+ALKALINE_FSFAT_CK
+ALKALINE_FSFAT_CK
+BILIRUBIN_CK
+BILIRUBIN_CK
+SERUMPROTEIN_CK
+SERUMPROTEIN_CK
+URINE_ANAL_CK
+URINE_ANAL_CK
+STOOL_ANAL_CK
+STOOL_ANAL_CK
+{0|0}0~0
+CSFCS_CK
+CSFCS_CK
+w0x0y0z0{0|0}p~ ~
+OTH1_CK
+OTH1_CK
+w0x0y0z0{0|0}p~ ~
+OTH2_CK
+OTH2_CK
+w0x0y0z0{0|0}p~ ~
+OTH3_CK
+OTH3_CK
+{0|0}0~0
+CRATINIE_CK
+CRATINIE_CK
+{0|0}0~0
+AT3_CK
+AT3_CK
+{0|0}0~0
+FACT5_CK
+FACT5_CK
+BLEEDING_T_CK
+G_P_ID
+LIST_G_P_ID
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ANTI_PH_CK
+ANTI_PH_CK
+{0|0}0~0
+PRO_C_CK
+PRO_C_CK
+{0|0}0~0
+PRO_S_CK
+PRO_S_CK
+{0|0}0~0
+P_NAME
+P_NAME
+{0|0}0~0
+B_DATE
+B_DATE
+{0|0}0~0
+GENDER
+GENDER
+w0x0y0z0{0|0}p~ ~
+{0|0}0~0
+tP_DATE
+P Date
+P_DATE
+{0|0}0~0
+wOTH3_NM
+Oth3 Nm
+OTH3_NM
+{0|0}0~0
+zOTH2_NM
+Oth2 Nm
+OTH2_NM
+{0|0}0~0
+}OTH1_NM
+Oth1 Nm
+OTH1_NM
+BILIRUBIN_CK
+BILIRUBIN_CK
+SERUMPROTEIN_CK
+SERUMPROTEIN_CK
+URINE_ANAL_CK
+URINE_ANAL_CK
+STOOL_ANAL_CK
+STOOL_ANAL_CK
+{0|0}0~0
+CSFCS_CK
+CSFCS_CK
+w0x0y0z0{0|0}p~ ~
+OTH1_CK
+OTH1_CK
+w0x0y0z0{0|0}p~ ~
+OTH2_CK
+OTH2_CK
+w0x0y0z0{0|0}p~ ~
+OTH3_CK
+OTH3_CK
+{0|0}0~0
+CRATINIE_CK
+CRATINIE_CK
+{0|0}0~0
+AT3_CK
+AT3_CK
+{0|0}0~0
+FACT5_CK
+FACT5_CK
+BLEEDING_T_CK
+G_P_ID
+LIST_G_P_ID
+	00r100g88b0
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ BpD N
+P(VpZpZ0Z0[@^@b
+i0j0k0l0m0n0o
+ER_G_P_ID
+# JpL T
+V(Zp^p^@^0b8d8f
+p0q0r0sptpv0v
+FF_P_ID
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+GF_BATNY_CK
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+HF_HART_CK
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+IF_NOSE_CK
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+JF_TS_CK
+# JpL Z
+\(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+KF_CB_PICT_CK
+# JpL `
+b(fpjpj8j8l8n8p
+z0{0|0}p~p~0~
+LF_FSTING_BLD_SGR_CK
+# JpL \
+^(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+MF_PP_BLD_SGR_CK
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+NF_SERUM_CK
+# JpL \
+^(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+OF_PLAELET_C_CK
+# JpL \
+^(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+PF_BLEEDING_T_CK
+# JpL `
+b(fpjpj8j8l8n8p
+z0{0|0}p~p~0~
+QF_COAGULATION_T_CK
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+RF_PT_CK
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+SF_PTT_CK
+# JpL Z
+\(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+TF_BLD_UREA_CK
+# JpL ^
+`(fpjpj@j8n8p8r
+|0}0~0
+UF_CHOLESTEROL_CK
+# JpL `
+b(fpjpj@j8n8p8r
+|0}0~0
+VF_TRIGLYCERIDES_CK
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+WF_LDL_CK
+~9ES_CK
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+XF_HDL_CK
+~;ES_CK
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+YF_SGOT_CK
+~@ES_CK
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+ZF_SGPT_CK
+~AES_CK
+# JpL `
+b(fpjpj8j8l8n8p
+z0{0|0}p~p~0~
+[F_ALKALINE_FSFAT_CK
+# JpL \
+^(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+\F_BILIRUBIN_CK
+# JpL ^
+`(fpjpj8j8l8n8p
+z0{0|0}p~p~0~
+]F_SERUMPROTEIN_CK
+# JpL \
+^(bpfpf@f8j8l8n
+x0y0z0{p|p~0~
+^F_URINE_ANAL_CK
+# JpL \
+^(bpfpf@f8j8l8n
+x0y0z0{p|p~0~
+_F_STOOL_ANAL_CK
+# JpL X
+Z(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+`F_CSFCS_CK
+00r0g88b50
+ ( * ,
+	00r25g88b50
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+aF_OTH1_CK
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+bF_OTH2_CK
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxpz0z
+cF_OTH3_CK
+# JpL Z
+\(bpfpf8f8h8j8l
+v0w0x0ypzpz0z
+dF_CRATINIE_CK
+# JpL V
+X(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+eF_AT3_CK
+# JpL X
+Z(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+fF_FACT5_CK
+# JpL Z
+\(bpfpf8f@j8n8p
+z0{0|0}p~p~0~
+gF_ANTI_PH_CK
+# JpL X
+Z(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+hF_PRO_C_CK
+# JpL X
+Z(^pbpb8b@f8j8l
+v0w0x0ypzpz0z
+iF_PRO_S_CK
+# JpL V
+X(^pbpb0b0c@f8j
+t0u0v0wpxpz0z
+jF_P_NAME
+# JpL V
+X(^pbpb8b8d8f8h
+r0s0t0upvpv0v
+kF_B_DATE
+# JpL V
+X(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+lF_GENDER
+# JpL T
+V(Zp^p^8^8`8b8d
+n0o0p0qprpr0r
+mF_AGEE
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH1_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+(:ANTI_PH_CK = '1')
+(:PRO_C_CK = '1')
+(:PRO_S_CK = '1')
+f_serum_ckformattrigger
+f_plaelet_c_ckformattrigger
+f_bleeding_t_ckformattrigger
+f_coagulation_t_ckformattrigge
+f_pt_ckformattrigger
+f_ptt_ckformattrigger
+f_at3_ckformattrigger
+f_fact5_ckformattrigger
+f_anti_ph_ckformattrigger
+f_pro_c_ckformattrigger
+f_pro_s_ckformattrigger
+f_bld_urea_ckformattrigger
+f_cratinie_ckformattrigger
+f_sgot_ckformattrigger
+f_sgpt_ckformattrigger
+f_alkaline_fsfat_ckformattrigg
+f_bilirubin_ckformattrigger
+f_serumprotein_ckformattrigger
+f_cholesterol_ckformattrigger
+f_triglycerides_ckformattrigge
+f_ldl_ckformattrigger
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+(:FACT5_CK = '1')
+f_cb_pict_ckformattrigger
+f_fsting_bld_sgr_ckformattrigg
+f_pp_bld_sgr_ckformattrigger
+f_serum_ckformattrigger
+f_plaelet_c_ckformattrigger
+f_bleeding_t_ckformattrigger
+f_coagulation_t_ckformattrigge
+f_pt_ckformattrigger
+f_ptt_ckformattrigger
+f_at3_ckformattrigger
+f_fact5_ckformattrigger
+f_anti_ph_ckformattrigger
+f_pro_c_ckformattrigger
+f_pro_s_ckformattrigger
+f_bld_urea_ckformattrigger
+f_cratinie_ckformattrigger
+f_sgot_ckformattrigger
+f_sgpt_ckformattrigger
+f_alkaline_fsfat_ckformattrigg
+f_bilirubin_ckformattrigger
+f_serumprotein_ckformattrigger
+f_cholesterol_ckformattrigger
+f_triglycerides_ckformattrigge
+f_ldl_ckformattrigger
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+(:AT3_CK = '1')
+f_cb_pict_ckformattrigger
+f_fsting_bld_sgr_ckformattrigg
+f_pp_bld_sgr_ckformattrigger
+f_serum_ckformattrigger
+f_plaelet_c_ckformattrigger
+f_bleeding_t_ckformattrigger
+f_coagulation_t_ckformattrigge
+f_pt_ckformattrigger
+f_ptt_ckformattrigger
+f_at3_ckformattrigger
+f_fact5_ckformattrigger
+f_anti_ph_ckformattrigger
+f_pro_c_ckformattrigger
+f_pro_s_ckformattrigger
+f_bld_urea_ckformattrigger
+f_cratinie_ckformattrigger
+f_sgot_ckformattrigger
+f_sgpt_ckformattrigger
+f_alkaline_fsfat_ckformattrigg
+f_bilirubin_ckformattrigger
+f_serumprotein_ckformattrigger
+f_cholesterol_ckformattrigger
+f_triglycerides_ckformattrigge
+f_ldl_ckformattrigger
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+(:SGPT_CK = '1')
+(:ALKALINE_FSFAT_CK = '1')
+(:BILIRUBIN_CK = '1')
+(:SERUMPROTEIN_CK = '1')
+(:URINE_ANAL_CK = '1')
+(:STOOL_ANAL_CK = '1')
+(:CSFCS_CK = '1')
+(:OTH1_CK = '1')
+(:OTH2_CK = '1')
+(:OTH3_CK = '1')
+(:CRATINIE_CK = '1')
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+(:TRIGLYCERIDES_CK = '1')
+(:LDL_CK = '1')
+(:HDL_CK = '1')
+(:SGOT_CK = '1')
+f_plaelet_c_ckformattrigger
+f_bleeding_t_ckformattrigger
+f_coagulation_t_ckformattrigge
+f_pt_ckformattrigger
+f_ptt_ckformattrigger
+f_at3_ckformattrigger
+f_fact5_ckformattrigger
+f_anti_ph_ckformattrigger
+f_pro_c_ckformattrigger
+f_pro_s_ckformattrigger
+f_bld_urea_ckformattrigger
+f_cratinie_ckformattrigger
+f_sgot_ckformattrigger
+f_sgpt_ckformattrigger
+f_alkaline_fsfat_ckformattrigg
+f_bilirubin_ckformattrigger
+f_serumprotein_ckformattrigger
+f_cholesterol_ckformattrigger
+f_triglycerides_ckformattrigge
+f_ldl_ckformattrigger
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+G_NAMEFORMULA
+STANDARD
+"PKG INIT"G_NAMEFORMULA"T""
+"FUNCTION"G_NAMEFORMULA"RETURN"CHAR"T"VARCHAR2"20"GENDER""="1"
+G_NAMEFORMULA
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_BATNY_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_BATNY_CKFORMATTRIGGER""
+"FUNCTION"F_BATNY_CKFORMATTRIGGER"RETURN"BOOLEAN"BATNY_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_BATNY_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_HART_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_HART_CKFORMATTRIGGER""
+"FUNCTION"F_HART_CKFORMATTRIGGER"RETURN"BOOLEAN"HART_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_HART_CKFORMATTRIGGER
+F_LDL_CKFORMATTRIGGER
+F_COAGULATION_T_CKFORMATTRIGGE
+p*p@pK
+yCB_PICT_CK
+INVEST_GEN.CB_PICT_CK
+CB_PICT_CK
+p1pNp`
+|FSTING_BLD_SGR_CK
+INVEST_GEN.FSTING_BLD_SGR_CK
+FSTING_BLD_SGR_CK
+p-pFpT
+PP_BLD_SGR_CK
+INVEST_GEN.PP_BLD_SGR_CK
+PP_BLD_SGR_CK
+p(p<pE
+SERUM_CK
+INVEST_GEN.SERUM_CK
+SERUM_CK
+p,pDpQ
+PLAELET_C_CK
+INVEST_GEN.PLAELET_C_CK
+PLAELET_C_CK
+p-pFpT
+BLEEDING_T_CK
+INVEST_GEN.BLEEDING_T_CK
+BLEEDING_T_CK
+vgmipl_help
+E<HTML>
+<TITLE>Oracle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Total number of pages
+var basefilename = "&file_name"		// Base file name
+var fileext = "&file_ext"		//File extension
+/* jumps to "new_page" */
+function new_page(form, new_page)
+	form.reqpage.value = new_page;
+	parent.frames[0].location = basefilename + "_" + new_page + "."+fileext;
+/* go back one page */
+function back(form)
+	/* if we are not in first page */
+	if (jump_index > 1)
+		jump_index--;
+		new_page(form, jump_index);
+/* go forward one page */
+function forward(form)
+	/* if we are not in last page */
+	if (jump_index < num_pages)
+		jump_index++;
+		new_page(form, jump_index);
+/* go to first page */
+function first(form)
+	if(jump_index != 1)
+		jump_index = 1;
+		new_page(form, jump_index);
+/* go to last page */
+function last(form)
+	if(jump_index != num_pages)
+		jump_index = num_pages;
+		new_page(form, jump_index);
+/* go to the user specified page number */
+function pagenum(form)
+	/* sanity check */
+	if (form.reqpage.value < 1)
+		form.reqpage.value = 1;
+	if (form.reqpage.value > num_pages)
+		form.reqpage.value = num_pages;
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+Factor 5 Lidan
+Triglycerides
+Protein S
+Protein c
+C.B. Picture
+Fasting Blood Sugar
+P.P.Blood Sugar
+Serum Electrolytes K Na
+COAGULATION SCREEN
+Platelet Count
+KIDNEY FUNCTION TESTS
+Bleeding Time
+Coagulation Time
+Prothrombin Time (PT)
+Partial Thromboplastin T
+Blood Urea
+CRATINIE
+L. D. L.
+Anti Phospholrpid 
+Blood Coag.
+Cholesterol
+BLOOD LIPIDS
+Alkaline Phosphatase
+Bilirubin 
+Serum protein 
+OTHERS
+Culture & Sensitivity
+  from conjunctive Sac 
+Urine Analysis
+F_NOSE_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_NOSE_CKFORMATTRIGGER""
+"FUNCTION"F_NOSE_CKFORMATTRIGGER"RETURN"BOOLEAN"NOSE_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_NOSE_CKFORMATTRIGGER
+p_anal_gen_ck2
+A"1#1&A*A.1/12A6A:A>ABAFAJ1K1L
+l0m0n0p8r8t
+v x0y0z
+r*r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+N@R@V@Z@^0_0`0a0b0c0d f0g0h
+j8l8n0o
+upupupu
+x  " $ &
+	darkgreen
+x  " $ &
+gray96=
+gray92z
+F_TS_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_TS_CKFORMATTRIGGER""
+"FUNCTION"F_TS_CKFORMATTRIGGER"RETURN"BOOLEAN"TS_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_TS_CKFORMATTRIGGER
+F_AT3_CKFORMATTRIGGER
+KIDNEY FUNCTION TESTS
+Bleeding Time
+Coagulation Time
+Prothrombin Time (PT)
+Partial Thromboplastin T
+Blood Urea
+CRATINIE
+L. D. L.
+Anti Phospholrpid 
+Blood Coag.
+Cholesterol
+BLOOD LIPIDS
+Alkaline Phosphatase
+Bilirubin 
+Serum protein 
+OTHERS
+Culture & Sensitivity
+  from conjunctive Sac 
+Urine Analysis
+vgmipl_help
+F_CB_PICT_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_CB_PICT_CKFORMATTRIGGER""
+"FUNCTION"F_CB_PICT_CKFORMATTRIGGER"RETURN"BOOLEAN"CB_PICT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_CB_PICT_CKFORMATTRIGGER
+P.P.Blood Sugar
+Serum Electrolytes K Na
+COAGULATION SCREEN
+Platelet Count
+KIDNEY FUNCTION TESTS
+Bleeding Time
+Coagulation Time
+Prothrombin Time (PT)
+Partial Thromboplastin T
+Blood Urea
+CRATINIE
+L. D. L.
+Anti Phospholrpid 
+Blood Coag.
+Cholesterol
+BLOOD LIPIDS
+Alkaline Phosphatase
+Bilirubin 
+Serum protein 
+OTHERS
+Culture & Sensitivity
+  from conjunctive Sac 
+Urine Analysis
+F_FSTING_BLD_SGR_CKFORMATTRIGG
+STANDARD
+"PKG INIT"F_FSTING_BLD_SGR_CKFORMATTRIGG""
+"FUNCTION"F_FSTING_BLD_SGR_CKFORMATTRIGG"RETURN"BOOLEAN"FSTING_BLD_SGR_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_FSTING_BLD_SGR_CKFORMATTRIGG
+> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+SQL*ReportWriter
+REPORT
+p_anal_gen_ck2
+A"1#1&A*A.1/12A6A:A>ABAFAJ1K1L
+l0m0n0p8r8t
+v x0y0z
+r*r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+N@R@V@Z@^0_0`0a0b0c0d f0g0h
+j8l8n0o
+upupupu
+F_PP_BLD_SGR_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PP_BLD_SGR_CKFORMATTRIGGER""
+"FUNCTION"F_PP_BLD_SGR_CKFORMATTRIGGER"RETURN"BOOLEAN"PP_BLD_SGR_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PP_BLD_SGR_CKFORMATTRIGGER
+Serum Electrolytes K Na
+COAGULATION SCREEN
+Platelet Count
+KIDNEY FUNCTION TESTS
+Bleeding Time
+Coagulation Time
+Prothrombin Time (PT)
+Partial Thromboplastin T
+Blood Urea
+CRATINIE
+L. D. L.
+Anti Phospholrpid 
+Blood Coag.
+Cholesterol
+BLOOD LIPIDS
+Alkaline Phosphatase
+Bilirubin 
+Serum protein 
+OTHERS
+Culture & Sensitivity
+  from conjunctive Sac 
+Urine Analysis
+F_SERUM_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_SERUM_CKFORMATTRIGGER""
+"FUNCTION"F_SERUM_CKFORMATTRIGGER"RETURN"BOOLEAN"SERUM_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_SERUM_CKFORMATTRIGGER
+5g25b50
+x$ & ( *
+	r88g25b50
+x$ & ( *
+r100g25b50
+r0g25b75
+x$ & ( *
+	r25g25b75
+x$ & ( *
+	r50g25b75
+x$ & ( *
+	r75g25b75
+x$ & ( *
+	r88g25b75
+x$ & ( *
+r100g25b75
+r0g25b88
+x$ & ( *
+	r25g25b88
+x$ & ( *
+	r50g25b88
+x$ & ( *
+	r75g25b88
+x$ & ( *
+	r88g25b88
+x$ & ( *
+r100g25b88
+	r0g25b100
+x$ & ( *
+r25g25b100
+x$ & ( *
+r50g25b100
+x$ & ( *
+r75g25b100
+x$ & ( *
+r88g25b100
+x& ( * ,
+r100g25b100
+darkred
+darkblue
+x  " $ &
+gray64(\(\(\
+x  " $ &
+gray60ffffff
+x  " $ &
+gray56
+x  " $ &
+gray52
+r0g50b0
+x" $ &
+r25g50b0
+x" $ &
+r50g50b0
+string
+vgmipl_help
+F_PLAELET_C_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PLAELET_C_CKFORMATTRIGGER""
+"FUNCTION"F_PLAELET_C_CKFORMATTRIGGER"RETURN"BOOLEAN"PLAELET_C_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PLAELET_C_CKFORMATTRIGGER
+deuicv4
+MS Sans Serif
+deuicv5
+MS Sans Serif
+deuicv6
+MS Sans Serif
+deuicv7
+scrollbox
+drawn_scrollbox
+deuicv8
+MS Sans Serif
+deuicv9
+MS Sans Serif
+	deuicv10
+MS Sans Serif
+	deuicv11
+MS Sans Serif
+	deuicv12
+MS Sans Serif
+F_BLEEDING_T_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_BLEEDING_T_CKFORMATTRIGGER""
+"FUNCTION"F_BLEEDING_T_CKFORMATTRIGGER"RETURN"BOOLEAN"BLEEDING_T_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_BLEEDING_T_CKFORMATTRIGGER
+F_COAGULATION_T_CKFORMATTRIGGE
+STANDARD
+"PKG INIT"F_COAGULATION_T_CKFORMATTRIGGE""
+"FUNCTION"F_COAGULATION_T_CKFORMATTRIGGE"RETURN"BOOLEAN"COAGULATION_T_CK""="1"SRW"SET_FOREGROUND_BORDER_COLOR"black"SET_BORDER_PATTERN"solid"SET_FOREGROUND_FILL_COLOR"SET_FILL_PATTERN"SET_TEXT_COLOR"TRUE""
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pS0T
+Traditional Arabic
+> @p@p@pL0M
+Courier New
+> @p@p@pS0T
+Traditional Arabic
+> @p@p@pS0T
+Traditional Arabic
+g_nameformula
+p$p4p9
+PATION_TBL.P_ID
+p(p<pE
+mBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+p'p:pB
+pHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+p'p:pB
+sNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+F_PT_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PT_CKFORMATTRIGGER""
+"FUNCTION"F_PT_CKFORMATTRIGGER"RETURN"BOOLEAN"PT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PT_CKFORMATTRIGGER
+AT3_CK
+AT3_CK
+p(p<pE
+FACT5_CK
+INVEST_GEN.FACT5_CK
+FACT5_CK
+p*p@pK
+ANTI_PH_CK
+INVEST_GEN.ANTI_PH_CK
+ANTI_PH_CK
+p(p<pE
+PRO_C_CK
+INVEST_GEN.PRO_C_CK
+PRO_C_CK
+p(p<pE
+PRO_S_CK
+INVEST_GEN.PRO_S_CK
+PRO_S_CK
+p&p8p?
+P_NAME
+PATION_TBL.P_NAME
+P_NAME
+p&p8p?
+B_DATE
+PATION_TBL.B_DATE
+B_DATE
+p&p8p?
+GENDER
+PATION_TBL.GENDER
+GENDER
+p$p4p9
+PATION_TBL.AGEE
+  p'p9p@
+P_DATE
+INVEST_GEN.P_DATE
+P_DATE
+  p(p;pC
+OTH3_NM
+INVEST_GEN.OTH3_NM
+OTH3_NM
+  p(p;pC
+OTH2_NM
+INVEST_GEN.OTH2_NM
+OTH2_NM
+  p(p;pC
+OTH1_NM
+INVEST_GEN.OTH1_NM
+OTH1_NM
+  p+pApL
+INVST_DATE
+INVEST_GEN.INVST_DATE
+INVST_DATE
+6p6p6p6
+:8<8>8@8B
+, INVJ
+bxb8d8f8j@n
+ppppwpw
+SThG_P_ID
+G_P_ID
+LIST_G_P_ID
+YPRINTJOB
+Show Print Job Dialog
+F_BATNY_CK
+F_PTT_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PTT_CKFORMATTRIGGER""
+"FUNCTION"F_PTT_CKFORMATTRIGGER"RETURN"BOOLEAN"PTT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PTT_CKFORMATTRIGGER
+NOSE_CK
+x0y0z0{0|0}0~p~ 
+uTS_CK
+|0}0~0
+xCB_PICT_CK
+CB_PICT_CK
+{FSTING_BLD_SGR_CK
+FSTING_BLD_SGR_CK
+~PP_BLD_SGR_CK
+PP_BLD_SGR_CK
+x0y0z0{0|0}0~p~ 
+SERUM_CK
+SERUM_CK
+|0}0~0
+PLAELET_C_CK
+PLAELET_C_CK
+BLEEDING_T_CK
+BLEEDING_T_CK
+COAGULATION_T_CK
+COAGULATION_T_CK
+F_CRATINIE_CK
+vgmipl_help
+F_AT3_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_AT3_CKFORMATTRIGGER""
+"FUNCTION"F_AT3_CKFORMATTRIGGER"RETURN"BOOLEAN"AT3_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_AT3_CKFORMATTRIGGER
+STOOL_ANAL_CK
+x0y0z0{0|0}0~p~ 
+CSFCS_CK
+CSFCS_CK
+|0}0~0
+OTH1_CK
+OTH1_CK
+|0}0~0
+OTH2_CK
+OTH2_CK
+|0}0~0
+OTH3_CK
+OTH3_CK
+CRATINIE_CK
+CRATINIE_CK
+x0y0z0{0|0}0~p~ 
+AT3_CK
+AT3_CK
+x0y0z0{0|0}0~p~ 
+FACT5_CK
+FACT5_CK
+|0}0~0
+ANTI_PH_CK
+ANTI_PH_CK
+(:SGPT_CK = '1')
+(:ANTI_PH_CK = '1')
+F_FACT5_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_FACT5_CKFORMATTRIGGER""
+"FUNCTION"F_FACT5_CKFORMATTRIGGER"RETURN"BOOLEAN"FACT5_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_FACT5_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+F_ANTI_PH_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_ANTI_PH_CKFORMATTRIGGER""
+"FUNCTION"F_ANTI_PH_CKFORMATTRIGGER"RETURN"BOOLEAN"ANTI_PH_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_ANTI_PH_CKFORMATTRIGGER
+9ES_CK
+#J LpV X
+^(bpbpb@f8h8j8l
+u0v0w0xpzpz0{
+F_HDL_CK
+;ES_CK
+#J LpV X
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_SGOT_CK
+@ES_CK
+#J LpV X
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_SGPT_CK
+AES_CK
+#J Lp` b
+f(jpjpj8l8n8p8r
+{0|0}0~p~p~0
+F_ALKALINE_FSFAT_CK
+#J Lp\ ^
+b(fpfpf8h8j8l8n
+w0x0y0zpzpz0{
+F_BILIRUBIN_CK
+#J Lp^ `
+f(jpjpj8l8n8p8r
+{0|0}0~p~p~0
+F_SERUMPROTEIN_CK
+#J Lp\ ^
+b(fpfpf@j8l8n8p
+y0z0{0|p~p~0
+F_URINE_ANAL_CK
+#J Lp\ ^
+b(fpfpf@j8l8n8p
+y0z0{0|p~p~0
+F_STOOL_ANAL_CK
+#J LpX Z
+^(bpbpb@f8h8j8l
+u0v0w0xpzpz0{
+F_CSFCS_CK
+#J LpV X
+^(bpbpb@f8h8j8l
+u0v0w0xpzpz0{
+F_OTH1_CK
+x  " $ &
+gray88
+F_PRO_C_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PRO_C_CKFORMATTRIGGER""
+"FUNCTION"F_PRO_C_CKFORMATTRIGGER"RETURN"BOOLEAN"PRO_C_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PRO_C_CKFORMATTRIGGER
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+(:SGOT_CK = '1')
+vgmigr_help
+string
+F_PRO_S_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_PRO_S_CKFORMATTRIGGER""
+"FUNCTION"F_PRO_S_CKFORMATTRIGGER"RETURN"BOOLEAN"PRO_S_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_PRO_S_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_BLD_UREA_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_BLD_UREA_CKFORMATTRIGGER""
+"FUNCTION"F_BLD_UREA_CKFORMATTRIGGER"RETURN"BOOLEAN"BLD_UREA_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_BLD_UREA_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_CRATINIE_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_CRATINIE_CKFORMATTRIGGER""
+"FUNCTION"F_CRATINIE_CKFORMATTRIGGER"RETURN"BOOLEAN"CRATINIE_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_CRATINIE_CKFORMATTRIGGER
+F_LDL_CKFORMATTRIGGER
+F_COAGULATION_T_CKFORMATTRIGGE
+p*p@pK
+yCB_PICT_CK
+INVEST_GEN.CB_PICT_CK
+CB_PICT_CK
+p1pNp`
+|FSTING_BLD_SGR_CK
+INVEST_GEN.FSTING_BLD_SGR_CK
+FSTING_BLD_SGR_CK
+p-pFpT
+PP_BLD_SGR_CK
+INVEST_GEN.PP_BLD_SGR_CK
+PP_BLD_SGR_CK
+p(p<pE
+SERUM_CK
+INVEST_GEN.SERUM_CK
+SERUM_CK
+p,pDpQ
+PLAELET_C_CK
+INVEST_GEN.PLAELET_C_CK
+PLAELET_C_CK
+p-pFpT
+BLEEDING_T_CK
+INVEST_GEN.BLEEDING_T_CK
+BLEEDING_T_CK
+vgmipl_help
+F_SGOT_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_SGOT_CKFORMATTRIGGER""
+"FUNCTION"F_SGOT_CKFORMATTRIGGER"RETURN"BOOLEAN"SGOT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_SGOT_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_SGPT_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_SGPT_CKFORMATTRIGGER""
+"FUNCTION"F_SGPT_CKFORMATTRIGGER"RETURN"BOOLEAN"SGPT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_SGPT_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_ALKALINE_FSFAT_CKFORMATTRIGG
+STANDARD
+"PKG INIT"F_ALKALINE_FSFAT_CKFORMATTRIGG""
+"FUNCTION"F_ALKALINE_FSFAT_CKFORMATTRIGG"RETURN"BOOLEAN"ALKALINE_FSFAT_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_ALKALINE_FSFAT_CKFORMATTRIGG
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_BILIRUBIN_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_BILIRUBIN_CKFORMATTRIGGER""
+"FUNCTION"F_BILIRUBIN_CKFORMATTRIGGER"RETURN"BOOLEAN"BILIRUBIN_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_BILIRUBIN_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_SERUMPROTEIN_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_SERUMPROTEIN_CKFORMATTRIGGER""
+"FUNCTION"F_SERUMPROTEIN_CKFORMATTRIGGER"RETURN"BOOLEAN"SERUMPROTEIN_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_SERUMPROTEIN_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+F_CHOLESTEROL_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_CHOLESTEROL_CKFORMATTRIGGER""
+"FUNCTION"F_CHOLESTEROL_CKFORMATTRIGGER"RETURN"BOOLEAN"CHOLESTEROL_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_CHOLESTEROL_CKFORMATTRIGGER
+F_CHOLESTEROL_CKFORMATTRIGGER
+B DpN P
+V(ZpZpZ0[0^@b@f
+j0k0l0m0n0o0p
+R_G_P_ID
+#J LpT V
+Z(^p^p^@b0d8f8h
+q0r0s0tpvpv0w
+F_P_ID
+#J LpX Z
+^(bpbpb8d8f8h8j
+s0t0u0vpvpv0w
+F_BATNY_CK
+00r0g88b75
+x( * , .
+	00r25g88b75
+kSELECT ALL PATION_TBL.P_ID, 
+INVEST_GEN.BATNY_CK, INVEST_GEN.HART_CK, INVEST_GEN.NOSE_CK, INVEST_GEN.TS_CK, 
+INVEST_GEN.CB_PICT_CK, INVEST_GEN.FSTING_BLD_SGR_CK, INVEST_GEN.PP_BLD_SGR_CK, 
+INVEST_GEN.SERUM_CK, INVEST_GEN.PLAELET_C_CK, INVEST_GEN.BLEEDING_T_CK, 
+INVEST_GEN.COAGULATION_T_CK, INVEST_GEN.PT_CK, INVEST_GEN.PTT_CK, INVEST_GEN.BLD_UREA_CK, 
+INVEST_GEN.CHOLESTEROL_CK, INVEST_GEN.TRIGLYCERIDES_CK, 
+INVEST_GEN.LDL_CK, INVEST_GEN.HDL_CK, INVEST_GEN.SGOT_CK, INVEST_GEN.SGPT_CK, 
+INVEST_GEN.ALKALINE_FSFAT_CK, INVEST_GEN.BILIRUBIN_CK, INVEST_GEN.SERUMPROTEIN_CK, 
+INVEST_GEN.URINE_ANAL_CK, INVEST_GEN.STOOL_ANAL_CK, INVEST_GEN.CSFCS_CK, 
+INVEST_GEN.OTH1_CK, INVEST_GEN.OTH2_CK, INVEST_GEN.OTH3_CK, INVEST_GEN.CRATINIE_CK, 
+INVEST_GEN.AT3_CK, INVEST_GEN.FACT5_CK, INVEST_GEN.ANTI_PH_CK, 
+INVEST_GEN.PRO_C_CK, INVEST_GEN.PRO_S_CK, PATION_TBL.P_NAME, PATION_TBL.B_DATE, 
+PATION_TBL.GENDER, PATION_TBL.AGEE, INVEST_GEN.P_DATE, INVEST_GEN.OTH3_NM, 
+INVEST_GEN.OTH2_NM, INVEST_GEN.OTH1_NM, INVEST_GEN.INVST_DATE
+FROM PATION_TBL, INVEST_GEN
+WHERE (PATION_TBL.P_ID = INVEST_GEN.P_ID) 
+PATION_TBL.P_ID = :p_i and 
+P_DATE = :p_d
+r(r(v(z
+RUNONLY
+p_anal_gen_ck2
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+ChPBW2
+k0l0m0n8p8r
+t v0x0y
+r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+tpupupu
+= '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+STANDARD
+"PKG INIT"F_TRIGLYCERIDES_CKFORMATTRIGGE""
+"FUNCTION"F_TRIGLYCERIDES_CKFORMATTRIGGE"RETURN"BOOLEAN"TRIGLYCERIDES_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_LDL_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_LDL_CKFORMATTRIGGER""
+"FUNCTION"F_LDL_CKFORMATTRIGGER"RETURN"BOOLEAN"LDL_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_LDL_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_HDL_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_HDL_CKFORMATTRIGGER""
+"FUNCTION"F_HDL_CKFORMATTRIGGER"RETURN"BOOLEAN"HDL_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_HDL_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_CSFCS_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_CSFCS_CKFORMATTRIGGER""
+"FUNCTION"F_CSFCS_CKFORMATTRIGGER"RETURN"BOOLEAN"CSFCS_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_CSFCS_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_URINE_ANAL_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_URINE_ANAL_CKFORMATTRIGGER""
+"FUNCTION"F_URINE_ANAL_CKFORMATTRIGGER"RETURN"BOOLEAN"URINE_ANAL_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_URINE_ANAL_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_STOOL_ANAL_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_STOOL_ANAL_CKFORMATTRIGGER""
+"FUNCTION"F_STOOL_ANAL_CKFORMATTRIGGER"RETURN"BOOLEAN"STOOL_ANAL_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_STOOL_ANAL_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_OTH1_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_OTH1_CKFORMATTRIGGER""
+"FUNCTION"F_OTH1_CKFORMATTRIGGER"RETURN"BOOLEAN"OTH1_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_OTH1_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_OTH2_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_OTH2_CKFORMATTRIGGER""
+"FUNCTION"F_OTH2_CKFORMATTRIGGER"RETURN"BOOLEAN"OTH2_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_OTH2_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+F_OTH3_CKFORMATTRIGGER
+STANDARD
+"PKG INIT"F_OTH3_CKFORMATTRIGGER""
+"FUNCTION"F_OTH3_CKFORMATTRIGGER"RETURN"BOOLEAN"OTH3_CK""="1"SRW"SET_FOREGROUND_FILL_COLOR"black"SET_FILL_PATTERN"solid"SET_TEXT_COLOR"TRUE""
+F_OTH3_CKFORMATTRIGGER
+F_TRIGLYCERIDES_CKFORMATTRIGGE
+F_COAGULATION_T_CKFORMATTRIGGE
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+> @p@p@pL0M
+Courier New
+ >p@p@p@0P
+lTimes New Roman
+ >p@p@p@0L
+wCourier New
+ >p@p@p@0L
+~Courier New
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@p@0L
+Courier New
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0S
+Traditional Arabic
+ >p@p@p@0L
+Courier New
+ >p@p@p@0S
+Traditional Arabic
+ >p@p@p@0S
+Traditional Arabic
+9g_nameformula
+xf_batny_ckformattrigger
+{f_hart_ckformattrigger
+|f_nose_ckformattrigger
+INVEST_GEN.OTH2_NM, INVEST_GEN.
+:p;PATION_TBL, INVEST_GEN
+WHERE (PA
+ = INVEST_GEN.P_ID) 
+PATION_TBL.P_ID = :p_i and 
+P_DATE = :p_d
+r(r(v(z
+RUNONLY
+p_anal_gen_ck2
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+ChPBW2
+k0l0m0n8p8r
+t v0x0y
+r*r*r*r*r*r*
+<html>
+<body dir=&Direction bgcolor="#ffffff">
+</body></html>
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</table>
+<p><hr><p>
+</center>
+</body>
+</form>
+</html>
+<hr size=5 noshade>
+P_ANAL_GEN_CK
+<?xml version="1.0"?>
+K@N@R@V@Z0^0_0`0a0b0c d0f0g
+i8j8l0n
+tpupupu
+= '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+f_ts_ckformattrigger
+f_cb_pict_ckformattrigger
+f_fsting_bld_sgr_ckformattrigg
+f_pp_bld_sgr_ckformattrigger
+f_serum_ckformattrigger
+f_plaelet_c_ckformattrigger
+f_bleeding_t_ckformattrigger
+f_coagulation_t_ckformattrigge
+f_pt_ckformattrigger
+f_ptt_ckformattrigger
+f_at3_ckformattrigger
+f_fact5_ckformattrigger
+f_anti_ph_ckformattrigger
+f_pro_c_ckformattrigger
+f_pro_s_ckformattrigger
+f_bld_urea_ckformattrigger
+f_cratinie_ckformattrigger
+f_sgot_ckformattrigger
+f_sgpt_ckformattrigger
+f_alkaline_fsfat_ckformattrigg
+f_bilirubin_ckformattrigger
+f_serumprotein_ckformattrigger
+f_cholesterol_ckformattrigger
+f_triglycerides_ckformattrigge
+f_ldl_ckformattrigger
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+INVST_DATE
+Invst Date
+INVST_DATE
+s0t0u0v0w0x0ypz
+s0t0u0v0w0x0ypz
+{0|0}8~@
+g_name
+G_NAME
+* Zp\ `
+b(fpjpj@j8n8p8r
+* Zp\ `
+b(fpjpj@j8n8p8r
+* Zp\ `
+b(fpjpj8j@n8r8t
+* Zp\ `
+b(fpjpj@j8n8p8r
+* Zp\ `
+b(fpjpj8j@n8r8t
+* Zp\ `
+b(fpjpj8j@n8r8t
+f_hdl_ckformattrigger
+f_csfcs_ckformattrigger
+f_urine_anal_ckformattrigger
+f_stool_anal_ckformattrigger
+f_oth1_ckformattrigger
+f_oth2_ckformattrigger
+f_oth3_ckformattrigger
+BjP_ID
+PATION_TBL.P_ID
+NmBATNY_CK
+INVEST_GEN.BATNY_CK
+BATNY_CK
+KpHART_CK
+INVEST_GEN.HART_CK
+HART_CK
+KsNOSE_CK
+INVEST_GEN.NOSE_CK
+NOSE_CK
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ `
+b(fpjpj8j8l8n8p
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn8n@r8v8x
+* Zp\ b
+d(jpnpn8n@r8v8x
+* Zp\ b
+d(jpnpn8n@r8v8x
+* Zp\ b
+d(jpnpn8n@r8v8x
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn8n8p8r8t
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH2_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_OTH3_NM
+# JpL V
+X(^pbpb@b8f8h8j
+v0w0x0ypzpz0z
+F_P_DATE
+(:BATNY_CK = '1')
+(:HART_CK = '1')
+(:NOSE_CK = '1')
+(:TS_CK = '1')
+(:CB_PICT_CK = '1')
+(:FSTING_BLD_SGR_CK = '1')
+(:PP_BLD_SGR_CK = '1')
+(:SERUM_CK = '1')
+(:PLAELET_C_CK = '1')
+(:BLEEDING_T_CK = '1')
+(:COAGULATION_T_CK = '1')
+(:PT_CK = '1')
+(:PTT_CK = '1')
+(:BLD_UREA_CK = '1')
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn0n0o@r8v
+* Zp\ b
+d(jpnpn@n0r8t8v
+* Zp\ b
+d(jpnpn@n0r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn@n8r8t8v
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn8n@r8v8x
+* Zp\ b
+d(jpnpn8n@r@v8z
+* Zp\ b
+d(jpnpn8n0p8r8t
+* Zp\ b
+d(jpnpn8n8p8r8t
+* Zp\ b
+d(jpnpn@n8r8t8v
+(:CHOLESTEROL_CK = '1')
+00r0g88b50
+ ( * ,
+	00r25g88b50
+===UCS2-LE===
+#$(359:AIMPSUX\aefmprvz
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{
+#$(357:>AFJKRWY^aeijotw{

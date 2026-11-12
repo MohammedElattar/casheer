@@ -1,0 +1,251 @@
+path,name,ext,size_bytes,sha256,signature,bucket
+M_CASHEAR/Book.ico,Book.ico,.ico,3774,fb721f2fa348cf881b6d02057faec5eb05812c0a8272961941fb812c79512bf0,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/DELV.ico,DELV.ico,.ico,2238,296ce14d5cfb6422563b45903db15951f1bce4d656f062a9ae807d063dce688c,"MS Windows icon resource - 1 icon, 32x32, 8 colors",assets
+M_CASHEAR/EXECUTE.ICO,EXECUTE.ICO,.ico,766,90b08c04709239e4480ce9f9cf03736625cefcbf1e7b8490e28116b11281413a,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/EYE.ICO,EYE.ICO,.ico,3774,c95402e5a303f3044fed2e3c6259386d77fcce3694f2fd615411770672b47f2b,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/HELP.ICO,HELP.ICO,.ico,766,ea5bb080d10981f91b8c0bbc961acb6dd56488091321967ad102e79777070905,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/LEFT.ICO,LEFT.ICO,.ico,766,5526b1a8610a06f45632422fc41a55f556d10d74e5c3ad58811b7ee953b53263,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/Last.ico,Last.ico,.ico,766,c42cb059286f2a14e596a5f2f05e0b523dfd5e8180904223384b169fb5b9cecd,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/MASTER~1.ICO,MASTER~1.ICO,.ico,4606,7ab578af468bcbcc2f5dc90f1229df975055c996a925627dcd65a914e832d47e,"MS Windows icon resource - 1 icon, 55x55",assets
+M_CASHEAR/PHOTOS/3aga2n.jpg,3aga2n.jpg,.jpg,5168,a2b4839e3a6ed08df495e414363e84e371c09c59ed557dc48a5603e659758519,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/3aga2n1.jpg,3aga2n1.jpg,.jpg,6089,c85177ffc926a437ef5066bf59e7b0f65d14c8d09462d8316023c6b951ae2680,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/Copy (2) of p3.jpg,Copy (2) of p3.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/Copy (2) of p4.jpg,Copy (2) of p4.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/Copy (2) of sh3ar.GIF,Copy (2) of sh3ar.GIF,.gif,111955,42f371be73e642420975a62eeff54a7c2f808714ea0a661626b1266c489c366e,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy (2) of sh3ar1.GIF,Copy (2) of sh3ar1.GIF,.gif,117841,ae990d755a8a7ed72c0f8f2617dbcaf0806359471099f58876887ef5ba6b0ba5,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy (2) of sh3ar3.GIF,Copy (2) of sh3ar3.GIF,.gif,114030,abf959f5befacc8697ee82cee8aa4224d80a157cbe3202d67b03655216818a52,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy (2) of shr1.bmp,Copy (2) of shr1.bmp,.bmp,196534,b5b16dd3e2e2c3cde21b3fb780bb6e952027d36a7f01c82bd8010d5e0bf0a225,"PC bitmap, Windows 3.x format, 213 x 307 x 24, image size 196480, cbSize 196534, bits offset 54",assets
+M_CASHEAR/PHOTOS/Copy (2) of shr2.bmp,Copy (2) of shr2.bmp,.bmp,183438,0632cd7b6bb95e77220ac6a1e63114d7d2bf001541e4cc5b2b89a46a95e1be90,"PC bitmap, Windows 3.x format, 216 x 283 x 24, image size 183384, cbSize 183438, bits offset 54",assets
+M_CASHEAR/PHOTOS/Copy of b2.bmp,Copy of b2.bmp,.bmp,183438,82b5de5bae479f3e46dbef18e6075c819044f914ab6c50b752f1808e342875fb,"PC bitmap, Windows 3.x format, 216 x 283 x 24, image size 183384, cbSize 183438, bits offset 54",assets
+M_CASHEAR/PHOTOS/Copy of back3.bmp,Copy of back3.bmp,.bmp,1286262,ffa9c74cfbe808c5085e37f2107b9963151e40022a5eef751ef6811a408db29d,"PC bitmap, Windows 3.x format, 821 x 522 x 24, image size 1286208, cbSize 1286262, bits offset 54",assets
+M_CASHEAR/PHOTOS/Copy of p3.jpg,Copy of p3.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/Copy of p4.jpg,Copy of p4.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/Copy of sh3ar.GIF,Copy of sh3ar.GIF,.gif,111955,42f371be73e642420975a62eeff54a7c2f808714ea0a661626b1266c489c366e,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy of sh3ar.JPG,Copy of sh3ar.JPG,.jpg,61861,69718078f411642c07525b11d59c58d809da646b896d2e6510cd69f245b304b6,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=3, software=Adobe Photoshop 7.0 ME, datetime=2004:08:15 09:48:50], baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/Copy of sh3ar1.GIF,Copy of sh3ar1.GIF,.gif,117841,ae990d755a8a7ed72c0f8f2617dbcaf0806359471099f58876887ef5ba6b0ba5,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy of sh3ar3.GIF,Copy of sh3ar3.GIF,.gif,114030,abf959f5befacc8697ee82cee8aa4224d80a157cbe3202d67b03655216818a52,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/Copy of shr1.bmp,Copy of shr1.bmp,.bmp,196534,b5b16dd3e2e2c3cde21b3fb780bb6e952027d36a7f01c82bd8010d5e0bf0a225,"PC bitmap, Windows 3.x format, 213 x 307 x 24, image size 196480, cbSize 196534, bits offset 54",assets
+M_CASHEAR/PHOTOS/Copy of shr2.bmp,Copy of shr2.bmp,.bmp,183438,0632cd7b6bb95e77220ac6a1e63114d7d2bf001541e4cc5b2b89a46a95e1be90,"PC bitmap, Windows 3.x format, 216 x 283 x 24, image size 183384, cbSize 183438, bits offset 54",assets
+M_CASHEAR/PHOTOS/Untitled-1 copy.png,Untitled-1 copy.png,.png,44503,1c93f590b2250bff5bcabffc21d23966d68e4d732bbf4e7bdcba4e3f019428a5,"PNG image data, 472 x 183, 8-bit/color RGB, non-interlaced",assets
+M_CASHEAR/PHOTOS/Untitled-2 copy.jpg,Untitled-2 copy.jpg,.jpg,8747,752c1dd115ad7ef98164979475dd006e85c48003df0a84ef56cbe4fca8d10f9e,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 254x254, segment length 16, comment: ""File written by Adobe Photoshop\250 5.0"", baseline, precision 8, 200x100, components 3",assets
+M_CASHEAR/PHOTOS/WATER.jpg,WATER.jpg,.jpg,115998,d86ee2bc9e4f74d0addc7c4cf8bdc821c5d3dbf754d9ff7f4b5d12a26a5bbe42,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 801x600, components 3",assets
+M_CASHEAR/PHOTOS/atbak ra2yseya.jpg,atbak ra2yseya.jpg,.jpg,5369,f8450f987f051dfb249d8195be34c21dfff8050d73679c70f2b06b6fc063a348,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/atbak ra2yseya1.jpg,atbak ra2yseya1.jpg,.jpg,6106,e320e0d35e6841959410c11ecb9ca8b4ae253793db9ca3cedcf283a8c47e690c,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/ayskraim.jpg,ayskraim.jpg,.jpg,6170,e6f8ba20dc7c9e1b26df77e6d18f773b2ed95faa89574d696642ba11b6d87525,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/ayskraim1.jpg,ayskraim1.jpg,.jpg,7064,c52e7a587cb6b5c403ac65cd0e71a46d7e47f910e711e5c1ccc06f1737c65052,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/b1.bmp,b1.bmp,.bmp,175158,b54f11d6f74e306e44a313b1ac31ed42b3df3d1dee3ea0155b549ee51aa6e9ff,"PC bitmap, Windows 3.x format, 191 x 304 x 24, image size 175104, cbSize 175158, bits offset 54",assets
+M_CASHEAR/PHOTOS/b2.bmp,b2.bmp,.bmp,183438,82b5de5bae479f3e46dbef18e6075c819044f914ab6c50b752f1808e342875fb,"PC bitmap, Windows 3.x format, 216 x 283 x 24, image size 183384, cbSize 183438, bits offset 54",assets
+M_CASHEAR/PHOTOS/back1.jpg,back1.jpg,.jpg,114376,6074aea8e51c5c5c5cca785ca20e4310bc31dae034ffcb19c84cc3d9062ac241,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, baseline, precision 8, 573x423, components 3",assets
+M_CASHEAR/PHOTOS/back2.bmp,back2.bmp,.bmp,693654,5a6ffc35e5e439202dbac06e787a7f14a08b8cd580c548f85cc795318463f22e,"PC bitmap, Windows 3.x format, 544 x 425 x 24, image size 693600, cbSize 693654, bits offset 54",assets
+M_CASHEAR/PHOTOS/back3.bmp,back3.bmp,.bmp,1286262,ffa9c74cfbe808c5085e37f2107b9963151e40022a5eef751ef6811a408db29d,"PC bitmap, Windows 3.x format, 821 x 522 x 24, image size 1286208, cbSize 1286262, bits offset 54",assets
+M_CASHEAR/PHOTOS/bb2.bmp,bb2.bmp,.bmp,1260894,d692e5b5571c828f9c382c6fe88c9d15f2326a2bf28b8b2fc66b239bab10694e,"PC bitmap, Windows 3.x format, 759 x 553 x 24, image size 1260840, cbSize 1260894, bits offset 54",assets
+M_CASHEAR/PHOTOS/fata2r.jpg,fata2r.jpg,.jpg,5923,6020143c20b810500e291c3d35ef64c649519cc145ca10959728ed4a19479624,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/fata2r1.jpg,fata2r1.jpg,.jpg,6745,e83519797c1e7bdb0afbe1b3eff5541a7d24d792e603afeedea6432a407ceda2,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/final.jpg,final.jpg,.jpg,1271525,904eaa3de2da55bcb7cda0e4b234ffbd2a1cd5777c37a504fc37dff6b74239fc,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 1000x1000, segment length 16, baseline, precision 8, 4000x3000, components 3",assets
+M_CASHEAR/PHOTOS/g1.bmp,g1.bmp,.bmp,123054,556e257dbf79a9e5a4eeeb890b7040495ac6f95406029a7867920e7428d608ca,"PC bitmap, Windows 3.x format, 163 x 250 x 24, image size 123000, cbSize 123054, bits offset 54",assets
+M_CASHEAR/PHOTOS/gg1.bmp,gg1.bmp,.bmp,1340694,20a3f8f326f20146200f941df53b59363e0524908ed15b00f554f9c074388067,"PC bitmap, Windows 3.x format, 759 x 588 x 24, image size 1340640, cbSize 1340694, bits offset 54",assets
+M_CASHEAR/PHOTOS/grnd4.bmp,grnd4.bmp,.bmp,1440054,b4a2121c53b686f18cc4ce50daa2312a62820da18fa990498dcf7e14912f31fc,"PC bitmap, Windows 3.x format, 800 x 600 x 24, image size 1440000, resolution 3780 x 3780 px/m, cbSize 1440054, bits offset 54",assets
+M_CASHEAR/PHOTOS/halaweyat.jpg,halaweyat.jpg,.jpg,6175,21ae9e0b61582ca0bbc1bf1ff14bbb40e4c3f60020ca2c2d7d548f73fcabc921,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/halaweyat1.jpg,halaweyat1.jpg,.jpg,6978,b54e78c82a2f547a00f7ce2ea12d914347e466eb8223df80643db96df612d85e,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/mashrobat.jpg,mashrobat.jpg,.jpg,6083,acdebe58b67320a2fb2feea07e46cbd28e26849e6eac5600777cabe3da9895d7,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/mashrobat1.jpg,mashrobat1.jpg,.jpg,6949,81ac6fdca70886eeb79b946bf51e6da8979070fa227210f33ab0b559b2fdcfe6,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/mashweyat.GIF,mashweyat.GIF,.gif,7965,7427865a76a1f3b5dcf2ce9d93326ae40445a517e944252e88987769536dc1f8,"GIF image data, version 89a, 176 x 75",assets
+M_CASHEAR/PHOTOS/mashweyat.ico,mashweyat.ico,.ico,39654,d78e245fce11ef40d3b68451763faad8c3b0ea49a5814d8d2fc0fd112bdea5c5,"PC bitmap, Windows 3.x format, 176 x 75 x 24, image size 39600, cbSize 39654, bits offset 54",assets
+M_CASHEAR/PHOTOS/mashweyat.jpg,mashweyat.jpg,.jpg,5295,8ea4a3509e53ddf959c38b8d4856914e48319dd7fdf07cb177efc7c96dbff4ee,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/mashweyat1.jpg,mashweyat1.jpg,.jpg,6267,33b0dda85eacaf4dd8d665ca88569f6b23a7cdbbf052562df48c14b1a594c031,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/mashweyatBL.png,mashweyatBL.png,.png,5024,6b219125ba880c1e8bc38cf6a912377b0673c5f1c26bce2e884bac788b40d8eb,"PNG image data, 286 x 130, 8-bit/color RGB, non-interlaced",assets
+M_CASHEAR/PHOTOS/motanwe3at.jpg,motanwe3at.jpg,.jpg,6169,a91cbee2400fbd1219923756e64fcadf8e14b51c44274b91ec3a776d7209f6a3,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/motanwe3at1.jpg,motanwe3at1.jpg,.jpg,7029,08e61721e73eadc980262a8c9790a77a65c781d2f6b688f773ab294a54b0260d,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/neshaweyat.jpg,neshaweyat.jpg,.jpg,5212,33beef0ff1dcd4d6aa194bb6523627184fa5bff1ef2a6dbaa7a0b12c1dba9a9b,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/neshaweyat1.jpg,neshaweyat1.jpg,.jpg,6318,7a7dbc438371279eedced1500281acee6dd7eda36a55f32b37c7f5aaf2d40367,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/no_photo.bmp,no_photo.bmp,.bmp,58710,a78b0cda8906527a058677787744606af2b6a8d9e98c6ca044d253c1a7acb736,"PC bitmap, Windows 3.x format, 207 x 94 x 24, image size 58656, cbSize 58710, bits offset 54",assets
+M_CASHEAR/PHOTOS/p1.jpg,p1.jpg,.jpg,99699,6f41a4233733cdd2cf4fac63b06dbb836d1373b344907a7667345b54c942b622,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/p2.jpg,p2.jpg,.jpg,111110,b3675de6bedf8d1b4104f03df093101f1a9f2216758c249565e98d3321b9b808,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/p3.jpg,p3.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/p4.jpg,p4.jpg,.jpg,193070,3feb87b456eb41bbcf9cebc04c9843fac5afe2ca614242cb7663ae5cc65d3e5c,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/p5.bmp,p5.bmp,.bmp,169986,b49d436981c49cce10d7d43e79c205d84cf609a0b35855110592da3c7a96be59,"PC bitmap, Windows 3.x format, 196 x 289 x 24, image size 169932, cbSize 169986, bits offset 54",assets
+M_CASHEAR/PHOTOS/pitzat.jpg,pitzat.jpg,.jpg,5888,76474a7a5430b524876c5fb6931432e4a1aed13b9a184c33986b6367bbf4e1de,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/pitzat1.jpg,pitzat1.jpg,.jpg,6749,14e316fa30511e6da1ed131a0b219ffad9917cedf44197fafb0a88d15e326ff8,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/pupai.jpg,pupai.jpg,.jpg,104381,2c5c61d8b330257a6888512d88fee4dbbe62494b1d526a4ec28d435c95cc2a69,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=3, software=Adobe Photoshop 7.0 ME, datetime=2004:08:12 11:10:40], baseline, precision 8, 536x1084, components 3",assets
+M_CASHEAR/PHOTOS/salatat.jpg,salatat.jpg,.jpg,5932,d568aab1cae9fa69d27fa8d4a318f23437a126916d78b780bc9b353b5b7c99f1,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/salatat1.jpg,salatat1.jpg,.jpg,6736,3d88c60bda12a788af40539ecb3b1b05f489b2f5b4fcd4a891149e46e35a0d0a,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/sandawetshat.jpg,sandawetshat.jpg,.jpg,5942,4128490318525acdf979e4d2b44299dcec31c58fd575b46d2d8729ba2898d51d,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/sandawetshat1.jpg,sandawetshat1.jpg,.jpg,6826,c8b64db9f342bebcaefb666d57d749cdeaeaafe46300368693af7e77d2882a69,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/sh3ar.GIF,sh3ar.GIF,.gif,111955,42f371be73e642420975a62eeff54a7c2f808714ea0a661626b1266c489c366e,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/sh3ar.JPG,sh3ar.JPG,.jpg,61861,69718078f411642c07525b11d59c58d809da646b896d2e6510cd69f245b304b6,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=3, software=Adobe Photoshop 7.0 ME, datetime=2004:08:15 09:48:50], baseline, precision 8, 465x743, components 3",assets
+M_CASHEAR/PHOTOS/sh3ar1.GIF,sh3ar1.GIF,.gif,117841,ae990d755a8a7ed72c0f8f2617dbcaf0806359471099f58876887ef5ba6b0ba5,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/sh3ar3.GIF,sh3ar3.GIF,.gif,114030,abf959f5befacc8697ee82cee8aa4224d80a157cbe3202d67b03655216818a52,"GIF image data, version 89a, 465 x 743",assets
+M_CASHEAR/PHOTOS/shr1.bmp,shr1.bmp,.bmp,196534,b5b16dd3e2e2c3cde21b3fb780bb6e952027d36a7f01c82bd8010d5e0bf0a225,"PC bitmap, Windows 3.x format, 213 x 307 x 24, image size 196480, cbSize 196534, bits offset 54",assets
+M_CASHEAR/PHOTOS/shr2.bmp,shr2.bmp,.bmp,183438,0632cd7b6bb95e77220ac6a1e63114d7d2bf001541e4cc5b2b89a46a95e1be90,"PC bitmap, Windows 3.x format, 216 x 283 x 24, image size 183384, cbSize 183438, bits offset 54",assets
+M_CASHEAR/PHOTOS/talabat belhagz.jpg,talabat belhagz.jpg,.jpg,5401,b43c405e2afdddbc8ec598d9c717364f7e2e6e3dabfbe979fa657cb3f616d7fe,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/talabat belhagz1.jpg,talabat belhagz1.jpg,.jpg,6215,10b9eeae73fbab79d38f3799b9b19b2c570c908aea216abbf1cefc534b3ab7da,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/talabat khasa.jpg,talabat khasa.jpg,.jpg,5243,06868f6bc1521f3ababa9ab34eb0fd21272bcb8b80e3a77261db2e4c474e2180,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/talabat khasa1.jpg,talabat khasa1.jpg,.jpg,6184,2bc1f5c5fd5d518ade16171add0da414ec4d373c718a53e77ac448aade98a41e,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/wagabat atfal.jpg,wagabat atfal.jpg,.jpg,5335,3ce64e26a7e0fe53dec09eec6c27430d4e027b5d26005474bd56e64cbf185711,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/wagabat atfal1.jpg,wagabat atfal1.jpg,.jpg,6270,ebcf66752df1d7831ff01df221f49b8edb58d5077ccdebfe7694d362c067a880,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/wagabat yawmeya.jpg,wagabat yawmeya.jpg,.jpg,10010,aa27b192115ff2bfb85535536f1f7af36b55724359f2eac6f1f546cf12b37abd,"JPEG image data, JFIF standard 1.02, resolution (DPI), density 72x72, segment length 16, comment: ""File written by Adobe Photoshop\250 5.0"", baseline, precision 8, 176x75, components 3",assets
+M_CASHEAR/PHOTOS/wagabat yawmeya1.jpg,wagabat yawmeya1.jpg,.jpg,6127,02c81318d37c96a9a0ff399962db7813fd290795390f8171d6f68821b94824c4,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 182x81, components 3",assets
+M_CASHEAR/PHOTOS/wood.jpg,wood.jpg,.jpg,88454,6e183e58fa5e8d27f611cc3e0e16c16e9f62f55a1ac33c2382a90ec803a151f0,"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 801x600, components 3",assets
+M_CASHEAR/Previous.ico,Previous.ico,.ico,766,93a4d9f03991cf836a6957659a126c15f8032ee0e68446b3e8ff507404bd31a7,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/Print.ico,Print.ico,.ico,766,82ad1cd7c2406df13701b5768e73f3289d1193e99d770cd65669b08018b905d5,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/RIGHT.ICO,RIGHT.ICO,.ico,766,2cb7b6b06bdba25f2667fe8ba6f188c1c2e3e3621d4a09c9faa4846aab89350c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/abort.ico,abort.ico,.ico,766,e0007123e0c818e6a0f0d1efd937f61a47a18a330b26eb246120327271713ab1,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/addrow.ico,addrow.ico,.ico,766,5cb080aee69ae6b33cd6369e4cf5dc783b329bbaba2791541a6c758a05972bab,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/afclps.ico,afclps.ico,.ico,766,8df2f644dbc23b458f644d7f7775c5398ee9ea8f479d59586a89806e1470039a,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/afhelp.ico,afhelp.ico,.ico,766,ff5e65ce0c6e957f86b1eb5c3add2ec74b78116f820ba732a7b1ca24c1fb69d6,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/afsave.ico,afsave.ico,.ico,766,eb68c6f9acfc3204949532d122f6b498960acaaf69daabfc1a384154210449e8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/apply.ico,apply.ico,.ico,766,c40bf69bbf4eee802fc004b3f772c200ca87299686c8203ed20b2ad318a8d354,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/back/b1.bmp,b1.bmp,.bmp,399654,71ecdd30345e837ce146beb619b6b13ccf7767423ff3fbf348789e6a45adea07,"PC bitmap, Windows 3.x format, 360 x 370 x 24, image size 399600, cbSize 399654, bits offset 54",assets
+M_CASHEAR/back/b1.gif,b1.gif,.gif,255736,c79a98282071cbfab6d71a3d67f25fa41527ad0d8e31f93f6d91248e54e036b6,"GIF image data, version 87a, 1019 x 653",assets
+M_CASHEAR/back/b2.bmp,b2.bmp,.bmp,625294,d428ea7e2748701fc8305fb93c07ead851b0ffe6510215aacfa16890bd02620b,"PC bitmap, Windows 3.x format, 425 x 490 x 24, image size 625240, cbSize 625294, bits offset 54",assets
+M_CASHEAR/back/bg1.bmp,bg1.bmp,.bmp,2359350,02a23d700ec3c7327309c5395bc4974e26c39b4c17d433b2e1676a2715f56166,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/bg2.bmp,bg2.bmp,.bmp,2359350,5e7c202c5e3a061d4cbc59cfcd513e1587a423ec0c1482fd58231242972766f8,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/bg3.bmp,bg3.bmp,.bmp,2359350,a6e79233c1879e0d810ef89f214d8b6edbfb5bc3e8e29c33493b24ec57c65221,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/bg4.bmp,bg4.bmp,.bmp,2359350,c307039ac6e452d73e453963b979bb9b229c8d39f90301b101abbc34606983fd,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/bg5.bmp,bg5.bmp,.bmp,2359350,9de3b1283b37a9b2c09f5857e99881962f9f2be1feaa0e17dc6fb9d0d272bb45,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/g1.bmp,g1.bmp,.bmp,1440054,8b906bb29fed82384274f6d0bed4383ef15945126f6b18820b13e233f551ed11,"PC bitmap, Windows 3.x format, 800 x 600 x 24, image size 1440000, cbSize 1440054, bits offset 54",assets
+M_CASHEAR/back/g2.bmp,g2.bmp,.bmp,1989958,0c68d30bc0b65cc528772565896e20a0b5252c40240397527cd898fdefc2699e,"PC bitmap, Windows 3.x format, 1017 x 652 x 24, image size 1989904, cbSize 1989958, bits offset 54",assets
+M_CASHEAR/back/k1.bmp,k1.bmp,.bmp,1440054,6f30d07a475a6a0ce76f7f6728dc25958ed99d54ba7dd8dbeabeb01d766c2bab,"PC bitmap, Windows 3.x format, 800 x 600 x 24, image size 1440000, cbSize 1440054, bits offset 54",assets
+M_CASHEAR/back/k2.bmp,k2.bmp,.bmp,2359350,ce7f6ee7071b85a0348007f87e6c7a2bf93c3a0222bf18ed837bfe492ae734b0,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/k3.bmp,k3.bmp,.bmp,2359350,78f2574a1f8e00e0e87977ddb607b8ff7c37a18fe91c89c8b1e516f6e2d31668,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/k4.bmp,k4.bmp,.bmp,2359350,46463de4e951aaeebd1276729ec7fdd3510e865178ba1c8ab2ab02b5690dd6b2,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/kk4.bmp,kk4.bmp,.bmp,371334,a128b1a741ddaf1923f8d58b78e30259fa88b599cee35ce8bce29d2686aea12f,"PC bitmap, Windows 3.x format, 346 x 357 x 24, image size 371280, cbSize 371334, bits offset 54",assets
+M_CASHEAR/back/untitled1.bmp,untitled1.bmp,.bmp,2359350,5b66b27359f56437e5dcc797e5175f56707a6be7ff174c668d2a4708569a4a5f,"PC bitmap, Windows 3.x format, 1024 x 768 x 24, image size 2359296, cbSize 2359350, bits offset 54",assets
+M_CASHEAR/back/untitled2.bmp,untitled2.bmp,.bmp,1506454,5a33c753dcb540ab68bc45a0cdc3ce18322ac5b207b2a1d57aed1df172298901,"PC bitmap, Windows 3.x format, 933 x 538 x 24, image size 1506400, cbSize 1506454, bits offset 54",assets
+M_CASHEAR/back2.bmp,back2.bmp,.bmp,693654,40035982fb755d1c7c2c46728427fa8810429fcecd31c7362d6720cf27498e87,"PC bitmap, Windows 3.x format, 544 x 425 x 24, image size 693600, cbSize 693654, bits offset 54",assets
+M_CASHEAR/bin.ico,bin.ico,.ico,766,93dd5b841beb43e86cd8048a815d1e67a1d3d0e4424688a05c3989949fc178af,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/bishop.ico,bishop.ico,.ico,767,a0d9dfa91cfff13552879d9299af55ab0853d73db0dfe0fb1cf1fd04c5207893,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/bl.ico,bl.ico,.ico,766,ee2b68b8e5bcfe4369073feed249d3c6529952a070d7621a432ef6fe19e8a7dd,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/bluehalf.ico,bluehalf.ico,.ico,766,7ec2606cbe7a47756291ed4519e36c1f3c442370a3056af0f83877632c934c43,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/bold.ico,bold.ico,.ico,766,dd37d1587a570f245a755aeb6eda839ba3bdaa8be8c088b7e93c48f9d338444f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/canqry.ico,canqry.ico,.ico,766,c6ffaccf0b20b89a2c2747da4cea31833b2aa24ee0ac9864412d244d6e4a3cc7,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/clear.ico,clear.ico,.ico,766,928f0cae4ef9ffdac9d30b2ddbc07d260d852770df1ea47cf7047878b397d595,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/clipbrd.ico,clipbrd.ico,.ico,766,e8702affe1f727365e87c18c985c75d917efd2ca6c490440dbc5f6ef5daf7183,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/close.ico,close.ico,.ico,766,0848a1bb05095ae5de295feedff7a517fad9b587db74e863ab72be4b131a0f7f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/code.ico,code.ico,.ico,3774,67f601ad61133c4fc1deda1f9a99a93f2f0b5662e4655deca11f71d134173210,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/collaps.ico,collaps.ico,.ico,766,02af4f110b3c3e0f486d34a134c04ff1dba2a82890985aa20e2e7531db134356,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/collaps2.ico,collaps2.ico,.ico,766,59c694772dc3866f6cd5b5f103fee21617e55aea7c7733682bfcdfe328b64539,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/complete.ico,complete.ico,.ico,766,7238e479b55bf62ce601195e582c9bac2759399d64892c18dc88cf5adeb54a8a,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/connect.ico,connect.ico,.ico,766,3552593bdb067c8291cd8a2441047aca109e1be2aa3fb155bd778380d6c670ef,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/copy.ico,copy.ico,.ico,766,e41d7f81146d4e97a0ff0f2f3f39f5f49096e0260a8387440100a8cb9b214ad4,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/cut.ico,cut.ico,.ico,766,b45cfeae3a161eba7825bd799cac80538cd469a2e56225388debf565859be432,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/d2kdemo.ico,d2kdemo.ico,.ico,766,5d679ea08306e174b1d160e245a19cdd1019a578e683f5d4b89ccfcec846e65c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/delrec.ico,delrec.ico,.ico,766,50c1f5fc6c1ab5344170d9bf84665e5a604fb5cb7bb109e9dc4636e0b57b93b5,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/delrow.ico,delrow.ico,.ico,766,70aa30b5178cf6e7fe675fb3a2b72c1b603ef0c521a58ea8c08a850cfba10f56,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/doc.ico,doc.ico,.ico,766,830b64ea671f7ce68ccf81f34cecde3970bab0ef986bb6b3aa6c66baff0edec8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/doc_del.ico,doc_del.ico,.ico,766,7364eaf62cee0e91347226600dc270c96b7160720d1b18e142448b37f8154ccb,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/doc_new.ico,doc_new.ico,.ico,766,b8025e61bf4ab2117f4a66692d11e14f490ba63e13f577fc173bdffa2d88b5d8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/down.ico,down.ico,.ico,766,38cb53c8f64f29d6f7a42e5c81bd71cf1ab5cec5900d0d3b8c9a954c92322464,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/e.ico,e.ico,.ico,766,d5d38b00a56df1d609462d1e42e543244af9f0287cd90505274848aaaea69e42,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/earth.ico,earth.ico,.ico,766,8a0c32b9940cc80df66017666753cf1a04a4bbb6e2983b1b8ee596dd7633010f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/edit.ico,edit.ico,.ico,766,d5d38b00a56df1d609462d1e42e543244af9f0287cd90505274848aaaea69e42,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/entqry.ico,entqry.ico,.ico,766,b4b1a14473080b86a8fc8717bdb8f05c9be07b7f17edec7168bacba4fe4113d2,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/ex.ico,ex.ico,.ico,766,8844d97905aa831d59820f98221828272c652bf8ac4d26f2635a62b7b6ba8be8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/exeqry.ico,exeqry.ico,.ico,766,4df734d48fa0019c9ba4c8e070e57c67391ad590518fa658c4995ecb02ef7eb0,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/exit.ico,exit.ico,.ico,766,0cdfbe2f0f844e8345dfa17d201742e5eb869d7f4ccd2e631a5f9f2c5ba9d0a1,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/expand.ico,expand.ico,.ico,766,b435a1a092f89ffeb47f7579fba3b64aa4bf3b622d4e667d4b6c792f3b73c35d,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/expand2.ico,expand2.ico,.ico,766,8844d97905aa831d59820f98221828272c652bf8ac4d26f2635a62b7b6ba8be8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/f_design.ico,f_design.ico,.ico,766,67113f8c88df8da979e7872b791602606b56e0c701ed429d690cc679a5b237c6,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/flddelcl.ico,flddelcl.ico,.ico,766,4e75cd09516f8251a2237b167cb737c7d23140d0cac14d34f5ec3485c383ac74,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/fldinscl.ico,fldinscl.ico,.ico,766,11ae2754555b947ae4c4c5e8d6674de38fcca967fd4772a240efab07ba5fae81,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/fldopen.ico,fldopen.ico,.ico,766,89a43d6251d461db2ef6c94571c12c47e968d1f9a58de5e9a14ecc60e1922956,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/g_design.ico,g_design.ico,.ico,766,b95edc90ac9c69722534553572c41e1dff9af9e898cb73351370fee246151fde,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/g_run.ico,g_run.ico,.ico,766,38fd0a0ee7d83584ac850d7e5f5b01895409b282d5d96eb0fe1f9a18bab4a11b,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/gcbar.ico,gcbar.ico,.ico,766,16c7a639ab623f56890ed57b55b49f73d0bf7bf4029724e86626b9ca0453cf1c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/gccol.ico,gccol.ico,.ico,766,a1cd3e1c41d75100cea1892d72523dafa5a5a075eb8c55a197c1dae2629ccd0f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/gcline.ico,gcline.ico,.ico,766,acf616e05a0672541224feb86d79eaf0d69b141180c46f2ff00209dc69cbe297,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/gcpie.ico,gcpie.ico,.ico,766,ecf1eef69d1f31db698456c002b73ca89d02493d35871a6af9955a22cc6c930f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/go.ico,go.ico,.ico,766,cad597b9387622df6d15b6df38e4bfda9a5d92ca2ecd3472228783ee00a4219e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/graph07.ico,graph07.ico,.ico,766,222484de084b182a6e6b94e0e983154edce66e6c149b83a39ea3c0cf30bd4878,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/graph14.ico,graph14.ico,.ico,766,2468bd2873b41701acb9ec491f7084f885ce84ba103e99e0171120033ba4fcd6,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/h.ico,h.ico,.ico,766,50cce34702e32a2aa31551a226ffe30b1d1b6890f5d1a3659cfead107d37bf5e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/hammer.ico,hammer.ico,.ico,766,50cce34702e32a2aa31551a226ffe30b1d1b6890f5d1a3659cfead107d37bf5e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/helpptr.ico,helpptr.ico,.ico,766,8c6d14e10a6eafbe259c66441019b3b022b103de50df09c426fb262e32360f72,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/home.ico,home.ico,.ico,766,3403cdc85a626e12f3936e8fc4ce068c610273b096eb9faa581e72311d2037e8,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/house.ico,house.ico,.ico,766,b4f24f30a96d1ef36c07b930f5349b1142fd9cd5b79136af5adc81257263784c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/image.ico,image.ico,.ico,766,e4588da62288c4d4079c2f638f6a0092d1a9e48adda111df69491c4a9949f684,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/insrec.ico,insrec.ico,.ico,766,f4e48af92732c6b08ce54401db35ab8e23cef74c854233eceba55e25609c508c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/italic.ico,italic.ico,.ico,766,09a9a6c6bba770a8e0619de99ad30b7388116b4c1375b963709b9c85e90a04a1,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/king.ico,king.ico,.ico,767,95885edf9eb8dfe35f023eb325e9c471f8f565929d8a86c7293ee5947a1c3006,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/knight.ico,knight.ico,.ico,767,ffdc70be45b5bdb23328727000f154746edf75e3f988da9a4e63c105c2fcc94b,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/leftcir.ico,leftcir.ico,.ico,318,e923ccba68a3619f8d5d01a99db03b70715b43825011a583944a94a657dfa727,"MS Windows icon resource - 1 icon, 16x16, 16 colors",assets
+M_CASHEAR/listval.ico,listval.ico,.ico,767,e4201d0d4c7ba50172e206fc2d59f61c47e87203f682691324405312844cae85,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/lockrec.ico,lockrec.ico,.ico,766,2d8a06965a0854120b1e9efcdee818a27af7a21f221c90bff3b1c25198dcc07f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/logo.JPG,logo.JPG,.jpg,10953,9cfa3c2c0a00f4b756c6c5de09871736398b9fa7ba3d67801d9312c5e2d9dea0,"JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, baseline, precision 8, 178x241, components 3",assets
+M_CASHEAR/mgarosa.ico,mgarosa.ico,.ico,2238,296ce14d5cfb6422563b45903db15951f1bce4d656f062a9ae807d063dce688c,"MS Windows icon resource - 1 icon, 32x32, 8 colors",assets
+M_CASHEAR/msh_clsd.ico,msh_clsd.ico,.ico,766,15e6201a89df711badea099ca55af954fc88686a60f52d6a903840033052f596,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/msh_leaf.ico,msh_leaf.ico,.ico,766,65792cc22ea3d7776cca889607ec9b2fcd02b4dc5b352b102ffe4347f1c2be4b,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/msh_open.ico,msh_open.ico,.ico,766,bca1577210c750a7802381f5e971421792361b10e3d4a47408a5da4ac26b0417,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/new.ico,new.ico,.ico,766,13f9a81af73f6ae2c753f97090f7a5568665ab3a97d500afeda10bb5462e62c3,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/nxtblk.ico,nxtblk.ico,.ico,766,39c430628a02ab613283e7019c8324b8630172318bca114fe851a0a02f5b6782,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/nxtrec.ico,nxtrec.ico,.ico,766,f0894aa853a9bbb77f8911f364984a25695e0bd264c7b001a6c78b7db6ae9978,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/oghelp.ico,oghelp.ico,.ico,766,ae5ce53e69abb04725c8f03184a5c7a90d219e28416fb643fb4809be5b3c28b0,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/old.ico,old.ico,.ico,766,7fa6a610e3809f9bb267f6a4d705ca96b5b3ebd358896001e3fbb07ce6fe777b,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/opb_dsgn.ico,opb_dsgn.ico,.ico,766,4e0082bde2feb9e23ff4bbd70687438c4e9be1ee630b3dbfe97dbe73cf380c02,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/open.ico,open.ico,.ico,766,69d39bfa8236708764c40f0de74d890f61d6ef45d6b0fb6641e3cac7b7edbe52,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/p.ico,p.ico,.ico,3774,53aa827b806cf9e110ae16626fbd33e54f70a59ccd89238d89b12b67156a3b69,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/paste.ico,paste.ico,.ico,766,dc9dd3bb080551646bca990c84d65bb7e1d6131c81c4459d0d4d79c5b3365289,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/pawn.ico,pawn.ico,.ico,767,94a30e143e5067ed94807133664176eb67f8a83687309461799c977d752ff3f7,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/plain.ico,plain.ico,.ico,766,1ba64a157264131a6488d89e5712c943a9d09fd3b8eb7d72b25b77cdd86d1b94,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/prvblk.ico,prvblk.ico,.ico,766,dbcce86a930d90bca09ff2f7fe14d9092ef9c50326cfa65af1f3e1d9fcab8abd,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/prvrec.ico,prvrec.ico,.ico,766,90cecf9ed36bd33cf4c96b64583ba5317d96baadbdcf9908fb21255ff2a926b0,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/pset.ico,pset.ico,.ico,766,beffb1ed034ad01cf4b1da26d656a1e48963d0866e403864d56d4cfeb132c955,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/pup.ico,pup.ico,.ico,766,e8702affe1f727365e87c18c985c75d917efd2ca6c490440dbc5f6ef5daf7183,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/queen.ico,queen.ico,.ico,767,56690d2c7787dff3e0c015afddf51de9c18426321f4491063f18274b4085a7c7,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/query.ico,query.ico,.ico,766,7740c4be3a5ac80042032b9eeec3c1f7cbfaa21ab801d5965070ac1dcd74317a,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/quit.ico,quit.ico,.ico,766,e2e362cf9a5ab958d5e8ee5716e0f905ecc93be9baf4be6d5a247d27d4f889d9,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/r_design.ico,r_design.ico,.ico,766,47c2ffd4f01524060c9c624294ef38dd79d3604f5be3d87f9f0af7906baa6a7c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/redhalf.ico,redhalf.ico,.ico,766,4ca749ee9443cb8d408bb3aeb2ee874c8d3915c6777d3155c7dc2537fc0ff66d,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/reload.ico,reload.ico,.ico,766,6588c37ba5255178ee4fb8a8e2e6ec847e7b3a3f4fce8db7c91f838f02c8ba19,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/reset.ico,reset.ico,.ico,766,7ebbfa4138972a581c603789bb7001e575559ccd404651377867b78bc304732f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/revert.ico,revert.ico,.ico,766,e37a157a4c3d91a591e21c113d1721bedc25afbf8b3bf985929e9e725af8cbe6,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rook.ico,rook.ico,.ico,767,4b7213cd360120d835f1707ae7c0c7d291e86a5bf0419ecb4f891eb3ed737ce3,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rs.ico,rs.ico,.ico,3774,2e52dd2281b126cfed74001f50697ffd7d06cccbaf733508c7a261b71526b786,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/rt_clear.ico,rt_clear.ico,.ico,766,85ce16d5dd1affd385ad94b01af5df0936e0fcfa9311485d8a2c628b32c9646e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_close.ico,rt_close.ico,.ico,766,9c3b2c4cc81cd8d7ea8a8f800abf6b6763e4700601359f0284bfa1c13bb0111c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_conec.ico,rt_conec.ico,.ico,766,7cca6e8e368f865f341ac152559dd5de959fdb4ba084124020d3c8e980343681,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_discn.ico,rt_discn.ico,.ico,766,0d8632450d2e0836ee44793fc93e2815e403d670e708989119e06b8a4a764a3a,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_pg1.ico,rt_pg1.ico,.ico,766,bf2bf3001e3824c8cafb3e7f7d46444333bdd0967eb6323d4d5ea2666db67205,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_pg2.ico,rt_pg2.ico,.ico,766,e6c0a3ab1185dad1b3a37c76f43472d404a98e2b2ecb23656938c85fa542ac77,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_pg3.ico,rt_pg3.ico,.ico,766,61eacd28cfd63e71a6a7d6aaad344919e7c592f5604085bdc2278be4d9b07dd9,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_pg4.ico,rt_pg4.ico,.ico,766,1da4fd4f14adc692ba914f610d837dd12f50d14bfb4147eb1c0064a2b9c0d894,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_revrt.ico,rt_revrt.ico,.ico,766,7fa6a610e3809f9bb267f6a4d705ca96b5b3ebd358896001e3fbb07ce6fe777b,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_ulock.ico,rt_ulock.ico,.ico,766,fbe92992ce899476053db67eccf058a31ac5858b77682241ce02ab1c336eae0e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_undo.ico,rt_undo.ico,.ico,766,554ad54d139a795d47b3ac69d818bbc6c1cee20d942a23ebf07f486f44c32370,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_zmin.ico,rt_zmin.ico,.ico,766,19091f31a03997d3882a1742116b682a5e71b7dee46640e37b85c2a743936f0e,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rt_zmout.ico,rt_zmout.ico,.ico,766,62ae6fdcf5a7ee8935aeba47a343d15a3b949c6677b2c7acf98a9e2900df9aed,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/rtcir.ico,rtcir.ico,.ico,318,a32d76e09a12e04766883442b226d2a4815ad0abb2f9c28e350e474c39daa8de,"MS Windows icon resource - 1 icon, 16x16, 16 colors",assets
+M_CASHEAR/run.ico,run.ico,.ico,766,1c418e773e78da20044ba604d2b329fc6fe2072fd3d523adc658dd2019fd9acd,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/save.ico,save.ico,.ico,766,768b474b29b402b3c15060e840791376734a89a5558e85898f5a50eae7a74617,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/smexcel.ico,smexcel.ico,.ico,766,1f3214c2cd0c86300c260cd58b90ca1ea6d856884ba8e300580d0d5777545c63,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/sort_dn.ico,sort_dn.ico,.ico,766,8ab2db905ee0d2c3d7ed802fbf1bc263c5ab2072fa0d9e12d5b516d592b73605,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/sort_up.ico,sort_up.ico,.ico,766,3f0c5fcd689d7f2727ac0b616693d20163cfaf485564513fbd9ad597110fa5c2,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/speaker.ico,speaker.ico,.ico,766,ad92e3b81bf7933ab8d54224894f4f5a880218026e7d22dc3ede48d831599e66,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/spindown.ico,spindown.ico,.ico,766,9aa6f65679b2acd7288114719db7abd3a9304998c91bccf51a144500b0444232,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/spinup.ico,spinup.ico,.ico,766,1850db739ea70be5a0e3a273439ba7f4fe5b1aa651a4669ff8f582bbf54e5d6c,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/srch_bak.ico,srch_bak.ico,.ico,766,899915be6c2f601253bf5bad851d3a7459a92a39acbdafe3962d6977cdf2859d,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/srch_frw.ico,srch_frw.ico,.ico,766,b787ccb13ccf016e9f82d150c56f681b9efd2d4e9be1d4b518202df29bea65a9,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/stop.ico,stop.ico,.ico,766,2e1531f09f3fd83b6a3cfef7fdb4b3319fa9582675adbb27302757e771fbe9c6,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/stopsign.ico,stopsign.ico,.ico,766,ee2b68b8e5bcfe4369073feed249d3c6529952a070d7621a432ef6fe19e8a7dd,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/tbminus.ico,tbminus.ico,.ico,766,d9975c52f3ab1338a78669af19505f59bd67519ee67709f824763be928c66959,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/tbplus.ico,tbplus.ico,.ico,766,dcf8d1b1123c8831a02456d5c1626e2470f0e52cc12b0f2ea2d085753379d453,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/tkwy.ICO,tkwy.ICO,.ico,3218,b324576f69eb7d753f50eaf251f00d5a1e46e577619aa638cd9953eebc23b823,"MS Windows icon resource - 1 icon, 41x41",assets
+M_CASHEAR/tm_prod.ico,tm_prod.ico,.ico,766,57cf6208ae0984f5ee4687ba8ea3944befde812d49c1d819dbb7d40800952086,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/tv.ico,tv.ico,.ico,3774,439f9e29483175486924e55828e5cf80ac6676db57410946f8ebfd559e1b0c54,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/u.ico,u.ico,.ico,3774,365e8f28a97780046dbc34c49fa94759e8f9a4adecd49e4c943f747dfa0a3e1d,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/under_l.ico,under_l.ico,.ico,766,176c354e21d064293b9afa538901d4955d9a834a828be1cd2e0d121e1db76a22,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/undo.ico,undo.ico,.ico,766,20f9e607204790ef01c58020efd1021501f2973708ca540f18e7aa131bbdc950,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/up.ico,up.ico,.ico,766,83108b732f67b88c7b787e580f58c675706f51e163f47cf044ffe8c7c46f445f,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/update.ico,update.ico,.ico,766,3552593bdb067c8291cd8a2441047aca109e1be2aa3fb155bd778380d6c670ef,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/uplevel.ico,uplevel.ico,.ico,766,a75ec19639c77b5ca3f9310f24696bd573165226ea44d35fadde694a8a329f95,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/values.ico,values.ico,.ico,767,e4201d0d4c7ba50172e206fc2d59f61c47e87203f682691324405312844cae85,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w.ICO,w.ICO,.ico,3774,2e07cf571b4edd1f116d81127b45c4e3eabf7823d40e08ef69b2bddb1e38749b,"MS Windows icon resource - 1 icon, 48x48",assets
+M_CASHEAR/w_bishop.ico,w_bishop.ico,.ico,766,983058a4c0c72054ae4d58b25dd855fc5b96dee48cff392b12e3cbea49cfb696,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_king.ico,w_king.ico,.ico,766,cee5dafd891bd6aa091aa1c7341f5bb665ede5f5b46d5957d8584deb5e6d4a69,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_knight.ico,w_knight.ico,.ico,766,b42928220202e244576636336ae2e8f07437ece7557f37a35a19f083e41ead70,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_next.ico,w_next.ico,.ico,766,7fab6eb6a34455d005bc67a94a29962813da6adee157dc08efd3d3cc350ce292,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_pawn.ico,w_pawn.ico,.ico,766,4bdbd504ae259aa86c90aba0916ab820ffc37b0ed4e63a9e3f53832737f581fe,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_prev.ico,w_prev.ico,.ico,766,c297838af89631d66ca2f051138bbbe2a857a470ccb1630953d61141a1cc25e9,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_queen.ico,w_queen.ico,.ico,766,ac9c545b84a2641371b0733cc41ca3eac257fa69f59b78d5bbba4623fb3f62e4,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+M_CASHEAR/w_rook.ico,w_rook.ico,.ico,766,18fc8f9099e9d2c4c0e9e6b3f48eea7008d61b2485ba6075ddb75f6402a1f4d0,"MS Windows icon resource - 1 icon, 32x32, 16 colors",assets
+المحروسة/mahrosa-all (1).svg,mahrosa-all (1).svg,.svg,353612,c45b0f4affdc128ce8dad4f5412f7a0a33a0e71aa2bea329e436f1727e3d989e,"SVG Scalable Vector Graphics image, ASCII text, with very long lines (49500)",assets

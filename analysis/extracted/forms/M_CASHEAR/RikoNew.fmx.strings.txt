@@ -1,0 +1,817 @@
+src=M_CASHEAR/RikoNew.fmx
+sha256=2a7b971b0d38f9a0b6f3a33db23a02840b72025c732efae8425f2dea96bb1d5f
+size=180748
+tool=strings(1) GNU binutils
+generated=2026-11-08T20:30:08.008778+00:00
+version_markers=none
+ascii_lines=804
+ucs2_lines=1
+trigger_count=0
+pl_sql_markers=15
+===ASCII===
+CASHER
+AMERICAN_AMERICA.AR8MSWIN1256
+P2_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                   
+                                                   
+ YYYY/MM/DD
+                                                   
+                                                   
+                                                   
+                                                   
+                                                          
+P3_12_JAN_200411_54_33
+STANDARD
+SQLFORMS
+"PKG INIT"<anonymous>"ERR_NUM"ERR_TXT"ERR_TYPE""
+                                                     
+ YYYY/MM/DD
+                                                     
+                                                     
+                                                    
+                                                    
+                                                       
+                       
+P4_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P5_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P6_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P7_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P8_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P9_12_JAN_200411_54_33
+/LHINT
+"PKG INIT"<anonymous>""
+P10_12_JAN_200411_54_33
+STANDARD
+FORMS4C
+FORMS4W
+FORMS40
+"PKG INIT"<anonymous>""
+window1
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+P1_10_JAN_200413_50_44
+STANDARD
+FORMS4C
+FORMS4W
+"PKG INIT"<anonymous>""
+WINDOW1
+P3_05_DEC_200021_50_18
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+P14_31_AUG_200408_24_45
+ /NSPC18/CLEAR_ALL_MASTER_DETAILS
+"PKG INIT"<anonymous>""
+P_RUNREPORT
+STANDARD
+"PKG INIT"P_RUNREPORT""
+P_RUNREPORT
+CHECK_PACKAGE_FAILURE
+SQLFORMS
+STANDARD
+"PKG INIT"CHECK_PACKAGE_FAILURE""
+CHECK_PACKAGE_FAILURE
+QUERY_MASTER_DETAILS
+STANDARD
+FORMS4C
+FORMS40
+SQLFORMS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"QUERY_MASTER_DETAILS"REL_ID"ID"DETAIL"OLDMSG"RELDEF""
+QUERY_MASTER_DETAILS
+CLEAR_ALL_MASTER_DETAILS
+STANDARD
+FORMS40
+FORMS4C
+SQLFORMS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"CLEAR_ALL_MASTER_DETAILS"MASTBLK"COORDOP"TRIGBLK"STARTITM"FRMSTAT"CURBLK"CURREL"CURDTL"FIRST_CHANGED_BLOCK_BELOW"MASTER"RETBLK""
+CLEAR_ALL_MASTER_DETAILS
+CLEAR_RECORD
+SYNCHRONIZE_BLOCKS
+CHANGED
+FIRST_CHANGED_BLOCK_BELOW
+CURRENTRECCORD
+Arabic Transparent
+MANDATORY
+Traditional Arabic
+OPTIONAL
+Traditional Arabic
+DISPLAY
+Traditional Arabic
+CANVAS
+Traditional Arabic
+TOOLBAR
+Traditional Arabic
+#POPUPHINT#
+MELFIKY
+Traditional Arabic
+Simplified Arabic
+Cancel
+Simplified Arabic
+Cancel
+My Editor
+D:\M_CASHEAR\HINT
+D:\M_CASHEAR\Lib01
+LOV100
+SELECT ALL EMP_TBL.EMP_ID, EMP_TBL.EMP_NAME
+FROM EMP_TBL 
+EMP_ID
+EMP_NAME
+LOV105
+SELECT ALL POINT_TBL.POINT_CODE, POINT_TBL.POINT_NAME
+FROM POINT_TBL 
+POINT_CODE
+POINT_NAME
+Point_Code
+Point_Name
+333333
+p=p=p=
+(\(\(\
+ffffff
+Simplified Arabic
+Traditional Arabic
+Tahoma
+Traditional Arabic
+Simplified Arabic
+Simplified Arabic
+MS Sans Serif
+P0_10_JAN_200414_08_02
+STANDARD
+FORMS4C
+FORMS40
+FORMS4W
+SQLMENU
+SQLFORMS
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+NORMAL
+CHANGED
+TOOLBAR.SAVE
+TWOBUTTON
+Choices/
+Save Changes/
+COMMIT_FORM
+TOOLBAR.QUERY
+Ex.Query
+P1_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+PREVIOUS
+PREVIOUS
+previous
+P2_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P3_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+DELETE
+DELETE
+Delete
+delete
+Traditional Arabic
+INVOICE
+P4_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P5_10_JAN_200414_08_02
+/NSPC18/P_RUNREPORT
+"PKG INIT"<anonymous>""
+P6_10_JAN_200414_08_02
+FORMS4C
+STANDARD
+FORMS4W
+FORMS40
+SQLMENU
+"PKG INIT"<anonymous>"VALERTID"ID"VALERTBUTTON""
+ONEBUTTON
+Information
+No Report
+P7_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P8_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P9_10_JAN_200414_08_02
+SQLFORMS
+"PKG INIT"<anonymous>""
+P10_10_JAN_200414_08_02
+/LLib01
+P_EXIT
+"PKG INIT"<anonymous>""
+INVOICE
+SERIAL_NO
+Simplified Arabic
+Simplified Arabic
+INV_TYP
+Traditional Arabic
+Traditional Arabic
+TABLE_NO
+INV_TIME
+Simplified Arabic
+Simplified Arabic
+SERV_PER
+SERV_Q
+DISC_PER
+DISC_Q
+MEM_ID
+P12_14_SEP_200410_28_37
+STANDARD
+MAHROSA
+	MAIN_MEMB
+MAHROSA
+MEMB_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT MEM_NAME   FROM MAIN_MEMB,MEMB_TBL  WHERE MAIN_MEMB.MEM_SERIAL = MEMB_TBL.MEM_SERIAL  AND MEMB_TBL.MEM_ID = :b1"
+ROOM_NO
+TEL_NO
+DEL_NAME
+Simplified Arabic Fixed
+DEL_ADDRESS
+INV_TOT
+POINT_CODE
+P3_13_SEP_200412_18_00
+STANDARD
+MAHROSA
+	POINT_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT POINT_NAME   FROM POINT_TBL  WHERE POINT_CODE = :b1"
+INV_DATE
+Simplified Arabic
+EMP_ID
+P1_13_SEP_200412_18_00
+STANDARD
+MAHROSA
+EMP_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT EMP_NAME   FROM EMP_TBL  WHERE EMP_ID = :b1"
+SHIFT_TYP
+P2_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\mashrobat1.jpg
+ITEM_PRICE_VIEW
+P4_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat1.jpg
+ITEM_PRICE_VIEW
+P5_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\fata2r1.jpg
+ITEM_PRICE_VIEW
+P6_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\pitzat1.jpg
+ITEM_PRICE_VIEW
+P7_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\salatat1.jpg
+ITEM_PRICE_VIEW
+P8_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat1.jpg
+ITEM_PRICE_VIEW
+P10_31_AUG_200408_24_45
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at1.jpg
+ITEM_PRICE_VIEW
+P10_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya1.jpg
+ITEM_PRICE_VIEW
+P4_13_SEP_200412_18_00
+SQLFORMS
+"PKG INIT"<anonymous>""
+INV_DTL
+INV_DTL
+SERIAL_NO
+Serial No
+SHIFT_TYP
+Shift Typ
+EMP_ID
+Emp Id
+INV_DATE
+Inv Date
+POINT_CODE
+I_CODE
+Simplified Arabic
+Andalus
+I_SERIAL
+Simplified Arabic
+Simplified Arabic
+CAP_NO
+ITEM_PRICE_VIEW
+ITEM_PRICE_VIEW
+t_code =:1 and point_code=:2
+I_CODE
+P11_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n1.jpg
+ITEM_PRICE_VIEW
+P12_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat1.jpg
+ITEM_PRICE_VIEW
+P13_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat1.jpg
+ITEM_PRICE_VIEW
+P14_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg
+ITEM_PRICE_VIEW
+P15_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz1.jpg
+ITEM_PRICE_VIEW
+P16_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal1.jpg
+ITEM_PRICE_VIEW
+P17_05_SEP_200411_22_54
+STANDARD
+FORMS40
+SQLFORMS
+"PKG INIT"<anonymous>""
+D:\M_CASHEAR\PHOTOS\mashrobat.jpg
+D:\M_CASHEAR\PHOTOS\halaweyat.jpg
+D:\M_CASHEAR\PHOTOS\fata2r.jpg
+D:\M_CASHEAR\PHOTOS\pitzat.jpg
+D:\M_CASHEAR\PHOTOS\salatat.jpg
+D:\M_CASHEAR\PHOTOS\sandawetshat.jpg
+D:\M_CASHEAR\PHOTOS\motanwe3at.jpg
+D:\M_CASHEAR\PHOTOS\atbak ra2yseya.jpg
+D:\M_CASHEAR\PHOTOS\3aga2n.jpg
+D:\M_CASHEAR\PHOTOS\mashweyat.jpg
+D:\M_CASHEAR\PHOTOS\neshaweyat.jpg
+D:\M_CASHEAR\PHOTOS\talabat belhagz.jpg
+D:\M_CASHEAR\PHOTOS\talabat khasa.jpg
+D:\M_CASHEAR\PHOTOS\wagabat atfal.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya.jpg
+D:\M_CASHEAR\PHOTOS\wagabat yawmeya1.jpg
+ITEM_PRICE_VIEW
+P15_31_AUG_200408_24_45
+STANDARD
+FORMS4C
+FORMS40
+/NSPC18/QUERY_MASTER_DETAILS
+/NSPC18/CHECK_PACKAGE_FAILURE
+"PKG INIT"<anonymous>"RECSTAT"STARTITM"REL_ID"ID""
+INSERT
+INVOICE.INVOICE_INV_DTL
+INV_DTL
+P16_31_AUG_200408_24_45
+STANDARD
+MAHROSA
+INV_DTL
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 9>""
+DELETE FROM INV_DTL I WHERE I.SERIAL_NO = :b1  AND I.POINT_CODE = :b2  AND I.INV_DATE = :b3  AND I.EMP_ID = :b4  AND I.SHIFT_TYP = :b5"
+P4_14_SEP_200410_28_37
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+P5_14_SEP_200410_28_37
+STANDARD
+"PKG INIT"<anonymous>""
+P7_14_SEP_200410_28_37
+STANDARD
+"PKG INIT"<anonymous>""
+P8_14_SEP_200410_28_37
+STANDARD
+"PKG INIT"<anonymous>""
+I Code
+P1_13_SEP_200411_18_19
+STANDARD
+MAHROSA
+ITEM_TBL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 2>""
+SELECT I_NAME   FROM ITEM_TBL  WHERE I_CODE = :b1"
+T_CODE
+T Code
+POINT_CODE
+Point Code
+Simplified Arabic
+P2_14_SEP_200410_28_37
+STANDARD
+MAHROSA
+INV_DTL
+SQLFORMS
+"PKG INIT"<anonymous>"<cursor ptr>"<SQL statement. Line 3>""
+inv_dtl
+INSERT INTO INV_DTL ( POINT_CODE,I_CODE )  VALUES ( :b1,:b2  )"
+USER_ID
+POINT_CODE
+T_CODE
+DEL_ADDRESS
+SERV_Q
+INV_TYP
+CLEAR_ALL_MASTER_DETAILS
+ONEBUTTON
+TABLE_NO
+DISC_PER
+SHIFT_TYP
+MYEDITOR
+EMP_ID
+MEM_ID
+INV_DATE
+TEL_NO
+SERIAL_NO
+E_NAME
+I_NAME
+POINT_CODE
+INV_TIME
+WINDOW1
+P_NAME
+INVOICE_INV_DTL
+DEL_NAME
+P_RUNREPORT
+DISC_Q
+DELETE
+TOOLBAR
+MEM_NAME
+ROOM_NO
+CAP_NO
+THREEBUTTON
+PREVIOUS
+QUERY_MASTER_DETAILS
+SERV_PER
+INV_DTL
+CANVAS1
+LOV100
+INV_TOT
+UFORMNAME
+ITEM_PRICE_VIEW
+TWOBUTTON
+CHECK_PACKAGE_FAILURE
+I_CODE
+I_SERIAL
+INVOICE
+LOV105
+TEXT93
+Simplified Arabic
+TEXT97
+TEXT53
+TEXT48
+Simplified Arabic
+GRAPHIC51
+TEXT65
+Traditional Arabic
+GRAPHIC69
+FRAME70
+Tahoma
+IMAGE33
+FRAME85
+Traditional Arabic
+TEXT112
+Simplified Arabic
+TEXT115
+TEXT118
+TEXT121
+TEXT124
+TEXT127
+(:3=<9387@H\N@DWE78PmQW_bghg>Mqypdx\egc
+/cB8Bcccccccccccccccccccccccccccccccccccccccccccccccccc
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+j#UuhWo
+?r =7v
+XcjF-Y#
+<y^Gq[!
+S1Z.1c
+Vv5D>]M
+0/D6D2y
+S woJd
+$_ooAU
+S woJB#
+,zUB&U%
+	6"heA
+	RJe9&
+zP#SjJ
+:P"	n#
+I-32@?
+;zQ`+\
+WB35-%
+:Vw4,[
+*nmb'a
+rl>-Fk3
+~7p*Fn
+F!LdMPY
+V"QVd/
+a:fenq
+R,ef2<q
+dX KHTt
+:O4]Zq0
+?LR,m@
+aVH{~T
+V}Eg#x
+YqS`15=AQ<
+9=:3cs-
+#:}ZIx
+`9M1Xw
+((QHa@
+Hv41Phbj
+?*"IKD
+#BkNC.k
+$;PPS$O
+?#LaRR#
+,OjBBv
+4%Ac;b
+rl9zqZD
+qYXd?w
+%AAPh%AC*F7o
+/N+Tf-Y
+`%1	R!sRh2
+i3Zq4-
+AV1Gjb
+P!*@mADc
+#HEv?%j
+W1Q54K
+FG7}c.
+j.?b<[[
+===UCS2-LE===
+*017:<>@B
