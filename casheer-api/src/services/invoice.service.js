@@ -2,18 +2,95 @@ import { withTx, query } from '../db/pool.js';
 import { ApiError } from '../middleware/error.js';
 import { computeTotals, floor2, isPointOpenOn } from '../util/money.js';
 
+async function lookupMemberByCode(client, rawCode) {
+  const code = String(rawCode || '').trim();
+  if (!code) {
+    throw new ApiError(400, 'BARCODE_REQUIRED', 'أدخل باركود أو امسح QR كارنيه المشترك');
+  }
+  const numericCode = /^\d+$/.test(code) ? Number(code) : -1;
+  const { rows } = await client.query(
+    `SELECT b.m_bar, b.mem_serial, b.mem_id, b.m_kind, b.m_year, b.m_typ,
+            b.discount_percent, b.flg_ok,
+            m.mem_name, m.rank_name
+       FROM memb_bar b
+       JOIN main_memb m ON m.mem_serial = b.mem_serial
+      WHERE m.active = TRUE
+        AND b.flg_ok = 1
+        AND (UPPER(b.m_bar) = UPPER($1) OR b.mem_id = $2 OR b.mem_serial = $2)
+      LIMIT 1`,
+    [code, numericCode],
+  );
+  if (!rows[0]) {
+    throw new ApiError(404, 'MEMBER_NOT_FOUND', 'كارنيه المشترك غير مسجل أو غير ساري الصلاحية');
+  }
+  return rows[0];
+}
+
+async function lookupOccupiedRoom(client, { room_no, h_no }) {
+  if (!room_no && !h_no) {
+    throw new ApiError(400, 'ROOM_REQUIRED', 'اختر رقم الغرفة للنزيل لتحويل الفاتورة للريسبشن');
+  }
+  const { rows } = await client.query(
+    `SELECT h.h_no, h.h_name AS guest_name, h.room_no, r.room_type
+       FROM hagz_tbl h
+       JOIN rooms r ON r.room_no = h.room_no
+      WHERE h.out_flag = 0
+        AND r.status = 1
+        AND ($1::int IS NULL OR h.room_no = $1)
+        AND ($2::text IS NULL OR h.h_no = $2)
+      ORDER BY h.created_at DESC
+      LIMIT 1`,
+    [room_no ? Number(room_no) : null, h_no || null],
+  );
+  if (!rows[0]) {
+    throw new ApiError(404, 'ROOM_NOT_OCCUPIED', 'الغرفة غير مشغولة حالياً أو لا يوجد حجز نشط لها بالريسبشن');
+  }
+  return rows[0];
+}
+
 /**
  * Open a new invoice in a shift.
  * Dual counter: serial_no := MAX(serial_no)+1 WHERE (point_id, inv_date).
- * Caller must be inside the right shift.
- *
- * @returns created invoice row.
+ * Supports the 3 client types: CIVILIAN (مدنى), MEMBER (مشترك - QR scan), GUEST (نزيل - Room Reception).
  */
 export async function openInvoice({
   point_id, inv_date, shift_id, employee_id,
   inv_type = 1, madf_type = 1, table_no = null, person_count = null,
+  client_type = 'CIVILIAN', barcode = null, room_no = null, h_no = null,
 }) {
   return withTx(async (client) => {
+    // Verify employee is assigned to this point.
+    const { rows: perm } = await client.query(
+      `SELECT 1 FROM employee_point_permissions
+        WHERE employee_id = $1 AND point_id = $2
+        LIMIT 1`,
+      [employee_id, point_id],
+    );
+    if (!perm[0]) {
+      throw new ApiError(403, 'PORT_NOT_ASSIGNED', 'employee not assigned to this point');
+    }
+
+    // Verify shift exists and ensure invoice working date matches shift's working date.
+    const { rows: shRows } = await client.query(
+      `SELECT id, shift_date::text AS shift_date, point_id, closed_at
+         FROM shifts WHERE id = $1`,
+      [shift_id],
+    );
+    const shift = shRows[0];
+    if (!shift) throw new ApiError(404, 'SHIFT_NOT_FOUND', 'shift not found');
+    if (shift.closed_at) throw new ApiError(400, 'SHIFT_CLOSED', 'shift is closed');
+    if (shift.point_id !== point_id) {
+      throw new ApiError(400, 'SHIFT_POINT_MISMATCH', 'shift does not belong to this point');
+    }
+    const effectiveInvDate = shift.shift_date;
+    if (inv_date && inv_date.slice(0, 10) !== effectiveInvDate) {
+      throw new ApiError(
+        400,
+        'SHIFT_DATE_MISMATCH',
+        `invoice date (${inv_date}) must match shift working date (${effectiveInvDate})`,
+      );
+    }
+
     // Point weekday gate.
     const { rows: pts } = await client.query(
       `SELECT id, service_percent, weekday_mask, m_status, active FROM points WHERE id = $1`,
@@ -23,7 +100,7 @@ export async function openInvoice({
     if (!point)           throw new ApiError(404, 'POINT_NOT_FOUND', 'point not found');
     if (!point.active)    throw new ApiError(400, 'POINT_INACTIVE', 'point inactive');
     if (point.m_status !== 1) throw new ApiError(400, 'POINT_DISABLED', 'point m_status is 0');
-    if (!isPointOpenOn(point.weekday_mask, new Date(inv_date))) {
+    if (!isPointOpenOn(point.weekday_mask, new Date(effectiveInvDate))) {
       throw new ApiError(400, 'POINT_CLOSED_TODAY', 'point not open this weekday');
     }
 
@@ -31,19 +108,66 @@ export async function openInvoice({
     const { rows: sn } = await client.query(
       `SELECT COALESCE(MAX(serial_no), 0) + 1 AS n
          FROM invoices WHERE point_id = $1 AND inv_date = $2`,
-      [point_id, inv_date],
+      [point_id, effectiveInvDate],
     );
     const serial_no = sn[0].n;
+
+    let effectiveClientType = client_type || 'CIVILIAN';
+    let effectiveInvType = inv_type;
+    let effectiveMadfType = madf_type;
+    let effectiveDiscountPercent = 0;
+    let mem_id = null;
+    let mem_serial = null;
+    let mem_bar = null;
+    let mem_name = null;
+    let mem_rank = null;
+    let resolvedRoomNo = null;
+    let resolvedHNo = null;
+    let guest_name = null;
+
+    if (effectiveClientType === 'MEMBER') {
+      const member = await lookupMemberByCode(client, barcode);
+      effectiveInvType = 1;
+      effectiveMadfType = 1;
+      effectiveDiscountPercent = Number(member.discount_percent || 0);
+      mem_id = member.mem_id;
+      mem_serial = member.mem_serial;
+      mem_bar = member.m_bar;
+      mem_name = member.mem_name;
+      mem_rank = member.rank_name;
+    } else if (effectiveClientType === 'GUEST') {
+      const room = await lookupOccupiedRoom(client, { room_no, h_no });
+      effectiveInvType = 2; // غرف / نزيل فندق
+      effectiveMadfType = 2; // آجل على حساب الغرفة بالريسبشن
+      resolvedRoomNo = room.room_no;
+      resolvedHNo = room.h_no;
+      guest_name = room.guest_name;
+    } else {
+      effectiveClientType = 'CIVILIAN';
+      effectiveMadfType = 1;
+    }
+
+    // Service charge: 12% on dining points (skip only for employee meal inv_type === 5).
+    const effectiveServicePercent =
+      effectiveInvType === 5 ? 0 : Number(point.service_percent);
 
     const { rows } = await client.query(
       `INSERT INTO invoices
          (serial_no, point_id, inv_date, shift_id, employee_id,
           inv_type, madf_type, table_no, person_count,
-          service_percent, status)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,'OPEN')
+          service_percent, discount_percent,
+          client_type, mem_id, mem_serial, mem_bar, mem_name, mem_rank,
+          room_no, h_no, guest_name,
+          status)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,'OPEN')
        RETURNING *`,
-      [serial_no, point_id, inv_date, shift_id, employee_id,
-       inv_type, madf_type, table_no, person_count, point.service_percent],
+      [
+        serial_no, point_id, effectiveInvDate, shift_id, employee_id,
+        effectiveInvType, effectiveMadfType, table_no, person_count,
+        effectiveServicePercent, effectiveDiscountPercent,
+        effectiveClientType, mem_id, mem_serial, mem_bar, mem_name, mem_rank,
+        resolvedRoomNo, resolvedHNo, guest_name,
+      ],
     );
     return rows[0];
   });
@@ -82,6 +206,106 @@ async function recomputeTotals(client, invoice) {
     [invoice.id, totals.subtotal, totals.service_amount, totals.discount_amount, totals.total],
   );
   return upd[0];
+}
+
+/**
+ * Update client type on an OPEN invoice:
+ * - CIVILIAN (مدنى): standard customer, 0% member discount, 12% service charge, paid at cashier
+ * - MEMBER   (مشترك): scans QR / Barcode from memb_bar + main_memb, sets member info & member discount %
+ * - GUEST    (نزيل): links occupied room from hagz_tbl, sets madf_type = 2 (charged to room at Reception)
+ */
+export async function updateInvoiceClient(invoice_id, { client_type, barcode = null, room_no = null, h_no = null }) {
+  return withTx(async (client) => {
+    const inv = await assertEditable(client, invoice_id);
+    const { rows: pts } = await client.query(
+      `SELECT service_percent FROM points WHERE id = $1`,
+      [inv.point_id],
+    );
+    const pointService = Number(pts[0]?.service_percent ?? 12);
+    const effectiveServicePercent = pointService > 0 ? pointService : 12;
+
+    if (client_type === 'MEMBER') {
+      const member = await lookupMemberByCode(client, barcode);
+      const { rows } = await client.query(
+        `UPDATE invoices
+            SET client_type      = 'MEMBER',
+                inv_type         = 1,
+                madf_type        = 1,
+                mem_id           = $2,
+                mem_serial       = $3,
+                mem_bar          = $4,
+                mem_name         = $5,
+                mem_rank         = $6,
+                discount_percent = $7,
+                service_percent  = $8,
+                room_no          = NULL,
+                h_no             = NULL,
+                guest_name       = NULL
+          WHERE id = $1
+          RETURNING *`,
+        [
+          invoice_id,
+          member.mem_id,
+          member.mem_serial,
+          member.m_bar,
+          member.mem_name,
+          member.rank_name,
+          Number(member.discount_percent || 0),
+          effectiveServicePercent,
+        ],
+      );
+      return recomputeTotals(client, rows[0]);
+    }
+
+    if (client_type === 'GUEST') {
+      const room = await lookupOccupiedRoom(client, { room_no, h_no });
+      const { rows } = await client.query(
+        `UPDATE invoices
+            SET client_type      = 'GUEST',
+                inv_type         = 2,
+                madf_type        = 2,
+                room_no          = $2,
+                h_no             = $3,
+                guest_name       = $4,
+                discount_percent = 0,
+                service_percent  = $5,
+                mem_id           = NULL,
+                mem_serial       = NULL,
+                mem_bar          = NULL,
+                mem_name         = NULL,
+                mem_rank         = NULL
+          WHERE id = $1
+          RETURNING *`,
+        [invoice_id, room.room_no, room.h_no, room.guest_name, effectiveServicePercent],
+      );
+      return recomputeTotals(client, rows[0]);
+    }
+
+    if (client_type === 'CIVILIAN') {
+      const { rows } = await client.query(
+        `UPDATE invoices
+            SET client_type      = 'CIVILIAN',
+                inv_type         = 1,
+                madf_type        = 1,
+                discount_percent = 0,
+                service_percent  = $2,
+                mem_id           = NULL,
+                mem_serial       = NULL,
+                mem_bar          = NULL,
+                mem_name         = NULL,
+                mem_rank         = NULL,
+                room_no          = NULL,
+                h_no             = NULL,
+                guest_name       = NULL
+          WHERE id = $1
+          RETURNING *`,
+        [invoice_id, effectiveServicePercent],
+      );
+      return recomputeTotals(client, rows[0]);
+    }
+
+    throw new ApiError(400, 'INVALID_CLIENT_TYPE', 'client_type must be CIVILIAN, MEMBER, or GUEST');
+  });
 }
 
 export async function addLine(invoice_id, { item_id, qty, unit_price_override = null, note = null }) {
@@ -171,6 +395,8 @@ export async function updateDiscount(invoice_id, discount_percent) {
 
 /**
  * Close (pay) an invoice: assigns ser_no (per-paid counter) and flips status.
+ * If the client is a Hotel Guest (نزيل — client_type = 'GUEST'), automatically posts
+ * the invoice total to Reception's ROOM_ACCOUNT.REST_Q and CUST_REST tables.
  */
 export async function closeInvoice(invoice_id, paid_by_employee_id) {
   return withTx(async (client) => {
@@ -181,6 +407,27 @@ export async function closeInvoice(invoice_id, paid_by_employee_id) {
     );
     if (countRows[0].n === 0) {
       throw new ApiError(400, 'EMPTY_INVOICE', 'cannot close invoice with no lines');
+    }
+    if (inv.client_type === 'GUEST' && (!inv.room_no || !inv.h_no)) {
+      throw new ApiError(400, 'ROOM_REQUIRED', 'يجب تحديد غرفة النزيل قبل ترحيل الفاتورة للريسبشن');
+    }
+    if (inv.client_type === 'MEMBER' && !inv.mem_id) {
+      throw new ApiError(400, 'MEMBER_REQUIRED', 'يجب مسح QR الكارنيه للمشترك قبل إغلاق الفاتورة');
+    }
+
+    // Check point min_charge invariant.
+    const { rows: ptRows } = await client.query(
+      `SELECT code, name, min_charge FROM points WHERE id = $1`,
+      [inv.point_id],
+    );
+    const point = ptRows[0];
+    const minCharge = Number(point?.min_charge ?? 0);
+    if (minCharge > 0 && Number(inv.subtotal) < minCharge) {
+      throw new ApiError(
+        400,
+        'BELOW_MIN_CHARGE',
+        `subtotal (${inv.subtotal}) is below point minimum charge (${minCharge})`,
+      );
     }
     // Next ser_no scoped to (point, date, PAID subset).
     const { rows: sn } = await client.query(
@@ -200,7 +447,54 @@ export async function closeInvoice(invoice_id, paid_by_employee_id) {
         RETURNING *`,
       [invoice_id, ser_no, paid_by_employee_id],
     );
-    return rows[0];
+    const closedInv = rows[0];
+
+    // If Hotel Guest (نزيل), post restaurant charge to Reception (CUST_REST + ROOM_ACCOUNT.REST_Q)
+    if (closedInv.client_type === 'GUEST' && closedInv.room_no && closedInv.h_no) {
+      const { rows: shRows } = await client.query(
+        `SELECT shift_kind FROM shifts WHERE id = $1`,
+        [closedInv.shift_id],
+      );
+      const shiftTyp = shRows[0]?.shift_kind ?? 1;
+
+      await client.query(
+        `INSERT INTO cust_rest
+           (invoice_id, serial_no, ser_no, point_code, point_name, inv_date, shift_typ,
+            room_no, h_no, guest_name, inv_tot)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+         ON CONFLICT (invoice_id) DO NOTHING`,
+        [
+          closedInv.id,
+          closedInv.serial_no,
+          closedInv.ser_no,
+          point?.code ?? 1,
+          point?.name ?? '',
+          closedInv.inv_date,
+          shiftTyp,
+          closedInv.room_no,
+          closedInv.h_no,
+          closedInv.guest_name ?? '',
+          closedInv.total,
+        ],
+      );
+
+      const remNote = `فاتورة مطعم #${closedInv.ser_no} (${point?.name ?? ''})`;
+      await client.query(
+        `INSERT INTO room_account (h_no, room_no, r_date, price, rest_q, r_rem, updated_at)
+         VALUES ($1, $2, $3, 0, $4, $5, now())
+         ON CONFLICT (h_no, room_no, r_date)
+         DO UPDATE SET
+           rest_q     = room_account.rest_q + EXCLUDED.rest_q,
+           r_rem      = CASE
+                          WHEN room_account.r_rem IS NULL OR room_account.r_rem = '' THEN EXCLUDED.r_rem
+                          ELSE room_account.r_rem || ' | ' || EXCLUDED.r_rem
+                        END,
+           updated_at = now()`,
+        [closedInv.h_no, closedInv.room_no, closedInv.inv_date, closedInv.total, remNote],
+      );
+    }
+
+    return closedInv;
   });
 }
 
@@ -253,7 +547,7 @@ export async function getInvoice(invoice_id) {
 
 export async function listInvoicesByShift(shift_id) {
   const { rows } = await query(
-    `SELECT id, serial_no, ser_no, status, total, created_at, paid_at
+    `SELECT id, serial_no, ser_no, status, total, client_type, mem_name, room_no, guest_name, created_at, paid_at
        FROM invoices WHERE shift_id = $1 ORDER BY serial_no`,
     [shift_id],
   );

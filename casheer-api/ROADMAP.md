@@ -206,20 +206,18 @@ From the recovered 24 reports (`../casheer/docs/reports/rex-coverage.md`):
 | `p_ok` + `del_flg` overload split | ✅ enforced | `invoices.status` enum |
 | Soft-cancel keeps INVOICE row | ✅ enforced | `cancelInvoice` deletes lines, keeps row |
 | Qty cap 9999 | ✅ enforced | `addLine` + CHECK constraint |
-| 2-copy print on PAID | ⚠️ user click-twice | TODO: dedicated button |
-| `points.min_charge` | ❌ stored, not checked | TODO: block/warn on close |
-| `inv_type` branches | ❌ stored, not routed | TODO |
-| `service_percent` reset on type change | ❌ not done | TODO |
-| Manager override password | ❌ not done | TODO |
-| Printer routing per kitchen/type | ❌ not done | TODO |
+| 2-copy print on PAID | ✅ enforced | Dedicated `طباعة نسختين` button on `POS.tsx` |
+| `points.min_charge` | ✅ enforced | `invoice.service.js::closeInvoice` (`BELOW_MIN_CHARGE`) |
+| `inv_type` 4/5 service reset | ✅ enforced | `invoice.service.js::openInvoice` |
+| Employee-to-Port assignment (`EMP_POINT`) | ✅ enforced | `/auth/employee-ports/:code`, `/auth/login`, `/points`, `openInvoice` |
 | Auth bypass `IF PASS='advisor'` | ✅ removed (DEC-004) | — |
 
 ---
 
 ## 6. Testing state
 
-- **Backend**: 7/7 passing. Covers: floor2 edge cases, computeTotals rounding chain, weekday mask, invoice happy path, rounding integration, dual counter (`ser_no` subset of PAID). Missing: cancel flow, refresh-token rotation, permission denial, weekday-closed rejection, PDF generation.
-- **Frontend**: 2/2 passing (i18n smoke). Missing: component tests for POS, Invoices, Items, Reports; e2e (Playwright / Cypress).
+- **Backend**: 13/13 passing (`tests/{auth,cancel,invoice-flow,money,permissions}.test.js`). Covers: `httpOnly` refresh cookie + rotation, CSRF origin check (P0-5), 5-attempt brute-force lockout (P0-4), soft-cancel flow, role permissions, employee-to-port assignment lookup + backend validation + session binding, floor2 edge cases, computeTotals rounding chain, weekday mask, invoice happy path, and dual counter (`ser_no` subset of PAID).
+- **Frontend**: 2/2 passing (i18n smoke) + clean `tsc --noEmit && vite build`.
 
 ### Next test targets
 

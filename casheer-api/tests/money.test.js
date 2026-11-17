@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { floor2, computeTotals, isoWeekdayBit, isPointOpenOn } from '../src/util/money.js';
+import { floor2, computeTotals, isoWeekdayBit, isPointOpenOn, resolveAndValidateShiftDate } from '../src/util/money.js';
 
 test('floor2 clamps to 2 decimals (floor, not round)', () => {
   assert.equal(floor2(1.239),   1.23);
@@ -30,4 +30,36 @@ test('weekday mask: Monday opens', () => {
 test('weekday mask: Sunday opens', () => {
   const sun = new Date('2026-01-04');     // ISO weekday 7
   assert.equal(isoWeekdayBit(sun), 0b1000000);
+});
+
+test('resolveAndValidateShiftDate: normal shift (1, 2) only allows today', () => {
+  const now = new Date(2026, 10, 13, 2, 30, 0); // Nov 13, 2026 02:30 AM local
+  assert.equal(resolveAndValidateShiftDate(1, undefined, now), '2026-11-13');
+  assert.equal(resolveAndValidateShiftDate(1, '2026-11-13', now), '2026-11-13');
+  assert.equal(resolveAndValidateShiftDate(2, '2026-11-13', now), '2026-11-13');
+
+  assert.throws(
+    () => resolveAndValidateShiftDate(1, '2026-11-12', now),
+    (err) => err.code === 'INVALID_SHIFT_DATE' && err.status === 400,
+  );
+  assert.throws(
+    () => resolveAndValidateShiftDate(2, '2026-11-12', now),
+    (err) => err.code === 'INVALID_SHIFT_DATE' && err.status === 400,
+  );
+});
+
+test('resolveAndValidateShiftDate: night shift (3) allows today or yesterday, rejects older/future dates', () => {
+  const now = new Date(2026, 10, 13, 2, 30, 0); // Nov 13, 2026 02:30 AM local
+  assert.equal(resolveAndValidateShiftDate(3, undefined, now), '2026-11-13');
+  assert.equal(resolveAndValidateShiftDate(3, '2026-11-13', now), '2026-11-13');
+  assert.equal(resolveAndValidateShiftDate(3, '2026-11-12', now), '2026-11-12');
+
+  assert.throws(
+    () => resolveAndValidateShiftDate(3, '2026-11-11', now),
+    (err) => err.code === 'INVALID_SHIFT_DATE' && err.status === 400,
+  );
+  assert.throws(
+    () => resolveAndValidateShiftDate(3, '2026-11-14', now),
+    (err) => err.code === 'INVALID_SHIFT_DATE' && err.status === 400,
+  );
 });

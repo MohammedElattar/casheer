@@ -1,10 +1,10 @@
 # .agent/HANDOFF.md
 
-**Last written: 2026-11-09, Session 6 (PLL extraction).**
+**Last written: 2026-11-13, Session 7 (P0 security hardening + Employee-Based Assigned Ports + P1/P2 completion).**
 
 ## Headline
 
-Phases 0–3 effectively complete. Forms source (all 63 `.fmb`) → XML; **4859 triggers with full PL/SQL bodies**, 382 PUs, 2274 SQL stmts, 490 blocks. Both `.pll` libraries via JDAPI `PlsqlModule`. DB catalog: 192 tables, 1910 cols, 52 views, 93 FKs. Dump byte-parse: 62 historical tables. Business-rule catalog bucketed: **5247 rules / 14 domains**. Deprecated-builtin inventory: **475 sites, 20 builtins**. Form↔table XML-derived: 314 edges, 85 tables. Inter-form call graph: 319 edges, 62 forms. Arabic i18n catalog: **262 unique strings**. BLK-001/002/004/005/006/007/008/009 CLOSED. Open: BLK-003 (Casheer DB creds), BLK-010 (missing: 8 `.fmb` forms + 2 reports — `INVOICE_NEW_MIN.rep`, `EMP01.rdf`). SERY invoice workflow fully extracted (`docs/workflows/sery-invoice-lifecycle.md`). See `docs/legacy/phase0-1-completion-report.md` (needs refresh to reflect Phase 2 progress) and `docs/forms/xml-coverage.md`.
+Phases 0–3 reverse-engineering complete AND modern `casheer-api` + `casheer-web` application running on `localhost:3000` and `localhost:5173` (Postgres on `localhost:5435`). P0 security items (httpOnly refresh cookie, rate limiting, 15m brute-force lockout, CSRF defense), dynamic employee-to-port login (`منافذ العمل`) with backend port validation & session binding, Admin Employee/Port assignment UI (`/settings`), POS category tabs / 2-copy print / shift close, and 13/13 backend integration & unit tests are all complete and passing.
 
 ## Mandatory read order
 

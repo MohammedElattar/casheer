@@ -17,6 +17,11 @@
       <div><span class="r-lbl">التاريخ</span> <span class="r-val">{{inv_date}}</span></div>
       <div><span class="r-lbl">الوقت</span>   <span class="r-val">{{inv_time}}</span></div>
       <div><span class="r-lbl">الكاشير</span> <span class="r-val">{{cashier_name}}</span></div>
+      <div><span class="r-lbl">نوع العميل</span> <span class="r-val">{{client_type_label}}</span></div>
+      {{#mem_name}}<div><span class="r-lbl">المشترك</span> <span class="r-val">{{mem_name}}</span></div>{{/mem_name}}
+      {{#mem_id}}<div><span class="r-lbl">رقم العضوية</span> <span class="r-val">{{mem_id}} ({{mem_bar}})</span></div>{{/mem_id}}
+      {{#room_no}}<div><span class="r-lbl">رقم الغرفة</span> <span class="r-val">{{room_no}} (حجز: {{h_no}})</span></div>{{/room_no}}
+      {{#guest_name}}<div><span class="r-lbl">اسم النزيل</span> <span class="r-val">{{guest_name}}</span></div>{{/guest_name}}
       {{#table_no}}<div><span class="r-lbl">ترابيزة</span> <span class="r-val">{{table_no}}</span></div>{{/table_no}}
       {{#person_count}}<div><span class="r-lbl">عدد الأشخاص</span> <span class="r-val">{{person_count}}</span></div>{{/person_count}}
     </section>
@@ -43,15 +48,15 @@
     </table>
 
     <section class="r-totals">
-      <div class="r-row"><span>المجموع</span> <strong>{{subtotal}}</strong></div>
-      {{#service_amount}}<div class="r-row"><span>الخدمة ({{service_percent}}%)</span> <strong>{{service_amount}}</strong></div>{{/service_amount}}
+      <div class="r-row"><span>المجموع الفرعي</span> <strong>{{subtotal}}</strong></div>
+      {{#service_amount}}<div class="r-row"><span>خدمة ({{service_percent}}%)</span> <strong>+ {{service_amount}}</strong></div>{{/service_amount}}
       {{#discount_amount}}<div class="r-row"><span>الخصم ({{discount_percent}}%)</span> <strong>- {{discount_amount}}</strong></div>{{/discount_amount}}
-      <div class="r-row r-grand"><span>الإجمالي</span> <strong>{{total}}</strong></div>
+      <div class="r-row r-grand"><span>الإجمالي المطلوب</span> <strong>{{total}}</strong></div>
     </section>
 
     <footer class="r-footer">
       <p>{{footer_line_1}}</p>
-      <p class="r-thanks">شكراً لزيارتكم</p>
+      <p class="r-thanks">شكراً لزيارتكم — دار القوات البحرية (المحروسة)</p>
     </footer>
   </article>
 </body>

@@ -1,6 +1,10 @@
 import pg from 'pg';
 
-const { Pool } = pg;
+const { Pool, types } = pg;
+
+// Keep PostgreSQL DATE columns (OID 1082, e.g. shift_date, inv_date) as exact
+// 'YYYY-MM-DD' strings rather than JS Date objects that shift by UTC offset on JSON serialization.
+types.setTypeParser(1082, (val) => val);
 
 export const pool = new Pool({
   connectionString: process.env.DATABASE_URL,

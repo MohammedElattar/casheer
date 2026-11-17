@@ -3,16 +3,21 @@ import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '@/hooks/useAuth';
 import { ar } from '@/i18n/ar';
 
-const NAV = [
-  { to: '/',         label: ar.nav.pos },
-  { to: '/invoices', label: ar.nav.invoices },
-  { to: '/items',    label: ar.nav.items },
-  { to: '/reports',  label: ar.nav.reports },
-];
-
 export function Layout({ children }: { children: ReactNode }) {
-  const { user, logout } = useAuth();
+  const { user, point, shift, logout } = useAuth();
   const loc = useLocation();
+
+  // Only ADMIN or Takeaway Pizza port (code === 5) sees the Items catalog in navigation
+  const canAccessItems = user?.role === 'ADMIN' || point?.code === 5 || user?.code === '1005';
+
+  const navItems = [
+    { to: '/',         label: ar.nav.pos },
+    { to: '/invoices', label: ar.nav.invoices },
+    ...(canAccessItems ? [{ to: '/items', label: ar.nav.items }] : []),
+    { to: '/reports',  label: ar.nav.reports },
+    ...(user?.role === 'ADMIN' ? [{ to: '/settings', label: ar.nav.settings }] : []),
+  ];
+
   return (
     <div className="app">
       <aside style={{
@@ -26,7 +31,7 @@ export function Layout({ children }: { children: ReactNode }) {
           </div>
         </div>
         <nav style={{ padding: 12, flex: 1 }}>
-          {NAV.map(({ to, label }) => {
+          {navItems.map(({ to, label }) => {
             const active = loc.pathname === to;
             return (
               <Link
@@ -49,9 +54,19 @@ export function Layout({ children }: { children: ReactNode }) {
           })}
         </nav>
         <div style={{ padding: 16, borderTop: '1px solid #ffffff14', fontSize: 12 }}>
-          <div className="muted" style={{ color: '#ffffff99' }}>
-            {user?.code} · {user?.role}
+          <div style={{ fontWeight: 700, color: '#ffffff' }}>
+            {user?.name || user?.code} ({user?.code})
           </div>
+          {point && (
+            <div style={{ color: 'var(--bright)', marginTop: 4, fontWeight: 600 }}>
+              {ar.auth.port}: {point.name} (#{point.code})
+            </div>
+          )}
+          {shift && (
+            <div style={{ color: '#ffffffb3', marginTop: 2 }}>
+              {ar.auth.shift}: {ar.auth.shifts[shift.shift_kind] ?? shift.shift_kind} · {shift.shift_date.slice(0, 10)}
+            </div>
+          )}
           <button
             onClick={logout}
             className="btn ghost"

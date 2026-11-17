@@ -17,6 +17,7 @@ export interface Point {
   weekday_mask: number;
   m_status: number;
   active: boolean;
+  shift_kinds?: number[];
 }
 
 export interface ItemType {
@@ -46,6 +47,33 @@ export interface Shift {
 }
 
 export type InvoiceStatus = 'OPEN' | 'PAID' | 'CANCELLED';
+export type ClientType = 'CIVILIAN' | 'MEMBER' | 'GUEST';
+
+export interface MemberCard {
+  m_bar: string;
+  mem_serial: number;
+  mem_id: number;
+  mem_name: string;
+  rank_name: string | null;
+  m_kind: number;
+  m_year: number;
+  m_typ: number;
+  discount_percent: string;
+  flg_ok: number;
+}
+
+export interface OccupiedRoom {
+  h_no: string;
+  guest_name: string;
+  room_no: number;
+  h_from: string;
+  h_to: string;
+  tel_no: string | null;
+  eskan_typ: number;
+  level_code: number;
+  room_type: string;
+  reception_rest_total: string;
+}
 
 export interface Invoice {
   id: UUID;
@@ -61,6 +89,15 @@ export interface Invoice {
   person_count: number | null;
   service_percent: string;
   discount_percent: string;
+  client_type: ClientType;
+  mem_id: number | null;
+  mem_serial: number | null;
+  mem_bar: string | null;
+  mem_name: string | null;
+  mem_rank: string | null;
+  room_no: number | null;
+  h_no: string | null;
+  guest_name: string | null;
   subtotal: string;
   service_amount: string;
   discount_amount: string;
@@ -72,6 +109,8 @@ export interface Invoice {
   cancelled_by_employee_id: UUID | null;
   cancel_reason: string | null;
   note: string | null;
+  lines_count?: number;
+  is_captain_order?: boolean;
   created_at: string;
   updated_at: string;
 }
@@ -90,8 +129,65 @@ export interface InvoiceLine {
   created_at: string;
 }
 
+export interface EmployeePortsLookupResponse {
+  employee: Employee;
+  points: Point[];
+}
+
 export interface LoginResponse {
   access: string;
   refresh: string;
   employee: Employee;
+  point: Point;
+  shift: Shift;
+  assigned_points: Point[];
+}
+
+export interface ShiftBucket {
+  count: number;
+  subtotal: string;
+  service_amount: string;
+  discount_amount: string;
+  total: string;
+}
+
+export interface ShiftDispensedItem {
+  item_code: number;
+  item_name: string;
+  type_name: string;
+  unit_price: string;
+  qty_sold: number;
+  total_sold: string;
+}
+
+export interface ShiftCloseSummary {
+  shift: {
+    id: UUID;
+    shift_date: string;
+    shift_kind: number;
+    shift_name: string;
+    started_at: string;
+    closed_at: string | null;
+  };
+  employee: Employee;
+  point: {
+    id: UUID;
+    code: number;
+    name: string;
+    service_percent: string;
+  };
+  breakdown: {
+    civilian: ShiftBucket;
+    member: ShiftBucket;
+    cash_total: ShiftBucket;
+    guest: ShiftBucket;
+    deferred_total: ShiftBucket;
+    grand_total: ShiftBucket;
+  };
+  open_invoices_count: number;
+  cancelled_invoices_count: number;
+  invoices: Invoice[];
+  items_dispensed: ShiftDispensedItem[];
+  items_total_qty: number;
+  items_subtotal: string;
 }

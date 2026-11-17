@@ -390,3 +390,22 @@ Blockers CLOSED: BLK-001, BLK-005. Still OPEN: BLK-003 (DB creds — now less cr
 - **Scaffolded `/home/attar/projects/casheer-web/`** (16 files): React 18 + Vite 6 + TS, `BrowserRouter`, `<AuthProvider>` with refresh-on-401, login page with Mahrousa brand colors, POS page (point picker → open shift → create invoice → tap items → change qty / remove / close+PAID / cancel / print PDF). All Arabic strings centralized in `src/i18n/ar.ts`. Design tokens from client prototype. `dir="rtl"` on `<html>`.
 - Business invariants preserved: dual counter `serial_no`/`ser_no`, `FLOOR(x*100)/100` throughout, `point_tbl.d1..d7` → `points.weekday_mask` (7-bit), `p_ok`/`del_flg` → `invoices.status` enum (OPEN/PAID/CANCELLED), soft-cancel keeps INVOICE row.
 - Legacy `casheer/` repo untouched (memory files only). Modern-app repos are siblings.
+
+
+---
+
+## 2026-11-12 / 2026-11-13 — Session 7 (P0 security hardening + employee-based assigned ports + P1/P2 completion)
+
+- Completed P0 security hardening across `casheer-api` and `casheer-web`:
+  - **P0-1**: `httpOnly` cookie (`casheer_refresh`) + rotation on `/api/v1/auth/refresh` + `credentials: 'include'` in `casheer-web/src/api/client.ts`.
+  - **P0-2**: Installed `express-rate-limit` on `/api/v1/auth/login` and `/api/v1/auth/close-shift`.
+  - **P0-4**: Brute-force lockout (`0002_login_attempts.sql`, 5 failed attempts in 15m → `423 ACCOUNT_LOCKED`).
+  - **P0-5**: CSRF origin/referer verification (`src/middleware/csrf.js`) on cookie-authenticated routes.
+- Redesigned `LoginPage` (`casheer-web/src/pages/Login.tsx`) matching `log_in_in.fmb` visual identity (`دار القوات البحرية - المحروسة`) while removing Main Department (`القسم الرئيسي`), Sub Department (`القسم الفرعي`), and Printer Type (`نوع الطابعة`).
+- Implemented dynamic, database-driven Employee-to-Port assignments (`منافذ العمل`):
+  - Added `GET /api/v1/auth/employee-ports/:code` and migration `0003_session_port.sql` (`point_id`, `shift_id` on `refresh_tokens`).
+  - Enforced backend port authorization on `POST /api/v1/auth/login`, `GET /api/v1/points`, `GET /api/v1/points/:id`, `POST /api/v1/shifts`, and `openInvoice`.
+  - Bound selected port and shift to the employee's session (`useAuth.tsx`, `Layout.tsx`, `POS.tsx`).
+- Added Admin management (`/api/v1/employees`, `/api/v1/points`, and `Settings.tsx` at `/settings`) for managing employees, assigning ports, and configuring points.
+- Enforced `points.min_charge` (`BELOW_MIN_CHARGE`) and `inv_type` 4/5 service reset in `invoice.service.js`; added item category tabs, discount editor, 2-copy print button, and shift close to `POS.tsx`; added `ErrorBoundary.tsx`.
+- Expanded backend test suite to **13/13 passing tests** (`tests/{auth,cancel,invoice-flow,money,permissions}.test.js`).

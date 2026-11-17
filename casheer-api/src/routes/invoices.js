@@ -22,8 +22,14 @@ router.get('/', async (req, res, next) => {
     if (req.query.status)    push('status   = ?', req.query.status);
     const sql = `
       SELECT id, serial_no, ser_no, point_id, inv_date, shift_id, employee_id,
-             inv_type, status, subtotal, service_amount, discount_amount, total,
-             created_at, paid_at
+             inv_type, madf_type, table_no, person_count,
+             service_percent, discount_percent,
+             client_type, mem_id, mem_serial, mem_bar, mem_name, mem_rank,
+             room_no, h_no, guest_name,
+             status, subtotal, service_amount, discount_amount, total,
+             note, created_at, paid_at,
+             (SELECT COUNT(*)::int FROM invoice_lines il WHERE il.invoice_id = invoices.id) AS lines_count,
+             EXISTS(SELECT 1 FROM m2_inv m WHERE m.invoice_id = invoices.id) AS is_captain_order
         FROM invoices
        ${where.length ? 'WHERE ' + where.join(' AND ') : ''}
        ORDER BY created_at DESC
@@ -41,6 +47,10 @@ const OpenBody = z.object({
   madf_type:   z.number().int().min(1).max(3).default(1),
   table_no:    z.number().int().positive().nullable().optional(),
   person_count:z.number().int().positive().nullable().optional(),
+  client_type: z.enum(['CIVILIAN', 'MEMBER', 'GUEST']).optional(),
+  barcode:     z.string().nullable().optional(),
+  room_no:     z.number().int().positive().nullable().optional(),
+  h_no:        z.string().nullable().optional(),
 });
 
 router.post('/', async (req, res, next) => {
@@ -58,6 +68,22 @@ router.get('/:id', async (req, res, next) => {
   try {
     const result = await svc.getInvoice(req.params.id);
     res.json(result);
+  } catch (e) { next(e); }
+});
+
+const UpdateClientBody = z.object({
+  client_type: z.enum(['CIVILIAN', 'MEMBER', 'GUEST']),
+  barcode:     z.string().nullable().optional(),
+  room_no:     z.number().int().positive().nullable().optional(),
+  h_no:        z.string().nullable().optional(),
+});
+
+router.patch('/:id/client', async (req, res, next) => {
+  try {
+    const p = UpdateClientBody.safeParse(req.body);
+    if (!p.success) throw new ApiError(400, 'INVALID_BODY', 'bad client body', p.error.issues);
+    const invoice = await svc.updateInvoiceClient(req.params.id, p.data);
+    res.json({ invoice });
   } catch (e) { next(e); }
 });
 
